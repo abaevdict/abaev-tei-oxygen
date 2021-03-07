@@ -1,0 +1,3 @@
+[submodule "tei-abaev"]
+	path = tei-abaev
+	url = https://github.com/abaevdict/tei-abaev.git

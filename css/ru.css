@@ -1,0 +1,235 @@
+@charset "UTF-8";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+etym:lang(en) {display: none}
+cit[type = "translation"]:lang(en) {display: none}
+note:lang(en) {display: none}
+
+:lang(os) > lang:empty {content: "ос."}
+:lang(os-x-iron) > lang:empty {content: "и."}
+:lang(os-x-digor) > lang:empty {content: "д."}
+:lang(os-x-south) > lang:empty {content: "ю."}
+:lang(os-x-ksan) > lang:empty {content: "ксан."}
+
+            :lang(ady-x-abadz) > lang:empty {content: "абадз.";}
+            :lang(abq) > lang:empty {content: "абаз.";}
+            :lang(ab) > lang:empty {content: "абх.";}
+            :lang(ae) > lang:empty {content: "ав.";}
+            :lang(av) > lang:empty {content: "авар.";}
+            :lang(agx) > lang:empty {content: "агул.";}
+            :lang(ady) > lang:empty {content: "адыг.";}
+            :lang(аz) > lang:empty {content: "азерб.";}
+            :lang(akk) > lang:empty {content: "аккад.";}
+            :lang(dar-x-aqusha) > lang:empty {content: "акуш.";}
+            :lang(xln) > lang:empty {content: "алан.";}
+            :lang(sqj) > lang:empty {content: "алб.";}
+            :lang(alt) > lang:empty {content: "алт.";}
+            :lang(tr-x-anat) > lang:empty {content: "анат.";}
+            :lang(en) > lang:empty {content: "англ.";}
+            :lang(ang) > lang:empty {content: "англос.";}
+            :lang(ani) > lang:empty {content: "анд.";}
+            :lang(iir) > lang:empty {content: "ар.";}
+            :lang(ar) > lang:empty {content: "араб.";}
+            :lang(arc) > lang:empty {content: "арам.";}
+            :lang(xcl) > lang:empty {content: "арм.";}
+            :lang(aqc) > lang:empty {content: "арчин.";}
+            :lang(aii) > lang:empty {content: "ассир.";}
+            :lang(ps) > lang:empty {content: "афг.";}
+            :lang(krc-x-balkar) > lang:empty {content: "балк.";}
+            :lang(eu) > lang:empty {content: "баск.";}
+            :lang(ba) > lang:empty {content: "башк.";}
+            :lang(x-balochi) > lang:empty {content: "бел.";}
+            :lang(be) > lang:empty {content: "белорусс.";}
+            :lang(bg) > lang:empty {content: "болг.";}
+            :lang(br) > lang:empty {content: "брет.";}
+            :lang(bdk) > lang:empty {content: "будух.";}
+            :lang(xbo) > lang:empty {content: "булг.";}
+            :lang(bua) > lang:empty {content: "бурят.";}
+            :lang(sa-vaidika) > lang:empty {content: "вед.";}
+            :lang(x-vaynakh) > lang:empty {content: "вейнах.";}
+            :lang(hu) > lang:empty {content: "венг.";}
+            :lang(vep) > lang:empty {content: "вепс.";}
+            :lang(bsk) > lang:empty {content: "верш.";}
+            :lang(gem) > lang:empty {content: "герм.";}
+            :lang(glk) > lang:empty {content: "гилян.";}
+            :lang(got) > lang:empty {content: "гот.";}
+            :lang(grc) > lang:empty {content: "гр.";}
+            :lang(ka) > lang:empty {content: "груз.";}
+            :lang(hac) > lang:empty {content: "гуран.";}
+            :lang(os-x-digor) > lang:empty {content: "д.";}
+            :lang(dar) > lang:empty {content: "дарг.";}
+            :lang(chg) > lang:empty {content: "джагат.";}
+            :lang(kry-x-jek) > lang:empty {content: "джекск.";}
+            :lang(os-x-digor) > lang:empty {content: "диг.";}
+            :lang(ddo) > lang:empty {content: "дид.";}
+            :lang(cu-x-bg) > lang:empty {content: "др.болг.";}
+            :lang(goh) > lang:empty {content: "др.в.нем.";}
+            :lang(gem-x-old) > lang:empty {content: "др.герм.";}
+            :lang(hbo) > lang:empty {content: "др.евр.";}
+            :lang(sa) > lang:empty {content: "др.инд.";}
+            :lang(x-oldirn) > lang:empty {content: "др.иран.";}
+            :lang(sga) > lang:empty {content: "др.ирл.";}
+            :lang(non-x-is) > lang:empty {content: "др.исл.";}
+            :lang(peo) > lang:empty {content: "др.перс.";}
+            :lang(prg) > lang:empty {content: "др.прусс.";}
+            :lang(orv) > lang:empty {content: "др.русск.";}
+            :lang(osx) > lang:empty {content: "др.сакс.";}
+            :lang(non) > lang:empty {content: "др.сев.";}
+            :lang(x-oldsl) > lang:empty {content: "др.слав.";}
+            :lang(zza) > lang:empty {content: "заза";}
+            :lang(os-x-iron) > lang:empty {content: "и.";}
+            :lang(ine) > lang:empty {content: "и.е.";}
+            :lang(inh) > lang:empty {content: "инг.";}
+            :lang(inc) > lang:empty {content: "инд.";}
+            :lang(ira) > lang:empty {content: "иран.";}
+            :lang(ga) > lang:empty {content: "ирл.";}
+            :lang(es) > lang:empty {content: "исп.";}
+            :lang(it) > lang:empty {content: "ит.";}
+            :lang(kbd) > lang:empty {content: "каб.";}
+            :lang(kk) > lang:empty {content: "каз.";}
+            :lang(tt-x-kazan) > lang:empty {content: "казан.";}
+            :lang(dar-x-kaitag) > lang:empty {content: "кайт.";}
+            :lang(xal) > lang:empty {content: "калм.";}
+            :lang(kap) > lang:empty {content: "капуч.";}
+            :lang(kdr) > lang:empty {content: "караим.";}
+            :lang(krc-x-karachay) > lang:empty {content: "карач.";}
+            :lang(krl) > lang:empty {content: "карел.";}
+            :lang(ccs) > lang:empty {content: "картв.";}
+            :lang(x-nuristan) > lang:empty {content: "кафир.";}
+            :lang(ug-x-kashgar) > lang:empty {content: "кашг.";}
+            :lang(cel) > lang:empty {content: "кельт.";}
+            :lang(ky) > lang:empty {content: "кирг.";}
+            :lang(zh) > lang:empty {content: "кит.";}
+            :lang(kv) > lang:empty {content: "коми";}
+            :lang(os-x-ksan) > lang:empty {content: "ксан.";}
+            :lang(kum) > lang:empty {content: "кум.";}
+            :lang(qwm) > lang:empty {content: "куман.";}
+            :lang(ku) > lang:empty {content: "курд.";}
+            :lang(xbc) > lang:empty {content: "кушан.";}
+            :lang(pgd) > lang:empty {content: "кхарошти";}
+            :lang(lbe) > lang:empty {content: "лак.";}
+            :lang(la) > lang:empty {content: "лат.";}
+            :lang(lv) > lang:empty {content: "латыш.";}
+            :lang(lez) > lang:empty {content: "лезг.";}
+            :lang(liv) > lang:empty {content: "лив.";}
+            :lang(lt) > lang:empty {content: "лит.";}
+            :lang(smi) > lang:empty {content: "лопар.";}
+            :lang(wen) > lang:empty {content: "луж.";}
+            :lang(ldd) > lang:empty {content: "лур.";}
+            :lang(mzn) > lang:empty {content: "маз.";}
+            :lang(mns) > lang:empty {content: "манси";}
+            :lang(chm) > lang:empty {content: "мар.";}
+            :lang(xmf) > lang:empty {content: "мегр.";}
+            :lang(xme) > lang:empty {content: "мид.";}
+            :lang(mn) > lang:empty {content: "монг.";}
+            :lang(bua) > lang:empty {content: "монг. бурят.";}
+            :lang(cmg) > lang:empty {content: "монг. письм.";}
+            :lang(x-mordvin) > lang:empty {content: "морд.";}
+            :lang(el) > lang:empty {content: "н.гр.";}
+            :lang(de) > lang:empty {content: "нем.";}
+            :lang(yrk) > lang:empty {content: "нен.";}
+            :lang(nl) > lang:empty {content: "нидерл.";}
+            :lang(nds) > lang:empty {content: "н.н.нем.";}
+            :lang(nog) > lang:empty {content: "ног.";}
+            :lang(no) > lang:empty {content: "норв.";}
+            :lang(nub) > lang:empty {content: "нубийское";}
+            :lang(oru) > lang:empty {content: "орм.";}
+            :lang(os) > lang:empty {content: "ос.";}
+            :lang(pal-x-pazend) > lang:empty {content: "паз.";}
+            :lang(pi) > lang:empty {content: "пали";}
+            :lang(x-pamir) > lang:empty {content: "пам.";}
+            :lang(sgh-x-bartang) > lang:empty {content: "пам. барт.";}
+            :lang(wbl) > lang:empty {content: "пам. в.";}
+            :lang(sgy-x-zebak) > lang:empty {content: "пам. зеб.";}
+            :lang(ydg) > lang:empty {content: "пам. и.";}
+            :lang(isk) > lang:empty {content: "пам. ишк.";}
+            :lang(mnj) > lang:empty {content: "пам. м.";}
+            :lang(x-pamir-n) > lang:empty {content: "пам. н.??";}
+            :lang(oru) > lang:empty {content: "пам. ор.";}
+            :lang(x-rushani) > lang:empty {content: "пам. руш.";}
+            :lang(srh) > lang:empty {content: "пам. с.";}
+            :lang(sgy) > lang:empty {content: "пам. сгл.";}
+            :lang(sgh) > lang:empty {content: "пам. ш.";}
+            :lang(yah) > lang:empty {content: "пам. язг.";}
+            :lang(prc) > lang:empty {content: "пар.";}
+            :lang(xpr) > lang:empty {content: "парф.";}
+            :lang(psh) > lang:empty {content: "пашан";}
+            :lang(fa) > lang:empty {content: "перс.";}
+            :lang(pal) > lang:empty {content: "пехл.";}
+            :lang(pal-x-turfan) > lang:empty {content: "пехл. турф.";}
+            :lang(pl) > lang:empty {content: "пол.";}
+            :lang(ro) > lang:empty {content: "рум.";}
+            :lang(ru) > lang:empty {content: "русск.";}
+            :lang(rut) > lang:empty {content: "рутул.";}
+            :lang(kho) > lang:empty {content: "сак.";}
+            :lang(sva) > lang:empty {content: "сван.";}
+            :lang(trk-x-north) > lang:empty {content: "сев. тюрк.";}
+            :lang(inc-x-nnew) > lang:empty {content: "северные новоиндийские диалекты";}
+            :lang(sem) > lang:empty {content: "семит.";}
+            :lang(sr) > lang:empty {content: "серб.";}
+            :lang(syr) > lang:empty {content: "сир.";}
+            :lang(xsc) > lang:empty {content: "скиф.";}
+            :lang(sla) > lang:empty {content: "слав.";}
+            :lang(sl) > lang:empty {content: "слов.";}
+            :lang(sog) > lang:empty {content: "согд.";}
+            :lang(sog-x-chr) > lang:empty {content: "согд. христ.";}
+            :lang(gmh) > lang:empty {content: "ср.в.нем.";}
+            :lang(inc-x-mid) > lang:empty {content: "ср.инд.";}
+            :lang(ira-x-mid) > lang:empty {content: "ср.иран.";}
+            :lang(gml) > lang:empty {content: "ср.н.нем.";}
+            :lang(oos) > lang:empty {content: "ст.ос.";}
+            :lang(cu) > lang:empty {content: "ст.слав.";}
+            :lang(tab) > lang:empty {content: "табас.";}
+            :lang(tg) > lang:empty {content: "тадж.";}
+            :lang(tly) > lang:empty {content: "тал.";}
+            :lang(tt) > lang:empty {content: "татар.";}
+            :lang(ttt) > lang:empty {content: "татск.";}
+            :lang(alt-x-teleut) > lang:empty {content: "телеут.";}
+            :lang(bo) > lang:empty {content: "тибет.";}
+            :lang(x-tchr) > lang:empty {content: "тохар.";}
+            :lang(xto) > lang:empty {content: "тохар. A";}
+            :lang(txb) > lang:empty {content: "тохар. B";}
+            :lang(tr) > lang:empty {content: "тур.";}
+            :lang(bbl) > lang:empty {content: "туш.";}
+            :lang(trk) > lang:empty {content: "тюрк.";}
+            :lang(uby) > lang:empty {content: "убых.";}
+            :lang(udi) > lang:empty {content: "удин.";}
+            :lang(udm) > lang:empty {content: "удм.";}
+            :lang(uz) > lang:empty {content: "узб.";}
+            :lang(ug) > lang:empty {content: "уйгур.";}
+            :lang(uk) > lang:empty {content: "укр.";}
+            :lang(mn-x-uriankh) > lang:empty {content: "урянх.";}
+            :lang(fi) > lang:empty {content: "фин.";}
+            :lang(fr) > lang:empty {content: "фр.";}
+            :lang(txh) > lang:empty {content: "фрак.";}
+            :lang(kca) > lang:empty {content: "ханты";}
+            :lang(khv) > lang:empty {content: "хварш.";}
+            :lang(ka-x-khevsur) > lang:empty {content: "хевсур.";}
+            :lang(hit) > lang:empty {content: "хетт.";}
+            :lang(kjj) > lang:empty {content: "хиналуг.";}
+            :lang(khw) > lang:empty {content: "ховар.";}
+            :lang(hr) > lang:empty {content: "хорв.";}
+            :lang(zkh) > lang:empty {content: "хорезм.";}
+            :lang(tkr) > lang:empty {content: "цахур.";}
+            :lang(rom) > lang:empty {content: "цыг.";}
+            :lang(chg) > lang:empty {content: "чагат.";}
+            :lang(cji) > lang:empty {content: "чамал.";}
+            :lang(lzz) > lang:empty {content: "чан.";}
+            :lang(x-crc) > lang:empty {content: "черк.";}
+            :lang(ce) > lang:empty {content: "чеч.";}
+            :lang(cs) > lang:empty {content: "чеш.";}
+            :lang(cv) > lang:empty {content: "чув.";}
+            :lang(ady) > lang:empty {content: "шапс.";}
+            :lang(sv) > lang:empty {content: "швед.";}
+            :lang(sux) > lang:empty {content: "шумер.";}
+            :lang(evn) > lang:empty {content: "эвенк.";}
+            :lang(et) > lang:empty {content: "эст.";}
+            :lang(os-x-south) > lang:empty {content: "ю.";}
+            :lang(gbz-x-yzd) > lang:empty {content: "язди";}
+            :lang(x-iazyg) > lang:empty {content: "языгский";}
+            :lang(sah) > lang:empty {content: "якут.";}
+            :lang(yai) > lang:empty {content: "ягн.";}
+            :lang(ja) > lang:empty {content: "япон.";}
+
+:lang(sa) > lang:empty {content: "санскр."}
+
+/*[xml|lang] lang {content: ""}*/

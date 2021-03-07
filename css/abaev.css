@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+
+oxy|doctype {
+    display:block !important;
+    color:blue !important;
+    background-color:transparent !important;
+}
+
+* { font-family: "Libertinus Serif"; font-size: large; line-height: 1.1; }
+
+hi[rend~="italic"] {font-style: italic;}
+hi[rend~="subscript"] {vertical-align: sub;}
+
+/*[xml|lang="ru"] [rend~="smallcaps"] {font-family: "Libertinus Sans"; font-size: 90%; letter-spacing: 3px}*/
+[xml|lang="ru"] [rend~="smallcaps"] {letter-spacing: 3px}
+[xml|lang="ru"] [rend~="doublequotes"]::before {content: "„"}
+[xml|lang="ru"] [rend~="doublequotes"]::after {content: "“"}
+[rend~="hide"] {text-decoration: line-through}
+
+teiHeader {display: none}
+
+body > entry {display: block}
+body > entry + entry {margin-top: 10px}
+
+lang {font-style: normal}
+/*[xml|lang="os"] lang[xml|lang="ru"]:empty {content: "ос."}
+[xml|lang="os"] lang[xml|lang="en"]:empty {content: "Ossetic"}
+[xml|lang="os-x-iron"] lang[xml|lang="ru"]:empty {content: "и."}
+[xml|lang="os-x-iron"] lang[xml|lang="en"]:empty {content: "Iron Ossetic"}
+[xml|lang="os-x-digor"] lang[xml|lang="ru"]:empty {content: "д."}
+[xml|lang="os-x-digor"] lang[xml|lang="en"]:empty {content: "Digor Ossetic"}
+[xml|lang="os-x-south"] lang[xml|lang="ru"]:empty {content: "ю."}
+[xml|lang="os-x-south"] lang[xml|lang="en"]:empty {content: "South Ossetic"}
+
+
+[xml|lang="ru"] lang[xml|lang="ru"]:empty {content: "рус."}
+[xml|lang="ru"] lang[xml|lang="en"]:empty {content: "Russian"}*/
+
+mentioned > lang {font-weight: bold}
+lang + orth::before {content: " "}
+orth + lang::before {content: " "}
+
+form {display: inline}
+orth {font-style: italic}
+form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"]::before {content: " | ";}
+entry > form orth {font-weight: bold}
+
+sense {display: inline}
+entry > form + sense, re > form + sense::before {content: " "}
+entry > sense + sense::before {content: "; "}
+entry > sense:last-child::after {content: ". "}
+/*re::after {content: ". "}*/
+
+sense > sense + sense::before {content: ", "}
+def {display: inline}
+
+note {display: inline; font-size: 100%}
+
+cit {display: inline;}
+cit[type="translation"] + def::before {content: "; "}
+
+cit[type="translation"] > q {margin-bottom: 0; margin-left: 0; margin-right: 0; quotes: '‘' '’';}
+cit[type="translation"] q::before {content: "‘";}
+cit[type="translation"] q::after {content: "ʼ";}
+quote + cit[type="translation"]::before {content: " "}
+
+cit[type="exampleGroup"]::before {content: ". — ";}
+cit[type="example"] {display: inline;}
+cit[type="example"] + cit[type="example"]::before {content: "; "}
+
+bibl[corresp]::before {content: attr(corresp);}
+cit[type="example"] > bibl::before{content: " (" attr(corresp);}
+cit[type="example"] > bibl::after{content: ")";}
+bibl > biblScope::before{content: " ";}
+
+ref[target]::before {content: attr(target); font-style: italic; background-color: grey;}
+
+quote {display: inline; font-style: italic}
+usg + quote::before {content: " ";}
+
+etym {display: block; margin-top: 1ex}
+etym::before {content: "~ "}
+
+mentioned > w {font-style: italic;}
+mentioned > c {font-style: italic;}
+mentioned > m {font-style: italic;}
+mentioned > lang::after {content: " ";}
+
+gloss::before {-oxy-prepend-content: "‘";}
+gloss::after {-oxy-prepend-content: "ʼ";}
+w + gloss::before {-oxy-prepend-content: " ";}
+m + gloss::before {-oxy-prepend-content: " ";}
+c + gloss::before {-oxy-prepend-content: " ";}
+
+p {display: block}
+
+table {display: inline-table}
+
+lb::after {content: "\A"}
+
+form[type~="rec"]::before {content:"*"}
+w[type~="rec"]::before {content:"*"}
+m[type~="rec"]::before {content:"*"}
+c[type~="rec"]::before {content:"*"}
+
+entry > sense + re::before{content: "; "}
+entry > re + re::before {content: "; "}
+entry > form + re::before {content: ": "}

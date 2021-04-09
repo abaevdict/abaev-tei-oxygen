@@ -19,6 +19,9 @@ hi[rend~="subscript"] {vertical-align: sub;}
 [xml|lang="ru"] [rend~="doublequotes"]::after {content: "“"}
 [rend~="hide"] {text-decoration: line-through}
 
+q::before {content: "‘";}
+q::after {content: "ʼ";}
+
 teiHeader {display: none}
 
 body > entry {display: block}
@@ -88,8 +91,8 @@ mentioned > c {font-style: italic;}
 mentioned > m {font-style: italic;}
 mentioned > lang::after {content: " ";}
 
-gloss::before {-oxy-prepend-content: "‘";}
-gloss::after {-oxy-prepend-content: "ʼ";}
+/*gloss::before {-oxy-prepend-content: "‘";}
+gloss::after {-oxy-prepend-content: "ʼ";}*/
 w + gloss::before {-oxy-prepend-content: " ";}
 m + gloss::before {-oxy-prepend-content: " ";}
 c + gloss::before {-oxy-prepend-content: " ";}

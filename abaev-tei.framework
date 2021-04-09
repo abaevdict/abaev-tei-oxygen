@@ -19,10 +19,10 @@
 					<field name="schemaDescriptor">
 						<docTypeSchema>
 							<field name="type">
-								<Integer>4</Integer>
+								<Integer>6</Integer>
 							</field>
 							<field name="uri">
-								<String>https://raw.githubusercontent.com/abaevdict/tei-abaev/main/out/abaevTEI.rng</String>
+								<String>file:/home/oleg/abaevdict/abaev-tei/github/tei-abaev/out/abaevTEI.rng</String>
 							</field>
 						</docTypeSchema>
 					</field>
@@ -49,7 +49,7 @@
 											<String>Basic</String>
 										</field>
 										<field name="alternate">
-											<Boolean>false</Boolean>
+											<Boolean>true</Boolean>
 										</field>
 									</cssFile>
 									<cssFile>

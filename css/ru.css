@@ -5,10 +5,15 @@ cit[type = "translation"]:lang(en) {display: none}
 note:lang(en) {display: none}
 
 :lang(os) > lang:empty {content: "ос."}
+:lang(os) > usg > lang:empty {content: "ос."}
 :lang(os-x-iron) > lang:empty {content: "и."}
+:lang(os-x-iron) > usg > lang:empty {content: "и."}
 :lang(os-x-digor) > lang:empty {content: "д."}
+:lang(os-x-digor) > usg > lang:empty {content: "д."}
 :lang(os-x-south) > lang:empty {content: "ю."}
+:lang(os-x-south) > usg > lang:empty {content: "ю."}
 :lang(os-x-ksan) > lang:empty {content: "ксан."}
+:lang(os-x-ksan) > usg > lang:empty {content: "ксан."}
 
             :lang(ady-x-abadz) > lang:empty {content: "абадз.";}
             :lang(abq) > lang:empty {content: "абаз.";}

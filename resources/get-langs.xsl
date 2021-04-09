@@ -15,12 +15,23 @@
     </xsl:template>
     
     <xsl:template match="/">
-        <xsl:variable name="citElement" select="saxon:eval(saxon:expression($contextElementXPathExpression, ./*))"/>
-        <xsl:if test="$citElement/@type = 'translation'">
-            <items action="replace">
-                <item value="ru"/>
-                <item value="en"/>
-            </items>
-        </xsl:if>
+        <xsl:variable name="element"
+            select="saxon:eval(saxon:expression($contextElementXPathExpression, ./*))"/>
+        <xsl:choose>
+            <xsl:when test="name($element) = 'cit' and $element/@type = 'translation'">
+                <items action="replace" editable="onlyAllowedItems">
+                    <item value="ru"/>
+                    <item value="en"/>
+                </items>
+            </xsl:when>
+            <xsl:when test="name($element) = 'entry' or name($element) = 'form' or name($element) = 'sense'">
+                <items action="replace" editable="onlyAllowedItems">
+                    <item value="os"/>
+                    <item value="os-x-iron"/>
+                    <item value="os-x-digor"/>
+                    <item value="os-x-south"/>
+                </items>                
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>

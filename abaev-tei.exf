@@ -22,7 +22,7 @@ action.
   <validationScenarios>
     <addScenarios href="abaev-tei.scenarios"/>
     <defaultScenarios>
-      <name>abaev-tei-offline</name>
+      <name>abaev-tei-online</name>
     </defaultScenarios>
   </validationScenarios>
   

@@ -4022,7 +4022,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 					</field>
 				</validationScenario></validationScenario-array>
 					</field>
-					<field name="defaultValidationScenarios"><list><String>abaev-tei-offline</String></list></field>
+					<field name="defaultValidationScenarios"><list><String>abaev-tei-online</String></list></field>
 					<field name="defaultTransformationScenarios">
 						<null/>
 					</field>

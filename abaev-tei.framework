@@ -1,38 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<serialized xml:space="preserve">
+<?xml version="1.0" encoding="UTF-8"?><serialized version="22.0" xml:space="preserve">
 	<serializableOrderedMap>
 		<entry>
 			<String>document.types</String>
 			<documentTypeDescriptor-array>
 				<documentTypeDescriptor>
-					<field name="webResources">
-						<String-array>
-							<String>${frameworkDir(TEI P5)}/web</String>
-						</String-array>
-					</field>
 					<field name="extensionPatch">
 						<null/>
 					</field>
-					<field name="name">
-						<String>TEI for Abaev</String>
-					</field>
+					<field name="name"><String>TEI for Abaev</String></field>
 					<field name="schemaDescriptor">
 						<docTypeSchema>
 							<field name="type">
-								<Integer>6</Integer>
+								<Integer>4</Integer>
 							</field>
 							<field name="uri">
-								<String>file:/home/oleg/abaevdict/abaev-tei/github/tei-abaev/out/abaevTEI.rng</String>
+								<String>${framework(TEI P5)}/xml/tei/custom/schema/relaxng/tei_all.rng</String>
 							</field>
 						</docTypeSchema>
 					</field>
 					<field name="classpath">
-						<String-array>
-							<String>${framework(TEI P5)}/tei.jar</String>
-							<String>${framework(TEI P5)}/resources/</String>
-							<String>${framework(TEI P5)}/i18n/</String>
-							<String>${framework(TEI P5)}/styleguide/</String>
-						</String-array>
+						<String-array><String>${framework(TEI P5)}/tei.jar</String><String>${framework(TEI P5)}/resources/</String><String>${framework(TEI P5)}/i18n/</String><String>${framework(TEI P5)}/styleguide/</String></String-array>
 					</field>
 					<field name="parentClassLoaderID">
 						<null/>
@@ -40,8 +27,7 @@
 					<field name="authorExtensionDescriptor">
 						<authorExtension>
 							<field name="cssDescriptors">
-								<cssFile-array>
-									<cssFile>
+								<cssFile-array><cssFile>
 										<field name="href">
 											<String>${framework(TEI P5)}/xml/tei/css/tei_oxygen.css</String>
 										</field>
@@ -49,10 +35,9 @@
 											<String>Basic</String>
 										</field>
 										<field name="alternate">
-											<Boolean>true</Boolean>
+											<Boolean>false</Boolean>
 										</field>
-									</cssFile>
-									<cssFile>
+									</cssFile><cssFile>
 										<field name="href">
 											<String>${framework(TEI P5)}/xml/tei/css/alternate-full-width-layout.css</String>
 										</field>
@@ -62,41 +47,7 @@
 										<field name="alternate">
 											<Boolean>true</Boolean>
 										</field>
-									</cssFile>
-									<cssFile>
-										<field name="href">
-											<String>${framework}/css/abaev.css</String>
-										</field>
-										<field name="title">
-											<String>Abaev dictionary CSS</String>
-										</field>
-										<field name="alternate">
-											<Boolean>true</Boolean>
-										</field>
-									</cssFile>
-									<cssFile>
-										<field name="href">
-											<String>${framework}/css/ru.css</String>
-										</field>
-										<field name="title">
-											<String>Russian</String>
-										</field>
-										<field name="alternate">
-											<Boolean>true</Boolean>
-										</field>
-									</cssFile>
-									<cssFile>
-										<field name="href">
-											<String>${framework}/css/en.css</String>
-										</field>
-										<field name="title">
-											<String>English</String>
-										</field>
-										<field name="alternate">
-											<Boolean>true</Boolean>
-										</field>
-									</cssFile>
-								</cssFile-array>
+									</cssFile><cssFile><field name="href"><String>${framework}/css/abaev.css</String></field><field name="title"><String>Abaev dictionary CSS</String></field><field name="alternate"><Boolean>true</Boolean></field></cssFile><cssFile><field name="href"><String>${framework}/css/ru.css</String></field><field name="title"><String>Russian</String></field><field name="alternate"><Boolean>true</Boolean></field></cssFile><cssFile><field name="href"><String>${framework}/css/en.css</String></field><field name="title"><String>English</String></field><field name="alternate"><Boolean>true</Boolean></field></cssFile></cssFile-array>
 							</field>
 							<field name="mergeCSSsFromDocument">
 								<Boolean>false</Boolean>
@@ -132,13 +83,13 @@
 											<actionMode-array>
 												<actionMode>
 													<field name="xpathCondition">
-														<String></String>
+														<String/>
 													</field>
 													<field name="argValues">
 														<serializableOrderedMap>
 															<entry>
 																<String>element</String>
-																<String>&lt;hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold"/></String>
+																<String>&lt;hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold"/&gt;</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
@@ -178,13 +129,13 @@
 											<actionMode-array>
 												<actionMode>
 													<field name="xpathCondition">
-														<String></String>
+														<String/>
 													</field>
 													<field name="argValues">
 														<serializableOrderedMap>
 															<entry>
 																<String>element</String>
-																<String>&lt;hi xmlns="http://www.tei-c.org/ns/1.0" rend="italic"/></String>
+																<String>&lt;hi xmlns="http://www.tei-c.org/ns/1.0" rend="italic"/&gt;</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
@@ -224,13 +175,13 @@
 											<actionMode-array>
 												<actionMode>
 													<field name="xpathCondition">
-														<String></String>
+														<String/>
 													</field>
 													<field name="argValues">
 														<serializableOrderedMap>
 															<entry>
 																<String>element</String>
-																<String>&lt;hi xmlns="http://www.tei-c.org/ns/1.0" rend="ul"/></String>
+																<String>&lt;hi xmlns="http://www.tei-c.org/ns/1.0" rend="ul"/&gt;</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
@@ -261,7 +212,7 @@
 											<String>/images/Paragraph16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<String>M1 M2 P</String>
@@ -276,7 +227,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;p xmlns="http://www.tei-c.org/ns/1.0"/></String>
+																<String>&lt;p xmlns="http://www.tei-c.org/ns/1.0"/&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -294,13 +245,13 @@
 												</actionMode>
 												<actionMode>
 													<field name="xpathCondition">
-														<String></String>
+														<String/>
 													</field>
 													<field name="argValues">
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;p xmlns="http://www.tei-c.org/ns/1.0"/></String>
+																<String>&lt;p xmlns="http://www.tei-c.org/ns/1.0"/&gt;</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
@@ -331,7 +282,7 @@
 											<String>/images/ListItem16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -346,7 +297,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;item xmlns="http://www.tei-c.org/ns/1.0"/></String>
+																<String>&lt;item xmlns="http://www.tei-c.org/ns/1.0"/&gt;</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
@@ -362,7 +313,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;item xmlns="http://www.tei-c.org/ns/1.0"/></String>
+																<String>&lt;item xmlns="http://www.tei-c.org/ns/1.0"/&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -386,7 +337,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;item xmlns="http://www.tei-c.org/ns/1.0"/></String>
+																<String>&lt;item xmlns="http://www.tei-c.org/ns/1.0"/&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -425,7 +376,7 @@
 											<String>/images/OrderedList16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<String>M1 M2 7</String>
@@ -434,7 +385,7 @@
 											<actionMode-array>
 												<actionMode>
 													<field name="xpathCondition">
-														<String></String>
+														<String/>
 													</field>
 													<field name="argValues">
 														<serializableOrderedMap/>
@@ -466,7 +417,7 @@
 											<String>/images/UnorderedList16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<String>M1 M2 8</String>
@@ -475,7 +426,7 @@
 											<actionMode-array>
 												<actionMode>
 													<field name="xpathCondition">
-														<String></String>
+														<String/>
 													</field>
 													<field name="argValues">
 														<serializableOrderedMap>
@@ -512,7 +463,7 @@
 											<String>/images/Table16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -558,7 +509,7 @@
 											<String>/images/TableRow16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -632,7 +583,7 @@
 											<String>/images/TableCell16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -647,7 +598,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;cell xmlns="http://www.tei-c.org/ns/1.0"/></String>
+																<String>&lt;cell xmlns="http://www.tei-c.org/ns/1.0"/&gt;</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
@@ -663,7 +614,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;cell xmlns="http://www.tei-c.org/ns/1.0"/></String>
+																<String>&lt;cell xmlns="http://www.tei-c.org/ns/1.0"/&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -702,7 +653,7 @@
 											<String>/images/Section16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -717,11 +668,11 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div7 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div7></String>
+																<String>&lt;div7 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div7&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
-																<String></String>
+																<String/>
 															</entry>
 															<entry>
 																<String>insertPosition</String>
@@ -741,7 +692,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div6 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div6></String>
+																<String>&lt;div6 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div6&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -765,7 +716,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div7 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div7></String>
+																<String>&lt;div7 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div7&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -789,11 +740,11 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div6 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div6></String>
+																<String>&lt;div6 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div6&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
-																<String></String>
+																<String/>
 															</entry>
 															<entry>
 																<String>insertPosition</String>
@@ -813,7 +764,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div5 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div5></String>
+																<String>&lt;div5 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div5&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -837,7 +788,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div6 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div6></String>
+																<String>&lt;div6 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div6&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -861,11 +812,11 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div5 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div5></String>
+																<String>&lt;div5 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div5&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
-																<String></String>
+																<String/>
 															</entry>
 															<entry>
 																<String>insertPosition</String>
@@ -885,7 +836,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div4 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div4></String>
+																<String>&lt;div4 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div4&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -909,7 +860,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div5 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div5></String>
+																<String>&lt;div5 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div5&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -933,11 +884,11 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div4 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div4></String>
+																<String>&lt;div4 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div4&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
-																<String></String>
+																<String/>
 															</entry>
 															<entry>
 																<String>insertPosition</String>
@@ -957,7 +908,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div3 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div3></String>
+																<String>&lt;div3 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div3&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -981,7 +932,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div4 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div4></String>
+																<String>&lt;div4 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div4&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -1005,11 +956,11 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div3 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div3></String>
+																<String>&lt;div3 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div3&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
-																<String></String>
+																<String/>
 															</entry>
 															<entry>
 																<String>insertPosition</String>
@@ -1029,7 +980,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div2 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div2></String>
+																<String>&lt;div2 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div2&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -1053,7 +1004,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div3 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div3></String>
+																<String>&lt;div3 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div3&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -1077,11 +1028,11 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div2 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div2></String>
+																<String>&lt;div2 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div2&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
-																<String></String>
+																<String/>
 															</entry>
 															<entry>
 																<String>insertPosition</String>
@@ -1101,7 +1052,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div1 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div1></String>
+																<String>&lt;div1 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div1&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -1125,7 +1076,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div2 xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div2></String>
+																<String>&lt;div2 xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div2&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -1149,7 +1100,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div></String>
+																<String>&lt;div xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -1173,7 +1124,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div></String>
+																<String>&lt;div xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -1197,7 +1148,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div></String>
+																<String>&lt;div xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -1215,17 +1166,17 @@
 												</actionMode>
 												<actionMode>
 													<field name="xpathCondition">
-														<String></String>
+														<String/>
 													</field>
 													<field name="argValues">
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;div xmlns="http://www.tei-c.org/ns/1.0">&lt;head/>&lt;p/>&lt;/div></String>
+																<String>&lt;div xmlns="http://www.tei-c.org/ns/1.0"&gt;&lt;head/&gt;&lt;p/&gt;&lt;/div&gt;</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
-																<String></String>
+																<String/>
 															</entry>
 															<entry>
 																<String>insertPosition</String>
@@ -1260,7 +1211,7 @@
 											<String>/images/Image16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1317,7 +1268,7 @@
 											<String>/images/TableColumn16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1363,7 +1314,7 @@
 											<String>/images/TableJoinRowCells16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1404,7 +1355,7 @@
 											<String>/images/TableSplitCellLeft16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1450,7 +1401,7 @@
 											<String>/images/TableSplitCellRight16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1496,7 +1447,7 @@
 											<String>/images/TableJoinCellUp16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1543,7 +1494,7 @@ ancestor-or-self::*:row)</String>
 											<String>/images/TableJoinCellDown16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1590,7 +1541,7 @@ ancestor-or-self::*:row)</String>
 											<String>/images/TableSplitCellDown16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1636,7 +1587,7 @@ ancestor-or-self::*:row)</String>
 											<String>/images/TableSplitCellUp16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1726,7 +1677,7 @@ ancestor-or-self::*:row)]</String>
 											<String>/images/DeleteRow16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1764,10 +1715,10 @@ self::*:table]</String>
 											<String>${i18n(id.options_description)}</String>
 										</field>
 										<field name="largeIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="smallIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accessKey">
 											<String>I</String>
@@ -1805,13 +1756,13 @@ self::*:table]</String>
 											<String>${i18n(generate.ids_description)}</String>
 										</field>
 										<field name="largeIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="smallIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1846,13 +1797,13 @@ self::*:table]</String>
 											<String>${i18n(show.TEIp5.documentation_description)}</String>
 										</field>
 										<field name="largeIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="smallIconPath">
 											<String>/images/BrowseReferenceManual16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1898,7 +1849,7 @@ self::*:table]</String>
 											<String>/images/Sort16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1953,7 +1904,7 @@ ancestor-or-self::*:list</String>
 											<String>/images/Sort16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -1996,7 +1947,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
 											<String>/images/TableRowAbove16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -2090,7 +2041,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
 											<String>/images/TableColumnBefore16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -2134,13 +2085,13 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
 											<String>${i18n(insert.table.columns.custom_description)}</String>
 										</field>
 										<field name="largeIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="smallIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -2192,13 +2143,13 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
 											<String>${i18n(insert.table.rows.custom_description)}</String>
 										</field>
 										<field name="largeIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="smallIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -2288,7 +2239,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
 											<String>/images/TableJoin16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -2329,7 +2280,7 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
 											<String>/images/TableSplitCell16.png</String>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -2365,13 +2316,13 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 											<String>${i18n(edit_image_map_description)}</String>
 										</field>
 										<field name="largeIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="smallIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -2406,13 +2357,13 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 											<String>${i18n(imagemap.toggle.area_description)}</String>
 										</field>
 										<field name="largeIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="smallIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -2421,7 +2372,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 											<actionMode-array>
 												<actionMode>
 													<field name="xpathCondition">
-														<String></String>
+														<String/>
 													</field>
 													<field name="argValues">
 														<serializableOrderedMap>
@@ -2456,13 +2407,13 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 											<String>${i18n(imagemap.toggle.area_description)}</String>
 										</field>
 										<field name="largeIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="smallIconPath">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accessKey">
-											<String></String>
+											<String/>
 										</field>
 										<field name="accelerator">
 											<null/>
@@ -2471,7 +2422,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 											<actionMode-array>
 												<actionMode>
 													<field name="xpathCondition">
-														<String></String>
+														<String/>
 													</field>
 													<field name="argValues">
 														<serializableOrderedMap>
@@ -2547,7 +2498,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 													<String>${i18n(list)}</String>
 												</field>
 												<field name="accessKey">
-													<String></String>
+													<String/>
 												</field>
 												<field name="iconPath">
 													<String>/images/UnorderedList16.png</String>
@@ -2580,7 +2531,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 													<String>${i18n(table)}</String>
 												</field>
 												<field name="accessKey">
-													<String></String>
+													<String/>
 												</field>
 												<field name="iconPath">
 													<String>/images/Table16.png</String>
@@ -2698,7 +2649,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 													<String>${i18n(table)}</String>
 												</field>
 												<field name="accessKey">
-													<String></String>
+													<String/>
 												</field>
 												<field name="iconPath">
 													<String>/images/Table16.png</String>
@@ -2754,10 +2705,10 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 													<String>${i18n(insert)}</String>
 												</field>
 												<field name="accessKey">
-													<String></String>
+													<String/>
 												</field>
 												<field name="iconPath">
-													<String></String>
+													<String/>
 												</field>
 												<field name="menuEntriesDescriptorList">
 													<menuEntry-array>
@@ -2918,12 +2869,12 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 													<String>table.split</String>
 												</field>
 											</toolbarItem>
-										</toolbarEntry-array>
+										<toolbarItem><field name="actionID"><String>example</String></field></toolbarItem><toolbarItem><field name="actionID"><String>exampleGrp</String></field></toolbarItem></toolbarEntry-array>
 									</field>
 								</toolbar>
 							</field>
 							<field name="additionalToolbarsDescriptors">
-								<null/>
+								<toolbar-array/>
 							</field>
 							<field name="contextualItems">
 								<contextProvider>
@@ -3004,7 +2955,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 													<Boolean>true</Boolean>
 												</field>
 											</contextItem>
-										</contextItem-array>
+										<contextItem><field name="targets"><list><Integer>0</Integer></list></field><field name="actionID"><String>example</String></field><field name="alias"><String/></field><field name="replacementFor"><String>example</String></field><field name="replacedElementNs"><String>http://ossetic-studies.org/ns/abaevdict</String></field><field name="displayOnlyWhenElementAllowed"><Boolean>false</Boolean></field><field name="useReplaceElementName"><Boolean>false</Boolean></field></contextItem><contextItem><field name="targets"><list><Integer>0</Integer></list></field><field name="actionID"><String>exampleGrp</String></field><field name="alias"><String/></field><field name="replacementFor"><String>exampleGrp</String></field><field name="replacedElementNs"><String>http://ossetic-studies.org/ns/abaevdict</String></field><field name="displayOnlyWhenElementAllowed"><Boolean>false</Boolean></field><field name="useReplaceElementName"><Boolean>false</Boolean></field></contextItem></contextItem-array>
 									</field>
 									<field name="removeItems">
 										<null/>
@@ -3041,53 +2992,17 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 						</authorExtension>
 					</field>
 					<field name="templatesLocations">
-						<String-array>
-							<String>${frameworkDir(TEI P5)}/templates/TEI P5</String>
-						</String-array>
+						<String-array><String>${frameworkDir(TEI P5)}/templates/TEI P5</String></String-array>
 					</field>
 					<field name="xmlCatalogs">
-						<String-array>
-							<String>${framework(TEI P5)}/xml/tei/custom/schema/catalog.xml</String>
-							<String>${framework(TEI P5)}/xml/tei/schema/catalog.xml</String>
-							<String>${framework(TEI P5)}/xml/tei/stylesheet/catalog.xml</String>
-						</String-array>
+						<String-array><String>${framework(TEI P5)}/xml/tei/custom/schema/catalog.xml</String><String>${framework(TEI P5)}/xml/tei/schema/catalog.xml</String><String>${framework(TEI P5)}/xml/tei/stylesheet/catalog.xml</String><String>${framework}/resources</String></String-array>
 					</field>
-					<field name="description">
-						<String></String>
-					</field>
+					<field name="description"><String/></field>
 					<field name="doctypeRules">
-						<documentTypeRule-array>
-							<documentTypeRule>
-								<field name="namespace">
-									<String>*</String>
-								</field>
-								<field name="rootElem">
-									<String>*</String>
-								</field>
-								<field name="fileName">
-									<String>abaev_*.xml</String>
-								</field>
-								<field name="publicID">
-									<String>*</String>
-								</field>
-								<field name="javaRuleClass">
-									<String></String>
-								</field>
-								<field name="attributeLocalName">
-									<String>*</String>
-								</field>
-								<field name="attributeNamespace">
-									<String>*</String>
-								</field>
-								<field name="attributeValue">
-									<String>*</String>
-								</field>
-							</documentTypeRule>
-						</documentTypeRule-array>
+						<documentTypeRule-array><documentTypeRule><field name="namespace"><String>*</String></field><field name="rootElem"><String>*</String></field><field name="fileName"><String>abaev_*.xml</String></field><field name="publicID"><String>*</String></field><field name="javaRuleClass"><String/></field><field name="attributeLocalName"><String>*</String></field><field name="attributeNamespace"><String>*</String></field><field name="attributeValue"><String>*</String></field></documentTypeRule></documentTypeRule-array>
 					</field>
 					<field name="scenarios">
-						<scenario-array>
-							<scenario>
+						<scenario-array><scenario>
 								<field name="advancedOptionsMap">
 									<null/>
 								</field>
@@ -3095,10 +3010,10 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 									<String>TEI P5 XHTML</String>
 								</field>
 								<field name="baseURL">
-									<String></String>
+									<String/>
 								</field>
 								<field name="footerURL">
-									<String></String>
+									<String/>
 								</field>
 								<field name="fOPMethod">
 									<String>pdf</String>
@@ -3107,7 +3022,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 									<String>Apache FOP</String>
 								</field>
 								<field name="headerURL">
-									<String></String>
+									<String/>
 								</field>
 								<field name="inputXSLURL">
 									<String>${framework(TEI P5)}/xml/tei/stylesheet/html/html.xsl</String>
@@ -3169,8 +3084,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 								<field name="extensionURLs">
 									<String-array/>
 								</field>
-							</scenario>
-							<scenario>
+							</scenario><scenario>
 								<field name="advancedOptionsMap">
 									<null/>
 								</field>
@@ -3178,10 +3092,10 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 									<String>TEI P5 PDF</String>
 								</field>
 								<field name="baseURL">
-									<String></String>
+									<String/>
 								</field>
 								<field name="footerURL">
-									<String></String>
+									<String/>
 								</field>
 								<field name="fOPMethod">
 									<String>pdf</String>
@@ -3190,7 +3104,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 									<String>Apache FOP</String>
 								</field>
 								<field name="headerURL">
-									<String></String>
+									<String/>
 								</field>
 								<field name="inputXSLURL">
 									<String>${framework(TEI P5)}/xml/tei/stylesheet/fo/fo.xsl</String>
@@ -3252,13 +3166,12 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 								<field name="extensionURLs">
 									<String-array/>
 								</field>
-							</scenario>
-							<antScenario>
+							</scenario><antScenario>
 								<field name="additionalAntArgs">
-									<String></String>
+									<String/>
 								</field>
 								<field name="buildTarget">
-									<String></String>
+									<String/>
 								</field>
 								<field name="buildFilePath">
 									<String>${frameworkDir(TEI P5)}/xml/tei/stylesheet/epub/build-to.xml</String>
@@ -3389,13 +3302,13 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 									<Boolean>false</Boolean>
 								</field>
 								<field name="customJavaHomeDir">
-									<String></String>
+									<String/>
 								</field>
 								<field name="useCustomANTHome">
 									<Boolean>false</Boolean>
 								</field>
 								<field name="customANTHomeDir">
-									<String></String>
+									<String/>
 								</field>
 								<field name="workingDir">
 									<String>${cfd}</String>
@@ -3500,13 +3413,12 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 										<String>${oxygenHome}/lib/oxygen-basic-utilities.jar</String>
 									</String-array>
 								</field>
-							</antScenario>
-							<antScenario>
+							</antScenario><antScenario>
 								<field name="additionalAntArgs">
-									<String></String>
+									<String/>
 								</field>
 								<field name="buildTarget">
-									<String></String>
+									<String/>
 								</field>
 								<field name="buildFilePath">
 									<String>${frameworkDir(TEI P5)}/xml/tei/stylesheet/docx/build-to.xml</String>
@@ -3637,13 +3549,13 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 									<Boolean>false</Boolean>
 								</field>
 								<field name="customJavaHomeDir">
-									<String></String>
+									<String/>
 								</field>
 								<field name="useCustomANTHome">
 									<Boolean>false</Boolean>
 								</field>
 								<field name="customANTHomeDir">
-									<String></String>
+									<String/>
 								</field>
 								<field name="workingDir">
 									<String>${cfd}</String>
@@ -3748,13 +3660,12 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 										<String>${oxygenHome}/lib/oxygen-basic-utilities.jar</String>
 									</String-array>
 								</field>
-							</antScenario>
-							<antScenario>
+							</antScenario><antScenario>
 								<field name="additionalAntArgs">
-									<String></String>
+									<String/>
 								</field>
 								<field name="buildTarget">
-									<String></String>
+									<String/>
 								</field>
 								<field name="buildFilePath">
 									<String>${frameworkDir(TEI P5)}/xml/tei/stylesheet/odt/build-to.xml</String>
@@ -3885,13 +3796,13 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 									<Boolean>false</Boolean>
 								</field>
 								<field name="customJavaHomeDir">
-									<String></String>
+									<String/>
 								</field>
 								<field name="useCustomANTHome">
 									<Boolean>false</Boolean>
 								</field>
 								<field name="customANTHomeDir">
-									<String></String>
+									<String/>
 								</field>
 								<field name="workingDir">
 									<String>${cfd}</String>
@@ -3996,15 +3907,122 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 										<String>${oxygenHome}/lib/oxygen-basic-utilities.jar</String>
 									</String-array>
 								</field>
-							</antScenario>
-						</scenario-array>
+							</antScenario></scenario-array>
 					</field>
 					<field name="validationScenarios">
-						<validationScenario-array/>
+						<validationScenario-array><validationScenario>
+					<field name="pairs">
+						<list>
+							<validationUnit>
+								<field name="validationType">
+									<validationUnitType>
+										<field name="validationInputType">
+											<String>text/xml</String>
+										</field>
+									</validationUnitType>
+								</field>
+								<field name="url">
+									<String>${currentFileURL}</String>
+								</field>
+								<field name="validationEngine">
+									<validationEngine>
+										<field name="engineType">
+											<String>&lt;Default engine&gt;</String>
+										</field>
+										<field name="allowsAutomaticValidation">
+											<Boolean>true</Boolean>
+										</field>
+									</validationEngine>
+								</field>
+								<field name="allowAutomaticValidation">
+									<Boolean>true</Boolean>
+								</field>
+								<field name="extensions">
+									<null/>
+								</field>
+								<field name="validationSchema">
+									<validationUnitSchema>
+										<field name="dtdSchemaPublicID">
+											<null/>
+										</field>
+										<field name="schematronPhase">
+											<null/>
+										</field>
+										<field name="type">
+											<Integer>6</Integer>
+										</field>
+										<field name="uri">
+											<String>file:/home/oleg/abaevdict/abaev-tei/github/tei-abaev/out/abaevTEI.rng</String>
+										</field>
+									</validationUnitSchema>
+								</field>
+							</validationUnit>
+						</list>
 					</field>
-					<field name="defaultValidationScenarios">
-						<null/>
+					<field name="type">
+						<String>Validation_scenario</String>
 					</field>
+					<field name="name">
+						<String>abaev-tei-offline</String>
+					</field>
+				</validationScenario><validationScenario>
+					<field name="pairs">
+						<list>
+							<validationUnit>
+								<field name="validationType">
+									<validationUnitType>
+										<field name="validationInputType">
+											<String>text/xml</String>
+										</field>
+									</validationUnitType>
+								</field>
+								<field name="url">
+									<String>${currentFileURL}</String>
+								</field>
+								<field name="validationEngine">
+									<validationEngine>
+										<field name="engineType">
+											<String>&lt;Default engine&gt;</String>
+										</field>
+										<field name="allowsAutomaticValidation">
+											<Boolean>true</Boolean>
+										</field>
+									</validationEngine>
+								</field>
+								<field name="allowAutomaticValidation">
+									<Boolean>true</Boolean>
+								</field>
+								<field name="extensions">
+									<null/>
+								</field>
+								<field name="validationSchema">
+									<validationUnitSchema>
+										<field name="dtdSchemaPublicID">
+											<null/>
+										</field>
+										<field name="schematronPhase">
+											<null/>
+										</field>
+										<field name="type">
+											<Integer>6</Integer>
+										</field>
+										<field name="uri">
+											<String>https://raw.githubusercontent.com/abaevdict/tei-abaev/main/out/abaevTEI.rng</String>
+										</field>
+									</validationUnitSchema>
+								</field>
+							</validationUnit>
+						</list>
+					</field>
+					<field name="type">
+						<String>Validation_scenario</String>
+					</field>
+					<field name="name">
+						<String>abaev-tei-online</String>
+					</field>
+				</validationScenario></validationScenario-array>
+					</field>
+					<field name="defaultValidationScenarios"><list><String>abaev-tei-offline</String></list></field>
 					<field name="defaultTransformationScenarios">
 						<null/>
 					</field>
@@ -4038,9 +4056,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 					<field name="attributesValueEditor">
 						<null/>
 					</field>
-					<field name="priority">
-						<Integer>4</Integer>
-					</field>
+					<field name="priority"><Integer>4</Integer></field>
 					<field name="xmlNodeCustomizerExtension">
 						<null/>
 					</field>
@@ -4053,7 +4069,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 					<field name="textModeExternalObjectInsertionHandler">
 						<null/>
 					</field>
-				</documentTypeDescriptor>
+				<field name="webResources"><String-array><String>${frameworkDir(TEI P5)}/web</String></String-array></field></documentTypeDescriptor>
 			</documentTypeDescriptor-array>
 		</entry>
 	</serializableOrderedMap>

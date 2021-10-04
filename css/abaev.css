@@ -10,8 +10,9 @@ oxy|doctype {
 
 * { font-family: "Libertinus Serif"; font-size: large; line-height: 1.1; }
 
-hi[rend~="italic"] {font-style: italic;}
-hi[rend~="subscript"] {vertical-align: sub;}
+hi[rendition~="#rend_italic"] {font-style: italic;}
+hi[rendition~="#rend_subscript"] {vertical-align: sub;}
+hi[rendition~="#rend_smallcaps"] {font-variant: small-caps;}
 
 /*[xml|lang="ru"] [rend~="smallcaps"] {font-family: "Libertinus Sans"; font-size: 90%; letter-spacing: 3px}*/
 [xml|lang="ru"] [rend~="smallcaps"] {letter-spacing: 3px}
@@ -20,7 +21,7 @@ hi[rend~="subscript"] {vertical-align: sub;}
 [rend~="hide"] {text-decoration: line-through}
 
 q::before {content: "‘";}
-q::after {content: "ʼ";}
+q::after {content: "’";}
 
 teiHeader {display: none}
 
@@ -41,61 +42,87 @@ lang {font-style: normal}
 [xml|lang="ru"] lang[xml|lang="ru"]:empty {content: "рус."}
 [xml|lang="ru"] lang[xml|lang="en"]:empty {content: "Russian"}*/
 
-mentioned > lang {font-weight: bold}
-lang + orth::before {content: " "}
-orth + lang::before {content: " "}
+etym > mentioned > lang {font-weight: bold}
+usg + form::before {content: " "}
+form + usg::before {content: " "}
 
 form {display: inline}
-orth {font-style: italic}
+/*orth {font-style: italic}*/
 form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"]::before {content: " | ";}
 entry > form orth {font-weight: bold}
+orth + form[type="variant"]::before {content: ", "}
+orth + form[type="participle"]::before {content: " : "}
+form > form + form[type="variant"]::before {content: ", "}
+
+re > form orth {font-style: italic}
 
 sense {display: inline}
-entry > form + sense, re > form + sense::before {content: " "}
-entry > sense + sense::before {content: "; "}
-entry > sense:last-child::after {content: ". "}
+sense[n]:before {content: attr(n) ". "}
+entry > sense + sense:before {content: "; "}
+entry > sense + sense[n]:before {content: "; " attr(n) ". "}
+entry > form + sense:before, re > form + sense:before {-oxy-prepend-content: " "}
+/*entry > sense:last-of-type::after {content: ". "}*/
+usg + sense:before {-oxy-prepend-content: " "}
 /*re::after {content: ". "}*/
 
-sense > sense + sense::before {content: ", "}
+sense > re::before {content: "; "}
+
+sense > sense + sense:before {-oxy-prepend-content: ", "}
 def {display: inline}
 
 note {display: inline; font-size: 100%}
 
-cit {display: inline;}
-cit[type="translation"] + def::before {content: "; "}
+tr {display: inline;}
+tr + def::before {content: "; "}
 
-cit[type="translation"] > q {margin-bottom: 0; margin-left: 0; margin-right: 0; quotes: '‘' '’';}
-cit[type="translation"] q::before {content: "‘";}
-cit[type="translation"] q::after {content: "ʼ";}
-quote + cit[type="translation"]::before {content: " "}
+tr > q {margin-bottom: 0; margin-left: 0; margin-right: 0; quotes: '‘' '’';}
+tr q::before {content: "‘";}
+tr q::after {content: "ʼ";}
+quote + tr::before {content: " "}
 
-cit[type="exampleGroup"]::before {content: ". — ";}
-cit[type="example"] {display: inline;}
-cit[type="example"] + cit[type="example"]::before {content: "; "}
+/*q + note[type="comment"]::before {content: " ";}*/
 
-bibl[corresp]::before {content: attr(corresp);}
-cit[type="example"] > bibl::before{content: " (" attr(corresp);}
-cit[type="example"] > bibl::after{content: ")";}
+tr:lang(en) + tr:lang(en)::before {content: ", "}
+tr:lang(ru) + tr:lang(ru)::before {content: ", "}
+
+exampleGrp {display: inline;}
+exampleGrp::before {content: ". — ";}
+exampleGrp[n]::before {content: ". — " attr(n) ". ";}
+example {display: inline;}
+example + example::before {content: "; "}
+example:last-of-type::after {content: "."}
+
+/*bibl[corresp]::before {content: attr(corresp);}*/
+example > bibl::before{content: " (";}
+example > bibl::after{content: ")";}
 bibl > biblScope::before{content: " ";}
 
-ref[target]::before {content: attr(target); font-style: italic; background-color: grey;}
+example > note::before{content: " (";}
+example > note::after{content: ")";}
+
+ref[target]:empty::before {content: attr(target); font-style: italic; background-color: grey;}
 
 quote {display: inline; font-style: italic}
 usg + quote::before {content: " ";}
 
-etym {display: block; margin-top: 1ex}
-etym::before {content: "~ "}
+/*etym {display: block; margin-top: 1ex}*/
+etym::before {content: ".\a~ "}
 
-mentioned > w {font-style: italic;}
-mentioned > c {font-style: italic;}
-mentioned > m {font-style: italic;}
+
+
+w {font-style: italic;}
+c {font-style: italic;}
+m {font-style: italic;}
 mentioned > lang::after {content: " ";}
+mentioned > note + w, mentioned > note + c, mentioned > note + m::after {content: " ";}
+mentioned > w + w::before {content: ", ";}
+mentioned > w + gloss::before {content: " ";}
 
 /*gloss::before {-oxy-prepend-content: "‘";}
 gloss::after {-oxy-prepend-content: "ʼ";}*/
-w + gloss::before {-oxy-prepend-content: " ";}
+/*w + gloss::before {-oxy-prepend-content: " ";}
 m + gloss::before {-oxy-prepend-content: " ";}
-c + gloss::before {-oxy-prepend-content: " ";}
+c + gloss::before {-oxy-prepend-content: " ";}*/
 
 p {display: block}
 

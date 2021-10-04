@@ -10,9 +10,61 @@
 <?xml-model href="http://www.oxygenxml.com/ns/ccfilter/config/ccConfigSchemaFilter.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.oxygenxml.com/ns/ccfilter/config http://www.oxygenxml.com/ns/ccfilter/config/ccConfigSchemaFilter.xsd"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:abv="http://ossetic-studies.org/ns/abaevdict"
     xmlns="http://www.oxygenxml.com/ns/ccfilter/config">
+    
+    <elementProposals xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:abv="http://ossetic-studies.org/ns/abaevdict" path="tei:entry" insertElements="tei:form abv:exampleGrp tei:etym">
+        <insertAttribute name="xml:lang" value="os"/>
+    </elementProposals>
+    <elementProposals path="tei:entry/tei:form[1]" insertElements="tei:orth">
+        <insertAttribute name="type" value="lemma"/>
+    </elementProposals>
+    <elementProposals path="tei:entry/tei:form[2]" insertElements="tei:orth">
+        <insertAttribute name="type" value="dialectal"/>
+        <insertAttribute name="xml:lang" value="os-x-digor"/>
+    </elementProposals>    
+<!--    <elementProposals xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:abv="http://ossetic-studies.org/ns/abaevdict" path="abv:exampleGrp" insertElements="abv:example"/>-->
+<!--    <elementProposals xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:abv="http://ossetic-studies.org/ns/abaevdict" path="abv:example" insertElements="tei:quote abv:tr tei:bibl"/>-->
+    
+    <elementProposals path="tei:bibl" insertElements="tei:ref tei:biblScope"/>
+    <elementProposals path="tei:bibl/tei:ref" insertAttributes="target">
+        <insertAttribute name="type" value="bibl"/>
+    </elementProposals>
+        
+    <elementProposals path="tei:ref" insertAttributes="target">
+        <insertAttribute name="type" value="xr"/>
+    </elementProposals>
+    
+    <elementProposals path="tei:sense" insertElements="abv:tr"/>
+    
+    <elementProposals xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:abv="http://ossetic-studies.org/ns/abaevdict" path="abv:tr" insertElements="tei:q">
+        <insertAttribute name="xml:lang" value="ru"/>
+    </elementProposals>
+    
+    <elementProposals xmlns:tei="http://www.tei-c.org/ns/1.0" path="tei:def">
+        <insertAttribute name="xml:lang" value="ru"/>
+    </elementProposals>    
+    
+    <elementProposals path="tei:form" insertElements="tei:orth"/>
+    
+    <elementProposals path="tei:entry/tei:form" insertElements="tei:orth">
+        <insertAttribute name="type" value="dialectal"/>
+        <insertAttribute name="xml:lang" value="os-x-digor"/>
+    </elementProposals>
+    
+    <elementProposals path="tei:form/tei:form" insertElements="tei:orth">
+        <insertAttribute name="type" value="variant"/>
+    </elementProposals>    
+    
+    <elementProposals path="tei:mentioned" insertElements="tei:lang tei:w tei:gloss"/>
+    <elementProposals path="tei:gloss" insertElements="tei:q"/>
+    
+    <elementProposals path="tei:usg" insertElements="tei:lang"/>
+    
+<!--    <elementProposals path="tei:note" insertAttributes="xml:lang"/>-->
 
-    <match elementName="cit" attributeName="lang" attributeNS="http://www.w3.org/XML/1998/namespace">
+<!--    <match elementName="cit" attributeName="lang" attributeNS="http://www.w3.org/XML/1998/namespace">
         <xslt href="get-langs.xsl" useCache="false" action="replace"/>
     </match>
     
@@ -26,9 +78,13 @@
     
     <match elementName="sense" attributeName="lang" attributeNS="http://www.w3.org/XML/1998/namespace">
         <xslt href="get-langs.xsl" useCache="false" action="replace"/>
-    </match>    
+    </match>  -->  
     
-<!--    <match elementName="cit" attributeName="lang" attributeNS="http://www.w3.org/XML/1998/namespace">
+    <match elementName="ref" attributeName="target" elementNS="http://www.tei-c.org/ns/1.0">
+        <xslt href="get-refs.xsl" useCache="false" action="replace"/>
+    </match>
+    
+    <!--<match elementName="cit" attributeName="lang" attributeNS="http://www.w3.org/XML/1998/namespace">
         <items action="replace">
             <item value="ru"/>
             <item value="en"/>

@@ -46,7 +46,8 @@
 											<Integer>6</Integer>
 										</field>
 										<field name="uri">
-											<String>file:/home/oleg/abaevdict/abaev-tei/github/tei-abaev/out/abaevTEI.rng</String>
+<!--											<String>file:/home/oleg/abaevdict/abaev-tei/github/tei-abaev/out/abaevTEI.rng</String>-->
+											<String>${framework}/../tei-abaev/out/abaevTEI.rng</String>
 										</field>
 									</validationUnitSchema>
 								</field>

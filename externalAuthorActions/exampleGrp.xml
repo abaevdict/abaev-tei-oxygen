@@ -29,7 +29,10 @@ Only the framework saved inside {framework_file_name}.framework will have this p
             <abv:tr xml:lang="ru">
               <q></q>
             </abv:tr>
-            <bibl></bibl>
+            <bibl>
+              <ref type="bibl"/>
+              <biblScope></biblScope>
+            </bibl>
           </abv:example></abv:exampleGrp>
         </a:argument>
       </a:arguments>

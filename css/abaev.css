@@ -8,7 +8,7 @@ oxy|doctype {
     background-color:transparent !important;
 }
 
-* { font-family: "Libertinus Serif"; font-size: large; line-height: 1.1; }
+body { font-family: "Libertinus Serif"; font-size: large; line-height: 1.1; }
 
 hi[rendition~="#rend_italic"] {font-style: italic;}
 hi[rendition~="#rend_subscript"] {vertical-align: sub;}
@@ -42,13 +42,14 @@ lang {font-style: normal}
 [xml|lang="ru"] lang[xml|lang="ru"]:empty {content: "рус."}
 [xml|lang="ru"] lang[xml|lang="en"]:empty {content: "Russian"}*/
 
-etym > mentioned > lang {font-weight: bold}
+mentioned > lang {font-weight: bold}
 usg + form::before {content: " "}
 form + usg::before {content: " "}
 
 form {display: inline}
 /*orth {font-style: italic}*/
 form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"]::before {content: " | ";}
+w[xml|lang="os-x-iron"] + w[xml|lang="os-x-digor"]::before {content: " | "; font-style: normal;}
 entry > form orth {font-weight: bold}
 orth + form[type="variant"]::before {content: ", "}
 orth + form[type="participle"]::before {content: " : "}
@@ -95,7 +96,7 @@ example:last-of-type::after {content: "."}
 /*bibl[corresp]::before {content: attr(corresp);}*/
 example > bibl::before{content: " (";}
 example > bibl::after{content: ")";}
-bibl > biblScope::before{content: " ";}
+/*bibl > biblScope::before{content: " ";}*/
 
 example > note::before{content: " (";}
 example > note::after{content: ")";}
@@ -113,10 +114,10 @@ etym::before {content: ".\a~ "}
 w {font-style: italic;}
 c {font-style: italic;}
 m {font-style: italic;}
-mentioned > lang::after {content: " ";}
-mentioned > note + w, mentioned > note + c, mentioned > note + m::after {content: " ";}
-mentioned > w + w::before {content: ", ";}
-mentioned > w + gloss::before {content: " ";}
+/*mentioned > lang::after {content: " ";}*/
+/*mentioned > note + w, mentioned > note + c, mentioned > note + m::after {content: " ";}*/
+/*mentioned > w + w::before {content: ", ";}
+mentioned > w + gloss::before {content: " ";}*/
 
 /*gloss::before {-oxy-prepend-content: "‘";}
 gloss::after {-oxy-prepend-content: "ʼ";}*/
@@ -138,3 +139,5 @@ c[type~="rec"]::before {content:"*"}
 entry > sense + re::before{content: "; "}
 entry > re + re::before {content: "; "}
 entry > form + re::before {content: ": "}
+
+note[type="footnote"] {vertical-align: sub; font-size: small}

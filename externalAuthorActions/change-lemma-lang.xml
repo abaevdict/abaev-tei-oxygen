@@ -13,39 +13,23 @@ Only the framework saved inside {framework_file_name}.framework will have this p
 <a:authorAction xmlns:a="http://www.oxygenxml.com/ns/author/external-action"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.oxygenxml.com/ns/author/external-action http://www.oxygenxml.com/ns/author/external-action/authorAction.xsd"
-  id="re"
+  id="change-lemma-lang"
    xmlns:abv="http://ossetic-studies.org/ns/abaevdict">
-  <a:name>re</a:name>
-  <a:description>Inserts a new related entry.</a:description>
+  <a:name>Change to Iron</a:name>
+  <a:description>Changes lemma form xml:lang to os-x-iron.</a:description>
   <a:operations>
-    <a:operation id="InsertFragmentOperation">
-<!--      <a:xpathCondition>./parent::abv:exampleGrp</a:xpathCondition>-->
+    <a:operation id="ChangeAttributeOperation">
+<!--      <a:xpathCondition>./preceding-sibling::form</a:xpathCondition>-->
       <a:xpathCondition>true()</a:xpathCondition>
       <a:arguments>
-        <a:argument name="fragment">
-          <re xmlns="http://www.tei-c.org/ns/1.0">
-            <form type="lemma"><orth></orth></form>
-            <sense>
-              <abv:tr xml:lang="ru"><q></q></abv:tr>
-            </sense>
-          </re>
-        </a:argument>
+<!--        <a:argument name="elementLocation">./preceding-sibling::form[1]</a:argument>-->
+<!--        <a:argument name="elementLocation">child::form[1]</a:argument>-->
+        <a:argument name="elementLocation">//entry[1]/form[@type='lemma']</a:argument>
+<!--        <a:argument name="namespace">xml</a:argument>-->
+        <a:argument name="name">xml:lang</a:argument>
+        <a:argument name="value">os-x-iron</a:argument>
       </a:arguments>
     </a:operation>
-<!--    <a:operation id="InsertFragmentOperation">
-      <a:xpathCondition>not(./parent::abv:exampleGrp)</a:xpathCondition>
-      <a:arguments>
-        <a:argument name="fragment">
-          <abv:exampleGrp><abv:example xmlns="http://www.tei-c.org/ns/1.0">
-            <quote></quote>
-            <abv:tr xml:lang="ru">
-              <q></q>
-            </abv:tr>
-            <bibl></bibl>
-          </abv:example></abv:exampleGrp>
-        </a:argument>
-      </a:arguments>
-    </a:operation>  -->  
   </a:operations>
   <a:accessKey/>
 </a:authorAction>

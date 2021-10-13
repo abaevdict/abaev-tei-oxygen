@@ -13,39 +13,22 @@ Only the framework saved inside {framework_file_name}.framework will have this p
 <a:authorAction xmlns:a="http://www.oxygenxml.com/ns/author/external-action"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.oxygenxml.com/ns/author/external-action http://www.oxygenxml.com/ns/author/external-action/authorAction.xsd"
-  id="re"
+  id="insert-digor-form"
    xmlns:abv="http://ossetic-studies.org/ns/abaevdict">
-  <a:name>re</a:name>
-  <a:description>Inserts a new related entry.</a:description>
+  <a:name>Insert Digor form</a:name>
+  <a:description>Inserts a Digor form element.</a:description>
   <a:operations>
     <a:operation id="InsertFragmentOperation">
 <!--      <a:xpathCondition>./parent::abv:exampleGrp</a:xpathCondition>-->
       <a:xpathCondition>true()</a:xpathCondition>
       <a:arguments>
         <a:argument name="fragment">
-          <re xmlns="http://www.tei-c.org/ns/1.0">
-            <form type="lemma"><orth></orth></form>
-            <sense>
-              <abv:tr xml:lang="ru"><q></q></abv:tr>
-            </sense>
-          </re>
+          <form xmlns="http://www.tei-c.org/ns/1.0" xml:lang="os-x-digor" type="dialectal">
+            <orth></orth>
+          </form>
         </a:argument>
       </a:arguments>
-    </a:operation>
-<!--    <a:operation id="InsertFragmentOperation">
-      <a:xpathCondition>not(./parent::abv:exampleGrp)</a:xpathCondition>
-      <a:arguments>
-        <a:argument name="fragment">
-          <abv:exampleGrp><abv:example xmlns="http://www.tei-c.org/ns/1.0">
-            <quote></quote>
-            <abv:tr xml:lang="ru">
-              <q></q>
-            </abv:tr>
-            <bibl></bibl>
-          </abv:example></abv:exampleGrp>
-        </a:argument>
-      </a:arguments>
-    </a:operation>  -->  
+    </a:operation>  
   </a:operations>
   <a:accessKey/>
 </a:authorAction>

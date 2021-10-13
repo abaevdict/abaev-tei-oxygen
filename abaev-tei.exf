@@ -41,14 +41,17 @@ action.
         <addAction id="example" replacedElement="example"
           replacedElementNs="http://ossetic-studies.org/ns/abaevdict" inCCWindow="true"/>
         <addAction id="exampleGrp" replacedElement="exampleGrp" replacedElementNs="http://ossetic-studies.org/ns/abaevdict" inCCWindow="true"/>
+        <addAction id="re" replacedElement="re" replacedElementNs="http://www.tei-c.org/ns/1.0" inCCWindow="true"/>
+        <addAction id="form" replacedElement="form" replacedElementNs="http://www.tei-c.org/ns/1.0" useReplaceElementName="true" inCCWindow="true"/>
       </authorActions>
     </contentCompletion>
-    <toolbars>
+<!--    <toolbars>
       <toolbar>
-        <addAction id="example"/>
-        <addAction id="exampleGrp"/>
+        <!-\-<addAction id="example"/>
+        <addAction id="exampleGrp"/>-\->
+        <addAction id="form"/>
       </toolbar>
-    </toolbars>
+    </toolbars>-->
   </author>  
   
 <!--  <author>

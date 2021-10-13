@@ -8,6 +8,9 @@ note:lang(en) {display: none}
 q[rendition~="#rend_doublequotes"]::before {content: "„";}
 q[rendition~="#rend_doublequotes"]::after {content: "“";}
 
+example > tr q::before {content: "„";}
+example > tr q::after {content: "“";}
+
 :lang(os) > lang:empty {content: "ос."}
 :lang(os) > usg > lang:empty {content: "ос."}
 :lang(os-x-iron) > lang:empty {content: "и."}

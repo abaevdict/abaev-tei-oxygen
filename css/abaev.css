@@ -80,6 +80,7 @@ tr > q {margin-bottom: 0; margin-left: 0; margin-right: 0; quotes: '‘' '’';}
 tr q::before {content: "‘";}
 tr q::after {content: "ʼ";}
 quote + tr::before {content: " "}
+tr:lang(ru) + tr:lang(en)::before {content: " "}
 
 /*q + note[type="comment"]::before {content: " ";}*/
 
@@ -91,7 +92,9 @@ exampleGrp::before {content: ". — ";}
 exampleGrp[n]::before {content: ". — " attr(n) ". ";}
 example {display: inline;}
 example + example::before {content: "; "}
-example:last-of-type::after {content: "."}
+/*example:last-of-type::after {content: "."}*/
+
+exampleGrp + re::before {content: ". — ";}
 
 /*bibl[corresp]::before {content: attr(corresp);}*/
 example > bibl::before{content: " (";}
@@ -114,6 +117,7 @@ etym::before {content: ".\a~ "}
 w {font-style: italic;}
 c {font-style: italic;}
 m {font-style: italic;}
+phr {font-style: italic;}
 /*mentioned > lang::after {content: " ";}*/
 /*mentioned > note + w, mentioned > note + c, mentioned > note + m::after {content: " ";}*/
 /*mentioned > w + w::before {content: ", ";}
@@ -141,3 +145,6 @@ entry > re + re::before {content: "; "}
 entry > form + re::before {content: ": "}
 
 note[type="footnote"] {vertical-align: sub; font-size: small}
+
+oRef {font-style:italic}
+oRef:empty {content: oxy_xpath("(ancestor::entry | ancestor::re)/form[1]/orth[1]/text()")}

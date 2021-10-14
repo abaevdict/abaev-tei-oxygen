@@ -179,8 +179,8 @@ example > tr q::after {content: "“";}
             :lang(sr) > lang:empty {content: "серб.";}
             :lang(syr) > lang:empty {content: "сир.";}
             :lang(xsc) > lang:empty {content: "скиф.";}
-            :lang(sla) > lang:empty {content: "слав.";}
             :lang(sl) > lang:empty {content: "слов.";}
+            :lang(sla) > lang:empty {content: "слав.";}
             :lang(sog) > lang:empty {content: "согд.";}
             :lang(sog-x-chr) > lang:empty {content: "согд. христ.";}
             :lang(gmh) > lang:empty {content: "ср.в.нем.";}

@@ -171,8 +171,8 @@ note:lang(ru) {display: none}
             :lang(sr) > lang:empty {content: "Serbian";}
             :lang(syr) > lang:empty {content: "Syriac";}
             :lang(xsc) > lang:empty {content: "Scythian";}
-            :lang(sla) > lang:empty {content: "Slavic";}
             :lang(sl) > lang:empty {content: "Slovenian";}
+            :lang(sla) > lang:empty {content: "Slavic";}
             :lang(sog) > lang:empty {content: "Sogdian";}
             :lang(sog-x-chr) > lang:empty {content: "Christian Sogdian";}
             :lang(gmh) > lang:empty {content: "Middle High German";}

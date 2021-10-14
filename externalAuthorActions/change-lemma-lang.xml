@@ -24,7 +24,8 @@ Only the framework saved inside {framework_file_name}.framework will have this p
       <a:arguments>
 <!--        <a:argument name="elementLocation">./preceding-sibling::form[1]</a:argument>-->
 <!--        <a:argument name="elementLocation">child::form[1]</a:argument>-->
-        <a:argument name="elementLocation">//entry[1]/form[@type='lemma']</a:argument>
+<!--        <a:argument name="elementLocation">//entry[1]/form[@type='lemma']</a:argument>-->
+        <a:argument name="elementLocation">./form[@type='lemma']</a:argument>
 <!--        <a:argument name="namespace">xml</a:argument>-->
         <a:argument name="name">xml:lang</a:argument>
         <a:argument name="value">os-x-iron</a:argument>

@@ -21,7 +21,7 @@ Only the framework saved inside {framework_file_name}.framework will have this p
     <a:operation id="ExecuteMultipleActionsOperation">
       <a:xpathCondition>(self::entry or self::re) and oxy:allows-child-element("form")</a:xpathCondition>
       <a:arguments>
-        <a:argument name="actionIDs">insert-digor-form,change-lemma-lang</a:argument>
+        <a:argument name="actionIDs">change-lemma-lang,insert-digor-form</a:argument>
       </a:arguments>
     </a:operation>
     <a:operation id="InsertFragmentOperation">

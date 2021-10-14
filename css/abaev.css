@@ -80,7 +80,7 @@ tr > q {margin-bottom: 0; margin-left: 0; margin-right: 0; quotes: '‘' '’';}
 tr q::before {content: "‘";}
 tr q::after {content: "ʼ";}
 quote + tr::before {content: " "}
-tr:lang(ru) + tr:lang(en)::before {content: " "}
+example > tr:lang(ru) + tr:lang(en)::before {content: " "}
 
 /*q + note[type="comment"]::before {content: " ";}*/
 

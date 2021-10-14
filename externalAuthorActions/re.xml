@@ -23,12 +23,7 @@ Only the framework saved inside {framework_file_name}.framework will have this p
       <a:xpathCondition>true()</a:xpathCondition>
       <a:arguments>
         <a:argument name="fragment">
-          <re xmlns="http://www.tei-c.org/ns/1.0">
-            <form type="lemma"><orth></orth></form>
-            <sense>
-              <abv:tr xml:lang="ru"><q></q></abv:tr>
-            </sense>
-          </re>
+          <re xmlns="http://www.tei-c.org/ns/1.0"><form type="lemma"><orth></orth></form><sense><abv:tr xml:lang="ru"><q></q></abv:tr></sense></re>
         </a:argument>
       </a:arguments>
     </a:operation>

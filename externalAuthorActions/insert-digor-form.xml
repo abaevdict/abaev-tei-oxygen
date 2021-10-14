@@ -23,9 +23,7 @@ Only the framework saved inside {framework_file_name}.framework will have this p
       <a:xpathCondition>true()</a:xpathCondition>
       <a:arguments>
         <a:argument name="fragment">
-          <form xmlns="http://www.tei-c.org/ns/1.0" xml:lang="os-x-digor" type="dialectal">
-            <orth></orth>
-          </form>
+          <form xmlns="http://www.tei-c.org/ns/1.0" xml:lang="os-x-digor" type="dialectal"><orth></orth></form>
         </a:argument>
       </a:arguments>
     </a:operation>  

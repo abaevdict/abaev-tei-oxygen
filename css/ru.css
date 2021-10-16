@@ -76,7 +76,6 @@ example > tr q::after {content: "“";}
             :lang(goh) > lang:empty {content: "др.в.нем.";}
             :lang(gem-x-old) > lang:empty {content: "др.герм.";}
             :lang(hbo) > lang:empty {content: "др.евр.";}
-            :lang(sa) > lang:empty {content: "др.инд.";}
             :lang(x-oldirn) > lang:empty {content: "др.иран.";}
             :lang(sga) > lang:empty {content: "др.ирл.";}
             :lang(non-x-is) > lang:empty {content: "др.исл.";}
@@ -91,6 +90,7 @@ example > tr q::after {content: "“";}
             :lang(ine) > lang:empty {content: "и.е.";}
             :lang(inh) > lang:empty {content: "инг.";}
             :lang(inc) > lang:empty {content: "инд.";}
+            :lang(inc-x-old) > lang:empty {content: "др.инд.";}            
             :lang(ira) > lang:empty {content: "иран.";}
             :lang(ga) > lang:empty {content: "ирл.";}
             :lang(es) > lang:empty {content: "исп.";}
@@ -240,6 +240,7 @@ example > tr q::after {content: "“";}
             :lang(yai) > lang:empty {content: "ягн.";}
             :lang(ja) > lang:empty {content: "япон.";}
             :lang(sa) > lang:empty {content: "санскр."}
+            :lang(bqi) > lang:empty {content: "перс. (бахтиар.)"}
             
 *[extralang~="os"] > lang:empty {-oxy-append-content: ", ос."}
 *[extralang~="os-x-iron"] > lang:empty {-oxy-append-content: ", и."}
@@ -302,7 +303,6 @@ example > tr q::after {content: "“";}
             *[extralang~="goh"] > lang:empty {-oxy-append-content: ", др.в.нем.";}
             *[extralang~="gem-x-old"] > lang:empty {-oxy-append-content: ", др.герм.";}
             *[extralang~="hbo"] > lang:empty {-oxy-append-content: ", др.евр.";}
-            *[extralang~="sa"] > lang:empty {-oxy-append-content: ", др.инд.";}
             *[extralang~="x-oldirn"] > lang:empty {-oxy-append-content: ", др.иран.";}
             *[extralang~="sga"] > lang:empty {-oxy-append-content: ", др.ирл.";}
             *[extralang~="non-x-is"] > lang:empty {-oxy-append-content: ", др.исл.";}
@@ -317,6 +317,7 @@ example > tr q::after {content: "“";}
             *[extralang~="ine"] > lang:empty {-oxy-append-content: ", и.е.";}
             *[extralang~="inh"] > lang:empty {-oxy-append-content: ", инг.";}
             *[extralang~="inc"] > lang:empty {-oxy-append-content: ", инд.";}
+            *[extralang~="inc-x-old"] > lang:empty {-oxy-append-content: ", др.инд.";}            
             *[extralang~="ira"] > lang:empty {-oxy-append-content: ", иран.";}
             *[extralang~="ga"] > lang:empty {-oxy-append-content: ", ирл.";}
             *[extralang~="es"] > lang:empty {-oxy-append-content: ", исп.";}

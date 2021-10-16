@@ -231,6 +231,7 @@ note:lang(ru) {display: none}
             :lang(sah) > lang:empty {content: "Yakut";}
             :lang(yai) > lang:empty {content: "Yaghnobi";}
             :lang(ja) > lang:empty {content: "Japanese";}
+            :lang(bqi) > lang:empty {content: "Bakhtiari"}
             
 *[extralang~="os"] > lang:empty {-oxy-append-content: ", Ossetic"}
 *[extralang~="os-x-iron"] > lang:empty {-oxy-append-content: ", Iron"}

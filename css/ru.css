@@ -7,6 +7,8 @@ note:lang(en) {display: none}
 
 q[rendition~="#rend_doublequotes"]::before {content: "„";}
 q[rendition~="#rend_doublequotes"]::after {content: "“";}
+q[rendition~="#rend_doublequotes"]:last-child::before {content: "«";}
+q[rendition~="#rend_doublequotes"]:last-child::after {content: "»";}
 
 example > tr q::before {content: "„";}
 example > tr q::after {content: "“";}

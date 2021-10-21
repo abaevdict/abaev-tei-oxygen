@@ -70,7 +70,6 @@ note:lang(ru) {display: none}
             :lang(goh) > lang:empty {content: "Old High German";}
             :lang(gem-x-old) > lang:empty {content: "Old Germanic";}
             :lang(hbo) > lang:empty {content: "(Ancient) Hebrew";}
-            :lang(sa) > lang:empty {content: "Old Indic";}
             :lang(x-oldirn) > lang:empty {content: "Proto-Iranian";}
             :lang(sga) > lang:empty {content: "Old Irish";}
             :lang(non-x-is) > lang:empty {content: "Old Icelandic";}
@@ -84,6 +83,7 @@ note:lang(ru) {display: none}
             :lang(ine) > lang:empty {content: "Proto-Indo-European";}
             :lang(inh) > lang:empty {content: "Ingush";}
             :lang(inc) > lang:empty {content: "Indic";}
+            :lang(inc-x-old) > lang:empty {content: "Old Indic";} 
             :lang(ira) > lang:empty {content: "(Proto-?)Iranian";}
             :lang(ga) > lang:empty {content: "Irish";}
             :lang(es) > lang:empty {content: "Spanish";}
@@ -232,6 +232,7 @@ note:lang(ru) {display: none}
             :lang(yai) > lang:empty {content: "Yaghnobi";}
             :lang(ja) > lang:empty {content: "Japanese";}
             :lang(bqi) > lang:empty {content: "Bakhtiari"}
+            :lang(sa) > lang:empty {content: "Sanskrit";}
             
 *[extralang~="os"] > lang:empty {-oxy-append-content: ", Ossetic"}
 *[extralang~="os-x-iron"] > lang:empty {-oxy-append-content: ", Iron"}
@@ -309,6 +310,7 @@ note:lang(ru) {display: none}
             *[extralang~="ine"] > lang:empty {-oxy-append-content: ", Proto-Indo-European";}
             *[extralang~="inh"] > lang:empty {-oxy-append-content: ", Ingush";}
             *[extralang~="inc"] > lang:empty {-oxy-append-content: ", Indic";}
+            *[extralang~="inc-x-old"] > lang:empty {-oxy-append-content: ", Old Indic";}
             *[extralang~="ira"] > lang:empty {-oxy-append-content: ", (Proto-?)Iranian";}
             *[extralang~="ga"] > lang:empty {-oxy-append-content: ", Irish";}
             *[extralang~="es"] > lang:empty {-oxy-append-content: ", Spanish";}

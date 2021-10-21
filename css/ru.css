@@ -7,8 +7,8 @@ note:lang(en) {display: none}
 
 q[rendition~="#rend_doublequotes"]::before {content: "„";}
 q[rendition~="#rend_doublequotes"]::after {content: "“";}
-q[rendition~="#rend_doublequotes"]:last-child::before {content: "«";}
-q[rendition~="#rend_doublequotes"]:last-child::after {content: "»";}
+q > q[rendition~="#rend_doublequotes"]:last-child::before {content: "«";}
+q > q[rendition~="#rend_doublequotes"]:last-child::after {content: "»";}
 
 example > tr q::before {content: "„";}
 example > tr q::after {content: "“";}
@@ -25,8 +25,8 @@ example > tr q::after {content: "“";}
 :lang(os-x-ksan) > usg > lang:empty {content: "ксан."}
 
             :lang(ady-x-abadz) > lang:empty {content: "абадз.";}
-            :lang(abq) > lang:empty {content: "абаз.";}
             :lang(ab) > lang:empty {content: "абх.";}
+            :lang(abq) > lang:empty {content: "абаз.";}
             :lang(ae) > lang:empty {content: "ав.";}
             :lang(av) > lang:empty {content: "авар.";}
             :lang(agx) > lang:empty {content: "агул.";}
@@ -210,6 +210,7 @@ example > tr q::after {content: "“";}
             :lang(uz) > lang:empty {content: "узб.";}
             :lang(ug) > lang:empty {content: "уйгур.";}
             :lang(uk) > lang:empty {content: "укр.";}
+            :lang(uk-x-gal) > lang:empty {content: "укр. (галиц.)";}
             :lang(mn-x-uriankh) > lang:empty {content: "урянх.";}
             :lang(fi) > lang:empty {content: "фин.";}
             :lang(fr) > lang:empty {content: "фр.";}
@@ -251,8 +252,8 @@ example > tr q::after {content: "“";}
 *[extralang~="os-x-ksan"] > lang:empty {-oxy-append-content: ", ксан."}
 
             *[extralang~="ady-x-abadz"] > lang:empty {-oxy-append-content: ", абадз.";}
-            *[extralang~="abq"] > lang:empty {-oxy-append-content: ", абаз.";}
             *[extralang~="ab"] > lang:empty {-oxy-append-content: ", абх.";}
+            *[extralang~="abq"] > lang:empty {-oxy-append-content: ", абаз.";}
             *[extralang~="ae"] > lang:empty {-oxy-append-content: ", ав.";}
             *[extralang~="av"] > lang:empty {-oxy-append-content: ", авар.";}
             *[extralang~="agx"] > lang:empty {-oxy-append-content: ", агул.";}
@@ -437,6 +438,7 @@ example > tr q::after {content: "“";}
             *[extralang~="uz"] > lang:empty {-oxy-append-content: ", узб.";}
             *[extralang~="ug"] > lang:empty {-oxy-append-content: ", уйгур.";}
             *[extralang~="uk"] > lang:empty {-oxy-append-content: ", укр.";}
+            *[extralang~="uk-x-gal"] > lang:empty {content: ", укр. (галиц.)";}
             *[extralang~="mn-x-uriankh"] > lang:empty {-oxy-append-content: ", урянх.";}
             *[extralang~="fi"] > lang:empty {-oxy-append-content: ", фин.";}
             *[extralang~="fr"] > lang:empty {-oxy-append-content: ", фр.";}

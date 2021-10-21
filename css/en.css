@@ -18,8 +18,8 @@ note:lang(ru) {display: none}
 
 
             :lang(ady-x-abadz) > lang:empty {content: "Abzakh";}
-            :lang(abq) > lang:empty {content: "Abaza";}
             :lang(ab) > lang:empty {content: "Abkhaz";}
+            :lang(abq) > lang:empty {content: "Abaza";}
             :lang(ae) > lang:empty {content: "Avestan";}
             :lang(av) > lang:empty {content: "Avar";}
             :lang(agx) > lang:empty {content: "Aghul";}
@@ -200,6 +200,7 @@ note:lang(ru) {display: none}
             :lang(uz) > lang:empty {content: "Uzbek";}
             :lang(ug) > lang:empty {content: "Uyghur";}
             :lang(uk) > lang:empty {content: "Ukrainian";}
+            :lang(uk-x-gal) > lang:empty {content: "Ukrainian (Galician)";}
             :lang(mn-x-uriankh) > lang:empty {content: "Uriankhai";}
             :lang(fi) > lang:empty {content: "Finnish";}
             :lang(fr) > lang:empty {content: "French";}
@@ -241,8 +242,8 @@ note:lang(ru) {display: none}
 *[extralang~="os-x-ksan"] > lang:empty {-oxy-append-content: ", Ksan Ossetic"}
 
             *[extralang~="ady-x-abadz"] > lang:empty {-oxy-append-content: ", Abzakh";}
-            *[extralang~="abq"] > lang:empty {-oxy-append-content: ", Abaza";}
             *[extralang~="ab"] > lang:empty {-oxy-append-content: ", Abkhaz";}
+            *[extralang~="abq"] > lang:empty {-oxy-append-content: ", Abaza";}
             *[extralang~="ae"] > lang:empty {-oxy-append-content: ", Avestan";}
             *[extralang~="av"] > lang:empty {-oxy-append-content: ", Avar";}
             *[extralang~="agx"] > lang:empty {-oxy-append-content: ", Aghul";}
@@ -428,6 +429,7 @@ note:lang(ru) {display: none}
             *[extralang~="uz"] > lang:empty {-oxy-append-content: ", Uzbek";}
             *[extralang~="ug"] > lang:empty {-oxy-append-content: ", Uyghur";}
             *[extralang~="uk"] > lang:empty {-oxy-append-content: ", Ukrainian";}
+            *[extralang~="uk-x-gal"] > lang:empty {-oxy-append-content: ", Ukrainian (Galician)";}
             *[extralang~="mn-x-uriankh"] > lang:empty {-oxy-append-content: ", Uriankhai";}
             *[extralang~="fi"] > lang:empty {-oxy-append-content: ", Finnish";}
             *[extralang~="fr"] > lang:empty {-oxy-append-content: ", French";}

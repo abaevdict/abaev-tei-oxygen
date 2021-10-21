@@ -11,13 +11,14 @@ oxy|doctype {
 body { font-family: "Libertinus Serif"; font-size: large; line-height: 1.1; }
 
 hi[rendition~="#rend_italic"] {font-style: italic;}
+hi[rendition~="#rend_bold"] {font-weight: bold}
 hi[rendition~="#rend_subscript"] {vertical-align: sub;}
 hi[rendition~="#rend_smallcaps"] {font-variant: small-caps;}
 
 /*[xml|lang="ru"] [rend~="smallcaps"] {font-family: "Libertinus Sans"; font-size: 90%; letter-spacing: 3px}*/
-[xml|lang="ru"] [rend~="smallcaps"] {letter-spacing: 3px}
-[xml|lang="ru"] [rend~="doublequotes"]::before {content: "„"}
-[xml|lang="ru"] [rend~="doublequotes"]::after {content: "“"}
+[xml|lang="ru"] [rendition~="#rend_smallcaps"] {letter-spacing: 3px}
+[xml|lang="ru"] [rend~="#rend_doublequotes"]::before {content: "„"}
+[xml|lang="ru"] [rend~="#rend_doublequotes"]::after {content: "“"}
 [rend~="hide"] {text-decoration: line-through}
 
 q::before {content: "‘";}
@@ -91,6 +92,7 @@ tr:lang(ru) + tr:lang(ru)::before {content: ", "}
 
 exampleGrp {display: inline;}
 exampleGrp::before {content: ". — ";}
+re > exampleGrp::before {content: ": ";}
 exampleGrp[n]::before {content: ". — " attr(n) ". ";}
 example {display: inline;}
 example + example::before {content: "; "}

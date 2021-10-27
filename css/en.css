@@ -242,6 +242,7 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             :lang(bqi) > lang:empty {content: "Bakhtiari"}
             :lang(sa) > lang:empty {content: "Sanskrit";}
             :lang(ofs) > lang:empty {content: "Old Frisian";}
+            :lang(da) > lang:empty {content: "Danish";}
             
 *[extralang~="os"] > lang:empty {-oxy-append-content: ", Ossetic"}
 *[extralang~="os-x-iron"] > lang:empty {-oxy-append-content: ", Iron"}
@@ -473,3 +474,4 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             *[extralang~="bqi"] > lang:empty {-oxy-append-content: ", Bakhtiari"}
             *[extralang~="sa"] > lang:empty {-oxy-append-content: ", Sanskrit";}
             *[extralang~="ofs"] > lang:empty {-oxy-append-content: ", Old Frisian";}
+            *[extralang~="da"] > lang:empty {-oxy-append-content: ", Danish";}

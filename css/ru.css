@@ -246,6 +246,7 @@ example > tr q::after {content: "“";}
             :lang(ja) > lang:empty {content: "япон.";}
             :lang(sa) > lang:empty {content: "санскр."}
             :lang(bqi) > lang:empty {content: "перс. (бахтиар.)"}
+            :lang(ofs) > lang:empty {content: "др.фриз."}
             
 *[extralang~="os"] > lang:empty {-oxy-append-content: ", ос."}
 *[extralang~="os-x-iron"] > lang:empty {-oxy-append-content: ", и."}
@@ -473,7 +474,9 @@ example > tr q::after {content: "“";}
             *[extralang~="sah"] > lang:empty {-oxy-append-content: ", якут.";}
             *[extralang~="yai"] > lang:empty {-oxy-append-content: ", ягн.";}
             *[extralang~="ja"] > lang:empty {-oxy-append-content: ", япон.";}
-            *[extralang~="sa"] > lang:empty {-oxy-append-content: ", санскр.";}            
+            *[extralang~="sa"] > lang:empty {-oxy-append-content: ", санскр.";}
+            *[extralang~="bqi"] > lang:empty {-oxy-append-content: ", перс. (бахтиар.)";}            
+            *[extralang~="ofs"] > lang:empty {-oxy-append-content: ", др.фриз.";}
 
 /*[xml|lang] lang {content: ""}*/
 

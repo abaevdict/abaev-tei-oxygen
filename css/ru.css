@@ -7,8 +7,10 @@ note:lang(en) {display: none}
 
 q[rendition~="#rend_doublequotes"]::before {content: "„";}
 q[rendition~="#rend_doublequotes"]::after {content: "“";}
-q > q[rendition~="#rend_doublequotes"]:last-child::before {content: "«";}
-q > q[rendition~="#rend_doublequotes"]:last-child::after {content: "»";}
+/*q > q[rendition~="#rend_doublequotes"]:last-child::before {content: "«";}*/
+/*q > q[rendition~="#rend_doublequotes"]:last-child::after {content: "»";}*/
+
+*[rendition~="#rend_smallcaps"] {letter-spacing: 3px}
 
 example > tr q::before {content: "„";}
 example > tr q::after {content: "“";}
@@ -80,12 +82,13 @@ example > tr q::after {content: "“";}
             :lang(hbo) > lang:empty {content: "др.евр.";}
             :lang(x-oldirn) > lang:empty {content: "др.иран.";}
             :lang(sga) > lang:empty {content: "др.ирл.";}
-            :lang(non-x-is) > lang:empty {content: "др.исл.";}
             :lang(peo) > lang:empty {content: "др.перс.";}
             :lang(prg) > lang:empty {content: "др.прусс.";}
             :lang(orv) > lang:empty {content: "др.русск.";}
             :lang(osx) > lang:empty {content: "др.сакс.";}
+            :lang(no) > lang:empty {content: "норв.";}
             :lang(non) > lang:empty {content: "др.сев.";}
+            :lang(non-x-is) > lang:empty {content: "др.исл.";}
             :lang(x-oldsl) > lang:empty {content: "др.слав.";}
             :lang(zza) > lang:empty {content: "заза";}
             :lang(os-x-iron) > lang:empty {content: "и.";}
@@ -143,7 +146,6 @@ example > tr q::after {content: "“";}
             :lang(nl) > lang:empty {content: "нидерл.";}
             :lang(nds) > lang:empty {content: "н.н.нем.";}
             :lang(nog) > lang:empty {content: "ног.";}
-            :lang(no) > lang:empty {content: "норв.";}
             :lang(nub) > lang:empty {content: "нубийское";}
             :lang(oru) > lang:empty {content: "орм.";}
             :lang(pal-x-pazend) > lang:empty {content: "паз.";}
@@ -308,12 +310,13 @@ example > tr q::after {content: "“";}
             *[extralang~="hbo"] > lang:empty {-oxy-append-content: ", др.евр.";}
             *[extralang~="x-oldirn"] > lang:empty {-oxy-append-content: ", др.иран.";}
             *[extralang~="sga"] > lang:empty {-oxy-append-content: ", др.ирл.";}
-            *[extralang~="non-x-is"] > lang:empty {-oxy-append-content: ", др.исл.";}
             *[extralang~="peo"] > lang:empty {-oxy-append-content: ", др.перс.";}
             *[extralang~="prg"] > lang:empty {-oxy-append-content: ", др.прусс.";}
             *[extralang~="orv"] > lang:empty {-oxy-append-content: ", др.русск.";}
             *[extralang~="osx"] > lang:empty {-oxy-append-content: ", др.сакс.";}
+            *[extralang~="no"] > lang:empty {-oxy-append-content: ", норв.";}
             *[extralang~="non"] > lang:empty {-oxy-append-content: ", др.сев.";}
+            *[extralang~="non-x-is"] > lang:empty {-oxy-append-content: ", др.исл.";}
             *[extralang~="x-oldsl"] > lang:empty {-oxy-append-content: ", др.слав.";}
             *[extralang~="zza"] > lang:empty {-oxy-append-content: ", заза";}
             *[extralang~="os-x-iron"] > lang:empty {-oxy-append-content: ", и.";}
@@ -371,7 +374,6 @@ example > tr q::after {content: "“";}
             *[extralang~="nl"] > lang:empty {-oxy-append-content: ", нидерл.";}
             *[extralang~="nds"] > lang:empty {-oxy-append-content: ", н.н.нем.";}
             *[extralang~="nog"] > lang:empty {-oxy-append-content: ", ног.";}
-            *[extralang~="no"] > lang:empty {-oxy-append-content: ", норв.";}
             *[extralang~="nub"] > lang:empty {-oxy-append-content: ", нубийское";}
             *[extralang~="oru"] > lang:empty {-oxy-append-content: ", орм.";}
             *[extralang~="os"] > lang:empty {-oxy-append-content: ", ос.";}

@@ -16,7 +16,6 @@ hi[rendition~="#rend_subscript"] {vertical-align: sub;}
 hi[rendition~="#rend_smallcaps"] {font-variant: small-caps;}
 
 /*[xml|lang="ru"] [rend~="smallcaps"] {font-family: "Libertinus Sans"; font-size: 90%; letter-spacing: 3px}*/
-[xml|lang="ru"] [rendition~="#rend_smallcaps"] {letter-spacing: 3px}
 [xml|lang="ru"] [rend~="#rend_doublequotes"]::before {content: "„"}
 [xml|lang="ru"] [rend~="#rend_doublequotes"]::after {content: "“"}
 [rend~="hide"] {text-decoration: line-through}
@@ -108,7 +107,7 @@ example > bibl::after{content: ")";}
 example > note::before{content: " (";}
 example > note::after{content: ")";}
 
-ref[target]:empty::before {content: attr(target); font-style: italic; background-color: grey;}
+ref[target]:empty::before {content:attr(target); font-style: italic; background-color: grey;}
 
 quote {display: inline; font-style: italic}
 usg + quote::before {content: " ";}

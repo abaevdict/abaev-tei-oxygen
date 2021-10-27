@@ -5,6 +5,13 @@ tr:lang(ru) {display: none}
 def:lang(ru) {display: none}
 note:lang(ru) {display: none}
 
+q[rendition~="#rend_doublequotes"]::before {content: "“";}
+q[rendition~="#rend_doublequotes"]::after {content: "”";}
+/*q > q[rendition~="#rend_doublequotes"]:last-child::before {content: "«";}*/
+/*q > q[rendition~="#rend_doublequotes"]:last-child::after {content: "";}*/
+
+*[rendition~="#rend_smallcaps"] {letter-spacing: 3px}
+
 :lang(os) > lang:empty {content: "Ossetic"}
 :lang(os) > usg > lang:empty {content: "Ossetic"}
 :lang(os-x-iron) > lang:empty {content: "Iron"}
@@ -72,12 +79,13 @@ note:lang(ru) {display: none}
             :lang(hbo) > lang:empty {content: "(Ancient) Hebrew";}
             :lang(x-oldirn) > lang:empty {content: "Proto-Iranian";}
             :lang(sga) > lang:empty {content: "Old Irish";}
-            :lang(non-x-is) > lang:empty {content: "Old Icelandic";}
             :lang(peo) > lang:empty {content: "Old Persian";}
             :lang(prg) > lang:empty {content: "Old Prussian";}
             :lang(orv) > lang:empty {content: "Old Russian";}
             :lang(osx) > lang:empty {content: "Old Saxon";}
+            :lang(no) > lang:empty {content: "Norwegian";}
             :lang(non) > lang:empty {content: "Old Norse";}
+            :lang(non-x-is) > lang:empty {content: "Old Icelandic";}
             :lang(x-oldsl) > lang:empty {content: "Proto-Slavic";}
             :lang(zza) > lang:empty {content: "Zazaki";}
             :lang(ine) > lang:empty {content: "Proto-Indo-European";}
@@ -133,7 +141,6 @@ note:lang(ru) {display: none}
             :lang(nl) > lang:empty {content: "Dutch";}
             :lang(nds) > lang:empty {content: "Low German";}
             :lang(nog) > lang:empty {content: "Nogai";}
-            :lang(no) > lang:empty {content: "Norwegian";}
             :lang(nub) > lang:empty {content: "Nubian";}
             :lang(oru) > lang:empty {content: "Ormuri";}
             :lang(pal-x-pazend) > lang:empty {content: "Pazend";}
@@ -299,12 +306,13 @@ note:lang(ru) {display: none}
             *[extralang~="sa"] > lang:empty {-oxy-append-content: ", Old Indic";}
             *[extralang~="x-oldirn"] > lang:empty {-oxy-append-content: ", Proto-Iranian";}
             *[extralang~="sga"] > lang:empty {-oxy-append-content: ", Old Irish";}
-            *[extralang~="non-x-is"] > lang:empty {-oxy-append-content: ", Old Icelandic";}
             *[extralang~="peo"] > lang:empty {-oxy-append-content: ", Old Persian";}
             *[extralang~="prg"] > lang:empty {-oxy-append-content: ", Old Prussian";}
             *[extralang~="orv"] > lang:empty {-oxy-append-content: ", Old Russian";}
             *[extralang~="osx"] > lang:empty {-oxy-append-content: ", Old Saxon";}
+            *[extralang~="no"] > lang:empty {-oxy-append-content: ", Norwegian";}
             *[extralang~="non"] > lang:empty {-oxy-append-content: ", Old Norse";}
+            *[extralang~="non-x-is"] > lang:empty {-oxy-append-content: ", Old Icelandic";}
             *[extralang~="x-oldsl"] > lang:empty {-oxy-append-content: ", Proto-Slavic";}
             *[extralang~="zza"] > lang:empty {-oxy-append-content: ", Zazaki";}
             *[extralang~="os-x-iron"] > lang:empty {-oxy-append-content: ", Iron Ossetic";}
@@ -361,8 +369,7 @@ note:lang(ru) {display: none}
             *[extralang~="yrk"] > lang:empty {-oxy-append-content: ", Nenets";}
             *[extralang~="nl"] > lang:empty {-oxy-append-content: ", Dutch";}
             *[extralang~="nds"] > lang:empty {-oxy-append-content: ", Low German";}
-            *[extralang~="nog"] > lang:empty {-oxy-append-content: ", Nogai";}
-            *[extralang~="no"] > lang:empty {-oxy-append-content: ", Norwegian";}
+            *[extralang~="nog"] > lang:empty {-oxy-append-content: ", Nogai";}            
             *[extralang~="nub"] > lang:empty {-oxy-append-content: ", Nubian";}
             *[extralang~="oru"] > lang:empty {-oxy-append-content: ", Ormuri";}
             *[extralang~="os"] > lang:empty {-oxy-append-content: ", Ossetic";}

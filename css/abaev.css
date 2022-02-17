@@ -66,9 +66,11 @@ entry > sense + sense[n]:before {content: "; " attr(n) ". "}
 entry > form + sense:before, re > form + sense:before {-oxy-prepend-content: " "}
 /*entry > sense:last-of-type::after {content: ". "}*/
 usg + sense:before {-oxy-prepend-content: " "}
+note + sense:before {-oxy-prepend-content: " "}
 /*re::after {content: ". "}*/
 
-sense > re::before {content: "; "}
+sense > re:before {content: "; "}
+note + re:before {content: "; "} 
 
 sense > sense + sense:before {-oxy-prepend-content: ", "}
 def {display: inline}

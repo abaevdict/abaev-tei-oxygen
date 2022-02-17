@@ -146,18 +146,17 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             :lang(pal-x-pazend) > lang:empty {content: "Pazend";}
             :lang(pi) > lang:empty {content: "Pali";}
             :lang(x-pamir) > lang:empty {content: "Pamir";}
-            :lang(sgh-x-bartang) > lang:empty {content: "Bartangi";}
             :lang(wbl) > lang:empty {content: "Wakhi";}
-            :lang(sgy-x-zebak) > lang:empty {content: "Zebaki";}
             :lang(ydg) > lang:empty {content: "Yidgha";}
             :lang(isk) > lang:empty {content: "Ishkashimi";}
             :lang(mnj) > lang:empty {content: "Munji";}
             :lang(x-pamir-n) > lang:empty {content: "Pamir";}
             :lang(oru) > lang:empty {content: "Ormuri";}
             :lang(x-rushani) > lang:empty {content: "Rushani";}
-            :lang(srh) > lang:empty {content: "Sarikoli";}
             :lang(sgy) > lang:empty {content: "Sanglechi";}
+            :lang(sgy-x-zebak) > lang:empty {content: "Zebaki";}            
             :lang(sgh) > lang:empty {content: "Shughni";}
+            :lang(sgh-x-bartang) > lang:empty {content: "Bartangi";}            
             :lang(yah) > lang:empty {content: "Yazgulyam";}
             :lang(prc) > lang:empty {content: "Parachi";}
             :lang(xpr) > lang:empty {content: "Parthian";}
@@ -176,6 +175,7 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             :lang(inc-x-nnew) > lang:empty {content: "North New Indic dialects";}
             :lang(sem) > lang:empty {content: "Semitic";}
             :lang(sr) > lang:empty {content: "Serbian";}
+            :lang(srh) > lang:empty {content: "Sarikoli";}            
             :lang(syr) > lang:empty {content: "Syriac";}
             :lang(xsc) > lang:empty {content: "Scythian";}
             :lang(sl) > lang:empty {content: "Slovenian";}
@@ -378,18 +378,17 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             *[extralang~="pal-x-pazend"] > lang:empty {-oxy-append-content: ", Pazend";}
             *[extralang~="pi"] > lang:empty {-oxy-append-content: ", Pali";}
             *[extralang~="x-pamir"] > lang:empty {-oxy-append-content: ", Pamir";}
-            *[extralang~="sgh-x-bartang"] > lang:empty {-oxy-append-content: ", Bartangi";}
             *[extralang~="wbl"] > lang:empty {-oxy-append-content: ", Wakhi";}
-            *[extralang~="sgy-x-zebak"] > lang:empty {-oxy-append-content: ", Zebaki";}
             *[extralang~="ydg"] > lang:empty {-oxy-append-content: ", Yidgha";}
             *[extralang~="isk"] > lang:empty {-oxy-append-content: ", Ishkashimi";}
             *[extralang~="mnj"] > lang:empty {-oxy-append-content: ", Munji";}
             *[extralang~="x-pamir-n"] > lang:empty {-oxy-append-content: ", Pamir";}
             *[extralang~="oru"] > lang:empty {-oxy-append-content: ", Ormuri";}
             *[extralang~="x-rushani"] > lang:empty {-oxy-append-content: ", Rushani";}
-            *[extralang~="srh"] > lang:empty {-oxy-append-content: ", Sarikoli";}
             *[extralang~="sgy"] > lang:empty {-oxy-append-content: ", Sanglechi";}
+            *[extralang~="sgy-x-zebak"] > lang:empty {-oxy-append-content: ", Zebaki";}            
             *[extralang~="sgh"] > lang:empty {-oxy-append-content: ", Shughni";}
+            *[extralang~="sgh-x-bartang"] > lang:empty {-oxy-append-content: ", Bartangi";}            
             *[extralang~="yah"] > lang:empty {-oxy-append-content: ", Yazgulyam";}
             *[extralang~="prc"] > lang:empty {-oxy-append-content: ", Parachi";}
             *[extralang~="xpr"] > lang:empty {-oxy-append-content: ", Parthian";}
@@ -407,6 +406,7 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             *[extralang~="inc-x-nnew"] > lang:empty {-oxy-append-content: ", North New Indic dialects";}
             *[extralang~="sem"] > lang:empty {-oxy-append-content: ", Semitic";}
             *[extralang~="sr"] > lang:empty {-oxy-append-content: ", Serbian";}
+            *[extralang~="srh"] > lang:empty {-oxy-append-content: ", Sarikoli";}            
             *[extralang~="syr"] > lang:empty {-oxy-append-content: ", Syriac";}
             *[extralang~="xsc"] > lang:empty {-oxy-append-content: ", Scythian";}
             *[extralang~="sla"] > lang:empty {-oxy-append-content: ", Slavic";}

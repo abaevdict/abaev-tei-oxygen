@@ -151,18 +151,17 @@ example > tr q::after {content: "“";}
             :lang(pal-x-pazend) > lang:empty {content: "паз.";}
             :lang(pi) > lang:empty {content: "пали";}
             :lang(x-pamir) > lang:empty {content: "пам.";}
-            :lang(sgh-x-bartang) > lang:empty {content: "пам. барт.";}
             :lang(wbl) > lang:empty {content: "пам. в.";}
-            :lang(sgy-x-zebak) > lang:empty {content: "пам. зеб.";}
             :lang(ydg) > lang:empty {content: "пам. и.";}
             :lang(isk) > lang:empty {content: "пам. ишк.";}
             :lang(mnj) > lang:empty {content: "пам. м.";}
             :lang(x-pamir-n) > lang:empty {content: "пам. н.??";}
             :lang(oru) > lang:empty {content: "пам. ор.";}
             :lang(x-rushani) > lang:empty {content: "пам. руш.";}
-            :lang(srh) > lang:empty {content: "пам. с.";}
             :lang(sgy) > lang:empty {content: "пам. сгл.";}
+            :lang(sgy-x-zebak) > lang:empty {content: "пам. зеб.";}            
             :lang(sgh) > lang:empty {content: "пам. ш.";}
+            :lang(sgh-x-bartang) > lang:empty {content: "пам. барт.";}            
             :lang(yah) > lang:empty {content: "пам. язг.";}
             :lang(prc) > lang:empty {content: "пар.";}
             :lang(xpr) > lang:empty {content: "парф.";}
@@ -181,6 +180,7 @@ example > tr q::after {content: "“";}
             :lang(inc-x-nnew) > lang:empty {content: "северные новоиндийские диалекты";}
             :lang(sem) > lang:empty {content: "семит.";}
             :lang(sr) > lang:empty {content: "серб.";}
+            :lang(srh) > lang:empty {content: "пам. с.";}
             :lang(syr) > lang:empty {content: "сир.";}
             :lang(xsc) > lang:empty {content: "скиф.";}
             :lang(sl) > lang:empty {content: "слов.";}
@@ -234,7 +234,7 @@ example > tr q::after {content: "“";}
             :lang(ce) > lang:empty {content: "чеч.";}
             :lang(cs) > lang:empty {content: "чеш.";}
             :lang(cv) > lang:empty {content: "чув.";}
-            :lang(ady) > lang:empty {content: "шапс.";}
+            :lang(ady-x-shpsg) > lang:empty {content: "шапс.";}
             :lang(sux) > lang:empty {content: "шумер.";}
             :lang(evn) > lang:empty {content: "эвенк.";}
             :lang(et) > lang:empty {content: "эст.";}
@@ -382,18 +382,17 @@ example > tr q::after {content: "“";}
             *[extralang~="pal-x-pazend"] > lang:empty {-oxy-append-content: ", паз.";}
             *[extralang~="pi"] > lang:empty {-oxy-append-content: ", пали";}
             *[extralang~="x-pamir"] > lang:empty {-oxy-append-content: ", пам.";}
-            *[extralang~="sgh-x-bartang"] > lang:empty {-oxy-append-content: ", пам. барт.";}
             *[extralang~="wbl"] > lang:empty {-oxy-append-content: ", пам. в.";}
-            *[extralang~="sgy-x-zebak"] > lang:empty {-oxy-append-content: ", пам. зеб.";}
             *[extralang~="ydg"] > lang:empty {-oxy-append-content: ", пам. и.";}
             *[extralang~="isk"] > lang:empty {-oxy-append-content: ", пам. ишк.";}
             *[extralang~="mnj"] > lang:empty {-oxy-append-content: ", пам. м.";}
             *[extralang~="x-pamir-n"] > lang:empty {-oxy-append-content: ", пам. н.??";}
             *[extralang~="oru"] > lang:empty {-oxy-append-content: ", пам. ор.";}
             *[extralang~="x-rushani"] > lang:empty {-oxy-append-content: ", пам. руш.";}
-            *[extralang~="srh"] > lang:empty {-oxy-append-content: ", пам. с.";}
             *[extralang~="sgy"] > lang:empty {-oxy-append-content: ", пам. сгл.";}
+            *[extralang~="sgy-x-zebak"] > lang:empty {-oxy-append-content: ", пам. зеб.";}            
             *[extralang~="sgh"] > lang:empty {-oxy-append-content: ", пам. ш.";}
+            *[extralang~="sgh-x-bartang"] > lang:empty {-oxy-append-content: ", пам. барт.";}            
             *[extralang~="yah"] > lang:empty {-oxy-append-content: ", пам. язг.";}
             *[extralang~="prc"] > lang:empty {-oxy-append-content: ", пар.";}
             *[extralang~="xpr"] > lang:empty {-oxy-append-content: ", парф.";}
@@ -411,6 +410,7 @@ example > tr q::after {content: "“";}
             *[extralang~="inc-x-nnew"] > lang:empty {-oxy-append-content: ", северные новоиндийские диалекты";}
             *[extralang~="sem"] > lang:empty {-oxy-append-content: ", семит.";}
             *[extralang~="sr"] > lang:empty {-oxy-append-content: ", серб.";}
+            *[extralang~="srh"] > lang:empty {-oxy-append-content: ", пам. с.";}            
             *[extralang~="syr"] > lang:empty {-oxy-append-content: ", сир.";}
             *[extralang~="xsc"] > lang:empty {-oxy-append-content: ", скиф.";}
             *[extralang~="sla"] > lang:empty {-oxy-append-content: ", слав.";}
@@ -464,7 +464,7 @@ example > tr q::after {content: "“";}
             *[extralang~="ce"] > lang:empty {-oxy-append-content: ", чеч.";}
             *[extralang~="cs"] > lang:empty {-oxy-append-content: ", чеш.";}
             *[extralang~="cv"] > lang:empty {-oxy-append-content: ", чув.";}
-            *[extralang~="ady"] > lang:empty {-oxy-append-content: ", шапс.";}
+            *[extralang~="ady-x-shpsg"] > lang:empty {-oxy-append-content: ", шапс.";}
             *[extralang~="sv"] > lang:empty {-oxy-append-content: ", швед.";}
             *[extralang~="sux"] > lang:empty {-oxy-append-content: ", шумер.";}
             *[extralang~="evn"] > lang:empty {-oxy-append-content: ", эвенк.";}

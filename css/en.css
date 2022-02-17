@@ -143,7 +143,6 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             :lang(nog) > lang:empty {content: "Nogai";}
             :lang(nub) > lang:empty {content: "Nubian";}
             :lang(oru) > lang:empty {content: "Ormuri";}
-            :lang(pal-x-pazend) > lang:empty {content: "Pazend";}
             :lang(pi) > lang:empty {content: "Pali";}
             :lang(x-pamir) > lang:empty {content: "Pamir";}
             :lang(wbl) > lang:empty {content: "Wakhi";}
@@ -164,6 +163,7 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             :lang(fa) > lang:empty {content: "Persian";}
             :lang(pal) > lang:empty {content: "Middle Persian";}
             :lang(pal-x-turfan) > lang:empty {content: "Turfan Pahlavi";}
+            :lang(pal-x-pazend) > lang:empty {content: "Pazend";}            
             :lang(pl) > lang:empty {content: "Polish";}
             :lang(ro) > lang:empty {content: "Romanian";}
             :lang(ru) > lang:empty {content: "Russian";}

@@ -148,7 +148,6 @@ example > tr q::after {content: "“";}
             :lang(nog) > lang:empty {content: "ног.";}
             :lang(nub) > lang:empty {content: "нубийское";}
             :lang(oru) > lang:empty {content: "орм.";}
-            :lang(pal-x-pazend) > lang:empty {content: "паз.";}
             :lang(pi) > lang:empty {content: "пали";}
             :lang(x-pamir) > lang:empty {content: "пам.";}
             :lang(wbl) > lang:empty {content: "пам. в.";}
@@ -168,6 +167,7 @@ example > tr q::after {content: "“";}
             :lang(psh) > lang:empty {content: "пашан";}
             :lang(fa) > lang:empty {content: "перс.";}
             :lang(pal) > lang:empty {content: "пехл.";}
+            :lang(pal-x-pazend) > lang:empty {content: "паз.";}            
             :lang(pal-x-turfan) > lang:empty {content: "пехл. турф.";}
             :lang(pl) > lang:empty {content: "пол.";}
             :lang(ro) > lang:empty {content: "рум.";}
@@ -379,7 +379,6 @@ example > tr q::after {content: "“";}
             *[extralang~="nub"] > lang:empty {-oxy-append-content: ", нубийское";}
             *[extralang~="oru"] > lang:empty {-oxy-append-content: ", орм.";}
             *[extralang~="os"] > lang:empty {-oxy-append-content: ", ос.";}
-            *[extralang~="pal-x-pazend"] > lang:empty {-oxy-append-content: ", паз.";}
             *[extralang~="pi"] > lang:empty {-oxy-append-content: ", пали";}
             *[extralang~="x-pamir"] > lang:empty {-oxy-append-content: ", пам.";}
             *[extralang~="wbl"] > lang:empty {-oxy-append-content: ", пам. в.";}
@@ -399,6 +398,7 @@ example > tr q::after {content: "“";}
             *[extralang~="psh"] > lang:empty {-oxy-append-content: ", пашан";}
             *[extralang~="fa"] > lang:empty {-oxy-append-content: ", перс.";}
             *[extralang~="pal"] > lang:empty {-oxy-append-content: ", пехл.";}
+            *[extralang~="pal-x-pazend"] > lang:empty {-oxy-append-content: ", паз.";}            
             *[extralang~="pal-x-turfan"] > lang:empty {-oxy-append-content: ", пехл. турф.";}
             *[extralang~="pl"] > lang:empty {-oxy-append-content: ", пол.";}
             *[extralang~="ro"] > lang:empty {-oxy-append-content: ", рум.";}

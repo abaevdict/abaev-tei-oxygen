@@ -26,6 +26,7 @@ q::after {content: "’";}
 teiHeader {display: none}
 
 body > entry {display: block}
+body > entry[n]:before {content: attr(n); vertical-align: super; font-size: .7em;}
 body > entry + entry {margin-top: 10px}
 
 lang {font-style: normal}

@@ -229,7 +229,7 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             :lang(ce) > lang:empty {content: "Chechen";}
             :lang(cs) > lang:empty {content: "Czech";}
             :lang(cv) > lang:empty {content: "Chuvash";}
-            :lang(ady) > lang:empty {content: "Shapsug Adyghe";}
+            :lang(ady-x-shpsg) > lang:empty {content: "Shapsug Adyghe";}
             :lang(sux) > lang:empty {content: "Sumerian";}
             :lang(evn) > lang:empty {content: "Evenki";}
             :lang(et) > lang:empty {content: "Estonian";}
@@ -460,7 +460,7 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             *[extralang~="ce"] > lang:empty {-oxy-append-content: ", Chechen";}
             *[extralang~="cs"] > lang:empty {-oxy-append-content: ", Czech";}
             *[extralang~="cv"] > lang:empty {-oxy-append-content: ", Chuvash";}
-            *[extralang~="ady"] > lang:empty {-oxy-append-content: ", Shapsug Adyghe";}
+            *[extralang~="ady-x-shpsg"] > lang:empty {-oxy-append-content: ", Shapsug Adyghe";}
             *[extralang~="sv"] > lang:empty {-oxy-append-content: ", Swedish";}
             *[extralang~="sux"] > lang:empty {-oxy-append-content: ", Sumerian";}
             *[extralang~="evn"] > lang:empty {-oxy-append-content: ", Evenki";}

@@ -61,7 +61,7 @@ form > form + form[type="variant"]::before {content: ", "}
 re > form orth {font-style: italic}
 
 sense {display: inline}
-sense[n]:before {content: attr(n) ". "}
+sense[n]:before {content: " " attr(n) ". "}
 entry > sense + sense:before {content: "; "}
 entry > sense + sense[n]:before {content: "; " attr(n) ". "}
 entry > form + sense:before, re > form + sense:before {-oxy-prepend-content: " "}

@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><serialized version="22.0" xml:space="preserve">
+<?xml version="1.0" encoding="UTF-8"?><serialized xml:space="preserve">
 	<serializableOrderedMap>
 		<entry>
 			<String>document.types</String>
 			<documentTypeDescriptor-array>
 				<documentTypeDescriptor>
+					<field name="webResources">
+						<String-array><String>${frameworkDir(TEI P5)}/web</String></String-array>
+					</field>
 					<field name="extensionPatch">
 						<null/>
 					</field>
@@ -57,52 +60,6 @@
 							</field>
 							<field name="actionDescriptors">
 								<action-array>
-									<action>
-										<field name="id">
-											<String>bold</String>
-										</field>
-										<field name="name">
-											<String>${i18n(bold)}</String>
-										</field>
-										<field name="description">
-											<String>${i18n(bold_description)}</String>
-										</field>
-										<field name="largeIconPath">
-											<String>/images/Bold24.png</String>
-										</field>
-										<field name="smallIconPath">
-											<String>/images/Bold16.png</String>
-										</field>
-										<field name="accessKey">
-											<String>B</String>
-										</field>
-										<field name="accelerator">
-											<String>M1 B</String>
-										</field>
-										<field name="actionModes">
-											<actionMode-array>
-												<actionMode>
-													<field name="xpathCondition">
-														<String/>
-													</field>
-													<field name="argValues">
-														<serializableOrderedMap>
-															<entry>
-																<String>element</String>
-																<String>&lt;hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold"/&gt;</String>
-															</entry>
-														</serializableOrderedMap>
-													</field>
-													<field name="operationID">
-														<String>ro.sync.ecss.extensions.commons.operations.ToggleSurroundWithElementOperation</String>
-													</field>
-												</actionMode>
-											</actionMode-array>
-										</field>
-										<field name="enabledInReadOnlyContext">
-											<Boolean>false</Boolean>
-										</field>
-									</action>
 									<action>
 										<field name="id">
 											<String>italic</String>
@@ -4070,7 +4027,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 					<field name="textModeExternalObjectInsertionHandler">
 						<null/>
 					</field>
-				<field name="webResources"><String-array><String>${frameworkDir(TEI P5)}/web</String></String-array></field></documentTypeDescriptor>
+				</documentTypeDescriptor>
 			</documentTypeDescriptor-array>
 		</entry>
 	</serializableOrderedMap>

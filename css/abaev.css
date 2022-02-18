@@ -155,3 +155,5 @@ note[type="footnote"] {vertical-align: sub; font-size: small}
 oRef {font-style:italic}
 quote > oRef {font-weight:bold;}
 oRef:empty {content: oxy_xpath("(ancestor::entry | ancestor::re)/form[1]/orth[1]/text()")}
+
+author {letter-spacing: 3px;}

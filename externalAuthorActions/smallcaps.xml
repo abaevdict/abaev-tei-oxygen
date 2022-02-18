@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<a:authorAction xmlns:a="http://www.oxygenxml.com/ns/author/external-action"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.oxygenxml.com/ns/author/external-action http://www.oxygenxml.com/ns/author/external-action/authorAction.xsd"
+  id="smallcaps">
+  <a:name>Small caps</a:name>
+  <a:description>Change text to small capitals (letter spacing in Russian)</a:description>
+  <a:smallIconPath href="small-caps16.png"/>
+  <a:largeIconPath href="small-caps24.png"/>
+  <a:operations>
+    <a:operation id="ToggleSurroundWithElementOperation">
+      <a:arguments>
+        <a:argument name="element"><hi xmlns="http://www.tei-c.org/ns/1.0" rendition="#rend_smallcaps"/></a:argument>
+      </a:arguments>
+    </a:operation>
+  </a:operations>
+  <a:accelerator>M1 B</a:accelerator>
+  <a:accessKey>B</a:accessKey>
+  <a:enabledInReadOnlyContext>false</a:enabledInReadOnlyContext>
+</a:authorAction>

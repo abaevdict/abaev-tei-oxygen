@@ -11,7 +11,8 @@ oxy|doctype {
 body { font-family: "Libertinus Serif"; font-size: large; line-height: 1.1; }
 
 hi[rendition~="#rend_italic"] {font-style: italic;}
-hi[rendition~="#rend_bold"] {font-weight: bold}
+hi[rendition~="#rend_bold"] {font-weight: bold;}
+hi[rendition~="#rend_underline"] {text-decoration: underline;}
 hi[rendition~="#rend_subscript"] {vertical-align: sub;}
 hi[rendition~="#rend_smallcaps"] {font-variant: small-caps;}
 

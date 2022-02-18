@@ -108,8 +108,8 @@ example > bibl::before{content: " (";}
 example > bibl::after{content: ")";}
 /*bibl > biblScope::before{content: " ";}*/
 
-example > note::before{content: " (";}
-example > note::after{content: ")";}
+/*example > note::before{content: " (";}
+example > note::after{content: ")";}*/
 
 ref[target]:empty::before {content:attr(target); font-style: italic; background-color: grey;}
 

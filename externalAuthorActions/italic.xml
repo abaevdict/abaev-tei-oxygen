@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<a:authorAction xmlns:a="http://www.oxygenxml.com/ns/author/external-action"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.oxygenxml.com/ns/author/external-action http://www.oxygenxml.com/ns/author/external-action/authorAction.xsd"
+  id="italic">
+  <a:name>${i18n(italic)}</a:name>
+  <a:description>${i18n(italic_description)}</a:description>
+  <a:smallIconPath href="/images/Italic16.png"/>
+  <a:largeIconPath href="/images/Italic24.png"/>
+  <a:operations>
+    <a:operation id="ToggleSurroundWithElementOperation">
+      <a:arguments>
+        <a:argument name="element"><hi xmlns="http://www.tei-c.org/ns/1.0" rendition="#rend_italic"/></a:argument>
+      </a:arguments>
+    </a:operation>
+  </a:operations>
+  <a:accelerator>M1 I</a:accelerator>
+  <a:accessKey>I</a:accessKey>
+  <a:enabledInReadOnlyContext>false</a:enabledInReadOnlyContext>
+</a:authorAction>

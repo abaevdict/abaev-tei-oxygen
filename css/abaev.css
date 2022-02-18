@@ -82,9 +82,9 @@ note {display: inline; font-size: 100%}
 tr {display: inline;}
 tr + def::before {content: "; "}
 
-tr > q {margin-bottom: 0; margin-left: 0; margin-right: 0; quotes: '‘' '’';}
-tr q::before {content: "‘";}
-tr q::after {content: "ʼ";}
+tr > q {margin-bottom: 0; margin-left: 0; margin-right: 0;}
+/*tr > q::before {content: "‘";}*/
+/*tr > q::after {content: "ʼ";}*/
 quote + tr::before {content: " "}
 example > tr:lang(ru) + tr:lang(en)::before {content: " "}
 
@@ -92,6 +92,7 @@ example > tr:lang(ru) + tr:lang(en)::before {content: " "}
 
 tr:lang(en) + tr:lang(en)::before {content: ", "}
 tr:lang(ru) + tr:lang(ru)::before {content: ", "}
+tr > q + q::before {content: ", "}
 
 exampleGrp {display: inline;}
 exampleGrp::before {content: ". — ";}

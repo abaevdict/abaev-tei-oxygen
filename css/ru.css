@@ -14,6 +14,7 @@ q[rendition~="#rend_doublequotes"]::after {content: "“";}
 
 example > tr q::before {content: "„";}
 example > tr q::after {content: "“";}
+example > tr > q + q::before {content: ", „"}
 
 :lang(os) > lang:empty {content: "ос."}
 :lang(os) > usg > lang:empty {content: "ос."}

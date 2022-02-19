@@ -30,27 +30,7 @@
 					<field name="authorExtensionDescriptor">
 						<authorExtension>
 							<field name="cssDescriptors">
-								<cssFile-array><cssFile>
-										<field name="href">
-											<String>${framework(TEI P5)}/xml/tei/css/tei_oxygen.css</String>
-										</field>
-										<field name="title">
-											<String>Basic</String>
-										</field>
-										<field name="alternate">
-											<Boolean>false</Boolean>
-										</field>
-									</cssFile><cssFile>
-										<field name="href">
-											<String>${framework(TEI P5)}/xml/tei/css/alternate-full-width-layout.css</String>
-										</field>
-										<field name="title">
-											<String>+ Full Width</String>
-										</field>
-										<field name="alternate">
-											<Boolean>true</Boolean>
-										</field>
-									</cssFile><cssFile><field name="href"><String>${framework}/css/abaev.css</String></field><field name="title"><String>Abaev dictionary CSS</String></field><field name="alternate"><Boolean>true</Boolean></field></cssFile><cssFile><field name="href"><String>${framework}/css/ru.css</String></field><field name="title"><String>Russian</String></field><field name="alternate"><Boolean>true</Boolean></field></cssFile><cssFile><field name="href"><String>${framework}/css/en.css</String></field><field name="title"><String>English</String></field><field name="alternate"><Boolean>true</Boolean></field></cssFile></cssFile-array>
+								<cssFile-array><cssFile><field name="href"><String>${framework}/css/abaev.css</String></field><field name="title"><String>Abaev dictionary CSS</String></field><field name="alternate"><Boolean>false</Boolean></field></cssFile><cssFile><field name="href"><String>${framework}/css/ru.css</String></field><field name="title"><String>Russian</String></field><field name="alternate"><Boolean>true</Boolean></field></cssFile><cssFile><field name="href"><String>${framework}/css/en.css</String></field><field name="title"><String>English</String></field><field name="alternate"><Boolean>true</Boolean></field></cssFile></cssFile-array>
 							</field>
 							<field name="mergeCSSsFromDocument">
 								<Boolean>false</Boolean>

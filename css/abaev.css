@@ -55,8 +55,10 @@ form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"]::before {content: " | "
 w[xml|lang="os-x-iron"] + w[xml|lang="os-x-digor"]::before {content: " | "; font-style: normal;}
 entry > form orth {font-weight: bold}
 orth + form[type="variant"]::before {content: ", "}
-orth + form[type="variant"][rendition~="#rend_parens"]::before {content: " ("}
-orth + form[type="variant"][rendition~="#rend_parens"]::after {content: ")"}
+orth + form[type="parens"]::before {content: " ("}
+orth + form[type="parens"]::after {content: ")"}
+/*orth + form[type="variant"][rendition~="#rend_parens"]::before {content: " ("}
+orth + form[type="variant"][rendition~="#rend_parens"]::after {content: ")"}*/
 orth + form[type="participle"]::before {content: " : "}
 form > form + form[type="variant"]::before {content: ", "}
 

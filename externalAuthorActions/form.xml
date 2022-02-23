@@ -27,7 +27,7 @@ Only the framework saved inside {framework_file_name}.framework will have this p
     <a:operation id="InsertFragmentOperation">
       <a:xpathCondition>oxy:allows-child-element("form")</a:xpathCondition>
       <a:arguments>
-        <a:argument name="fragment"><form type="${ask('Select form type:',combobox,('variant':'Variant';'participle':'Participle'),'variant')}" xmlns="http://www.tei-c.org/ns/1.0"><orth></orth></form></a:argument>
+        <a:argument name="fragment"><form type="${ask('Select form type:',combobox,('variant':'Variant';'parens':'Variant (parentheses)';'participle':'Participle'),'variant')}" xmlns="http://www.tei-c.org/ns/1.0"><orth></orth></form></a:argument>
       </a:arguments>
     </a:operation>
   </a:operations>

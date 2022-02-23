@@ -2714,7 +2714,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 													<String>table.split</String>
 												</field>
 											</toolbarItem>
-										<toolbarItem><field name="actionID"><String>make-digor</String></field></toolbarItem><toolbarItem><field name="actionID"><String>smallcaps</String></field></toolbarItem></toolbarEntry-array>
+										<toolbarItem><field name="actionID"><String>make-digor</String></field></toolbarItem><toolbarItem><field name="actionID"><String>smallcaps</String></field></toolbarItem><toolbarItem><field name="actionID"><String>subscript</String></field></toolbarItem><toolbarItem><field name="actionID"><String>superscript</String></field></toolbarItem></toolbarEntry-array>
 									</field>
 								</toolbar>
 							</field>

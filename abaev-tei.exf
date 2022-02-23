@@ -54,6 +54,8 @@ action.
         <addAction id="exampleGrp"/>-->
         <addAction id="make-digor"/>
         <addAction id="smallcaps"/>
+        <addAction id="subscript"/>
+        <addAction id="superscript"/>
       </toolbar>
     </toolbars>
   </author>  

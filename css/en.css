@@ -169,6 +169,7 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             :lang(ru) > lang:empty {content: "Russian";}
             :lang(rut) > lang:empty {content: "Rutul";}
             :lang(kho) > lang:empty {content: "Saka";}
+            :lang(xtq) > lang:empty {content: "Tumshuqese";}
             :lang(sv) > lang:empty {content: "Swedish";}
             :lang(sva) > lang:empty {content: "Svan";}
             :lang(trk-x-north) > lang:empty {content: "North Turkic";}
@@ -182,6 +183,8 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             :lang(sla) > lang:empty {content: "Slavic";}
             :lang(sog) > lang:empty {content: "Sogdian";}
             :lang(sog-x-chr) > lang:empty {content: "Christian Sogdian";}
+            :lang(sog-x-man) > lang:empty {content: "Manichean Sogdian";}
+            :lang(sog-x-budd) > lang:empty {content: "Buddhist Sogdian";}            
             :lang(gmh) > lang:empty {content: "Middle High German";}
             :lang(inc-x-mid) > lang:empty {content: "Middle Indic";}
             :lang(ira-x-mid) > lang:empty {content: "Middle Iranian";}
@@ -413,6 +416,8 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
             *[extralang~="sl"] > lang:empty {-oxy-append-content: ", Slovenian";}
             *[extralang~="sog"] > lang:empty {-oxy-append-content: ", Sogdian";}
             *[extralang~="sog-x-chr"] > lang:empty {-oxy-append-content: ", Christian Sogdian";}
+            *[extralang~="sog-x-man"] > lang:empty {-oxy-append-content: ", Manichean Sogdian";}
+            *[extralang~="sog-x-budd"] > lang:empty {-oxy-append-content: ", Buddhist Sogdian";}
             *[extralang~="gmh"] > lang:empty {-oxy-append-content: ", Middle High German";}
             *[extralang~="inc-x-mid"] > lang:empty {-oxy-append-content: ", Middle Indic";}
             *[extralang~="ira-x-mid"] > lang:empty {-oxy-append-content: ", Middle Iranian";}

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
+
 etym:lang(en) {display: none}
 tr:lang(en) {display: none}
 def:lang(en) {display: none}
@@ -175,6 +176,7 @@ example > tr > q + q::before {content: ", „"}
             :lang(ru) > lang:empty {content: "русск.";}
             :lang(rut) > lang:empty {content: "рутул.";}
             :lang(kho) > lang:empty {content: "сак.";}
+            :lang(xtq) > lang:empty {content: "сак. (Тумшук)";}
             :lang(sv) > lang:empty {content: "швед.";}
             :lang(sva) > lang:empty {content: "сван.";}
             :lang(trk-x-north) > lang:empty {content: "сев. тюрк.";}
@@ -188,6 +190,8 @@ example > tr > q + q::before {content: ", „"}
             :lang(sla) > lang:empty {content: "слав.";}
             :lang(sog) > lang:empty {content: "согд.";}
             :lang(sog-x-chr) > lang:empty {content: "согд. христ.";}
+            :lang(sog-x-man) > lang:empty {content: "согд. ман.";}
+            :lang(sog-x-budd) > lang:empty {content: "согд. будд.";}
             :lang(gmh) > lang:empty {content: "ср.в.нем.";}
             :lang(inc-x-mid) > lang:empty {content: "ср.инд.";}
             :lang(ira-x-mid) > lang:empty {content: "ср.иран.";}
@@ -406,6 +410,7 @@ example > tr > q + q::before {content: ", „"}
             *[extralang~="ru"] > lang:empty {-oxy-append-content: ", русск.";}
             *[extralang~="rut"] > lang:empty {-oxy-append-content: ", рутул.";}
             *[extralang~="kho"] > lang:empty {-oxy-append-content: ", сак.";}
+            *[extralang~="xtq"] > lang:empty {-oxy-append-content: ", сак. (Тумшук)";}
             *[extralang~="sva"] > lang:empty {-oxy-append-content: ", сван.";}
             *[extralang~="trk-x-north"] > lang:empty {-oxy-append-content: ", сев. тюрк.";}
             *[extralang~="inc-x-nnew"] > lang:empty {-oxy-append-content: ", северные новоиндийские диалекты";}
@@ -418,6 +423,8 @@ example > tr > q + q::before {content: ", „"}
             *[extralang~="sl"] > lang:empty {-oxy-append-content: ", слов.";}
             *[extralang~="sog"] > lang:empty {-oxy-append-content: ", согд.";}
             *[extralang~="sog-x-chr"] > lang:empty {-oxy-append-content: ", согд. христ.";}
+            *[extralang~="sog-x-man"] > lang:empty {-oxy-append-content: ", согд. ман.";}
+            *[extralang~="sog-x-budd"] > lang:empty {-oxy-append-content: ", согд. будд.";}
             *[extralang~="gmh"] > lang:empty {-oxy-append-content: ", ср.в.нем.";}
             *[extralang~="inc-x-mid"] > lang:empty {-oxy-append-content: ", ср.инд.";}
             *[extralang~="ira-x-mid"] > lang:empty {-oxy-append-content: ", ср.иран.";}

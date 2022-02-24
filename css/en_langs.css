@@ -1,0 +1,471 @@
+@charset "UTF-8";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+:lang(os) > lang:empty {content: "Ossetic"}
+:lang(os) > usg > lang:empty {content: "Ossetic"}
+:lang(os-x-iron) > lang:empty {content: "Iron"}
+:lang(os-x-iron) > usg > lang:empty {content: "Iron"}
+:lang(os-x-digor) > lang:empty {content: "Digor"}
+:lang(os-x-digor) > usg > lang:empty {content: "Digor"}
+:lang(os-x-south) > lang:empty {content: "South Ossetic"}
+:lang(os-x-south) > usg > lang:empty {content: "South Ossetic"}
+:lang(os-x-ksan) > lang:empty {content: "Ksan Ossetic"}
+:lang(os-x-ksan) > usg > lang:empty {content: "Ksan Ossetic"}
+
+
+            :lang(ady-x-abadz) > lang:empty {content: "Abzakh";}
+            :lang(ab) > lang:empty {content: "Abkhaz";}
+            :lang(abq) > lang:empty {content: "Abaza";}
+            :lang(ae) > lang:empty {content: "Avestan";}
+            :lang(av) > lang:empty {content: "Avar";}
+            :lang(agx) > lang:empty {content: "Aghul";}
+            :lang(ady) > lang:empty {content: "Adyghe";}
+            :lang(аz) > lang:empty {content: "Azerbaijani";}
+            :lang(akk) > lang:empty {content: "Akkadian";}
+            :lang(dar-x-aqusha) > lang:empty {content: "Aqusha Dargwa";}
+            :lang(xln) > lang:empty {content: "Alanic";}
+            :lang(sqj) > lang:empty {content: "Albanian";}
+            :lang(alt) > lang:empty {content: "Altai";}
+            :lang(tr-x-anat) > lang:empty {content: "Anatolian Turkish";}
+            :lang(en) > lang:empty {content: "English";}
+            :lang(ang) > lang:empty {content: "Old English";}
+            :lang(ani) > lang:empty {content: "Andi";}
+            :lang(iir) > lang:empty {content: "Proto-Indo-Iranian";}
+            :lang(ar) > lang:empty {content: "Arabic";}
+            :lang(arc) > lang:empty {content: "Aramaic";}
+            :lang(xcl) > lang:empty {content: "(Classical) Armenian";}
+            :lang(aqc) > lang:empty {content: "Archi";}
+            :lang(aii) > lang:empty {content: "Assyrian";}
+            :lang(ps) > lang:empty {content: "Pashto";}
+            :lang(krc-x-balkar) > lang:empty {content: "Balkar";}
+            :lang(eu) > lang:empty {content: "Basque";}
+            :lang(ba) > lang:empty {content: "Bashkir";}
+            :lang(x-balochi) > lang:empty {content: "Balochi";}
+            :lang(be) > lang:empty {content: "Belarusian";}
+            :lang(bg) > lang:empty {content: "Bulgarian";}
+            :lang(br) > lang:empty {content: "Breton";}
+            :lang(bdk) > lang:empty {content: "Budugh";}
+            :lang(xbo) > lang:empty {content: "Bulgar";}
+            :lang(bua) > lang:empty {content: "Buryat";}
+            :lang(sa-vaidika) > lang:empty {content: "Vedic";}
+            :lang(x-vaynakh) > lang:empty {content: "Vaynakh";}
+            :lang(hu) > lang:empty {content: "Hungarian";}
+            :lang(vep) > lang:empty {content: "Veps";}
+            :lang(bsk) > lang:empty {content: "Burushaski";}
+            :lang(gem) > lang:empty {content: "Proto-Germanic";}
+            :lang(glk) > lang:empty {content: "Gilaki";}
+            :lang(got) > lang:empty {content: "Gothic";}
+            :lang(grc) > lang:empty {content: "(Ancient) Greek";}
+            :lang(ka) > lang:empty {content: "Georgian";}
+            :lang(hac) > lang:empty {content: "Gorani";}
+            :lang(dar) > lang:empty {content: "Dargwa";}
+            :lang(chg) > lang:empty {content: "Chagatai";}
+            :lang(kry-x-jek) > lang:empty {content: "Jek Kryts";}
+            :lang(ddo) > lang:empty {content: "Tsez";}
+            :lang(cu-x-bg) > lang:empty {content: "Old Bulgarian";}
+            :lang(goh) > lang:empty {content: "Old High German";}
+            :lang(gem-x-old) > lang:empty {content: "Old Germanic";}
+            :lang(hbo) > lang:empty {content: "(Ancient) Hebrew";}
+            :lang(x-oldirn) > lang:empty {content: "Proto-Iranian";}
+            :lang(sga) > lang:empty {content: "Old Irish";}
+            :lang(peo) > lang:empty {content: "Old Persian";}
+            :lang(prg) > lang:empty {content: "Old Prussian";}
+            :lang(orv) > lang:empty {content: "Old Russian";}
+            :lang(osx) > lang:empty {content: "Old Saxon";}
+            :lang(no) > lang:empty {content: "Norwegian";}
+            :lang(non) > lang:empty {content: "Old Norse";}
+            :lang(non-x-is) > lang:empty {content: "Old Icelandic";}
+            :lang(x-oldsl) > lang:empty {content: "Proto-Slavic";}
+            :lang(zza) > lang:empty {content: "Zazaki";}
+            :lang(ine) > lang:empty {content: "Proto-Indo-European";}
+            :lang(inh) > lang:empty {content: "Ingush";}
+            :lang(inc) > lang:empty {content: "Indic";}
+            :lang(inc-x-old) > lang:empty {content: "Old Indic";} 
+            :lang(ira) > lang:empty {content: "(Proto-?)Iranian";}
+            :lang(ga) > lang:empty {content: "Irish";}
+            :lang(es) > lang:empty {content: "Spanish";}
+            :lang(it) > lang:empty {content: "Italian";}
+            :lang(kbd) > lang:empty {content: "Kabardian";}
+            :lang(kk) > lang:empty {content: "Kazakh";}
+            :lang(tt-x-kazan) > lang:empty {content: "Kazan Tatar";}
+            :lang(dar-x-kaitag) > lang:empty {content: "Kaitag Dargwa";}
+            :lang(xal) > lang:empty {content: "Kalmyk";}
+            :lang(kap) > lang:empty {content: "Bezhta";}
+            :lang(kdr) > lang:empty {content: "Karaim";}
+            :lang(krc-x-karachay) > lang:empty {content: "Karachay";}
+            :lang(krl) > lang:empty {content: "Karelian";}
+            :lang(ccs) > lang:empty {content: "South Caucasian";}
+            :lang(x-nuristan) > lang:empty {content: "Nuristani";}
+            :lang(ug-x-kashgar) > lang:empty {content: "Kashgari Uyghur";}
+            :lang(cel) > lang:empty {content: "Celtic";}
+            :lang(ky) > lang:empty {content: "Kyrgyz";}
+            :lang(zh) > lang:empty {content: "Chinese";}
+            :lang(kv) > lang:empty {content: "Komi";}
+            :lang(kum) > lang:empty {content: "Kumyk";}
+            :lang(qwm) > lang:empty {content: "Cuman";}
+            :lang(ku) > lang:empty {content: "Kurdish";}
+            :lang(xbc) > lang:empty {content: "Bactrian";}
+            :lang(pgd) > lang:empty {content: "Gandhari";}
+            :lang(lbe) > lang:empty {content: "Lak";}
+            :lang(la) > lang:empty {content: "Latin";}
+            :lang(lv) > lang:empty {content: "Latvian";}
+            :lang(lez) > lang:empty {content: "Lezgian";}
+            :lang(liv) > lang:empty {content: "Livonian";}
+            :lang(lt) > lang:empty {content: "Lithuanian";}
+            :lang(smi) > lang:empty {content: "Sami";}
+            :lang(wen) > lang:empty {content: "Sorbian";}
+            :lang(ldd) > lang:empty {content: "Luri";}
+            :lang(mzn) > lang:empty {content: "Mazanderani";}
+            :lang(mns) > lang:empty {content: "Mansi";}
+            :lang(chm) > lang:empty {content: "Mari";}
+            :lang(xmf) > lang:empty {content: "Mingerlian";}
+            :lang(xme) > lang:empty {content: "Median";}
+            :lang(mn) > lang:empty {content: "Mongolian";}
+            :lang(bua) > lang:empty {content: "Buryat";}
+            :lang(cmg) > lang:empty {content: "Classical Mongolian";}
+            :lang(x-mordvin) > lang:empty {content: "Mordvinic";}
+            :lang(el) > lang:empty {content: "Modern Greek";}
+            :lang(de) > lang:empty {content: "German";}
+            :lang(yrk) > lang:empty {content: "Nenets";}
+            :lang(nl) > lang:empty {content: "Dutch";}
+            :lang(nds) > lang:empty {content: "Low German";}
+            :lang(nog) > lang:empty {content: "Nogai";}
+            :lang(nub) > lang:empty {content: "Nubian";}
+            :lang(oru) > lang:empty {content: "Ormuri";}
+            :lang(pi) > lang:empty {content: "Pali";}
+            :lang(x-pamir) > lang:empty {content: "Pamir";}
+            :lang(wbl) > lang:empty {content: "Wakhi";}
+            :lang(ydg) > lang:empty {content: "Yidgha";}
+            :lang(isk) > lang:empty {content: "Ishkashimi";}
+            :lang(mnj) > lang:empty {content: "Munji";}
+            :lang(x-pamir-n) > lang:empty {content: "Pamir";}
+            :lang(oru) > lang:empty {content: "Ormuri";}
+            :lang(x-rushani) > lang:empty {content: "Rushani";}
+            :lang(sgy) > lang:empty {content: "Sanglechi";}
+            :lang(sgy-x-zebak) > lang:empty {content: "Zebaki";}            
+            :lang(sgh) > lang:empty {content: "Shughni";}
+            :lang(sgh-x-bartang) > lang:empty {content: "Bartangi";}            
+            :lang(yah) > lang:empty {content: "Yazgulyam";}
+            :lang(prc) > lang:empty {content: "Parachi";}
+            :lang(xpr) > lang:empty {content: "Parthian";}
+            :lang(psh) > lang:empty {content: "Pashai (?)";}
+            :lang(fa) > lang:empty {content: "Persian";}
+            :lang(pal) > lang:empty {content: "Middle Persian";}
+            :lang(pal-x-turfan) > lang:empty {content: "Turfan Pahlavi";}
+            :lang(pal-x-pazend) > lang:empty {content: "Pazend";}            
+            :lang(pl) > lang:empty {content: "Polish";}
+            :lang(ro) > lang:empty {content: "Romanian";}
+            :lang(ru) > lang:empty {content: "Russian";}
+            :lang(rut) > lang:empty {content: "Rutul";}
+            :lang(kho) > lang:empty {content: "Saka";}
+            :lang(xtq) > lang:empty {content: "Tumshuqese";}
+            :lang(sv) > lang:empty {content: "Swedish";}
+            :lang(sva) > lang:empty {content: "Svan";}
+            :lang(trk-x-north) > lang:empty {content: "North Turkic";}
+            :lang(inc-x-nnew) > lang:empty {content: "North New Indic dialects";}
+            :lang(sem) > lang:empty {content: "Semitic";}
+            :lang(sr) > lang:empty {content: "Serbian";}
+            :lang(srh) > lang:empty {content: "Sarikoli";}            
+            :lang(syr) > lang:empty {content: "Syriac";}
+            :lang(xsc) > lang:empty {content: "Scythian";}
+            :lang(sl) > lang:empty {content: "Slovenian";}
+            :lang(sla) > lang:empty {content: "Slavic";}
+            :lang(sog) > lang:empty {content: "Sogdian";}
+            :lang(sog-x-chr) > lang:empty {content: "Christian Sogdian";}
+            :lang(sog-x-man) > lang:empty {content: "Manichean Sogdian";}
+            :lang(sog-x-budd) > lang:empty {content: "Buddhist Sogdian";}            
+            :lang(gmh) > lang:empty {content: "Middle High German";}
+            :lang(inc-x-mid) > lang:empty {content: "Middle Indic";}
+            :lang(ira-x-mid) > lang:empty {content: "Middle Iranian";}
+            :lang(gml) > lang:empty {content: "Middle Low German";}
+            :lang(oos) > lang:empty {content: "Old Ossetic";}
+            :lang(cu) > lang:empty {content: "Old Church Slavonic";}
+            :lang(tab) > lang:empty {content: "Tabassaran";}
+            :lang(tg) > lang:empty {content: "Tajik";}
+            :lang(tly) > lang:empty {content: "Talyshi";}
+            :lang(tt) > lang:empty {content: "Tatar";}
+            :lang(ttt) > lang:empty {content: "Tat (Muslim?)";}
+            :lang(alt-x-teleut) > lang:empty {content: "Teleut Altai";}
+            :lang(bo) > lang:empty {content: "Tibetan";}
+            :lang(x-tchr) > lang:empty {content: "Tocharian";}
+            :lang(xto) > lang:empty {content: "Tocharian A";}
+            :lang(txb) > lang:empty {content: "Tocharian B";}
+            :lang(tr) > lang:empty {content: "Turkish";}
+            :lang(bbl) > lang:empty {content: "Bats";}
+            :lang(trk) > lang:empty {content: "Turkic";}
+            :lang(uby) > lang:empty {content: "Ubykh";}
+            :lang(udi) > lang:empty {content: "Udi";}
+            :lang(udm) > lang:empty {content: "Udmurt";}
+            :lang(uz) > lang:empty {content: "Uzbek";}
+            :lang(ug) > lang:empty {content: "Uyghur";}
+            :lang(uk) > lang:empty {content: "Ukrainian";}
+            :lang(uk-x-gal) > lang:empty {content: "Ukrainian (Galician)";}
+            :lang(mn-x-uriankh) > lang:empty {content: "Uriankhai";}
+            :lang(fi) > lang:empty {content: "Finnish";}
+            :lang(fr) > lang:empty {content: "French";}
+            :lang(txh) > lang:empty {content: "Thracian";}
+            :lang(kca) > lang:empty {content: "Khanty";}
+            :lang(khv) > lang:empty {content: "Khwarshi";}
+            :lang(ka-x-khevsur) > lang:empty {content: "Khevsur Georgian";}
+            :lang(hit) > lang:empty {content: "Hittite";}
+            :lang(kjj) > lang:empty {content: "Khinalugh";}
+            :lang(khw) > lang:empty {content: "Khowar";}
+            :lang(hr) > lang:empty {content: "Croatian";}
+            :lang(zkh) > lang:empty {content: "Khwarezmian";}
+            :lang(tkr) > lang:empty {content: "Tsakhur";}
+            :lang(rom) > lang:empty {content: "Romani";}
+            :lang(chg) > lang:empty {content: "Chagatai";}
+            :lang(cji) > lang:empty {content: "Chamalal";}
+            :lang(lzz) > lang:empty {content: "Laz";}
+            :lang(x-crc) > lang:empty {content: "Circassian";}
+            :lang(ce) > lang:empty {content: "Chechen";}
+            :lang(cs) > lang:empty {content: "Czech";}
+            :lang(cv) > lang:empty {content: "Chuvash";}
+            :lang(ady-x-shpsg) > lang:empty {content: "Shapsug Adyghe";}
+            :lang(sux) > lang:empty {content: "Sumerian";}
+            :lang(evn) > lang:empty {content: "Evenki";}
+            :lang(et) > lang:empty {content: "Estonian";}
+            :lang(os-x-south) > lang:empty {content: "South Ossetic";}
+            :lang(gbz-x-yzd) > lang:empty {content: "Yazdi";}
+            :lang(x-iazyg) > lang:empty {content: "Iazygean";}
+            :lang(sah) > lang:empty {content: "Yakut";}
+            :lang(yai) > lang:empty {content: "Yaghnobi";}
+            :lang(ja) > lang:empty {content: "Japanese";}
+            :lang(bqi) > lang:empty {content: "Bakhtiari"}
+            :lang(sa) > lang:empty {content: "Sanskrit";}
+            :lang(ofs) > lang:empty {content: "Old Frisian";}
+            :lang(da) > lang:empty {content: "Danish";}
+            
+*[extralang~="os"] > lang:empty {-oxy-append-content: ", Ossetic"}
+*[extralang~="os-x-iron"] > lang:empty {-oxy-append-content: ", Iron"}
+*[extralang~="os-x-digor"] > lang:empty {-oxy-append-content: ", Digor"}
+*[extralang~="os-x-south"] > lang:empty {-oxy-append-content: ", South Ossetic"}
+*[extralang~="os-x-ksan"] > lang:empty {-oxy-append-content: ", Ksan Ossetic"}
+
+            *[extralang~="ady-x-abadz"] > lang:empty {-oxy-append-content: ", Abzakh";}
+            *[extralang~="ab"] > lang:empty {-oxy-append-content: ", Abkhaz";}
+            *[extralang~="abq"] > lang:empty {-oxy-append-content: ", Abaza";}
+            *[extralang~="ae"] > lang:empty {-oxy-append-content: ", Avestan";}
+            *[extralang~="av"] > lang:empty {-oxy-append-content: ", Avar";}
+            *[extralang~="agx"] > lang:empty {-oxy-append-content: ", Aghul";}
+            *[extralang~="ady"] > lang:empty {-oxy-append-content: ", Adyghe";}
+            *[extralang~="аz"] > lang:empty {-oxy-append-content: ", Azerbaijani";}
+            *[extralang~="akk"] > lang:empty {-oxy-append-content: ", Akkadian";}
+            *[extralang~="dar-x-aqusha"] > lang:empty {-oxy-append-content: ", Aqusha Dargwa";}
+            *[extralang~="xln"] > lang:empty {-oxy-append-content: ", Alanic";}
+            *[extralang~="sqj"] > lang:empty {-oxy-append-content: ", Albanian";}
+            *[extralang~="alt"] > lang:empty {-oxy-append-content: ", Altai";}
+            *[extralang~="tr-x-anat"] > lang:empty {-oxy-append-content: ", Anatolian Turkish";}
+            *[extralang~="en"] > lang:empty {-oxy-append-content: ", English";}
+            *[extralang~="ang"] > lang:empty {-oxy-append-content: ", Old English";}
+            *[extralang~="ani"] > lang:empty {-oxy-append-content: ", Andi";}
+            *[extralang~="iir"] > lang:empty {-oxy-append-content: ", Proto-Indo-Iranian";}
+            *[extralang~="ar"] > lang:empty {-oxy-append-content: ", Arabic";}
+            *[extralang~="arc"] > lang:empty {-oxy-append-content: ", Aramaic";}
+            *[extralang~="xcl"] > lang:empty {-oxy-append-content: ", (Classical) Armenian";}
+            *[extralang~="aqc"] > lang:empty {-oxy-append-content: ", Archi";}
+            *[extralang~="aii"] > lang:empty {-oxy-append-content: ", Assyrian";}
+            *[extralang~="ps"] > lang:empty {-oxy-append-content: ", Pashto";}
+            *[extralang~="krc-x-balkar"] > lang:empty {-oxy-append-content: ", Balkar";}
+            *[extralang~="eu"] > lang:empty {-oxy-append-content: ", Basque";}
+            *[extralang~="ba"] > lang:empty {-oxy-append-content: ", Bashkir";}
+            *[extralang~="x-balochi"] > lang:empty {-oxy-append-content: ", Balochi";}
+            *[extralang~="be"] > lang:empty {-oxy-append-content: ", Belarusian";}
+            *[extralang~="bg"] > lang:empty {-oxy-append-content: ", Bulgarian";}
+            *[extralang~="br"] > lang:empty {-oxy-append-content: ", Breton";}
+            *[extralang~="bdk"] > lang:empty {-oxy-append-content: ", Budugh";}
+            *[extralang~="xbo"] > lang:empty {-oxy-append-content: ", Bulgar";}
+            *[extralang~="bua"] > lang:empty {-oxy-append-content: ", Buryat";}
+            *[extralang~="sa-vaidika"] > lang:empty {-oxy-append-content: ", Vedic";}
+            *[extralang~="x-vaynakh"] > lang:empty {-oxy-append-content: ", Vaynakh";}
+            *[extralang~="hu"] > lang:empty {-oxy-append-content: ", Hungarian";}
+            *[extralang~="vep"] > lang:empty {-oxy-append-content: ", Veps";}
+            *[extralang~="bsk"] > lang:empty {-oxy-append-content: ", Burushaski";}
+            *[extralang~="gem"] > lang:empty {-oxy-append-content: ", Proto-Germanic";}
+            *[extralang~="glk"] > lang:empty {-oxy-append-content: ", Gilaki";}
+            *[extralang~="got"] > lang:empty {-oxy-append-content: ", Gothic";}
+            *[extralang~="grc"] > lang:empty {-oxy-append-content: ", (Ancient) Greek";}
+            *[extralang~="ka"] > lang:empty {-oxy-append-content: ", Georgian";}
+            *[extralang~="hac"] > lang:empty {-oxy-append-content: ", Gorani";}
+            *[extralang~="os-x-digor"] > lang:empty {-oxy-append-content: ", Digor Ossetic";}
+            *[extralang~="dar"] > lang:empty {-oxy-append-content: ", Dargwa";}
+            *[extralang~="chg"] > lang:empty {-oxy-append-content: ", Chagatai";}
+            *[extralang~="kry-x-jek"] > lang:empty {-oxy-append-content: ", Jek Kryts";}
+            *[extralang~="os-x-digor"] > lang:empty {-oxy-append-content: ", Digor Ossetic";}
+            *[extralang~="ddo"] > lang:empty {-oxy-append-content: ", Tsez";}
+            *[extralang~="cu-x-bg"] > lang:empty {-oxy-append-content: ", Old Bulgarian";}
+            *[extralang~="goh"] > lang:empty {-oxy-append-content: ", Old High German";}
+            *[extralang~="gem-x-old"] > lang:empty {-oxy-append-content: ", Old Germanic";}
+            *[extralang~="hbo"] > lang:empty {-oxy-append-content: ", (Ancient) Hebrew";}
+            *[extralang~="sa"] > lang:empty {-oxy-append-content: ", Old Indic";}
+            *[extralang~="x-oldirn"] > lang:empty {-oxy-append-content: ", Proto-Iranian";}
+            *[extralang~="sga"] > lang:empty {-oxy-append-content: ", Old Irish";}
+            *[extralang~="peo"] > lang:empty {-oxy-append-content: ", Old Persian";}
+            *[extralang~="prg"] > lang:empty {-oxy-append-content: ", Old Prussian";}
+            *[extralang~="orv"] > lang:empty {-oxy-append-content: ", Old Russian";}
+            *[extralang~="osx"] > lang:empty {-oxy-append-content: ", Old Saxon";}
+            *[extralang~="no"] > lang:empty {-oxy-append-content: ", Norwegian";}
+            *[extralang~="non"] > lang:empty {-oxy-append-content: ", Old Norse";}
+            *[extralang~="non-x-is"] > lang:empty {-oxy-append-content: ", Old Icelandic";}
+            *[extralang~="x-oldsl"] > lang:empty {-oxy-append-content: ", Proto-Slavic";}
+            *[extralang~="zza"] > lang:empty {-oxy-append-content: ", Zazaki";}
+            *[extralang~="os-x-iron"] > lang:empty {-oxy-append-content: ", Iron Ossetic";}
+            *[extralang~="ine"] > lang:empty {-oxy-append-content: ", Proto-Indo-European";}
+            *[extralang~="inh"] > lang:empty {-oxy-append-content: ", Ingush";}
+            *[extralang~="inc"] > lang:empty {-oxy-append-content: ", Indic";}
+            *[extralang~="inc-x-old"] > lang:empty {-oxy-append-content: ", Old Indic";}
+            *[extralang~="ira"] > lang:empty {-oxy-append-content: ", (Proto-?)Iranian";}
+            *[extralang~="ga"] > lang:empty {-oxy-append-content: ", Irish";}
+            *[extralang~="es"] > lang:empty {-oxy-append-content: ", Spanish";}
+            *[extralang~="it"] > lang:empty {-oxy-append-content: ", Italian";}
+            *[extralang~="kbd"] > lang:empty {-oxy-append-content: ", Kabardian";}
+            *[extralang~="kk"] > lang:empty {-oxy-append-content: ", Kazakh";}
+            *[extralang~="tt-x-kazan"] > lang:empty {-oxy-append-content: ", Kazan Tatar";}
+            *[extralang~="dar-x-kaitag"] > lang:empty {-oxy-append-content: ", Kaitag Dargwa";}
+            *[extralang~="xal"] > lang:empty {-oxy-append-content: ", Kalmyk";}
+            *[extralang~="kap"] > lang:empty {-oxy-append-content: ", Bezhta";}
+            *[extralang~="kdr"] > lang:empty {-oxy-append-content: ", Karaim";}
+            *[extralang~="krc-x-karachay"] > lang:empty {-oxy-append-content: ", Karachay";}
+            *[extralang~="krl"] > lang:empty {-oxy-append-content: ", Karelian";}
+            *[extralang~="ccs"] > lang:empty {-oxy-append-content: ", South Caucasian";}
+            *[extralang~="x-nuristan"] > lang:empty {-oxy-append-content: ", Nuristani";}
+            *[extralang~="ug-x-kashgar"] > lang:empty {-oxy-append-content: ", Kashgari Uyghur";}
+            *[extralang~="cel"] > lang:empty {-oxy-append-content: ", Celtic";}
+            *[extralang~="ky"] > lang:empty {-oxy-append-content: ", Kyrgyz";}
+            *[extralang~="zh"] > lang:empty {-oxy-append-content: ", Chinese";}
+            *[extralang~="kv"] > lang:empty {-oxy-append-content: ", Komi";}
+            *[extralang~="os-x-ksan"] > lang:empty {-oxy-append-content: ", Ksan Ossetic";}
+            *[extralang~="kum"] > lang:empty {-oxy-append-content: ", Kumyk";}
+            *[extralang~="qwm"] > lang:empty {-oxy-append-content: ", Cuman";}
+            *[extralang~="ku"] > lang:empty {-oxy-append-content: ", Kurdish";}
+            *[extralang~="xbc"] > lang:empty {-oxy-append-content: ", Bactrian";}
+            *[extralang~="pgd"] > lang:empty {-oxy-append-content: ", Gandhari";}
+            *[extralang~="lbe"] > lang:empty {-oxy-append-content: ", Lak";}
+            *[extralang~="la"] > lang:empty {-oxy-append-content: ", Latin";}
+            *[extralang~="lv"] > lang:empty {-oxy-append-content: ", Latvian";}
+            *[extralang~="lez"] > lang:empty {-oxy-append-content: ", Lezgian";}
+            *[extralang~="liv"] > lang:empty {-oxy-append-content: ", Livonian";}
+            *[extralang~="lt"] > lang:empty {-oxy-append-content: ", Lithuanian";}
+            *[extralang~="smi"] > lang:empty {-oxy-append-content: ", Sami";}
+            *[extralang~="wen"] > lang:empty {-oxy-append-content: ", Sorbian";}
+            *[extralang~="ldd"] > lang:empty {-oxy-append-content: ", Luri";}
+            *[extralang~="mzn"] > lang:empty {-oxy-append-content: ", Mazanderani";}
+            *[extralang~="mns"] > lang:empty {-oxy-append-content: ", Mansi";}
+            *[extralang~="chm"] > lang:empty {-oxy-append-content: ", Mari";}
+            *[extralang~="xmf"] > lang:empty {-oxy-append-content: ", Mingerlian";}
+            *[extralang~="xme"] > lang:empty {-oxy-append-content: ", Median";}
+            *[extralang~="mn"] > lang:empty {-oxy-append-content: ", Mongolian";}
+            *[extralang~="bua"] > lang:empty {-oxy-append-content: ", Buryat";}
+            *[extralang~="cmg"] > lang:empty {-oxy-append-content: ", Classical Mongolian";}
+            *[extralang~="x-mordvin"] > lang:empty {-oxy-append-content: ", Mordvinic";}
+            *[extralang~="el"] > lang:empty {-oxy-append-content: ", Modern Greek";}
+            *[extralang~="de"] > lang:empty {-oxy-append-content: ", German";}
+            *[extralang~="yrk"] > lang:empty {-oxy-append-content: ", Nenets";}
+            *[extralang~="nl"] > lang:empty {-oxy-append-content: ", Dutch";}
+            *[extralang~="nds"] > lang:empty {-oxy-append-content: ", Low German";}
+            *[extralang~="nog"] > lang:empty {-oxy-append-content: ", Nogai";}            
+            *[extralang~="nub"] > lang:empty {-oxy-append-content: ", Nubian";}
+            *[extralang~="oru"] > lang:empty {-oxy-append-content: ", Ormuri";}
+            *[extralang~="os"] > lang:empty {-oxy-append-content: ", Ossetic";}
+            *[extralang~="pal-x-pazend"] > lang:empty {-oxy-append-content: ", Pazend";}
+            *[extralang~="pi"] > lang:empty {-oxy-append-content: ", Pali";}
+            *[extralang~="x-pamir"] > lang:empty {-oxy-append-content: ", Pamir";}
+            *[extralang~="wbl"] > lang:empty {-oxy-append-content: ", Wakhi";}
+            *[extralang~="ydg"] > lang:empty {-oxy-append-content: ", Yidgha";}
+            *[extralang~="isk"] > lang:empty {-oxy-append-content: ", Ishkashimi";}
+            *[extralang~="mnj"] > lang:empty {-oxy-append-content: ", Munji";}
+            *[extralang~="x-pamir-n"] > lang:empty {-oxy-append-content: ", Pamir";}
+            *[extralang~="oru"] > lang:empty {-oxy-append-content: ", Ormuri";}
+            *[extralang~="x-rushani"] > lang:empty {-oxy-append-content: ", Rushani";}
+            *[extralang~="sgy"] > lang:empty {-oxy-append-content: ", Sanglechi";}
+            *[extralang~="sgy-x-zebak"] > lang:empty {-oxy-append-content: ", Zebaki";}            
+            *[extralang~="sgh"] > lang:empty {-oxy-append-content: ", Shughni";}
+            *[extralang~="sgh-x-bartang"] > lang:empty {-oxy-append-content: ", Bartangi";}            
+            *[extralang~="yah"] > lang:empty {-oxy-append-content: ", Yazgulyam";}
+            *[extralang~="prc"] > lang:empty {-oxy-append-content: ", Parachi";}
+            *[extralang~="xpr"] > lang:empty {-oxy-append-content: ", Parthian";}
+            *[extralang~="psh"] > lang:empty {-oxy-append-content: ", Pashai (?)";}
+            *[extralang~="fa"] > lang:empty {-oxy-append-content: ", Persian";}
+            *[extralang~="pal"] > lang:empty {-oxy-append-content: ", Middle Persian";}
+            *[extralang~="pal-x-turfan"] > lang:empty {-oxy-append-content: ", Turfan Pahlavi";}
+            *[extralang~="pl"] > lang:empty {-oxy-append-content: ", Polish";}
+            *[extralang~="ro"] > lang:empty {-oxy-append-content: ", Romanian";}
+            *[extralang~="ru"] > lang:empty {-oxy-append-content: ", Russian";}
+            *[extralang~="rut"] > lang:empty {-oxy-append-content: ", Rutul";}
+            *[extralang~="kho"] > lang:empty {-oxy-append-content: ", Saka";}
+            *[extralang~="sva"] > lang:empty {-oxy-append-content: ", Svan";}
+            *[extralang~="trk-x-north"] > lang:empty {-oxy-append-content: ", North Turkic";}
+            *[extralang~="inc-x-nnew"] > lang:empty {-oxy-append-content: ", North New Indic dialects";}
+            *[extralang~="sem"] > lang:empty {-oxy-append-content: ", Semitic";}
+            *[extralang~="sr"] > lang:empty {-oxy-append-content: ", Serbian";}
+            *[extralang~="srh"] > lang:empty {-oxy-append-content: ", Sarikoli";}            
+            *[extralang~="syr"] > lang:empty {-oxy-append-content: ", Syriac";}
+            *[extralang~="xsc"] > lang:empty {-oxy-append-content: ", Scythian";}
+            *[extralang~="sla"] > lang:empty {-oxy-append-content: ", Slavic";}
+            *[extralang~="sl"] > lang:empty {-oxy-append-content: ", Slovenian";}
+            *[extralang~="sog"] > lang:empty {-oxy-append-content: ", Sogdian";}
+            *[extralang~="sog-x-chr"] > lang:empty {-oxy-append-content: ", Christian Sogdian";}
+            *[extralang~="sog-x-man"] > lang:empty {-oxy-append-content: ", Manichean Sogdian";}
+            *[extralang~="sog-x-budd"] > lang:empty {-oxy-append-content: ", Buddhist Sogdian";}
+            *[extralang~="gmh"] > lang:empty {-oxy-append-content: ", Middle High German";}
+            *[extralang~="inc-x-mid"] > lang:empty {-oxy-append-content: ", Middle Indic";}
+            *[extralang~="ira-x-mid"] > lang:empty {-oxy-append-content: ", Middle Iranian";}
+            *[extralang~="gml"] > lang:empty {-oxy-append-content: ", Middle Low German";}
+            *[extralang~="oos"] > lang:empty {-oxy-append-content: ", Old Ossetic";}
+            *[extralang~="cu"] > lang:empty {-oxy-append-content: ", Old Church Slavonic";}
+            *[extralang~="tab"] > lang:empty {-oxy-append-content: ", Tabassaran";}
+            *[extralang~="tg"] > lang:empty {-oxy-append-content: ", Tajik";}
+            *[extralang~="tly"] > lang:empty {-oxy-append-content: ", Talyshi";}
+            *[extralang~="tt"] > lang:empty {-oxy-append-content: ", Tatar";}
+            *[extralang~="ttt"] > lang:empty {-oxy-append-content: ", Tat (Muslim?)";}
+            *[extralang~="alt-x-teleut"] > lang:empty {-oxy-append-content: ", Teleut Altai";}
+            *[extralang~="bo"] > lang:empty {-oxy-append-content: ", Tibetan";}
+            *[extralang~="x-tchr"] > lang:empty {-oxy-append-content: ", Tocharian";}
+            *[extralang~="xto"] > lang:empty {-oxy-append-content: ", Tocharian A";}
+            *[extralang~="txb"] > lang:empty {-oxy-append-content: ", Tocharian B";}
+            *[extralang~="tr"] > lang:empty {-oxy-append-content: ", Turkish";}
+            *[extralang~="bbl"] > lang:empty {-oxy-append-content: ", Bats";}
+            *[extralang~="trk"] > lang:empty {-oxy-append-content: ", Turkic";}
+            *[extralang~="uby"] > lang:empty {-oxy-append-content: ", Ubykh";}
+            *[extralang~="udi"] > lang:empty {-oxy-append-content: ", Udi";}
+            *[extralang~="udm"] > lang:empty {-oxy-append-content: ", Udmurt";}
+            *[extralang~="uz"] > lang:empty {-oxy-append-content: ", Uzbek";}
+            *[extralang~="ug"] > lang:empty {-oxy-append-content: ", Uyghur";}
+            *[extralang~="uk"] > lang:empty {-oxy-append-content: ", Ukrainian";}
+            *[extralang~="uk-x-gal"] > lang:empty {-oxy-append-content: ", Ukrainian (Galician)";}
+            *[extralang~="mn-x-uriankh"] > lang:empty {-oxy-append-content: ", Uriankhai";}
+            *[extralang~="fi"] > lang:empty {-oxy-append-content: ", Finnish";}
+            *[extralang~="fr"] > lang:empty {-oxy-append-content: ", French";}
+            *[extralang~="txh"] > lang:empty {-oxy-append-content: ", Thracian";}
+            *[extralang~="kca"] > lang:empty {-oxy-append-content: ", Khanty";}
+            *[extralang~="khv"] > lang:empty {-oxy-append-content: ", Khwarshi";}
+            *[extralang~="ka-x-khevsur"] > lang:empty {-oxy-append-content: ", Khevsur Georgian";}
+            *[extralang~="hit"] > lang:empty {-oxy-append-content: ", Hittite";}
+            *[extralang~="kjj"] > lang:empty {-oxy-append-content: ", Khinalugh";}
+            *[extralang~="khw"] > lang:empty {-oxy-append-content: ", Khowar";}
+            *[extralang~="hr"] > lang:empty {-oxy-append-content: ", Croatian";}
+            *[extralang~="zkh"] > lang:empty {-oxy-append-content: ", Khwarezmian";}
+            *[extralang~="tkr"] > lang:empty {-oxy-append-content: ", Tsakhur";}
+            *[extralang~="rom"] > lang:empty {-oxy-append-content: ", Romani";}
+            *[extralang~="chg"] > lang:empty {-oxy-append-content: ", Chagatai";}
+            *[extralang~="cji"] > lang:empty {-oxy-append-content: ", Chamalal";}
+            *[extralang~="lzz"] > lang:empty {-oxy-append-content: ", Laz";}
+            *[extralang~="x-crc"] > lang:empty {-oxy-append-content: ", Circassian";}
+            *[extralang~="ce"] > lang:empty {-oxy-append-content: ", Chechen";}
+            *[extralang~="cs"] > lang:empty {-oxy-append-content: ", Czech";}
+            *[extralang~="cv"] > lang:empty {-oxy-append-content: ", Chuvash";}
+            *[extralang~="ady-x-shpsg"] > lang:empty {-oxy-append-content: ", Shapsug Adyghe";}
+            *[extralang~="sv"] > lang:empty {-oxy-append-content: ", Swedish";}
+            *[extralang~="sux"] > lang:empty {-oxy-append-content: ", Sumerian";}
+            *[extralang~="evn"] > lang:empty {-oxy-append-content: ", Evenki";}
+            *[extralang~="et"] > lang:empty {-oxy-append-content: ", Estonian";}
+            *[extralang~="os-x-south"] > lang:empty {-oxy-append-content: ", South Ossetic";}
+            *[extralang~="gbz-x-yzd"] > lang:empty {-oxy-append-content: ", Yazdi";}
+            *[extralang~="x-iazyg"] > lang:empty {-oxy-append-content: ", Iazygean";}
+            *[extralang~="sah"] > lang:empty {-oxy-append-content: ", Yakut";}
+            *[extralang~="yai"] > lang:empty {-oxy-append-content: ", Yaghnobi";}
+            *[extralang~="ja"] > lang:empty {-oxy-append-content: ", Japanese";}            
+            *[extralang~="bqi"] > lang:empty {-oxy-append-content: ", Bakhtiari"}
+            *[extralang~="sa"] > lang:empty {-oxy-append-content: ", Sanskrit";}
+            *[extralang~="ofs"] > lang:empty {-oxy-append-content: ", Old Frisian";}
+            *[extralang~="da"] > lang:empty {-oxy-append-content: ", Danish";}

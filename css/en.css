@@ -13,3 +13,20 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
 /*q > q[rendition~="#rend_doublequotes"]:last-child::after {content: "";}*/
 
 *[rendition~="#rend_smallcaps"] {letter-spacing: 3px}
+
+:lang(os) > lang:empty {content: "Ossetic"}
+:lang(os) > usg > lang:empty {content: "Ossetic"}
+:lang(os-x-iron) > lang:empty {content: "Iron"}
+:lang(os-x-iron) > usg > lang:empty {content: "Iron"}
+:lang(os-x-digor) > lang:empty {content: "Digor"}
+:lang(os-x-digor) > usg > lang:empty {content: "Digor"}
+:lang(os-x-south) > lang:empty {content: "South Ossetic"}
+:lang(os-x-south) > usg > lang:empty {content: "South Ossetic"}
+:lang(os-x-ksan) > lang:empty {content: "Ksan Ossetic"}
+:lang(os-x-ksan) > usg > lang:empty {content: "Ksan Ossetic"}
+
+*[extralang~="os"] > lang:empty {-oxy-append-content: ", Ossetic"}
+*[extralang~="os-x-iron"] > lang:empty {-oxy-append-content: ", Iron"}
+*[extralang~="os-x-digor"] > lang:empty {-oxy-append-content: ", Digor"}
+*[extralang~="os-x-south"] > lang:empty {-oxy-append-content: ", South Ossetic"}
+*[extralang~="os-x-ksan"] > lang:empty {-oxy-append-content: ", Ksan Ossetic"}

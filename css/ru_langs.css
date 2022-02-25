@@ -18,6 +18,8 @@
 *[extralang~="aii"] > lang:empty {-oxy-append-content: ", ассир.";}
 :lang(akk) > lang:empty {content: "аккад.";}
 *[extralang~="akk"] > lang:empty {-oxy-append-content: ", аккад.";}
+:lang(akv) > lang:empty {content: "ахвах.";}
+*[extralang~="akv"] > lang:empty {-oxy-append-content: ", ахвах.";}
 :lang(alt) > lang:empty {content: "алт.";}
 *[extralang~="alt"] > lang:empty {-oxy-append-content: ", алт.";}
 :lang(alt-x-teleut) > lang:empty {content: "телеут.";}
@@ -48,12 +50,16 @@
 *[extralang~="bg"] > lang:empty {-oxy-append-content: ", болг.";}
 :lang(bo) > lang:empty {content: "тибет.";}
 *[extralang~="bo"] > lang:empty {-oxy-append-content: ", тибет.";}
+:lang(bph) > lang:empty {content: "ботл.";}
+*[extralang~="bph"] > lang:empty {-oxy-append-content: ", ботл.";}
 :lang(br) > lang:empty {content: "брет.";}
 *[extralang~="br"] > lang:empty {-oxy-append-content: ", брет.";}
 :lang(bsk) > lang:empty {content: "верш.";}
 *[extralang~="bsk"] > lang:empty {-oxy-append-content: ", верш.";}
 :lang(bua) > lang:empty {content: "монг. бурят.";}
 *[extralang~="bua"] > lang:empty {-oxy-append-content: ", монг. бурят.";}
+:lang(cau) > lang:empty {content: "кавк.";}
+*[extralang~="cau"] > lang:empty {-oxy-append-content: ", кавк.";}
 :lang(ccs) > lang:empty {content: "картв.";}
 *[extralang~="ccs"] > lang:empty {-oxy-append-content: ", картв.";}
 :lang(ce) > lang:empty {content: "чеч.";}
@@ -66,6 +72,8 @@
 *[extralang~="chm"] > lang:empty {-oxy-append-content: ", мар.";}
 :lang(cji) > lang:empty {content: "чамал.";}
 *[extralang~="cji"] > lang:empty {-oxy-append-content: ", чамал.";}
+:lang(cjs) > lang:empty {content: "шор.";}
+*[extralang~="cjs"] > lang:empty {-oxy-append-content: ", шор.";}
 :lang(cmg) > lang:empty {content: "монг. письм.";}
 *[extralang~="cmg"] > lang:empty {-oxy-append-content: ", монг. письм.";}
 :lang(cs) > lang:empty {content: "чеш.";}
@@ -76,6 +84,10 @@
 *[extralang~="cu-x-bg"] > lang:empty {-oxy-append-content: ", др.болг.";}
 :lang(cv) > lang:empty {content: "чув.";}
 *[extralang~="cv"] > lang:empty {-oxy-append-content: ", чув.";}
+:lang(cy) > lang:empty {content: "кимр.";}
+*[extralang~="cy"] > lang:empty {-oxy-append-content: ", кимр.";}
+:lang(da) > lang:empty {content: "дат.";}
+*[extralang~="da"] > lang:empty {-oxy-append-content: ", дат.";}
 :lang(dar) > lang:empty {content: "дарг.";}
 *[extralang~="dar"] > lang:empty {-oxy-append-content: ", дарг.";}
 :lang(dar-x-aqusha) > lang:empty {content: "акуш.";}
@@ -88,6 +100,8 @@
 *[extralang~="de"] > lang:empty {-oxy-append-content: ", нем.";}
 :lang(el) > lang:empty {content: "н.гр.";}
 *[extralang~="el"] > lang:empty {-oxy-append-content: ", н.гр.";}
+:lang(elx) > lang:empty {content: "элам.";}
+*[extralang~="elx"] > lang:empty {-oxy-append-content: ", элам.";}
 :lang(en) > lang:empty {content: "англ.";}
 *[extralang~="en"] > lang:empty {-oxy-append-content: ", англ.";}
 :lang(es) > lang:empty {content: "исп.";}
@@ -104,10 +118,18 @@
 *[extralang~="fi"] > lang:empty {-oxy-append-content: ", фин.";}
 :lang(fr) > lang:empty {content: "фр.";}
 *[extralang~="fr"] > lang:empty {-oxy-append-content: ", фр.";}
+:lang(fro) > lang:empty {content: "ст.фр.";}
+*[extralang~="fro"] > lang:empty {-oxy-append-content: ", ст.фр.";}
+:lang(frp) > lang:empty {content: "прованс.";}
+*[extralang~="frp"] > lang:empty {-oxy-append-content: ", прованс.";}
+:lang(fy) > lang:empty {content: "фриз.";}
+*[extralang~="fy"] > lang:empty {-oxy-append-content: ", фриз.";}
 :lang(ga) > lang:empty {content: "ирл.";}
 *[extralang~="ga"] > lang:empty {-oxy-append-content: ", ирл.";}
 :lang(gbz-x-yzd) > lang:empty {content: "язди";}
 *[extralang~="gbz-x-yzd"] > lang:empty {-oxy-append-content: ", язди";}
+:lang(gdo) > lang:empty {content: "годобер.";}
+*[extralang~="gdo"] > lang:empty {-oxy-append-content: ", годобер.";}
 :lang(gem) > lang:empty {content: "герм.";}
 *[extralang~="gem"] > lang:empty {-oxy-append-content: ", герм.";}
 :lang(gem-x-old) > lang:empty {content: "др.герм.";}
@@ -124,6 +146,8 @@
 *[extralang~="got"] > lang:empty {-oxy-append-content: ", гот.";}
 :lang(grc) > lang:empty {content: "гр.";}
 *[extralang~="grc"] > lang:empty {-oxy-append-content: ", гр.";}
+:lang(grc-x-doric) > lang:empty {content: "гр. дор.";}
+*[extralang~="grc-x-doric"] > lang:empty {-oxy-append-content: ", гр. дор.";}
 :lang(hac) > lang:empty {content: "гуран.";}
 *[extralang~="hac"] > lang:empty {-oxy-append-content: ", гуран.";}
 :lang(hbo) > lang:empty {content: "др.евр.";}
@@ -134,6 +158,8 @@
 *[extralang~="hr"] > lang:empty {-oxy-append-content: ", хорв.";}
 :lang(hu) > lang:empty {content: "венг.";}
 *[extralang~="hu"] > lang:empty {-oxy-append-content: ", венг.";}
+:lang(huz) > lang:empty {content: "гунзиб.";}
+*[extralang~="huz"] > lang:empty {-oxy-append-content: ", гунзиб.";}
 :lang(iir) > lang:empty {content: "ар.";}
 *[extralang~="iir"] > lang:empty {-oxy-append-content: ", ар.";}
 :lang(inc) > lang:empty {content: "инд.";}
@@ -162,6 +188,8 @@
 *[extralang~="ka"] > lang:empty {-oxy-append-content: ", груз.";}
 :lang(ka-x-khevsur) > lang:empty {content: "хевсур.";}
 *[extralang~="ka-x-khevsur"] > lang:empty {-oxy-append-content: ", хевсур.";}
+:lang(kaa) > lang:empty {content: "каракалп.";}
+*[extralang~="kaa"] > lang:empty {-oxy-append-content: ", каракалп.";}
 :lang(kap) > lang:empty {content: "капуч.";}
 *[extralang~="kap"] > lang:empty {-oxy-append-content: ", капуч.";}
 :lang(kbd) > lang:empty {content: "каб.";}
@@ -174,18 +202,24 @@
 *[extralang~="kho"] > lang:empty {-oxy-append-content: ", сак.";}
 :lang(khv) > lang:empty {content: "хварш.";}
 *[extralang~="khv"] > lang:empty {-oxy-append-content: ", хварш.";}
-:lang(khw) > lang:empty {content: "ховар.";}
-*[extralang~="khw"] > lang:empty {-oxy-append-content: ", ховар.";}
+:lang(khw) > lang:empty {content: "читр.";}
+*[extralang~="khw"] > lang:empty {-oxy-append-content: ", читр.";}
+:lang(kjh) > lang:empty {content: "хакас.";}
+*[extralang~="kjh"] > lang:empty {-oxy-append-content: ", хакас.";}
 :lang(kjj) > lang:empty {content: "хиналуг.";}
 *[extralang~="kjj"] > lang:empty {-oxy-append-content: ", хиналуг.";}
 :lang(kk) > lang:empty {content: "каз.";}
 *[extralang~="kk"] > lang:empty {-oxy-append-content: ", каз.";}
+:lang(kpt) > lang:empty {content: "карат.";}
+*[extralang~="kpt"] > lang:empty {-oxy-append-content: ", карат.";}
 :lang(krc-x-balkar) > lang:empty {content: "балк.";}
 *[extralang~="krc-x-balkar"] > lang:empty {-oxy-append-content: ", балк.";}
 :lang(krc-x-karachay) > lang:empty {content: "карач.";}
 *[extralang~="krc-x-karachay"] > lang:empty {-oxy-append-content: ", карач.";}
 :lang(krl) > lang:empty {content: "карел.";}
 *[extralang~="krl"] > lang:empty {-oxy-append-content: ", карел.";}
+:lang(kry) > lang:empty {content: "крыз.";}
+*[extralang~="kry"] > lang:empty {-oxy-append-content: ", крыз.";}
 :lang(kry-x-jek) > lang:empty {content: "джекск.";}
 *[extralang~="kry-x-jek"] > lang:empty {-oxy-append-content: ", джекск.";}
 :lang(ku) > lang:empty {content: "курд.";}
@@ -194,6 +228,8 @@
 *[extralang~="kum"] > lang:empty {-oxy-append-content: ", кум.";}
 :lang(kv) > lang:empty {content: "коми";}
 *[extralang~="kv"] > lang:empty {-oxy-append-content: ", коми";}
+:lang(kw) > lang:empty {content: "корн.";}
+*[extralang~="kw"] > lang:empty {-oxy-append-content: ", корн.";}
 :lang(ky) > lang:empty {content: "кирг.";}
 *[extralang~="ky"] > lang:empty {-oxy-append-content: ", кирг.";}
 :lang(la) > lang:empty {content: "лат.";}
@@ -212,6 +248,8 @@
 *[extralang~="lv"] > lang:empty {-oxy-append-content: ", латыш.";}
 :lang(lzz) > lang:empty {content: "чан.";}
 *[extralang~="lzz"] > lang:empty {-oxy-append-content: ", чан.";}
+:lang(mga) > lang:empty {content: "ср.ирл.";}
+*[extralang~="mga"] > lang:empty {-oxy-append-content: ", ср.ирл.";}
 :lang(mn) > lang:empty {content: "монг.";}
 *[extralang~="mn"] > lang:empty {-oxy-append-content: ", монг.";}
 :lang(mn-x-uriankh) > lang:empty {content: "урянх.";}
@@ -224,6 +262,8 @@
 *[extralang~="mzn"] > lang:empty {-oxy-append-content: ", маз.";}
 :lang(nds) > lang:empty {content: "н.н.нем.";}
 *[extralang~="nds"] > lang:empty {-oxy-append-content: ", н.н.нем.";}
+:lang(ne) > lang:empty {content: "непал.";}
+*[extralang~="ne"] > lang:empty {-oxy-append-content: ", непал.";}
 :lang(nl) > lang:empty {content: "нидерл.";}
 *[extralang~="nl"] > lang:empty {-oxy-append-content: ", нидерл.";}
 :lang(no) > lang:empty {content: "норв.";}
@@ -236,6 +276,8 @@
 *[extralang~="non-x-is"] > lang:empty {-oxy-append-content: ", др.исл.";}
 :lang(nub) > lang:empty {content: "нубийское";}
 *[extralang~="nub"] > lang:empty {-oxy-append-content: ", нубийское";}
+:lang(ofs) > lang:empty {content: "др.фриз.";}
+*[extralang~="ofs"] > lang:empty {-oxy-append-content: ", др.фриз.";}
 :lang(oos) > lang:empty {content: "ст.ос.";}
 *[extralang~="oos"] > lang:empty {-oxy-append-content: ", ст.ос.";}
 :lang(oru) > lang:empty {content: "пам. ор.";}
@@ -266,6 +308,8 @@
 *[extralang~="pi"] > lang:empty {-oxy-append-content: ", пали";}
 :lang(pl) > lang:empty {content: "пол.";}
 *[extralang~="pl"] > lang:empty {-oxy-append-content: ", пол.";}
+:lang(pra) > lang:empty {content: "пракрит.";}
+*[extralang~="pra"] > lang:empty {-oxy-append-content: ", пракрит.";}
 :lang(prc) > lang:empty {content: "пар.";}
 *[extralang~="prc"] > lang:empty {-oxy-append-content: ", пар.";}
 :lang(prg) > lang:empty {content: "др.прусс.";}
@@ -278,12 +322,14 @@
 *[extralang~="qwm"] > lang:empty {-oxy-append-content: ", куман.";}
 :lang(ro) > lang:empty {content: "рум.";}
 *[extralang~="ro"] > lang:empty {-oxy-append-content: ", рум.";}
-:lang(rom) > lang:empty {content: "цыг.";}
-*[extralang~="rom"] > lang:empty {-oxy-append-content: ", цыг.";}
+:lang(rom) > lang:empty {content: "цыган.";}
+*[extralang~="rom"] > lang:empty {-oxy-append-content: ", цыган.";}
 :lang(ru) > lang:empty {content: "русск.";}
 *[extralang~="ru"] > lang:empty {-oxy-append-content: ", русск.";}
 :lang(rut) > lang:empty {content: "рутул.";}
 *[extralang~="rut"] > lang:empty {-oxy-append-content: ", рутул.";}
+:lang(sa) > lang:empty {content: "скр.";}
+*[extralang~="sa"] > lang:empty {-oxy-append-content: ", скр.";}
 :lang(sa-vaidika) > lang:empty {content: "вед.";}
 *[extralang~="sa-vaidika"] > lang:empty {-oxy-append-content: ", вед.";}
 :lang(sah) > lang:empty {content: "якут.";}
@@ -296,10 +342,14 @@
 *[extralang~="sgh"] > lang:empty {-oxy-append-content: ", пам. ш.";}
 :lang(sgh-x-bartang) > lang:empty {content: "пам. барт.";}
 *[extralang~="sgh-x-bartang"] > lang:empty {-oxy-append-content: ", пам. барт.";}
+:lang(sgh-x-khufi) > lang:empty {content: "хуф.";}
+*[extralang~="sgh-x-khufi"] > lang:empty {-oxy-append-content: ", хуф.";}
 :lang(sgy) > lang:empty {content: "пам. сгл.";}
 *[extralang~="sgy"] > lang:empty {-oxy-append-content: ", пам. сгл.";}
 :lang(sgy-x-zebak) > lang:empty {content: "пам. зеб.";}
 *[extralang~="sgy-x-zebak"] > lang:empty {-oxy-append-content: ", пам. зеб.";}
+:lang(sh) > lang:empty {content: "сербо-хорв.";}
+*[extralang~="sh"] > lang:empty {-oxy-append-content: ", сербо-хорв.";}
 :lang(sl) > lang:empty {content: "слов.";}
 *[extralang~="sl"] > lang:empty {-oxy-append-content: ", слов.";}
 :lang(sla) > lang:empty {content: "слав.";}
@@ -320,6 +370,8 @@
 *[extralang~="sr"] > lang:empty {-oxy-append-content: ", серб.";}
 :lang(srh) > lang:empty {content: "пам. с.";}
 *[extralang~="srh"] > lang:empty {-oxy-append-content: ", пам. с.";}
+:lang(sty) > lang:empty {content: "тобол.";}
+*[extralang~="sty"] > lang:empty {-oxy-append-content: ", тобол.";}
 :lang(sux) > lang:empty {content: "шумер.";}
 *[extralang~="sux"] > lang:empty {-oxy-append-content: ", шумер.";}
 :lang(sv) > lang:empty {content: "швед.";}
@@ -332,6 +384,8 @@
 *[extralang~="tab"] > lang:empty {-oxy-append-content: ", табас.";}
 :lang(tg) > lang:empty {content: "тадж.";}
 *[extralang~="tg"] > lang:empty {-oxy-append-content: ", тадж.";}
+:lang(tk) > lang:empty {content: "туркм.";}
+*[extralang~="tk"] > lang:empty {-oxy-append-content: ", туркм.";}
 :lang(tkr) > lang:empty {content: "цахур.";}
 *[extralang~="tkr"] > lang:empty {-oxy-append-content: ", цахур.";}
 :lang(tly) > lang:empty {content: "тал.";}
@@ -410,18 +464,26 @@
 *[extralang~="xcl"] > lang:empty {-oxy-append-content: ", арм.";}
 :lang(xln) > lang:empty {content: "алан.";}
 *[extralang~="xln"] > lang:empty {-oxy-append-content: ", алан.";}
+:lang(xlu) > lang:empty {content: "лув.";}
+*[extralang~="xlu"] > lang:empty {-oxy-append-content: ", лув.";}
 :lang(xme) > lang:empty {content: "мид.";}
 *[extralang~="xme"] > lang:empty {-oxy-append-content: ", мид.";}
 :lang(xmf) > lang:empty {content: "мегр.";}
 *[extralang~="xmf"] > lang:empty {-oxy-append-content: ", мегр.";}
+:lang(xpg) > lang:empty {content: "фриг.";}
+*[extralang~="xpg"] > lang:empty {-oxy-append-content: ", фриг.";}
 :lang(xpr) > lang:empty {content: "парф.";}
 *[extralang~="xpr"] > lang:empty {-oxy-append-content: ", парф.";}
 :lang(xsc) > lang:empty {content: "скиф.";}
 *[extralang~="xsc"] > lang:empty {-oxy-append-content: ", скиф.";}
+:lang(xtg) > lang:empty {content: "галл.";}
+*[extralang~="xtg"] > lang:empty {-oxy-append-content: ", галл.";}
 :lang(xto) > lang:empty {content: "тохар. A";}
 *[extralang~="xto"] > lang:empty {-oxy-append-content: ", тохар. A";}
 :lang(xtq) > lang:empty {content: "сак. (Тумшук)";}
 *[extralang~="xtq"] > lang:empty {-oxy-append-content: ", сак. (Тумшук)";}
+:lang(xum) > lang:empty {content: "умбр.";}
+*[extralang~="xum"] > lang:empty {-oxy-append-content: ", умбр.";}
 :lang(yah) > lang:empty {content: "пам. язг.";}
 *[extralang~="yah"] > lang:empty {-oxy-append-content: ", пам. язг.";}
 :lang(yai) > lang:empty {content: "ягн.";}

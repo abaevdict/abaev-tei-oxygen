@@ -1,219 +1,252 @@
-code,ru,en
-ab,абх.,Abkhaz
-abq,абаз.,Abaza
-ady,адыг.,Adyghe
-ady-x-abadz,абадз.,Abzakh
-ady-x-shpsg,шапс.,Shapsug Adyghe
-ae,ав.,Avestan
-agx,агул.,Aghul
-aii,ассир.,Assyrian
-akk,аккад.,Akkadian
-alt,алт.,Altai
-alt-x-teleut,телеут.,Teleut Altai
-ang,англос.,Old English
-ani,анд.,Andi
-aqc,арчин.,Archi
-ar,араб.,Arabic
-arc,арам.,Aramaic
-av,авар.,Avar
-az,азерб.,Azerbaijani
-ba,башк.,Bashkir
-bbl,туш.,Bats
-bdk,будух.,Budugh
-be,белорусс.,Belarusian
-bg,болг.,Bulgarian
-bo,тибет.,Tibetan
-br,брет.,Breton
-bsk,верш.,Burushaski
-bua,монг. бурят.,Buryat
-ccs,картв.,South Caucasian
-ce,чеч.,Chechen
-cel,кельт.,Celtic
-chg,чагат.,Chagatai
-chm,мар.,Mari
-cji,чамал.,Chamalal
-cmg,монг. письм.,Classical Mongolian
-cs,чеш.,Czech
-cu,ст.слав.,Old Church Slavonic
-cu-x-bg,др.болг.,Old Bulgarian
-cv,чув.,Chuvash
-dar,дарг.,Dargwa
-dar-x-aqusha,акуш.,Aqusha Dargwa
-dar-x-kaitag,кайт.,Kaitag Dargwa
-ddo,дид.,Tsez
-de,нем.,German
-el,н.гр.,Modern Greek
-en,англ.,English
-es,исп.,Spanish
-et,эст.,Estonian
-eu,баск.,Basque
-evn,эвенк.,Evenki
-fa,перс.,Persian
-fi,фин.,Finnish
-fr,фр.,French
-ga,ирл.,Irish
-gbz-x-yzd,язди,Yazdi
-gem,герм.,Proto-Germanic
-gem-x-old,др.герм.,Old Germanic
-glk,гилян.,Gilaki
-gmh,ср.в.нем.,Middle High German
-gml,ср.н.нем.,Middle Low German
-goh,др.в.нем.,Old High German
-got,гот.,Gothic
-grc,гр.,(Ancient) Greek
-hac,гуран.,Gorani
-hbo,др.евр.,(Ancient) Hebrew
-hit,хетт.,Hittite
-hr,хорв.,Croatian
-hu,венг.,Hungarian
-iir,ар.,Proto-Indo-Iranian
-inc,инд.,Indic
-inc-x-mid,ср.инд.,Middle Indic
-inc-x-nnew,северные новоиндийские диалекты,North New Indic dialects
-inc-x-old,др.инд.,Old Indic
-ine,и.е.,Proto-Indo-European
-inh,инг.,Ingush
-ira,иран.,(Proto-?)Iranian
-ira-x-mid,ср.иран.,Middle Iranian
-isk,пам. ишк.,Ishkashimi
-it,ит.,Italian
-ja,япон.,Japanese
-ka,груз.,Georgian
-ka-x-khevsur,хевсур.,Khevsur Georgian
-kap,капуч.,Bezhta
-kbd,каб.,Kabardian
-kca,ханты,Khanty
-kdr,караим.,Karaim
-kho,сак.,Saka
-khv,хварш.,Khwarshi
-khw,ховар.,Khowar
-kjj,хиналуг.,Khinalugh
-kk,каз.,Kazakh
-krc-x-balkar,балк.,Balkar
-krc-x-karachay,карач.,Karachay
-krl,карел.,Karelian
-kry-x-jek,джекск.,Jek Kryts
-ku,курд.,Kurdish
-kum,кум.,Kumyk
-kv,коми,Komi
-ky,кирг.,Kyrgyz
-la,лат.,Latin
-lbe,лак.,Lak
-ldd,лур.,Luri
-lez,лезг.,Lezgian
-liv,лив.,Livonian
-lt,лит.,Lithuanian
-lv,латыш.,Latvian
-lzz,чан.,Laz
-mn,монг.,Mongolian
-mn-x-uriankh,урянх.,Uriankhai
-mnj,пам. м.,Munji
-mns,манси,Mansi
-mzn,маз.,Mazanderani
-nds,н.н.нем.,Low German
-nl,нидерл.,Dutch
-no,норв.,Norwegian
-nog,ног.,Nogai
-non,др.сев.,Old Norse
-non-x-is,др.исл.,Old Icelandic
-nub,нубийское,Nubian
-oos,ст.ос.,Old Ossetic
-oru,пам. ор.,Ormuri
-orv,др.русск.,Old Russian
-os-x-digor,д.,Digor
-os-x-iron,и.,Iron
-os-x-ksan,ксан.,Ksan Ossetic
-os-x-south,ю.,South Ossetic
-osx,др.сакс.,Old Saxon
-pal,пехл.,Middle Persian
-pal-x-pazend,паз.,Pazend
-pal-x-turfan,пехл. турф.,Turfan Pahlavi
-peo,др.перс.,Old Persian
-pgd,кхарошти,Gandhari
-pi,пали,Pali
-pl,пол.,Polish
-prc,пар.,Parachi
-prg,др.прусс.,Old Prussian
-ps,афг.,Pashto
-psh,пашан,Pashai (?)
-qwm,куман.,Cuman
-ro,рум.,Romanian
-rom,цыг.,Romani
-ru,русск.,Russian
-rut,рутул.,Rutul
-sa-vaidika,вед.,Vedic
-sah,якут.,Yakut
-sem,семит.,Semitic
-sga,др.ирл.,Old Irish
-sgh,пам. ш.,Shughni
-sgh-x-bartang,пам. барт.,Bartangi
-sgy,пам. сгл.,Sanglechi
-sgy-x-zebak,пам. зеб.,Zebaki
-sl,слов.,Slovenian
-sla,слав.,Slavic
-smi,лопар.,Sami
-sog,согд.,Sogdian
-sog-x-budd,согд. будд.,Buddhist Sogdian
-sog-x-chr,согд. христ.,Christian Sogdian
-sog-x-man,согд. ман.,Manichean Sogdian
-sqj,алб.,Albanian
-sr,серб.,Serbian
-srh,пам. с.,Sarikoli
-sux,шумер.,Sumerian
-sv,швед.,Swedish
-sva,сван.,Svan
-syr,сир.,Syriac
-tab,табас.,Tabassaran
-tg,тадж.,Tajik
-tkr,цахур.,Tsakhur
-tly,тал.,Talyshi
-tr,тур.,Turkish
-tr-x-anat,анат.,Anatolian Turkish
-trk,тюрк.,Turkic
-trk-x-north,сев. тюрк.,North Turkic
-tt,татар.,Tatar
-tt-x-kazan,казан.,Kazan Tatar
-ttt,татск.,Tat (Muslim?)
-txb,тохар. B,Tocharian B
-txh,фрак.,Thracian
-uby,убых.,Ubykh
-udi,удин.,Udi
-udm,удм.,Udmurt
-ug,уйгур.,Uyghur
-ug-x-kashgar,кашг.,Kashgari Uyghur
-uk,укр.,Ukrainian
-uk-x-gal,укр. (галиц.),Ukrainian (Galician)
-uz,узб.,Uzbek
-vep,вепс.,Veps
-wbl,пам. в.,Wakhi
-wen,луж.,Sorbian
-x-balochi,бел.,Balochi
-x-crc,черк.,Circassian
-x-iazyg,языгский,Iazygean
-x-mordvin,морд.,Mordvinic
-x-nuristan,кафир.,Nuristani
-x-oldirn,др.иран.,Proto-Iranian
-x-oldsl,др.слав.,Proto-Slavic
-x-pamir,пам.,Pamir
-x-pamir-n,пам. н.??,Pamir
-x-rushani,пам. руш.,Rushani
-x-tchr,тохар.,Tocharian
-x-vaynakh,вейнах.,Vaynakh
-xal,калм.,Kalmyk
-xbc,кушан.,Bactrian
-xbo,булг.,Bulgar
-xcl,арм.,(Classical) Armenian
-xln,алан.,Alanic
-xme,мид.,Median
-xmf,мегр.,Mingerlian
-xpr,парф.,Parthian
-xsc,скиф.,Scythian
-xto,тохар. A,Tocharian A
-xtq,сак. (Тумшук),Tumshuqese
-yah,пам. язг.,Yazgulyam
-yai,ягн.,Yaghnobi
-ydg,пам. и.,Yidgha
-yrk,нен.,Nenets
-zh,кит.,Chinese
-zkh,хорезм.,Khwarezmian
-zza,заза,Zazaki
+code,ru,en,comment
+ab,абх.,Abkhaz,
+abq,абаз.,Abaza,
+ady,адыг.,Adyghe,
+ady-x-abadz,абадз.,Abzakh,
+ady-x-shpsg,шапс.,Shapsug Adyghe,
+ae,ав.,Avestan,
+agx,агул.,Aghul,
+aii,ассир.,Assyrian,
+akk,аккад.,Akkadian,
+akv,ахвах.,Akhvakh,
+alt,алт.,Altai,
+alt-x-teleut,телеут.,Teleut Altai,
+ang,англос.,Old English,
+ani,анд.,Andi,
+aqc,арчин.,Archi,
+ar,араб.,Arabic,
+arc,арам.,Aramaic,
+av,авар.,Avar,
+az,азерб.,Azerbaijani,
+ba,башк.,Bashkir,
+bbl,туш.,Bats,
+bdk,будух.,Budugh,
+be,белорусс.,Belarusian,
+bg,болг.,Bulgarian,
+bo,тибет.,Tibetan,
+bph,ботл.,Botlikh,
+br,брет.,Breton,
+bsk,верш.,Burushaski,
+bua,монг. бурят.,Buryat,
+cau,кавк.,Caucasian,
+ccs,картв.,South Caucasian,
+ce,чеч.,Chechen,
+cel,кельт.,Celtic,
+chg,чагат.,Chagatai,
+chm,мар.,Mari,
+cji,чамал.,Chamalal,
+cjs,шор.,Shor,
+cmg,монг. письм.,Classical Mongolian,
+cs,чеш.,Czech,
+cu,ст.слав.,Old Church Slavonic,
+cu-x-bg,др.болг.,Old Bulgarian,
+cv,чув.,Chuvash,
+cy,кимр.,Welsh,
+da,дат.,Danish,
+dar,дарг.,Dargwa,
+dar-x-aqusha,акуш.,Aqusha Dargwa,
+dar-x-kaitag,кайт.,Kaitag Dargwa,
+ddo,дид.,Tsez,
+de,нем.,German,
+el,н.гр.,Modern Greek,
+elx,элам.,Elamite,
+en,англ.,English,
+es,исп.,Spanish,
+et,эст.,Estonian,
+eu,баск.,Basque,
+evn,эвенк.,Evenki,
+fa,перс.,Persian,
+fi,фин.,Finnish,
+fr,фр.,French,
+fro,ст.фр.,Old French,
+frp,прованс.,Franco-Provençal,probably Franco-Provençal and not Occitan variety
+fy,фриз.,Frisian,"chose West as the largest branch, but not certain"
+ga,ирл.,Irish,
+gbz-x-yzd,язди,Yazdi,
+gdo,годобер.,Godoberi,
+gem,герм.,Proto-Germanic,
+gem-x-old,др.герм.,Old Germanic,
+glk,гилян.,Gilaki,
+gmh,ср.в.нем.,Middle High German,
+gml,ср.н.нем.,Middle Low German,
+goh,др.в.нем.,Old High German,
+got,гот.,Gothic,
+grc,гр.,Greek,
+grc-x-doric,гр. дор.,Doric Greek,
+hac,гуран.,Gorani,
+hbo,др.евр.,Hebrew,
+hit,хетт.,Hittite,
+hr,хорв.,Croatian,
+hu,венг.,Hungarian,
+huz,гунзиб.,Hunzib,
+iir,ар.,Proto-Indo-Iranian,
+inc,инд.,Indic,
+inc-x-mid,ср.инд.,Middle Indic,
+inc-x-nnew,северные новоиндийские диалекты,North New Indic dialects,
+inc-x-old,др.инд.,Old Indic,
+ine,и.е.,Proto-Indo-European,
+inh,инг.,Ingush,
+ira,иран.,(Proto-?)Iranian,
+ira-x-mid,ср.иран.,Middle Iranian,
+isk,пам. ишк.,Ishkashimi,
+it,ит.,Italian,
+ja,япон.,Japanese,
+ka,груз.,Georgian,
+ka-x-khevsur,хевсур.,Khevsur Georgian,
+kaa,каракалп.,Kara-Kalpak,
+kap,капуч.,Bezhta,
+kbd,каб.,Kabardian,
+kca,ханты,Khanty,
+kdr,караим.,Karaim,
+kho,сак.,Saka,
+khv,хварш.,Khwarshi,
+khw,ховар.,Khowar,
+khw,читр.,Khowar,"I assume this is Khowar, the language spoken in Chitral in Pakistan"
+kjh,хакас.,Khakas,
+kjj,хиналуг.,Khinalugh,
+kk,каз.,Kazakh,
+kpt,карат.,Karata,
+krc-x-balkar,балк.,Balkar,
+krc-x-karachay,карач.,Karachay,
+krl,карел.,Karelian,
+kry,крыз.,Kryz,
+kry-x-jek,джекск.,Jek Kryts,
+ku,курд.,Kurdish,
+kum,кум.,Kumyk,
+kv,коми,Komi,
+kw,корн.,Cornish,
+ky,кирг.,Kyrgyz,
+la,лат.,Latin,
+lbe,лак.,Lak,
+ldd,лур.,Luri,
+lez,лезг.,Lezgian,
+liv,лив.,Livonian,
+lt,лит.,Lithuanian,
+lv,латыш.,Latvian,
+lzz,чан.,Laz,
+mga,ср.ирл.,Middle Irish,
+mn,монг.,Mongolian,
+mn-x-uriankh,урянх.,Uriankhai,
+mnj,пам. м.,Munji,
+mns,манси,Mansi,
+mzn,маз.,Mazanderani,
+nds,н.н.нем.,Low German,
+ne,непал.,Nepali,used macrolanguage because it’s not clear what exactly Abaev refers to
+nl,нидерл.,Dutch,
+no,норв.,Norwegian,
+nog,ног.,Nogai,
+non,др.сев.,Old Norse,
+non-x-is,др.исл.,Old Icelandic,
+nub,нубийское,Nubian,
+ofs,др.фриз.,Old Frisian,
+oos,ст.ос.,Old Ossetic,
+oru,пам. ор.,Ormuri,
+orv,др.русск.,Old Russian,
+os-x-digor,д.,Digor,
+os-x-iron,и.,Iron,
+os-x-ksan,ксан.,Ksan Ossetic,
+os-x-south,ю.,South Ossetic,
+osx,др.сакс.,Old Saxon,
+pal,пехл.,Middle Persian,
+pal-x-pazend,паз.,Pazend,
+pal-x-turfan,пехл. турф.,Turfan Pahlavi,
+peo,др.перс.,Old Persian,
+pgd,кхарошти,Gandhari,
+pi,пали,Pali,
+pl,пол.,Polish,
+pra,пракрит.,Prakrit,
+prc,пар.,Parachi,
+prg,др.прусс.,Old Prussian,
+ps,афг.,Pashto,
+psh,пашан,Pashai (?),
+qwm,куман.,Cuman,
+ro,рум.,Romanian,
+rom,цыг.,Romani,
+rom,цыган.,Romani,
+ru,русск.,Russian,
+rut,рутул.,Rutul,
+sa,скр.,Sanskrit,
+sa-vaidika,вед.,Vedic,
+sah,якут.,Yakut,
+sem,семит.,Semitic,
+sga,др.ирл.,Old Irish,
+sgh,пам. ш.,Shughni,
+sgh-x-bartang,пам. барт.,Bartangi,
+sgh-x-khufi,хуф.,Khufi,
+sgy,пам. сгл.,Sanglechi,
+sgy-x-zebak,пам. зеб.,Zebaki,
+sh,сербо-хорв.,Serbo-Croatian,
+sl,слов.,Slovenian,
+sla,слав.,Slavic,
+smi,лопар.,Sami,
+sog,согд.,Sogdian,
+sog-x-budd,согд. будд.,Buddhist Sogdian,
+sog-x-chr,согд. христ.,Christian Sogdian,
+sog-x-man,согд. ман.,Manichean Sogdian,
+sqj,алб.,Albanian,
+sr,серб.,Serbian,
+srh,пам. с.,Sarikoli,
+sty,тобол.,Tobolsk Tatar,
+sux,шумер.,Sumerian,
+sv,швед.,Swedish,
+sva,сван.,Svan,
+syr,сир.,Syriac,
+tab,табас.,Tabassaran,
+tg,тадж.,Tajik,
+tk,туркм.,Turkmen,
+tkr,цахур.,Tsakhur,
+tly,тал.,Talyshi,
+tr,тур.,Turkish,
+tr-x-anat,анат.,Anatolian Turkish,
+trk,тюрк.,Turkic,
+trk-x-north,сев. тюрк.,North Turkic,
+tt,татар.,Tatar,
+tt-x-kazan,казан.,Kazan Tatar,
+ttt,татск.,Tat (Muslim?),
+txb,тохар. B,Tocharian B,
+txh,фрак.,Thracian,
+uby,убых.,Ubykh,
+udi,удин.,Udi,
+udm,удм.,Udmurt,
+ug,уйгур.,Uyghur,
+ug-x-kashgar,кашг.,Kashgari Uyghur,
+uk,укр.,Ukrainian,
+uk-x-gal,укр. (галиц.),Ukrainian (Galician),
+uz,узб.,Uzbek,
+vep,вепс.,Veps,
+wbl,пам. в.,Wakhi,
+wen,луж.,Sorbian,
+x-balochi,бел.,Balochi,
+x-crc,черк.,Circassian,
+x-iazyg,языгский,Iazygean,
+x-mordvin,морд.,Mordvinic,
+x-nuristan,кафир.,Nuristani,
+x-oldirn,др.иран.,Proto-Iranian,
+x-oldsl,др.слав.,Proto-Slavic,
+x-pamir,пам.,Pamir,
+x-pamir-n,пам. н.??,Pamir,
+x-rushani,пам. руш.,Rushani,
+x-tchr,тохар.,Tocharian,
+x-vaynakh,вейнах.,Vaynakh,
+xal,калм.,Kalmyk,
+xbc,кушан.,Bactrian,
+xbo,булг.,Bulgar,
+xcl,арм.,(Classical) Armenian,
+xln,алан.,Alanic,
+xlu,лув.,Luwian,cuneiform
+xme,мид.,Median,
+xmf,мегр.,Mingerlian,
+xpg,фриг.,Phrygian,
+xpr,парф.,Parthian,
+xsc,скиф.,Scythian,
+xtg,галл.,Gaulish,or Cisalpine?
+xto,тохар. A,Tocharian A,
+xtq,сак. (Тумшук),Tumshuqese,
+xum,умбр.,Umbrian,
+yah,пам. язг.,Yazgulyam,
+yai,ягн.,Yaghnobi,
+ydg,пам. и.,Yidgha,
+yrk,нен.,Nenets,
+zh,кит.,Chinese,
+zkh,хорезм.,Khwarezmian,
+zza,заза,Zazaki,

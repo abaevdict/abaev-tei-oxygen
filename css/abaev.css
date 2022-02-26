@@ -63,6 +63,8 @@ orth + form[type="variant"][rendition~="#rend_parens"]::after {content: ")"}*/
 orth + form[type="participle"]::before {content: " : "}
 form > form + form[type="variant"]::before {content: ", "}
 
+form > lang + orth::before {content: " ";}
+
 re > form orth {font-style: italic}
 
 sense {display: inline}

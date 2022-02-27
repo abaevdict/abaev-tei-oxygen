@@ -124,6 +124,8 @@
 *[extralang~="frp"] > lang:empty {-oxy-append-content: ", прованс.";}
 :lang(fy) > lang:empty {content: "фриз.";}
 *[extralang~="fy"] > lang:empty {-oxy-append-content: ", фриз.";}
+:lang(frs) > lang:empty {content: "фрз. (вост.)";}
+*[extralang~="frs"] > lang:empty {-oxy-append-content: ", фрз. (вост.)";}
 :lang(ga) > lang:empty {content: "ирл.";}
 *[extralang~="ga"] > lang:empty {-oxy-append-content: ", ирл.";}
 :lang(gbz-x-yzd) > lang:empty {content: "язди";}
@@ -326,6 +328,8 @@
 *[extralang~="rom"] > lang:empty {-oxy-append-content: ", цыган.";}
 :lang(ru) > lang:empty {content: "русск.";}
 *[extralang~="ru"] > lang:empty {-oxy-append-content: ", русск.";}
+:lang(ru-x-dial) > lang:empty {content: "русск. (диал.)";}
+*[extralang~="ru-x-dial"] > lang:empty {-oxy-append-content: ", русск. (диал.)";}
 :lang(rut) > lang:empty {content: "рутул.";}
 *[extralang~="rut"] > lang:empty {-oxy-append-content: ", рутул.";}
 :lang(sa) > lang:empty {content: "скр.";}

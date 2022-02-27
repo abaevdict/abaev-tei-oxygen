@@ -190,6 +190,8 @@
 *[extralang~="ka"] > lang:empty {-oxy-append-content: ", Georgian";}
 :lang(ka-x-khevsur) > lang:empty {content: "Khevsur Georgian";}
 *[extralang~="ka-x-khevsur"] > lang:empty {-oxy-append-content: ", Khevsur Georgian";}
+:lang(ka-x-ingiloy) > lang:empty {content: "Ingiloy Georgian";}
+*[extralang~="ka-x-ingiloy"] > lang:empty {-oxy-append-content: ", Ingiloy Georgian";}
 :lang(kaa) > lang:empty {content: "Kara-Kalpak";}
 *[extralang~="kaa"] > lang:empty {-oxy-append-content: ", Kara-Kalpak";}
 :lang(kap) > lang:empty {content: "Bezhta";}
@@ -368,6 +370,8 @@
 *[extralang~="sog-x-chr"] > lang:empty {-oxy-append-content: ", Christian Sogdian";}
 :lang(sog-x-man) > lang:empty {content: "Manichean Sogdian";}
 *[extralang~="sog-x-man"] > lang:empty {-oxy-append-content: ", Manichean Sogdian";}
+:lang(sog-x-mugh) > lang:empty {content: "Sogdian (Mugh)";}
+*[extralang~="sog-x-mugh"] > lang:empty {-oxy-append-content: ", Sogdian (Mugh)";}
 :lang(sqj) > lang:empty {content: "Albanian";}
 *[extralang~="sqj"] > lang:empty {-oxy-append-content: ", Albanian";}
 :lang(sr) > lang:empty {content: "Serbian";}

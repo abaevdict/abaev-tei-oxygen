@@ -288,6 +288,8 @@
 *[extralang~="oru"] > lang:empty {-oxy-append-content: ", Ormuri";}
 :lang(orv) > lang:empty {content: "Old Russian";}
 *[extralang~="orv"] > lang:empty {-oxy-append-content: ", Old Russian";}
+:lang(os) > lang:empty {content: "Ossetic";}
+*[extralang~="os"] > lang:empty {-oxy-append-content: ", Ossetic";}
 :lang(os-x-digor) > lang:empty {content: "Digor";}
 *[extralang~="os-x-digor"] > lang:empty {-oxy-append-content: ", Digor";}
 :lang(os-x-iron) > lang:empty {content: "Iron";}

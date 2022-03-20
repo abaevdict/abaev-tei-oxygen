@@ -200,6 +200,8 @@
 *[extralang~="ka-x-khevsur"] > lang:empty {-oxy-append-content: ", груз. (хевсур.)";}
 :lang(ka-x-ingiloy) > lang:empty {content: "груз. (ингил.)";}
 *[extralang~="ka-x-ingiloy"] > lang:empty {-oxy-append-content: ", груз. (ингил.)";}
+:lang(ka-x-pshav) > lang:empty {content: "груз. (пшав.)";}
+*[extralang~="ka-x-pshav"] > lang:empty {-oxy-append-content: ", груз. (пшав.)";}
 :lang(ka-x-rachian) > lang:empty {content: "груз. (рачин.)";}
 *[extralang~="ka-x-rachian"] > lang:empty {-oxy-append-content: ", груз. (рачин.)";}
 :lang(kaa) > lang:empty {content: "каракалп.";}

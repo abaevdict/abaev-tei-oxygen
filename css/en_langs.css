@@ -200,6 +200,8 @@
 *[extralang~="ka-x-khevsur"] > lang:empty {-oxy-append-content: ", Khevsur Georgian";}
 :lang(ka-x-ingiloy) > lang:empty {content: "Ingiloy Georgian";}
 *[extralang~="ka-x-ingiloy"] > lang:empty {-oxy-append-content: ", Ingiloy Georgian";}
+:lang(ka-x-pshav) > lang:empty {content: "Pshavian Georgian";}
+*[extralang~="ka-x-pshav"] > lang:empty {-oxy-append-content: ", Pshavian Georgian";}
 :lang(ka-x-rachian) > lang:empty {content: "Rachian Georgian";}
 *[extralang~="ka-x-rachian"] > lang:empty {-oxy-append-content: ", Rachian Georgian";}
 :lang(kaa) > lang:empty {content: "Kara-Kalpak";}

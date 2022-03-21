@@ -119,7 +119,8 @@ example > bibl::after{content: ")";}
 /*example > note::before{content: " (";}
 example > note::after{content: ")";}*/
 
-ref[target]:empty::before {content:attr(target); font-style: italic; background-color: grey;}
+ref[target]:empty::after {content:attr(target); font-style: italic; background-color: grey;}
+entry > ref + ref::before {content: ", ";}
 
 quote {display: inline; font-style: italic;}
 example:lang(ru) > quote {font-style: inherit;}

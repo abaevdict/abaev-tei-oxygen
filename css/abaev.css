@@ -78,6 +78,7 @@ note + sense:before {-oxy-prepend-content: " "}
 /*re::after {content: ". "}*/
 
 sense > re:before {content: "; "}
+sense > re:first-child:before {content: ""}
 note + re:before {content: "; "} 
 
 sense > sense + sense:before {-oxy-prepend-content: ", "}

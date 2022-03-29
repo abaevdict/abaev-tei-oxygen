@@ -34,3 +34,5 @@ example > tr > q + q::before {content: ", „"}
 *[extralang~="os-x-digor"] > lang:empty {-oxy-append-content: ", д."}
 *[extralang~="os-x-south"] > lang:empty {-oxy-append-content: ", ю."}
 *[extralang~="os-x-ksan"] > lang:empty {-oxy-append-content: ", ксан."}
+
+entry > ref:before {content: "см. ";}

@@ -113,7 +113,9 @@ exampleGrp + re::before {content: ". — ";}
 
 /*bibl[corresp]::before {content: attr(corresp);}*/
 example > bibl::before{content: " (";}
-example > bibl::after{content: ")";}
+example > bibl:last-of-type::after{content: ")";}
+example > bibl + bibl::before{content: "; ";}
+
 /*bibl > biblScope::before{content: " ";}*/
 
 /*example > note::before{content: " (";}

@@ -152,7 +152,10 @@ p {display: block}
 
 table {display: inline-table}
 
-lb::after {content: "\A"}
+lb::before {content: "\A";
+            white-space: pre;}
+pb::before {content: "\a";
+            white-space: pre;}
 
 form[type~="rec"]::before {content:"*"}
 w[type~="rec"]::before {content:"*"}

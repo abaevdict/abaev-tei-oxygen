@@ -53,6 +53,8 @@ form {display: inline}
 /*orth {font-style: italic}*/
 form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"]::before {content: " | ";}
 w[xml|lang="os-x-iron"] + w[xml|lang="os-x-digor"]::before {content: " | "; font-style: normal;}
+m[xml|lang="os-x-iron"] + m[xml|lang="os-x-digor"]::before {content: " | "; font-style: normal;}
+c[xml|lang="os-x-iron"] + c[xml|lang="os-x-digor"]::before {content: " | "; font-style: normal;}
 entry > form orth {font-weight: bold}
 orth + form[type="variant"]::before {content: ", "}
 orth + form[type="synonym"]::before {content: ", "}

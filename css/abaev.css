@@ -79,8 +79,10 @@ usg + sense:before {-oxy-prepend-content: " "}
 note + sense:before {-oxy-prepend-content: " "}
 /*re::after {content: ". "}*/
 
-sense > re:before {content: "; "}
+/*sense > re:before {content: "; "}
 sense > re:first-child:before {content: ""}
+sense > re:first-of-type:before {content: ""}*/
+/*sense > re + re:before {content: "; "}*/
 note + re:before {content: "; "} 
 
 sense > sense + sense:before {-oxy-prepend-content: ", "}

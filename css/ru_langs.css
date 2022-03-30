@@ -184,6 +184,8 @@
 *[extralang~="ira"] > lang:empty {-oxy-append-content: ", иран.";}
 :lang(ira-x-mid) > lang:empty {content: "ср.иран.";}
 *[extralang~="ira-x-mid"] > lang:empty {-oxy-append-content: ", ср.иран.";}
+:lang(is) > lang:empty {content: "исл.";}
+*[extralang~="is"] > lang:empty {-oxy-append-content: ", исл.";}
 :lang(isk) > lang:empty {content: "пам. ишк.";}
 *[extralang~="isk"] > lang:empty {-oxy-append-content: ", пам. ишк.";}
 :lang(it) > lang:empty {content: "ит.";}

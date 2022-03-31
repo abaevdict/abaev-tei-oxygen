@@ -6,7 +6,7 @@ etym:lang(en) {display: none}
 tr:lang(en) {display: none}
 def:lang(en) {display: none}
 note:lang(en) {display: none}
-bibl:lang(en) {display: none}
+biblScope:lang(en) {display: none}
 
 q[rendition~="#rend_doublequotes"]::before {content: "„";}
 q[rendition~="#rend_doublequotes"]::after {content: "“";}

@@ -78,6 +78,7 @@ entry > form + sense:before, re > form + sense:before {-oxy-prepend-content: " "
 usg + sense:before {-oxy-prepend-content: " "}
 note + sense:before {-oxy-prepend-content: " "}
 /*re::after {content: ". "}*/
+re + sense:before {-oxy-prepend-content: " "}
 
 /*sense > re:before {content: "; "}
 sense > re:first-child:before {content: ""}
@@ -143,6 +144,7 @@ w {font-style: italic;}
 c {font-style: italic;}
 m {font-style: italic;}
 phr {font-style: italic;}
+s {font-style: italic;}
 /*mentioned > lang::after {content: " ";}*/
 /*mentioned > note + w, mentioned > note + c, mentioned > note + m::after {content: " ";}*/
 /*mentioned > w + w::before {content: ", ";}

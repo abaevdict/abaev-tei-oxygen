@@ -6,6 +6,7 @@ etym:lang(ru) {display: none}
 tr:lang(ru) {display: none}
 def:lang(ru) {display: none}
 note:lang(ru) {display: none}
+bibl:lang(ru) {display: none}
 
 q[rendition~="#rend_doublequotes"]::before {content: "“";}
 q[rendition~="#rend_doublequotes"]::after {content: "”";}

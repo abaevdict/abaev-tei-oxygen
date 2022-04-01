@@ -39,3 +39,5 @@ example > tr > q + q::before {content: ", „"}
 *[extralang~="os-x-ksan"] > lang:empty {-oxy-append-content: ", ксан."}*/
 
 entry > ref:before {content: "см. ";}
+
+tr oRef {font-style: normal; letter-spacing: 3px}

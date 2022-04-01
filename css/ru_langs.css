@@ -150,6 +150,8 @@
 *[extralang~="goh"] > lang:empty {-oxy-append-content: ", др.в.нем.";}
 :lang(got) > lang:empty {content: "гот.";}
 *[extralang~="got"] > lang:empty {-oxy-append-content: ", гот.";}
+:lang(got-x-crm) > lang:empty {content: "гот. (крым.)";}
+*[extralang~="got-x-crm"] > lang:empty {-oxy-append-content: ", гот. (крым.)";}
 :lang(grc) > lang:empty {content: "гр.";}
 *[extralang~="grc"] > lang:empty {-oxy-append-content: ", гр.";}
 :lang(grc-x-doric) > lang:empty {content: "гр. дор.";}

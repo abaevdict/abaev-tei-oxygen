@@ -150,6 +150,8 @@
 *[extralang~="goh"] > lang:empty {-oxy-append-content: ", Old High German";}
 :lang(got) > lang:empty {content: "Gothic";}
 *[extralang~="got"] > lang:empty {-oxy-append-content: ", Gothic";}
+:lang(got-x-crm) > lang:empty {content: "Crimean Gothic";}
+*[extralang~="got-x-crm"] > lang:empty {-oxy-append-content: ", Crimean Gothic";}
 :lang(grc) > lang:empty {content: "Greek";}
 *[extralang~="grc"] > lang:empty {-oxy-append-content: ", Greek";}
 :lang(grc-x-doric) > lang:empty {content: "Doric Greek";}

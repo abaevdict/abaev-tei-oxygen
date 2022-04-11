@@ -414,6 +414,8 @@
 *[extralang~="sux"] > lang:empty {-oxy-append-content: ", шумер.";}
 :lang(sv) > lang:empty {content: "швед.";}
 *[extralang~="sv"] > lang:empty {-oxy-append-content: ", швед.";}
+:lang(sv-x-dial) > lang:empty {content: "швед. (диал.)";}
+*[extralang~="sv-x-dial"] > lang:empty {-oxy-append-content: ", швед. (диал.)";}
 :lang(sva) > lang:empty {content: "сван.";}
 *[extralang~="sva"] > lang:empty {-oxy-append-content: ", сван.";}
 :lang(syr) > lang:empty {content: "сир.";}

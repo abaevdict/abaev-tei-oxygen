@@ -390,8 +390,8 @@
 *[extralang~="sla"] > lang:empty {-oxy-append-content: ", слав.";}
 :lang(smi) > lang:empty {content: "лопар.";}
 *[extralang~="smi"] > lang:empty {-oxy-append-content: ", лопар.";}
-:lang(smy) > lang:empty {content: "семнани";}
-*[extralang~="smy"] > lang:empty {-oxy-append-content: ", семнани";}
+:lang(smy) > lang:empty {content: "семнан.";}
+*[extralang~="smy"] > lang:empty {-oxy-append-content: ", семнан.";}
 :lang(sog) > lang:empty {content: "согд.";}
 *[extralang~="sog"] > lang:empty {-oxy-append-content: ", согд.";}
 :lang(sog-x-budd) > lang:empty {content: "согд. будд.";}

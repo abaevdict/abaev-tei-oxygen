@@ -52,14 +52,16 @@ form + usg::before {content: " "}
 form {display: inline}
 /*orth {font-style: italic}*/
 form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"]::before {content: " | ";}
+form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"][subtype="parens"]::before {content: " | (";}
+form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"][subtype="parens"]::after {content: ")";}
 w[xml|lang="os-x-iron"] + w[xml|lang="os-x-digor"]::before {content: " | "; font-style: normal;}
 m[xml|lang="os-x-iron"] + m[xml|lang="os-x-digor"]::before {content: " | "; font-style: normal;}
 c[xml|lang="os-x-iron"] + c[xml|lang="os-x-digor"]::before {content: " | "; font-style: normal;}
 entry > form orth {font-weight: bold}
 orth + form[type="variant"]::before {content: ", "}
 orth + form[type="synonym"]::before {content: ", "}
-orth + form[type="parens"]::before {content: " ("}
-orth + form[type="parens"]::after {content: ")"}
+orth + form[type = "variant"][subtype="parens"]::before {content: " ("}
+orth + form[type = "variant"][subtype="parens"]::after {content: ")"}
 /*orth + form[type="variant"][rendition~="#rend_parens"]::before {content: " ("}
 orth + form[type="variant"][rendition~="#rend_parens"]::after {content: ")"}*/
 orth + form[type="participle"]::before {content: " : "}

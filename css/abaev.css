@@ -130,8 +130,7 @@ example > note::after{content: ")";}*/
 
 ref[target]:empty::after {content:attr(target); font-style: italic; background-color: grey;}
 entry > ref + ref::before {content: ", ";}
-entry > usg + ref::before {content: " ";}
-entry > ref[target]:last-of-type::after {-oxy-append-content: ".";}
+/*entry > ref[target]:last-of-type::after {-oxy-append-content: ".";}*/
 
 entry > :not(etym):last-child::after {content: ".";}
 

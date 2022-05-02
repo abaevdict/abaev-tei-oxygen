@@ -73,8 +73,8 @@ re > form orth {font-style: italic}
 
 sense {display: inline}
 sense[n]:before {content: " " attr(n) ". "}
-entry > sense + sense:before {content: "; "}
-entry > sense + sense[n]:before {content: "; " attr(n) ". "}
+entry > sense + sense:before, re > sense + sense:before {content: "; "}
+entry > sense + sense[n]:before, re > sense + sense[n]:before {content: "; " attr(n) ". "}
 entry > form + sense:before, re > form + sense:before {-oxy-prepend-content: " "}
 /*entry > sense:last-of-type::after {content: ". "}*/
 usg + sense:before {-oxy-prepend-content: " "}

@@ -134,7 +134,7 @@ entry > ref + ref::before {content: ", ";}
 
 entry > :not(etym):last-child::after {content: ".";}
 
-quote {display: inline; font-style: italic;}
+example > quote {display: inline; font-style: italic;}
 example:lang(ru) > quote {font-style: inherit;}
 usg + quote::before {content: " ";}
 

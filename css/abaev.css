@@ -65,6 +65,7 @@ orth + form[type = "variant"][subtype="parens"]::after {content: ")"}
 /*orth + form[type="variant"][rendition~="#rend_parens"]::before {content: " ("}
 orth + form[type="variant"][rendition~="#rend_parens"]::after {content: ")"}*/
 orth + form[type="participle"]::before {content: " : "}
+form[type="variant"] + form[type="participle"]::before {content: " : "} 
 form > form + form[type="variant"]::before {content: ", "}
 
 form > lang + orth::before {content: " ";}
@@ -135,6 +136,7 @@ entry > ref + ref::before {content: ", ";}
 entry > :not(etym):last-child::after {content: ".";}
 
 example > quote {display: inline; font-style: italic;}
+example > quote > note {font-style: normal;}
 example:lang(ru) > quote {font-style: inherit;}
 usg + quote::before {content: " ";}
 

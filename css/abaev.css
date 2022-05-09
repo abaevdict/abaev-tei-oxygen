@@ -174,12 +174,12 @@ c[type~="rec"]::before {content:"*"}
 entry > sense + re::before{content: "; "}
 entry > re + re::before {content: "; "}
 re > re + re::before {content: ", ";}
-entry > form + re::before {content: ": "}
+entry > form + re > form::before {content: ": "}
 
 note[type="footnote"] {vertical-align: sub; font-size: small}
 
 oRef {font-style:italic}
-quote > oRef {font-weight:bold;}
+quote oRef {font-weight:bold;}
 entry oRef:empty {content: oxy_xpath("ancestor::entry/form[1]/orth[1]/text()")}
 entry re oRef:empty {content: oxy_xpath("ancestor::re/form[1]/orth[1]/text()")}
 

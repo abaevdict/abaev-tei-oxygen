@@ -48,6 +48,7 @@ lang {font-style: normal}
 mentioned > lang {font-weight: bold}
 usg + form::before {content: " "}
 form + usg::before {content: " "}
+usg + tr::before {content: " "}
 
 form {display: inline}
 /*orth {font-style: italic}*/

@@ -206,6 +206,8 @@
 *[extralang~="ja"] > lang:empty {-oxy-append-content: ", Japanese";}
 :lang(ka) > lang:empty {content: "Georgian";}
 *[extralang~="ka"] > lang:empty {-oxy-append-content: ", Georgian";}
+:lang(ka-x-clq) > lang:empty {content: "Georgian (colloquial)";}
+*[extralang~="ka-x-clq"] > lang:empty {-oxy-append-content: ", Georgian (colloquial)";}
 :lang(ka-x-dial) > lang:empty {content: "Georgian (dialectal)";}
 *[extralang~="ka-x-dial"] > lang:empty {-oxy-append-content: ", Georgian (dialectal)";}
 :lang(ka-x-guria) > lang:empty {content: "Gurian Georgian";}

@@ -187,3 +187,5 @@ entry oRef:empty {content: oxy_xpath("ancestor::entry/form[1]/orth[1]/text()")}
 entry re oRef:empty {content: oxy_xpath("ancestor::re/form[1]/orth[1]/text()")}
 
 author {letter-spacing: 3px;}
+
+foreign {font-style: italic;}

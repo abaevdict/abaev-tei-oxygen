@@ -46,6 +46,7 @@ lang {font-style: normal}
 [xml|lang="ru"] lang[xml|lang="en"]:empty {content: "Russian"}*/
 
 mentioned > lang {font-weight: bold}
+etym > lang {font-weight: bold}
 usg + form::before {content: " "}
 form + usg::before {content: " "}
 usg + tr::before {content: " "}

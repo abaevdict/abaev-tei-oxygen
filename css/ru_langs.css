@@ -234,6 +234,8 @@
 *[extralang~="kbd-x-crc-dial"] > lang:empty {-oxy-append-content: ", черк. (диал.)";}
 :lang(kbd-x-crc-west) > lang:empty {content: "черк. (зап.)";}
 *[extralang~="kbd-x-crc-west"] > lang:empty {-oxy-append-content: ", черк. (зап.)";}
+:lang(kbd-x-dial) > lang:empty {content: "каб. (диал.)";}
+*[extralang~="kbd-x-dial"] > lang:empty {-oxy-append-content: ", каб. (диал.)";}
 :lang(kca) > lang:empty {content: "ханты";}
 *[extralang~="kca"] > lang:empty {-oxy-append-content: ", ханты";}
 :lang(kdr) > lang:empty {content: "караим.";}

@@ -234,6 +234,8 @@
 *[extralang~="kbd-x-crc-dial"] > lang:empty {-oxy-append-content: ", Circassian (dialectal)";}
 :lang(kbd-x-crc-west) > lang:empty {content: "Circassian (western)";}
 *[extralang~="kbd-x-crc-west"] > lang:empty {-oxy-append-content: ", Circassian (western)";}
+:lang(kbd-x-dial) > lang:empty {content: "Kabardian (dialectal)";}
+*[extralang~="kbd-x-dial"] > lang:empty {-oxy-append-content: ", Kabardian (dialectal)";}
 :lang(kca) > lang:empty {content: "Khanty";}
 *[extralang~="kca"] > lang:empty {-oxy-append-content: ", Khanty";}
 :lang(kdr) > lang:empty {content: "Karaim";}

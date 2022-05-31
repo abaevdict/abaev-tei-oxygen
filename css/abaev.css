@@ -89,7 +89,7 @@ re + sense:before {-oxy-prepend-content: " "}
 sense > re:first-child:before {content: ""}
 sense > re:first-of-type:before {content: ""}*/
 /*sense > re + re:before {content: "; "}*/
-note + re:before {content: "; "} 
+entry > note + re:before {content: "; "} 
 
 sense > sense + sense:before {-oxy-prepend-content: ", "}
 def {display: inline}

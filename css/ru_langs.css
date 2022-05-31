@@ -12,6 +12,8 @@
 *[extralang~="ady-x-shpsg"] > lang:empty {-oxy-append-content: ", шапс.";}
 :lang(ae) > lang:empty {content: "ав.";}
 *[extralang~="ae"] > lang:empty {-oxy-append-content: ", ав.";}
+:lang(ae-x-gth) > lang:empty {content: "ав. (гаты)";}
+*[extralang~="ae-x-gth"] > lang:empty {-oxy-append-content: ", ав. (гаты)";}
 :lang(agx) > lang:empty {content: "агул.";}
 *[extralang~="agx"] > lang:empty {-oxy-append-content: ", агул.";}
 :lang(aii) > lang:empty {content: "ассир.";}

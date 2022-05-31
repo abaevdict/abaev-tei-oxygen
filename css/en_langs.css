@@ -12,6 +12,8 @@
 *[extralang~="ady-x-shpsg"] > lang:empty {-oxy-append-content: ", Shapsug Adyghe";}
 :lang(ae) > lang:empty {content: "Avestan";}
 *[extralang~="ae"] > lang:empty {-oxy-append-content: ", Avestan";}
+:lang(ae-x-gth) > lang:empty {content: "Gathic Avestan";}
+*[extralang~="ae-x-gth"] > lang:empty {-oxy-append-content: ", Gathic Avestan";}
 :lang(agx) > lang:empty {content: "Aghul";}
 *[extralang~="agx"] > lang:empty {-oxy-append-content: ", Aghul";}
 :lang(aii) > lang:empty {content: "Assyrian";}

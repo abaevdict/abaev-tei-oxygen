@@ -78,6 +78,8 @@
 *[extralang~="cjs"] > lang:empty {-oxy-append-content: ", шор.";}
 :lang(cmg) > lang:empty {content: "монг. письм.";}
 *[extralang~="cmg"] > lang:empty {-oxy-append-content: ", монг. письм.";}
+:lang(crh) > lang:empty {content: "татар. (крым.)";}
+*[extralang~="crh"] > lang:empty {-oxy-append-content: ", татар. (крым.)";}
 :lang(cs) > lang:empty {content: "чеш.";}
 *[extralang~="cs"] > lang:empty {-oxy-append-content: ", чеш.";}
 :lang(cu) > lang:empty {content: "ст.слав.";}

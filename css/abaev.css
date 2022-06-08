@@ -91,7 +91,7 @@ sense > re:first-of-type:before {content: ""}*/
 /*sense > re + re:before {content: "; "}*/
 entry > note + re:before {content: "; "} 
 
-sense > sense + sense:before {-oxy-prepend-content: ", "}
+
 def {display: inline}
 
 note {display: inline; font-size: 100%}

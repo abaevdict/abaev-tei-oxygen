@@ -8,6 +8,9 @@ def:lang(en) {display: none}
 note:lang(en) {display: none}
 biblScope:lang(en) {display: none}
 
+sense > sense {display: none}
+sense > sense:has(tr:lang(ru)) {display: inline !important;}
+
 q[rendition~="#rend_doublequotes"]::before {content: "„";}
 q[rendition~="#rend_doublequotes"]::after {content: "“";}
 q > q[rendition~="#rend_doublequotes"]::before {content: "«";}
@@ -44,3 +47,5 @@ entry > ref:before {content: "см. ";}
 entry > usg + ref::before {content: " см. ";}
 
 tr oRef {font-style: normal; letter-spacing: 3px}
+
+sense > sense + sense:has(tr:lang(ru)):before {-oxy-prepend-content: ", "}

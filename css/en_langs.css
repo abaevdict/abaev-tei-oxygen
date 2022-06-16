@@ -56,6 +56,8 @@
 *[extralang~="bph"] > lang:empty {-oxy-append-content: ", Botlikh";}
 :lang(br) > lang:empty {content: "Breton";}
 *[extralang~="br"] > lang:empty {-oxy-append-content: ", Breton";}
+:lang(brh) > lang:empty {content: "Brahui";}
+*[extralang~="brh"] > lang:empty {-oxy-append-content: ", Brahui";}
 :lang(bsk) > lang:empty {content: "Burushaski";}
 *[extralang~="bsk"] > lang:empty {-oxy-append-content: ", Burushaski";}
 :lang(bua) > lang:empty {content: "Buryat";}

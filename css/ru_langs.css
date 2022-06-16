@@ -556,6 +556,8 @@
 *[extralang~="xme"] > lang:empty {-oxy-append-content: ", мид.";}
 :lang(xmf) > lang:empty {content: "мегр.";}
 *[extralang~="xmf"] > lang:empty {-oxy-append-content: ", мегр.";}
+:lang(xmn) > lang:empty {content: "пехл. (маних.)";}
+*[extralang~="xmn"] > lang:empty {-oxy-append-content: ", пехл. (маних.)";}
 :lang(xpg) > lang:empty {content: "фриг.";}
 *[extralang~="xpg"] > lang:empty {-oxy-append-content: ", фриг.";}
 :lang(xpr) > lang:empty {content: "парф.";}

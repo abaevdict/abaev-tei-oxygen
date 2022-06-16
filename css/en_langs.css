@@ -438,8 +438,8 @@
 *[extralang~="sog-x-budd"] > lang:empty {-oxy-append-content: ", Buddhist Sogdian";}
 :lang(sog-x-chr) > lang:empty {content: "Christian Sogdian";}
 *[extralang~="sog-x-chr"] > lang:empty {-oxy-append-content: ", Christian Sogdian";}
-:lang(sog-x-man) > lang:empty {content: "Manichean Sogdian";}
-*[extralang~="sog-x-man"] > lang:empty {-oxy-append-content: ", Manichean Sogdian";}
+:lang(sog-x-man) > lang:empty {content: "Manichaean Sogdian";}
+*[extralang~="sog-x-man"] > lang:empty {-oxy-append-content: ", Manichaean Sogdian";}
 :lang(sog-x-mugh) > lang:empty {content: "Sogdian (Mugh)";}
 *[extralang~="sog-x-mugh"] > lang:empty {-oxy-append-content: ", Sogdian (Mugh)";}
 :lang(sqj) > lang:empty {content: "Albanian";}
@@ -556,6 +556,8 @@
 *[extralang~="xme"] > lang:empty {-oxy-append-content: ", Median";}
 :lang(xmf) > lang:empty {content: "Mingerlian";}
 *[extralang~="xmf"] > lang:empty {-oxy-append-content: ", Mingerlian";}
+:lang(xmn) > lang:empty {content: "Manichaean Middle Persian";}
+*[extralang~="xmn"] > lang:empty {-oxy-append-content: ", Manichaean Middle Persian";}
 :lang(xpg) > lang:empty {content: "Phrygian";}
 *[extralang~="xpg"] > lang:empty {-oxy-append-content: ", Phrygian";}
 :lang(xpr) > lang:empty {content: "Parthian";}

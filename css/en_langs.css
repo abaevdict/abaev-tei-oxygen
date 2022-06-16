@@ -520,6 +520,8 @@
 *[extralang~="wen"] > lang:empty {-oxy-append-content: ", Sorbian";}
 :lang(wne) > lang:empty {content: "Wanetsi";}
 *[extralang~="wne"] > lang:empty {-oxy-append-content: ", Wanetsi";}
+:lang(wsv) > lang:empty {content: "Wotapuri-Katarqalai";}
+*[extralang~="wsv"] > lang:empty {-oxy-append-content: ", Wotapuri-Katarqalai";}
 :lang(x-balochi) > lang:empty {content: "Balochi";}
 *[extralang~="x-balochi"] > lang:empty {-oxy-append-content: ", Balochi";}
 :lang(x-iazyg) > lang:empty {content: "Iazygean";}

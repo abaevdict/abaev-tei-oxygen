@@ -218,6 +218,8 @@
 *[extralang~="ka-x-dial"] > lang:empty {-oxy-append-content: ", груз. (диал.)";}
 :lang(ka-x-guria) > lang:empty {content: "груз. (гур.)";}
 *[extralang~="ka-x-guria"] > lang:empty {-oxy-append-content: ", груз. (гур.)";}
+:lang(ka-x-imer) > lang:empty {content: "груз. (имер.)";}
+*[extralang~="ka-x-imer"] > lang:empty {-oxy-append-content: ", груз. (имер.)";}
 :lang(ka-x-khevsur) > lang:empty {content: "груз. (хевсур.)";}
 *[extralang~="ka-x-khevsur"] > lang:empty {-oxy-append-content: ", груз. (хевсур.)";}
 :lang(ka-x-ingiloy) > lang:empty {content: "груз. (ингил.)";}

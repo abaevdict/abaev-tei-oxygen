@@ -218,6 +218,8 @@
 *[extralang~="ka-x-dial"] > lang:empty {-oxy-append-content: ", Georgian (dialectal)";}
 :lang(ka-x-guria) > lang:empty {content: "Gurian Georgian";}
 *[extralang~="ka-x-guria"] > lang:empty {-oxy-append-content: ", Gurian Georgian";}
+:lang(ka-x-imer) > lang:empty {content: "Imeretian Georgian";}
+*[extralang~="ka-x-imer"] > lang:empty {-oxy-append-content: ", Imeretian Georgian";}
 :lang(ka-x-khevsur) > lang:empty {content: "Khevsur Georgian";}
 *[extralang~="ka-x-khevsur"] > lang:empty {-oxy-append-content: ", Khevsur Georgian";}
 :lang(ka-x-ingiloy) > lang:empty {content: "Ingiloy Georgian";}

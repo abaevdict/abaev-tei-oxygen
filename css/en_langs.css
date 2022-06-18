@@ -470,6 +470,8 @@
 *[extralang~="tg"] > lang:empty {-oxy-append-content: ", Tajik";}
 :lang(tg-x-dial) > lang:empty {content: "Tajik (dialectal)";}
 *[extralang~="tg-x-dial"] > lang:empty {-oxy-append-content: ", Tajik (dialectal)";}
+:lang(tg-x-qrtg) > lang:empty {content: "Tajik (Qarategin)";}
+*[extralang~="tg-x-qrtg"] > lang:empty {-oxy-append-content: ", Tajik (Qarategin)";}
 :lang(tg-x-vanj) > lang:empty {content: "Tajik (Vanj)";}
 *[extralang~="tg-x-vanj"] > lang:empty {-oxy-append-content: ", Tajik (Vanj)";}
 :lang(tk) > lang:empty {content: "Turkmen";}

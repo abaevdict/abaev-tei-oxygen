@@ -470,6 +470,8 @@
 *[extralang~="tg"] > lang:empty {-oxy-append-content: ", тадж.";}
 :lang(tg-x-dial) > lang:empty {content: "тадж. (диал.)";}
 *[extralang~="tg-x-dial"] > lang:empty {-oxy-append-content: ", тадж. (диал.)";}
+:lang(tg-x-qrtg) > lang:empty {content: "тадж. (каратег.)";}
+*[extralang~="tg-x-qrtg"] > lang:empty {-oxy-append-content: ", тадж. (каратег.)";}
 :lang(tg-x-vanj) > lang:empty {content: "тадж. (вандж.)";}
 *[extralang~="tg-x-vanj"] > lang:empty {-oxy-append-content: ", тадж. (вандж.)";}
 :lang(tk) > lang:empty {content: "туркм.";}

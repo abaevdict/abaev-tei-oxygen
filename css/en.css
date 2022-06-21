@@ -37,7 +37,7 @@ q > q[rendition~="#rend_doublequotes"]::after {content: "’";}
 *[extralang~="os-x-south"] > lang:empty {-oxy-append-content: ", South Ossetic"}
 *[extralang~="os-x-ksan"] > lang:empty {-oxy-append-content: ", Ksan Ossetic"}*/
 
-entry > ref:before {content: "see ";}
-entry > usg + ref::before {content: " see ";}
+entry > ref:before {content: " see ";}
+/*entry > usg + ref::before {content: " see ";}*/
 
 sense > sense + sense:has(tr:lang(en)):before {-oxy-prepend-content: ", "}

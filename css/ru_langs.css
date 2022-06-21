@@ -588,6 +588,8 @@
 *[extralang~="ydg"] > lang:empty {-oxy-append-content: ", пам. и.";}
 :lang(yrk) > lang:empty {content: "нен.";}
 *[extralang~="yrk"] > lang:empty {-oxy-append-content: ", нен.";}
+:lang(ysc) > lang:empty {content: "ясск.";}
+*[extralang~="ysc"] > lang:empty {-oxy-append-content: ", ясск.";}
 :lang(zh) > lang:empty {content: "кит.";}
 *[extralang~="zh"] > lang:empty {-oxy-append-content: ", кит.";}
 :lang(zkh) > lang:empty {content: "хорезм.";}

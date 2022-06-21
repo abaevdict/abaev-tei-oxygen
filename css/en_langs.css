@@ -588,6 +588,8 @@
 *[extralang~="ydg"] > lang:empty {-oxy-append-content: ", Yidgha";}
 :lang(yrk) > lang:empty {content: "Nenets";}
 *[extralang~="yrk"] > lang:empty {-oxy-append-content: ", Nenets";}
+:lang(ysc) > lang:empty {content: "Yassic";}
+*[extralang~="ysc"] > lang:empty {-oxy-append-content: ", Yassic";}
 :lang(zh) > lang:empty {content: "Chinese";}
 *[extralang~="zh"] > lang:empty {-oxy-append-content: ", Chinese";}
 :lang(zkh) > lang:empty {content: "Khwarezmian";}

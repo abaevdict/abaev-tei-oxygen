@@ -10,6 +10,7 @@ biblScope[xml|lang="ru"] {display: none}
 
 sense > sense {display: none}
 sense > sense:has(tr:lang(en)) {display: inline !important;}
+sense > sense:has(def:lang(en)) {display: inline !important;}
 
 q[rendition~="#rend_doublequotes"]::before {content: "“";}
 q[rendition~="#rend_doublequotes"]::after {content: "”";}

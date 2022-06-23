@@ -187,6 +187,7 @@ note[type="footnote"] {vertical-align: sub; font-size: small}
 oRef {letter-spacing: 3px}
 quote oRef {font-style: italic; font-weight:bold; letter-spacing: normal}
 re oRef {font-style: italic; font-weight:bold; letter-spacing: normal}
+etym oRef {font-style: italic; letter-spacing: normal}
 /*quote:lang(ru) oRef {font-style: normal; letter-spacing: 3px}*/
 entry oRef:empty {content: oxy_xpath("ancestor::entry/form[1]/orth[1]/text()")}
 entry re oRef:empty {content: oxy_xpath("ancestor::re/form[1]/orth[1]/text()")}

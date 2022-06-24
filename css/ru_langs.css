@@ -50,6 +50,10 @@
 *[extralang~="be"] > lang:empty {-oxy-append-content: ", белорусс.";}
 :lang(bg) > lang:empty {content: "болг.";}
 *[extralang~="bg"] > lang:empty {-oxy-append-content: ", болг.";}
+:lang(bgn) > lang:empty {content: "бел. (зап.)";}
+*[extralang~="bgn"] > lang:empty {-oxy-append-content: ", бел. (зап.)";}
+:lang(bgp) > lang:empty {content: "бел. (вост.)";}
+*[extralang~="bgp"] > lang:empty {-oxy-append-content: ", бел. (вост.)";}
 :lang(bo) > lang:empty {content: "тибет.";}
 *[extralang~="bo"] > lang:empty {-oxy-append-content: ", тибет.";}
 :lang(bph) > lang:empty {content: "ботл.";}

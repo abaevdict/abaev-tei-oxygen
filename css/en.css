@@ -20,6 +20,8 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
 /*q > q[rendition~="#rend_doublequotes"]:last-child::after {content: "";}*/
 
 *[rendition~="#rend_smallcaps"] {letter-spacing: 3px}
+name {letter-spacing: 3px}
+
 
 /*:lang(os) > lang:empty {content: "Ossetic"}*/
 :lang(os) > usg > lang:empty {content: "Ossetic"}

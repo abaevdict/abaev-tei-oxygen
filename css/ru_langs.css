@@ -82,6 +82,8 @@
 *[extralang~="cji"] > lang:empty {-oxy-append-content: ", чамал.";}
 :lang(cjs) > lang:empty {content: "шор.";}
 *[extralang~="cjs"] > lang:empty {-oxy-append-content: ", шор.";}
+:lang(ckb) > lang:empty {content: "сорани";}
+*[extralang~="ckb"] > lang:empty {-oxy-append-content: ", сорани";}
 :lang(cmg) > lang:empty {content: "монг. письм.";}
 *[extralang~="cmg"] > lang:empty {-oxy-append-content: ", монг. письм.";}
 :lang(crh) > lang:empty {content: "татар. (крым.)";}

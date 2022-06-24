@@ -143,7 +143,7 @@ example:lang(ru) > quote {font-style: inherit;}
 usg + quote::before {content: " ";}
 
 /*etym {display: block; margin-top: 1ex}*/
-etym::before {content: ".\a~ "}
+etym::before {content: ".\A~ "; white-space: pre;}
 
 w {font-style: italic;}
 c {font-style: italic;}

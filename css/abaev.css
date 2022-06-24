@@ -15,7 +15,7 @@ hi[rendition~="#rend_bold"] {font-weight: bold;}
 hi[rendition~="#rend_underline"] {text-decoration: underline;}
 hi[rendition~="#rend_subscript"] {vertical-align: sub;}
 hi[rendition~="#rend_superscript"] {vertical-align: super; font-size: .7em;}
-hi[rendition~="#rend_smallcaps"] {font-variant: small-caps;}
+/*hi[rendition~="#rend_smallcaps"] {font-variant: small-caps;}*/
 
 /*[xml|lang="ru"] [rend~="smallcaps"] {font-family: "Libertinus Sans"; font-size: 90%; letter-spacing: 3px}*/
 [xml|lang="ru"] [rend~="#rend_doublequotes"]::before {content: "„"}

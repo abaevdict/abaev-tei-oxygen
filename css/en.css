@@ -14,8 +14,8 @@ sense > sense:has(def:lang(en)) {display: inline !important;}
 
 q[rendition~="#rend_doublequotes"]::before {content: "“";}
 q[rendition~="#rend_doublequotes"]::after {content: "”";}
-q > q[rendition~="#rend_doublequotes"]::before {content: "‘";}
-q > q[rendition~="#rend_doublequotes"]::after {content: "’";}
+/*q > q[rendition~="#rend_doublequotes"]::before {content: "‘";}*/
+/*q > q[rendition~="#rend_doublequotes"]::after {content: "’";}*/
 /*q > q[rendition~="#rend_doublequotes"]:last-child::before {content: "«";}*/
 /*q > q[rendition~="#rend_doublequotes"]:last-child::after {content: "";}*/
 

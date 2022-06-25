@@ -81,12 +81,12 @@ sense {display: inline}
 sense[n]:before {content: " " attr(n) ". "}
 entry > sense + sense:before, re > sense + sense:before {content: "; "}
 entry > sense + sense[n]:before, re > sense + sense[n]:before {content: "; " attr(n) ". "}
-entry > form + sense:before, re > form + sense:before {-oxy-prepend-content: " "}
+entry > form + sense:before, re > form + sense:before {content: " "}
 /*entry > sense:last-of-type::after {content: ". "}*/
-usg + sense:before {-oxy-prepend-content: " "}
-note + sense:before {-oxy-prepend-content: " "}
+usg + sense:before {content: " "}
+note + sense:before {content: " "}
 /*re::after {content: ". "}*/
-re + sense:before {-oxy-prepend-content: " "}
+re + sense:before {content: " "}
 
 /*sense > re:before {content: "; "}
 sense > re:first-child:before {content: ""}
@@ -136,7 +136,7 @@ example > note::after{content: ")";}*/
 
 ref[target]:empty::after {content:attr(target); font-style: italic; background-color: grey;}
 entry > ref + ref::before {content: ", ";}
-entry > ref[target]:last-child::after {-oxy-append-content: ".";}
+entry > ref[target]:last-child::after {content: ".";}
 
 entry > :not(etym):last-child::after {content: ".";}
 

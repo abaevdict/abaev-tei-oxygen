@@ -50,7 +50,7 @@ entry > ref:before {content: " см. ";}
 
 tr oRef {font-style: normal; letter-spacing: 3px}
 
-sense > sense + sense:has(tr:lang(ru)):before {-oxy-prepend-content: ", "}
-sense > sense + sense:has(def:lang(ru)):before {-oxy-prepend-content: ", "}
+sense > sense + sense:has(tr:lang(ru)):before {content: ", "}
+sense > sense + sense:has(def:lang(ru)):before {content: ", "}
 
 tr ref {letter-spacing: 3px; font-style: inherit}

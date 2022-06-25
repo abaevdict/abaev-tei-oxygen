@@ -562,6 +562,8 @@
 *[extralang~="xbo"] > lang:empty {-oxy-append-content: ", Bulgar";}
 :lang(xcl) > lang:empty {content: "(Classical) Armenian";}
 *[extralang~="xcl"] > lang:empty {-oxy-append-content: ", (Classical) Armenian";}
+:lang(xhu) > lang:empty {content: "Hurrian";}
+*[extralang~="xhu"] > lang:empty {-oxy-append-content: ", Hurrian";}
 :lang(xln) > lang:empty {content: "Alanic";}
 *[extralang~="xln"] > lang:empty {-oxy-append-content: ", Alanic";}
 :lang(xlu) > lang:empty {content: "Luwian";}

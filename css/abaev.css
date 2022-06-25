@@ -8,7 +8,7 @@ oxy|doctype {
     background-color:transparent !important;
 }
 
-body { font-family: "Libertinus Serif"; font-size: large; line-height: 1.1; }
+body { font-family: "Libertinus Serif"; font-size: large; line-height: 1.1; text-align: justify;}
 
 hi[rendition~="#rend_italic"] {font-style: italic;}
 hi[rendition~="#rend_bold"] {font-weight: bold;}
@@ -30,9 +30,9 @@ q::after {content: "’";}
 
 teiHeader {display: none}
 
-body > entry {display: block}
-body > entry[n]:before {content: attr(n); vertical-align: super; font-size: .7em;}
-body > entry + entry {margin-top: 10px}
+entry {display: block}
+entry[n]:before {content: attr(n); vertical-align: super; font-size: .7em;}
+entry ~ entry {margin-top: 10px}
 
 lang {font-style: normal}
 /*[xml|lang="os"] lang[xml|lang="ru"]:empty {content: "ос."}
@@ -56,7 +56,7 @@ usg + tr::before {content: " "}
 
 form {display: inline}
 /*orth {font-style: italic}*/
-form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"]::before {content: " | ";}
+form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"]::before {content: "\00a0|\00a0";}
 form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"][subtype="parens"]::before {content: " | (";}
 form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"][subtype="parens"]::after {content: ")";}
 w[xml|lang="os-x-iron"] + w[xml|lang="os-x-digor"]::before {content: " | "; font-style: normal;}

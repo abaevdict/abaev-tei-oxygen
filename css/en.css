@@ -22,6 +22,11 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
 *[rendition~="#rend_smallcaps"] {letter-spacing: 3px}
 name {letter-spacing: 3px}
 
+example > tr q::before {content: "‘";}
+example > tr q::after {content: "’";}
+/*example > tr q[rendition~="#rend_singlequotes"]::before {content: "‘";}
+example > tr q[rendition~="#rend_singlequotes"]::after {content: "’";}*/
+example > tr > q + q::before {content: ", ‘"}
 
 /*:lang(os) > lang:empty {content: "Ossetic"}*/
 :lang(os) > usg > lang:empty {content: "Ossetic"}

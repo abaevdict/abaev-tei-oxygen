@@ -22,6 +22,9 @@ hi[rendition~="#rend_superscript"] {vertical-align: super; font-size: .7em;}
 [xml|lang="ru"] [rend~="#rend_doublequotes"]::after {content: "“"}
 [rend~="hide"] {text-decoration: line-through}
 
+example > quote > q::before {content: "„";}
+example > quote > q::after {content: "“";}
+
 q::before {content: "‘";}
 q::after {content: "’";}
 

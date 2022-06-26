@@ -136,6 +136,7 @@ example > note::after{content: ")";}*/
 
 ref[target]:empty::after {content:attr(target); font-style: italic; background-color: grey;}
 entry > ref + ref::before {content: ", ";}
+entry > ref[target]:empty:last-child::after {content: attr(target) ".";}
 entry > ref[target]:last-child::after {content: ".";}
 
 entry > :not(etym):last-child::after {content: ".";}

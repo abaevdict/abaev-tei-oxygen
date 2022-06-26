@@ -22,6 +22,9 @@ q[rendition~="#rend_doublequotes"]::after {content: "”";}
 *[rendition~="#rend_smallcaps"] {letter-spacing: 3px}
 name {letter-spacing: 3px}
 
+example > quote:lang(ru) {display:none}
+quote:lang(ru) + tr::before {content: ""}
+
 example > tr q::before {content: "‘";}
 example > tr q::after {content: "’";}
 /*example > tr q[rendition~="#rend_singlequotes"]::before {content: "‘";}

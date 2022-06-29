@@ -100,7 +100,7 @@ def {display: inline}
 note {display: inline; font-size: 100%}
 
 tr {display: inline;}
-tr + def::before {content: "; "}
+/*tr + def::before {content: "; "}*/
 
 tr > q {margin-bottom: 0; margin-left: 0; margin-right: 0;}
 /*tr > q::before {content: "‘";}*/

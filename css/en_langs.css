@@ -190,8 +190,8 @@
 *[extralang~="hu"] > lang:empty {-oxy-append-content: ", Hungarian";}
 :lang(huz) > lang:empty {content: "Hunzib";}
 *[extralang~="huz"] > lang:empty {-oxy-append-content: ", Hunzib";}
-:lang(iir) > lang:empty {content: "Proto-Indo-Iranian";}
-*[extralang~="iir"] > lang:empty {-oxy-append-content: ", Proto-Indo-Iranian";}
+:lang(iir) > lang:empty {content: "Aryan";}
+*[extralang~="iir"] > lang:empty {-oxy-append-content: ", Aryan";}
 :lang(inc) > lang:empty {content: "Indic";}
 *[extralang~="inc"] > lang:empty {-oxy-append-content: ", Indic";}
 :lang(inc-x-mid) > lang:empty {content: "Middle Indic";}
@@ -204,8 +204,8 @@
 *[extralang~="ine"] > lang:empty {-oxy-append-content: ", Proto-Indo-European";}
 :lang(inh) > lang:empty {content: "Ingush";}
 *[extralang~="inh"] > lang:empty {-oxy-append-content: ", Ingush";}
-:lang(ira) > lang:empty {content: "(Proto-?)Iranian";}
-*[extralang~="ira"] > lang:empty {-oxy-append-content: ", (Proto-?)Iranian";}
+:lang(ira) > lang:empty {content: "Iranian";}
+*[extralang~="ira"] > lang:empty {-oxy-append-content: ", Iranian";}
 :lang(ira-x-mid) > lang:empty {content: "Middle Iranian";}
 *[extralang~="ira-x-mid"] > lang:empty {-oxy-append-content: ", Middle Iranian";}
 :lang(is) > lang:empty {content: "Icelandic";}
@@ -560,8 +560,8 @@
 *[extralang~="xbc"] > lang:empty {-oxy-append-content: ", Bactrian";}
 :lang(xbo) > lang:empty {content: "Bulgar";}
 *[extralang~="xbo"] > lang:empty {-oxy-append-content: ", Bulgar";}
-:lang(xcl) > lang:empty {content: "(Classical) Armenian";}
-*[extralang~="xcl"] > lang:empty {-oxy-append-content: ", (Classical) Armenian";}
+:lang(xcl) > lang:empty {content: "Armenian";}
+*[extralang~="xcl"] > lang:empty {-oxy-append-content: ", Armenian";}
 :lang(xhu) > lang:empty {content: "Hurrian";}
 *[extralang~="xhu"] > lang:empty {-oxy-append-content: ", Hurrian";}
 :lang(xln) > lang:empty {content: "Alanic";}

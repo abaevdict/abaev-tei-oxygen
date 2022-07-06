@@ -4,6 +4,8 @@
 *[extralang~="ab"] > lang:empty {-oxy-append-content: ", Abkhaz";}
 :lang(abq) > lang:empty {content: "Abaza";}
 *[extralang~="abq"] > lang:empty {-oxy-append-content: ", Abaza";}
+:lang(abq-x-dial) > lang:empty {content: "Abaza (dialectal)";}
+*[extralang~="abq-x-dial"] > lang:empty {-oxy-append-content: ", Abaza (dialectal)";}
 :lang(ady) > lang:empty {content: "Adyghe";}
 *[extralang~="ady"] > lang:empty {-oxy-append-content: ", Adyghe";}
 :lang(ady-x-abadz) > lang:empty {content: "Abzakh";}

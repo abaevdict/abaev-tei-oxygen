@@ -542,8 +542,8 @@
 *[extralang~="x-mordvin"] > lang:empty {-oxy-append-content: ", Mordvinic";}
 :lang(x-nuristan) > lang:empty {content: "Nuristani";}
 *[extralang~="x-nuristan"] > lang:empty {-oxy-append-content: ", Nuristani";}
-:lang(x-oldirn) > lang:empty {content: "Proto-Iranian";}
-*[extralang~="x-oldirn"] > lang:empty {-oxy-append-content: ", Proto-Iranian";}
+:lang(x-oldirn) > lang:empty {content: "Old Iranian";}
+*[extralang~="x-oldirn"] > lang:empty {-oxy-append-content: ", Old Iranian";}
 :lang(x-oldsl) > lang:empty {content: "Proto-Slavic";}
 *[extralang~="x-oldsl"] > lang:empty {-oxy-append-content: ", Proto-Slavic";}
 :lang(x-pamir) > lang:empty {content: "Pamir";}

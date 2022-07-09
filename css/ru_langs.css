@@ -44,6 +44,8 @@
 *[extralang~="az"] > lang:empty {-oxy-append-content: ", азерб.";}
 :lang(ba) > lang:empty {content: "башк.";}
 *[extralang~="ba"] > lang:empty {-oxy-append-content: ", башк.";}
+:lang(bat) > lang:empty {content: "балт.";}
+*[extralang~="bat"] > lang:empty {-oxy-append-content: ", балт.";}
 :lang(bbl) > lang:empty {content: "туш.";}
 *[extralang~="bbl"] > lang:empty {-oxy-append-content: ", туш.";}
 :lang(bdk) > lang:empty {content: "будух.";}

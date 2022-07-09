@@ -44,6 +44,8 @@
 *[extralang~="az"] > lang:empty {-oxy-append-content: ", Azerbaijani";}
 :lang(ba) > lang:empty {content: "Bashkir";}
 *[extralang~="ba"] > lang:empty {-oxy-append-content: ", Bashkir";}
+:lang(bat) > lang:empty {content: "Baltic";}
+*[extralang~="bat"] > lang:empty {-oxy-append-content: ", Baltic";}
 :lang(bbl) > lang:empty {content: "Bats";}
 *[extralang~="bbl"] > lang:empty {-oxy-append-content: ", Bats";}
 :lang(bdk) > lang:empty {content: "Budugh";}

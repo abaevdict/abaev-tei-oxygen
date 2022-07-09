@@ -191,7 +191,7 @@ note[type="footnote"] {vertical-align: sub; font-size: small}
 oRef {font-style: italic;}
 tr oRef {letter-spacing: 3px}
 example:lang(ru) quote {letter-spacing: 3px}
-quote oRef {font-style: italic; font-weight:bold; letter-spacing: normal}
+example > quote oRef {font-style: italic; font-weight:bold; letter-spacing: normal}
 re > form oRef {font-style: italic; font-weight:bold; letter-spacing: normal}
 etym oRef {font-style: italic; letter-spacing: normal}
 entry > note oRef {font-style: italic; letter-spacing: normal}

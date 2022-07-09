@@ -230,10 +230,12 @@
 *[extralang~="ka-x-guria"] > lang:empty {-oxy-append-content: ", груз. (гур.)";}
 :lang(ka-x-imer) > lang:empty {content: "груз. (имер.)";}
 *[extralang~="ka-x-imer"] > lang:empty {-oxy-append-content: ", груз. (имер.)";}
-:lang(ka-x-khevsur) > lang:empty {content: "груз. (хевсур.)";}
-*[extralang~="ka-x-khevsur"] > lang:empty {-oxy-append-content: ", груз. (хевсур.)";}
 :lang(ka-x-ingiloy) > lang:empty {content: "груз. (ингил.)";}
 *[extralang~="ka-x-ingiloy"] > lang:empty {-oxy-append-content: ", груз. (ингил.)";}
+:lang(ka-x-khevsur) > lang:empty {content: "груз. (хевсур.)";}
+*[extralang~="ka-x-khevsur"] > lang:empty {-oxy-append-content: ", груз. (хевсур.)";}
+:lang(ka-x-lchkhm) > lang:empty {content: "груз. (лечхум.)";}
+*[extralang~="ka-x-lchkhm"] > lang:empty {-oxy-append-content: ", груз. (лечхум.)";}
 :lang(ka-x-mokhev) > lang:empty {content: "груз. (мохев.)";}
 *[extralang~="ka-x-mokhev"] > lang:empty {-oxy-append-content: ", груз. (мохев.)";}
 :lang(ka-x-pshav) > lang:empty {content: "груз. (пшав.)";}

@@ -230,10 +230,12 @@
 *[extralang~="ka-x-guria"] > lang:empty {-oxy-append-content: ", Gurian Georgian";}
 :lang(ka-x-imer) > lang:empty {content: "Imeretian Georgian";}
 *[extralang~="ka-x-imer"] > lang:empty {-oxy-append-content: ", Imeretian Georgian";}
-:lang(ka-x-khevsur) > lang:empty {content: "Khevsur Georgian";}
-*[extralang~="ka-x-khevsur"] > lang:empty {-oxy-append-content: ", Khevsur Georgian";}
 :lang(ka-x-ingiloy) > lang:empty {content: "Ingiloy Georgian";}
 *[extralang~="ka-x-ingiloy"] > lang:empty {-oxy-append-content: ", Ingiloy Georgian";}
+:lang(ka-x-khevsur) > lang:empty {content: "Khevsur Georgian";}
+*[extralang~="ka-x-khevsur"] > lang:empty {-oxy-append-content: ", Khevsur Georgian";}
+:lang(ka-x-lchkhm) > lang:empty {content: "Lechkhumi Georgian";}
+*[extralang~="ka-x-lchkhm"] > lang:empty {-oxy-append-content: ", Lechkhumi Georgian";}
 :lang(ka-x-mokhev) > lang:empty {content: "Mokhevian Georgian";}
 *[extralang~="ka-x-mokhev"] > lang:empty {-oxy-append-content: ", Mokhevian Georgian";}
 :lang(ka-x-pshav) > lang:empty {content: "Pshavian Georgian";}

@@ -134,7 +134,15 @@ example > bibl + bibl::before{content: "; ";}
 /*example > note::before{content: " (";}
 example > note::after{content: ")";}*/
 
-ref[target]:empty::after {content:attr(target); font-style: italic; background-color: grey;}
+ref[target][type='xr']:empty::after {  content:attr(target); 
+                            font-style: italic; 
+                            background-color: grey;
+                            -oxy-link:oxy_replace(attr(target),'#entry_','abaev_') '.xml'}
+ref[target][type='bibl']:empty::after {  content:attr(target); 
+                            font-style: italic; 
+                            background-color: grey;}
+ref[target][type='xr']:not(empty)::after { content: '⮳';
+                                -oxy-link:oxy_replace(attr(target),'#entry_','abaev_') '.xml'}
 entry > ref + ref::before {content: ", ";}
 entry > ref[target]:empty:last-child::after {content: attr(target) ".";}
 entry > ref[target]:last-child::after {content: ".";}

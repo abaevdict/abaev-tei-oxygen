@@ -504,6 +504,8 @@
 *[extralang~="trk-x-north"] > lang:empty {-oxy-append-content: ", North Turkic";}
 :lang(tt) > lang:empty {content: "Tatar";}
 *[extralang~="tt"] > lang:empty {-oxy-append-content: ", Tatar";}
+:lang(tt-x-dial) > lang:empty {content: "Tatar (dialectal)";}
+*[extralang~="tt-x-dial"] > lang:empty {-oxy-append-content: ", Tatar (dialectal)";}
 :lang(tt-x-kazan) > lang:empty {content: "Kazan Tatar";}
 *[extralang~="tt-x-kazan"] > lang:empty {-oxy-append-content: ", Kazan Tatar";}
 :lang(ttt) > lang:empty {content: "Tat (Muslim?)";}

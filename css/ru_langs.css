@@ -504,6 +504,8 @@
 *[extralang~="trk-x-north"] > lang:empty {-oxy-append-content: ", сев. тюрк.";}
 :lang(tt) > lang:empty {content: "татар.";}
 *[extralang~="tt"] > lang:empty {-oxy-append-content: ", татар.";}
+:lang(tt-x-dial) > lang:empty {content: "татар. (диал.)";}
+*[extralang~="tt-x-dial"] > lang:empty {-oxy-append-content: ", татар. (диал.)";}
 :lang(tt-x-kazan) > lang:empty {content: "казан.";}
 *[extralang~="tt-x-kazan"] > lang:empty {-oxy-append-content: ", казан.";}
 :lang(ttt) > lang:empty {content: "татск.";}

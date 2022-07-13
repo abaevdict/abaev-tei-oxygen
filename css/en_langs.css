@@ -206,8 +206,8 @@
 *[extralang~="inc-x-nnew"] > lang:empty {-oxy-append-content: ", North New Indic dialects";}
 :lang(inc-x-old) > lang:empty {content: "Old Indic";}
 *[extralang~="inc-x-old"] > lang:empty {-oxy-append-content: ", Old Indic";}
-:lang(ine) > lang:empty {content: "Proto-Indo-European";}
-*[extralang~="ine"] > lang:empty {-oxy-append-content: ", Proto-Indo-European";}
+:lang(ine) > lang:empty {content: "Indo-European";}
+*[extralang~="ine"] > lang:empty {-oxy-append-content: ", Indo-European";}
 :lang(inh) > lang:empty {content: "Ingush";}
 *[extralang~="inh"] > lang:empty {-oxy-append-content: ", Ingush";}
 :lang(ira) > lang:empty {content: "Iranian";}

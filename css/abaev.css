@@ -193,6 +193,7 @@ entry > re + re::before {content: "; "}
 entry > re:has(exampleGrp) + re::before {content: ". — "}
 re > re + re::before {content: ", ";}
 entry > form + re > form::before {content: ": "}
+entry > usg + re::before {content: " "}
 
 note[type="footnote"] {vertical-align: sub; font-size: small}
 

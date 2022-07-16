@@ -322,6 +322,8 @@
 *[extralang~="lv"] > lang:empty {-oxy-append-content: ", латыш.";}
 :lang(lzz) > lang:empty {content: "чан.";}
 *[extralang~="lzz"] > lang:empty {-oxy-append-content: ", чан.";}
+:lang(man) > lang:empty {content: "мандинго";}
+*[extralang~="man"] > lang:empty {-oxy-append-content: ", мандинго";}
 :lang(mga) > lang:empty {content: "ср.ирл.";}
 *[extralang~="mga"] > lang:empty {-oxy-append-content: ", ср.ирл.";}
 :lang(mis-x-khuri) > lang:empty {content: "хури";}

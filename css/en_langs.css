@@ -322,6 +322,8 @@
 *[extralang~="lv"] > lang:empty {-oxy-append-content: ", Latvian";}
 :lang(lzz) > lang:empty {content: "Laz";}
 *[extralang~="lzz"] > lang:empty {-oxy-append-content: ", Laz";}
+:lang(man) > lang:empty {content: "Manding";}
+*[extralang~="man"] > lang:empty {-oxy-append-content: ", Manding";}
 :lang(mga) > lang:empty {content: "Middle Irish";}
 *[extralang~="mga"] > lang:empty {-oxy-append-content: ", Middle Irish";}
 :lang(mis-x-khuri) > lang:empty {content: "Khuri";}

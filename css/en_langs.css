@@ -326,6 +326,8 @@
 *[extralang~="lzz"] > lang:empty {-oxy-append-content: ", Laz";}
 :lang(man) > lang:empty {content: "Manding";}
 *[extralang~="man"] > lang:empty {-oxy-append-content: ", Manding";}
+:lang(mdf) > lang:empty {content: "Moksha Mordvin";}
+*[extralang~="mdf"] > lang:empty {-oxy-append-content: ", Moksha Mordvin";}
 :lang(mga) > lang:empty {content: "Middle Irish";}
 *[extralang~="mga"] > lang:empty {-oxy-append-content: ", Middle Irish";}
 :lang(mis-x-khuri) > lang:empty {content: "Khuri";}
@@ -340,6 +342,8 @@
 *[extralang~="mnj"] > lang:empty {-oxy-append-content: ", Munji";}
 :lang(mns) > lang:empty {content: "Mansi";}
 *[extralang~="mns"] > lang:empty {-oxy-append-content: ", Mansi";}
+:lang(myv) > lang:empty {content: "Erzya Mordvin";}
+*[extralang~="myv"] > lang:empty {-oxy-append-content: ", Erzya Mordvin";}
 :lang(mzn) > lang:empty {content: "Mazanderani";}
 *[extralang~="mzn"] > lang:empty {-oxy-append-content: ", Mazanderani";}
 :lang(nds) > lang:empty {content: "Low German";}
@@ -428,6 +432,8 @@
 *[extralang~="ru-x-argot"] > lang:empty {-oxy-append-content: ", Russian (argot)";}
 :lang(ru-x-dial) > lang:empty {content: "Russian (dialectal)";}
 *[extralang~="ru-x-dial"] > lang:empty {-oxy-append-content: ", Russian (dialectal)";}
+:lang(ru-x-novg) > lang:empty {content: "Russian (Novgorod)";}
+*[extralang~="ru-x-novg"] > lang:empty {-oxy-append-content: ", Russian (Novgorod)";}
 :lang(ru-x-smlnsk) > lang:empty {content: "Russian (Smolensk)";}
 *[extralang~="ru-x-smlnsk"] > lang:empty {-oxy-append-content: ", Russian (Smolensk)";}
 :lang(ru-x-south) > lang:empty {content: "Russian (southern dialects)";}

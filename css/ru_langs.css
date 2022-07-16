@@ -326,6 +326,8 @@
 *[extralang~="lzz"] > lang:empty {-oxy-append-content: ", чан.";}
 :lang(man) > lang:empty {content: "мандинго";}
 *[extralang~="man"] > lang:empty {-oxy-append-content: ", мандинго";}
+:lang(mdf) > lang:empty {content: "мордовский (мокша)";}
+*[extralang~="mdf"] > lang:empty {-oxy-append-content: ", мордовский (мокша)";}
 :lang(mga) > lang:empty {content: "ср.ирл.";}
 *[extralang~="mga"] > lang:empty {-oxy-append-content: ", ср.ирл.";}
 :lang(mis-x-khuri) > lang:empty {content: "хури";}
@@ -340,6 +342,8 @@
 *[extralang~="mnj"] > lang:empty {-oxy-append-content: ", пам. м.";}
 :lang(mns) > lang:empty {content: "манси";}
 *[extralang~="mns"] > lang:empty {-oxy-append-content: ", манси";}
+:lang(myv) > lang:empty {content: "мордовский (эрзя)";}
+*[extralang~="myv"] > lang:empty {-oxy-append-content: ", мордовский (эрзя)";}
 :lang(mzn) > lang:empty {content: "маз.";}
 *[extralang~="mzn"] > lang:empty {-oxy-append-content: ", маз.";}
 :lang(nds) > lang:empty {content: "н.н.нем.";}
@@ -428,6 +432,8 @@
 *[extralang~="ru-x-argot"] > lang:empty {-oxy-append-content: ", русск. (арго)";}
 :lang(ru-x-dial) > lang:empty {content: "русск. (диал.)";}
 *[extralang~="ru-x-dial"] > lang:empty {-oxy-append-content: ", русск. (диал.)";}
+:lang(ru-x-novg) > lang:empty {content: "русск. (новг.)";}
+*[extralang~="ru-x-novg"] > lang:empty {-oxy-append-content: ", русск. (новг.)";}
 :lang(ru-x-smlnsk) > lang:empty {content: "русск. (смол.)";}
 *[extralang~="ru-x-smlnsk"] > lang:empty {-oxy-append-content: ", русск. (смол.)";}
 :lang(ru-x-south) > lang:empty {content: "русск. (южн. диал.)";}

@@ -454,6 +454,8 @@
 *[extralang~="sgh-x-khufi"] > lang:empty {-oxy-append-content: ", Khufi";}
 :lang(sgh-x-oroshori) > lang:empty {content: "Oroshori";}
 *[extralang~="sgh-x-oroshori"] > lang:empty {-oxy-append-content: ", Oroshori";}
+:lang(sgr) > lang:empty {content: "Sangsari";}
+*[extralang~="sgr"] > lang:empty {-oxy-append-content: ", Sangsari";}
 :lang(sgy) > lang:empty {content: "Sanglechi";}
 *[extralang~="sgy"] > lang:empty {-oxy-append-content: ", Sanglechi";}
 :lang(sgy-x-zebak) > lang:empty {content: "Zebaki";}

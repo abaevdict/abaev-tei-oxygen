@@ -166,7 +166,7 @@ mn,монг.,Mongolian,
 mn-x-uriankh,урянх.,Uriankhai,
 mnc,манджурское,Manchu,
 mnj,пам. м.,Munji,
-mns,манси,Mansi,
+mns,манси,Mansi, = вогул.
 mzn,маз.,Mazanderani,
 nds,н.н.нем.,Low German,
 ne,непал.,Nepali,used macrolanguage because it’s not clear what exactly Abaev refers to
@@ -180,6 +180,7 @@ ntz,натанзи,Natanzi,
 nub,нубийское,Nubian,
 oc,прованс.,Occitan,probably Occitan; Abaev seems to call Franco-Provençal «фр. (прованс.)»
 ofs,др.фриз.,Old Frisian,
+oge,др.груз.,Old Georgian,
 ohu,ст.венг.,Old Hungarian,
 oos,ст.ос.,Old Ossetic,
 oru,орм.,Ormuri,

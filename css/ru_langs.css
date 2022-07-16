@@ -418,8 +418,8 @@
 *[extralang~="qwm"] > lang:empty {-oxy-append-content: ", куман.";}
 :lang(ro) > lang:empty {content: "рум.";}
 *[extralang~="ro"] > lang:empty {-oxy-append-content: ", рум.";}
-:lang(rom) > lang:empty {content: "цыган.";}
-*[extralang~="rom"] > lang:empty {-oxy-append-content: ", цыган.";}
+:lang(rom) > lang:empty {content: "цыг.";}
+*[extralang~="rom"] > lang:empty {-oxy-append-content: ", цыг.";}
 :lang(ru) > lang:empty {content: "русск.";}
 *[extralang~="ru"] > lang:empty {-oxy-append-content: ", русск.";}
 :lang(ru-x-argot) > lang:empty {content: "русск. (арго)";}

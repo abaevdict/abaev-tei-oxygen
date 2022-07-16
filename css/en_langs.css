@@ -362,6 +362,8 @@
 *[extralang~="oc"] > lang:empty {-oxy-append-content: ", Occitan";}
 :lang(ofs) > lang:empty {content: "Old Frisian";}
 *[extralang~="ofs"] > lang:empty {-oxy-append-content: ", Old Frisian";}
+:lang(oge) > lang:empty {content: "Old Georgian";}
+*[extralang~="oge"] > lang:empty {-oxy-append-content: ", Old Georgian";}
 :lang(ohu) > lang:empty {content: "Old Hungarian";}
 *[extralang~="ohu"] > lang:empty {-oxy-append-content: ", Old Hungarian";}
 :lang(oos) > lang:empty {content: "Old Ossetic";}

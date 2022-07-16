@@ -362,6 +362,8 @@
 *[extralang~="oc"] > lang:empty {-oxy-append-content: ", прованс.";}
 :lang(ofs) > lang:empty {content: "др.фриз.";}
 *[extralang~="ofs"] > lang:empty {-oxy-append-content: ", др.фриз.";}
+:lang(oge) > lang:empty {content: "др.груз.";}
+*[extralang~="oge"] > lang:empty {-oxy-append-content: ", др.груз.";}
 :lang(ohu) > lang:empty {content: "ст.венг.";}
 *[extralang~="ohu"] > lang:empty {-oxy-append-content: ", ст.венг.";}
 :lang(oos) > lang:empty {content: "ст.ос.";}

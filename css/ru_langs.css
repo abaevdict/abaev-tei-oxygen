@@ -360,6 +360,8 @@
 *[extralang~="oc"] > lang:empty {-oxy-append-content: ", прованс.";}
 :lang(ofs) > lang:empty {content: "др.фриз.";}
 *[extralang~="ofs"] > lang:empty {-oxy-append-content: ", др.фриз.";}
+:lang(ohu) > lang:empty {content: "ст.венг.";}
+*[extralang~="ohu"] > lang:empty {-oxy-append-content: ", ст.венг.";}
 :lang(oos) > lang:empty {content: "ст.ос.";}
 *[extralang~="oos"] > lang:empty {-oxy-append-content: ", ст.ос.";}
 :lang(oru) > lang:empty {content: "орм.";}
@@ -484,6 +486,10 @@
 *[extralang~="sv-x-dial"] > lang:empty {-oxy-append-content: ", швед. (диал.)";}
 :lang(sva) > lang:empty {content: "сван.";}
 *[extralang~="sva"] > lang:empty {-oxy-append-content: ", сван.";}
+:lang(syd) > lang:empty {content: "самодийское";}
+*[extralang~="syd"] > lang:empty {-oxy-append-content: ", самодийское";}
+:lang(syd-x-south) > lang:empty {content: "южносамодийское";}
+*[extralang~="syd-x-south"] > lang:empty {-oxy-append-content: ", южносамодийское";}
 :lang(syr) > lang:empty {content: "сир.";}
 *[extralang~="syr"] > lang:empty {-oxy-append-content: ", сир.";}
 :lang(tab) > lang:empty {content: "табас.";}

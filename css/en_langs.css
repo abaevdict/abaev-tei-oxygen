@@ -360,6 +360,8 @@
 *[extralang~="oc"] > lang:empty {-oxy-append-content: ", Occitan";}
 :lang(ofs) > lang:empty {content: "Old Frisian";}
 *[extralang~="ofs"] > lang:empty {-oxy-append-content: ", Old Frisian";}
+:lang(ohu) > lang:empty {content: "Old Hungarian";}
+*[extralang~="ohu"] > lang:empty {-oxy-append-content: ", Old Hungarian";}
 :lang(oos) > lang:empty {content: "Old Ossetic";}
 *[extralang~="oos"] > lang:empty {-oxy-append-content: ", Old Ossetic";}
 :lang(oru) > lang:empty {content: "Ormuri";}
@@ -484,6 +486,10 @@
 *[extralang~="sv-x-dial"] > lang:empty {-oxy-append-content: ", Swedish (dialectal)";}
 :lang(sva) > lang:empty {content: "Svan";}
 *[extralang~="sva"] > lang:empty {-oxy-append-content: ", Svan";}
+:lang(syd) > lang:empty {content: "Samoyedic";}
+*[extralang~="syd"] > lang:empty {-oxy-append-content: ", Samoyedic";}
+:lang(syd-x-south) > lang:empty {content: "South Samoyedic";}
+*[extralang~="syd-x-south"] > lang:empty {-oxy-append-content: ", South Samoyedic";}
 :lang(syr) > lang:empty {content: "Syriac";}
 *[extralang~="syr"] > lang:empty {-oxy-append-content: ", Syriac";}
 :lang(tab) > lang:empty {content: "Tabassaran";}

@@ -430,6 +430,8 @@
 *[extralang~="ru"] > lang:empty {-oxy-append-content: ", русск.";}
 :lang(ru-x-argot) > lang:empty {content: "русск. (арго)";}
 *[extralang~="ru-x-argot"] > lang:empty {-oxy-append-content: ", русск. (арго)";}
+:lang(ru-x-arkh) > lang:empty {content: "русск. (арх.)";}
+*[extralang~="ru-x-arkh"] > lang:empty {-oxy-append-content: ", русск. (арх.)";}
 :lang(ru-x-dial) > lang:empty {content: "русск. (диал.)";}
 *[extralang~="ru-x-dial"] > lang:empty {-oxy-append-content: ", русск. (диал.)";}
 :lang(ru-x-novg) > lang:empty {content: "русск. (новг.)";}

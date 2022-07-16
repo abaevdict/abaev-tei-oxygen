@@ -174,6 +174,8 @@
 *[extralang~="gmh"] > lang:empty {-oxy-append-content: ", Middle High German";}
 :lang(gml) > lang:empty {content: "Middle Low German";}
 *[extralang~="gml"] > lang:empty {-oxy-append-content: ", Middle Low German";}
+:lang(gmq) > lang:empty {content: "Scandinavian";}
+*[extralang~="gmq"] > lang:empty {-oxy-append-content: ", Scandinavian";}
 :lang(goh) > lang:empty {content: "Old High German";}
 *[extralang~="goh"] > lang:empty {-oxy-append-content: ", Old High German";}
 :lang(got) > lang:empty {content: "Gothic";}

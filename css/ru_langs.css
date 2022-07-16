@@ -20,6 +20,8 @@
 *[extralang~="agx"] > lang:empty {-oxy-append-content: ", агул.";}
 :lang(aii) > lang:empty {content: "ассир.";}
 *[extralang~="aii"] > lang:empty {-oxy-append-content: ", ассир.";}
+:lang(ain) > lang:empty {content: "айну";}
+*[extralang~="ain"] > lang:empty {-oxy-append-content: ", айну";}
 :lang(akk) > lang:empty {content: "аккад.";}
 *[extralang~="akk"] > lang:empty {-oxy-append-content: ", аккад.";}
 :lang(akv) > lang:empty {content: "ахвах.";}
@@ -272,10 +274,14 @@
 *[extralang~="khw-x-chtr"] > lang:empty {-oxy-append-content: ", читр.";}
 :lang(kjh) > lang:empty {content: "хакас.";}
 *[extralang~="kjh"] > lang:empty {-oxy-append-content: ", хакас.";}
+:lang(kjh-sghy) > lang:empty {content: "хакас. (сагайск.)";}
+*[extralang~="kjh-sghy"] > lang:empty {-oxy-append-content: ", хакас. (сагайск.)";}
 :lang(kjj) > lang:empty {content: "хиналуг.";}
 *[extralang~="kjj"] > lang:empty {-oxy-append-content: ", хиналуг.";}
 :lang(kk) > lang:empty {content: "каз.";}
 *[extralang~="kk"] > lang:empty {-oxy-append-content: ", каз.";}
+:lang(ko) > lang:empty {content: "корейское";}
+*[extralang~="ko"] > lang:empty {-oxy-append-content: ", корейское";}
 :lang(kpt) > lang:empty {content: "карат.";}
 *[extralang~="kpt"] > lang:empty {-oxy-append-content: ", карат.";}
 :lang(krc-x-balkar) > lang:empty {content: "балк.";}
@@ -324,6 +330,8 @@
 *[extralang~="mn"] > lang:empty {-oxy-append-content: ", монг.";}
 :lang(mn-x-uriankh) > lang:empty {content: "урянх.";}
 *[extralang~="mn-x-uriankh"] > lang:empty {-oxy-append-content: ", урянх.";}
+:lang(mnc) > lang:empty {content: "манджурское";}
+*[extralang~="mnc"] > lang:empty {-oxy-append-content: ", манджурское";}
 :lang(mnj) > lang:empty {content: "пам. м.";}
 *[extralang~="mnj"] > lang:empty {-oxy-append-content: ", пам. м.";}
 :lang(mns) > lang:empty {content: "манси";}

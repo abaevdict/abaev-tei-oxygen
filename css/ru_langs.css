@@ -354,6 +354,8 @@
 *[extralang~="non"] > lang:empty {-oxy-append-content: ", др.сев.";}
 :lang(non-x-is) > lang:empty {content: "др.исл.";}
 *[extralang~="non-x-is"] > lang:empty {-oxy-append-content: ", др.исл.";}
+:lang(ntz) > lang:empty {content: "натанзи";}
+*[extralang~="ntz"] > lang:empty {-oxy-append-content: ", натанзи";}
 :lang(nub) > lang:empty {content: "нубийское";}
 *[extralang~="nub"] > lang:empty {-oxy-append-content: ", нубийское";}
 :lang(oc) > lang:empty {content: "прованс.";}
@@ -558,6 +560,8 @@
 *[extralang~="wsv"] > lang:empty {-oxy-append-content: ", вотапурско-катаркалайское";}
 :lang(x-balochi) > lang:empty {content: "бел.";}
 *[extralang~="x-balochi"] > lang:empty {-oxy-append-content: ", бел.";}
+:lang(x-barakai) > lang:empty {content: "варакаи";}
+*[extralang~="x-barakai"] > lang:empty {-oxy-append-content: ", варакаи";}
 :lang(x-iazyg) > lang:empty {content: "языгский";}
 *[extralang~="x-iazyg"] > lang:empty {-oxy-append-content: ", языгский";}
 :lang(x-mordvin) > lang:empty {content: "морд.";}

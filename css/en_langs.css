@@ -354,6 +354,8 @@
 *[extralang~="non"] > lang:empty {-oxy-append-content: ", Old Norse";}
 :lang(non-x-is) > lang:empty {content: "Old Icelandic";}
 *[extralang~="non-x-is"] > lang:empty {-oxy-append-content: ", Old Icelandic";}
+:lang(ntz) > lang:empty {content: "Natanzi";}
+*[extralang~="ntz"] > lang:empty {-oxy-append-content: ", Natanzi";}
 :lang(nub) > lang:empty {content: "Nubian";}
 *[extralang~="nub"] > lang:empty {-oxy-append-content: ", Nubian";}
 :lang(oc) > lang:empty {content: "Occitan";}
@@ -558,6 +560,8 @@
 *[extralang~="wsv"] > lang:empty {-oxy-append-content: ", Wotapuri-Katarqalai";}
 :lang(x-balochi) > lang:empty {content: "Balochi";}
 *[extralang~="x-balochi"] > lang:empty {-oxy-append-content: ", Balochi";}
+:lang(x-barakai) > lang:empty {content: "Barakai";}
+*[extralang~="x-barakai"] > lang:empty {-oxy-append-content: ", Barakai";}
 :lang(x-iazyg) > lang:empty {content: "Iazygean";}
 *[extralang~="x-iazyg"] > lang:empty {-oxy-append-content: ", Iazygean";}
 :lang(x-mordvin) > lang:empty {content: "Mordvinic";}

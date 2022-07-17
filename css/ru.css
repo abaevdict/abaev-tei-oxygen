@@ -6,7 +6,8 @@ etym:lang(en) {display: none}
 tr:lang(en) {display: none}
 def:lang(en) {display: none}
 note:lang(en) {display: none}
-biblScope:lang(en) {display: none}
+biblScope[xml|lang="en"] {display: none}
+bibl[xml|lang="en"] {display: none}
 
 sense > sense {display: none}
 sense > sense:has(tr:lang(ru)) {display: inline !important;}

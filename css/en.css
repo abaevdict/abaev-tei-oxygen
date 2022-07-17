@@ -7,6 +7,7 @@ tr:lang(ru) {display: none}
 def:lang(ru) {display: none}
 note:lang(ru) {display: none}
 biblScope[xml|lang="ru"] {display: none}
+bibl[xml|lang="ru"] {display: none}
 
 sense > sense {display: none}
 sense > sense:has(tr:lang(en)) {display: inline !important;}

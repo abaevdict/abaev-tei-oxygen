@@ -13,8 +13,8 @@ body { font-family: "Libertinus Serif"; font-size: large; line-height: 1.1; text
 hi[rendition~="#rend_italic"] {font-style: italic;}
 hi[rendition~="#rend_bold"] {font-weight: bold;}
 hi[rendition~="#rend_underline"] {text-decoration: underline;}
-hi[rendition~="#rend_subscript"] {vertical-align: sub;}
-hi[rendition~="#rend_superscript"] {vertical-align: super; font-size: .7em;}
+hi[rendition~="#rend_subscript"] {vertical-align: sub; font-size: 75%;}
+hi[rendition~="#rend_superscript"] {vertical-align: super; font-size: 75%;}
 /*hi[rendition~="#rend_smallcaps"] {font-variant: small-caps;}*/
 
 /*[xml|lang="ru"] [rend~="smallcaps"] {font-family: "Libertinus Sans"; font-size: 90%; letter-spacing: 3px}*/
@@ -30,9 +30,9 @@ q::after {content: "’";}
 
 teiHeader {display: none}
 
-entry {display: block}
+entry {display: block; text-indent: -1.5em; margin-left:1.5em;}
 entry[n]:before {content: attr(n); vertical-align: super; font-size: .7em;}
-entry ~ entry {margin-top: 10px}
+entry ~ entry {margin-top: 5px}
 
 lang {font-style: normal}
 /*[xml|lang="os"] lang[xml|lang="ru"]:empty {content: "ос."}
@@ -48,8 +48,8 @@ lang {font-style: normal}
 [xml|lang="ru"] lang[xml|lang="ru"]:empty {content: "рус."}
 [xml|lang="ru"] lang[xml|lang="en"]:empty {content: "Russian"}*/
 
-mentioned > lang {font-weight: bold}
-etym > lang {font-weight: bold}
+mentioned > lang {font-weight: bold; font-size: smaller;}
+etym > lang {font-weight: bold; font-size: smaller;}
 usg + form::before {content: " "}
 form + usg::before {content: " "}
 usg + tr::before {content: " "}
@@ -57,11 +57,11 @@ usg + tr::before {content: " "}
 form {display: inline}
 /*orth {font-style: italic}*/
 form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"]::before {content: "\00a0|\00a0";}
-form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"][subtype="parens"]::before {content: " | (";}
+form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"][subtype="parens"]::before {content: "\00a0| (";}
 form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"][subtype="parens"]::after {content: ")";}
-w[xml|lang="os-x-iron"] + w[xml|lang="os-x-digor"]::before {content: " | "; font-style: normal;}
-m[xml|lang="os-x-iron"] + m[xml|lang="os-x-digor"]::before {content: " | "; font-style: normal;}
-c[xml|lang="os-x-iron"] + c[xml|lang="os-x-digor"]::before {content: " | "; font-style: normal;}
+w[xml|lang="os-x-iron"] + w[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
+m[xml|lang="os-x-iron"] + m[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
+c[xml|lang="os-x-iron"] + c[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
 entry > form orth {font-weight: bold}
 orth + form[type="variant"]::before {content: ", "}
 orth + form[type="synonym"]::before {content: ", "}
@@ -215,3 +215,14 @@ entry re oRef:empty {content: oxy_xpath("ancestor::re/form[1]/orth[1]/text()")}
 author {letter-spacing: 3px;}
 
 foreign {font-style: italic;}
+
+div[type="letter"] {display:block; break-before: page; page:letter; -prince-page-group: start;}
+
+div[type="letter"] > head { display: block;
+                            text-align:center; 
+                            font-size:large; 
+                            font-weight:bold;
+                            margin-bottom:20px;}
+                            
+                            /*break-before: page;}*/
+/*                            page: letter;}*/

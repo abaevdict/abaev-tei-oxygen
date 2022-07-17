@@ -70,7 +70,7 @@ orth + form[type = "variant"][subtype="parens"]::after {content: ")"}
 /*orth + form[type="variant"][rendition~="#rend_parens"]::before {content: " ("}
 orth + form[type="variant"][rendition~="#rend_parens"]::after {content: ")"}*/
 orth + form[type="participle"]::before {content: " : "}
-form[type="variant"] + form[type="participle"]::before {content: " : "} 
+form[type="variant"] + form[type="participle"]::before {content: "\00a0:\00a0"} 
 form > form + form[type="variant"]::before {content: ", "}
 
 form > lang + orth::before {content: " ";}

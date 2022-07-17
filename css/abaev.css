@@ -91,7 +91,9 @@ re + sense:before {content: " "}
 /*sense > re:before {content: "; "}
 sense > re:first-child:before {content: ""}
 sense > re:first-of-type:before {content: ""}*/
-/*sense > re + re:before {content: "; "}*/
+sense > re + re:before {content: "; "}
+sense > sense + re:before {content: "; "}
+sense > tr + re:before {content: "; "}
 entry > note + re:before {content: "; "} 
 
 
@@ -155,7 +157,7 @@ example:lang(ru) > quote {font-style: inherit;}
 usg + quote::before {content: " ";}
 
 /*etym {display: block; margin-top: 1ex}*/
-etym::before {content: ".\A~ "; white-space: pre;}
+etym::before {content: ".\A\00a0\00a0\00a0\00a0~ "; white-space: pre;}
 
 w {font-style: italic;}
 c {font-style: italic;}
@@ -177,9 +179,10 @@ p {display: block}
 
 table {display: inline-table}
 
-lb::before {content: "\A";
+lb::before {content: "\A\00a0\00a0\00a0\00a0";
             white-space: pre;}
-pb::before {content: "\a";
+/*pb is for background compatibility only -- should be replaced with lb*/
+pb::before {content: "\A\00a0\00a0\00a0\00a0";
             white-space: pre;}
 
 form[type~="rec"]::before {content:"*"}
@@ -199,7 +202,7 @@ note[type="footnote"] {vertical-align: sub; font-size: small}
 
 oRef {font-style: italic;}
 tr oRef {letter-spacing: 3px}
-example:lang(ru) quote {letter-spacing: 3px}
+/*example:lang(ru) quote {letter-spacing: 3px}*/
 example > quote oRef {font-style: italic; font-weight:bold; letter-spacing: normal}
 re > form oRef {font-style: italic; font-weight:bold; letter-spacing: normal}
 etym oRef {font-style: italic; letter-spacing: normal}

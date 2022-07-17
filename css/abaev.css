@@ -226,3 +226,12 @@ div[type="letter"] > head { display: block;
                             
                             /*break-before: page;}*/
 /*                            page: letter;}*/
+
+/*Verse*/
+lg > l:not(:first-child):before {content: "\A"; white-space: pre;}
+lg {display: inline; margin-left: 3em; text-indent: 0em; font-size: small}
+q > lg {margin-left: 6em;}
+q > lg:before {content: "‘"}
+q > lg:after {content: "’"}
+q:has(lg):before {content: "";}
+q:has(lg):after {content: "";}

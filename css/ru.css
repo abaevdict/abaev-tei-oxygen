@@ -16,10 +16,11 @@ sense > sense:has(def:lang(ru)) {display: inline !important;}
 q[rendition~="#rend_doublequotes"]::before {content: "„";}
 q[rendition~="#rend_doublequotes"]::after {content: "“";}
 /* Feature passing down the tree :) -- for verse */
-q[rendition~="#rend_doublequotes"]:has(lg):before {content: "";}
+/*q[rendition~="#rend_doublequotes"]:has(lg):before {content: "";}
 q[rendition~="#rend_doublequotes"]:has(lg):after {content: "";}
 q[rendition~="#rend_doublequotes"] > lg:before {content: "“"}
-q[rendition~="#rend_doublequotes"] > lg:after {content: "”"}
+q[rendition~="#rend_doublequotes"] > lg:after {content: "”"}*/
+
 q > q[rendition~="#rend_doublequotes"]::before {content: "«";}
 q > q[rendition~="#rend_doublequotes"]::after {content: "»";}
 /*q > q[rendition~="#rend_doublequotes"]:last-child::before {content: "«";}*/

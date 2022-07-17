@@ -228,10 +228,12 @@ div[type="letter"] > head { display: block;
 /*                            page: letter;}*/
 
 /*Verse*/
-lg > l:not(:first-child):before {content: "\A"; white-space: pre;}
-lg {display: inline; margin-left: 3em; text-indent: 0em; font-size: small}
-q > lg {margin-left: 6em;}
-q > lg:before {content: "‘"}
-q > lg:after {content: "’"}
+lg > l:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0"; white-space: pre;}
+/*lg {display: inline; margin-left: 3em; text-indent: 0em; font-size: small}*/
+lg {display: inline; font-size: small}
+tr > q > lg > l:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0"}
+q > lg > l:first-child:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0‘"}
+tr > q > lg > l:first-child:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0‘"}
+/*q > lg:after {content: "’"}*/
 q:has(lg):before {content: "";}
-q:has(lg):after {content: "";}
+/*q:has(lg):after {content: "";}*/

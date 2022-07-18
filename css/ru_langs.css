@@ -90,6 +90,8 @@
 *[extralang~="cjs"] > lang:empty {-oxy-append-content: ", шор.";}
 :lang(ckb) > lang:empty {content: "сорани";}
 *[extralang~="ckb"] > lang:empty {-oxy-append-content: ", сорани";}
+:lang(ckb-x-kndln) > lang:empty {content: "кандулан";}
+*[extralang~="ckb-x-kndln"] > lang:empty {-oxy-append-content: ", кандулан";}
 :lang(cmg) > lang:empty {content: "монг. письм.";}
 *[extralang~="cmg"] > lang:empty {-oxy-append-content: ", монг. письм.";}
 :lang(crh) > lang:empty {content: "татар. (крым.)";}

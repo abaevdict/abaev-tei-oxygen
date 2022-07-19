@@ -51,3 +51,27 @@ lines.append('                                </field>\n')
 
 with open('profiling-text.xml', 'w') as f:
     f.writelines(lines)
+
+# Generate XSL template
+lines = [   '<?xml version="1.0" encoding="UTF-8"?>\n',
+            '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"\n',
+            '    xmlns:xs="http://www.w3.org/2001/XMLSchema"\n',
+            '    exclude-result-prefixes="xs"\n',
+            '    version="2.0">\n',
+            '    <xsl:template name="lang-text">\n',
+            '        <xsl:param name="lang-code"/>\n',
+            '        <xsl:param name="name-lang"/>\n',
+            '        <xsl:choose>\n']
+for code in names_ru.keys():
+    lines.append('            <xsl:when test="$lang-code = \'' + code + '\'">\n')
+    lines.append('                <xsl:choose>\n')
+    lines.append('                    <xsl:when test="$name-lang = \'ru\'"><xsl:text>' + names_ru[code] + '</xsl:text></xsl:when>\n')
+    lines.append('                    <xsl:when test="$name-lang = \'en\'"><xsl:text>' + names_en[code] + '</xsl:text></xsl:when>\n')
+    lines.append('                </xsl:choose>\n')
+    lines.append('            </xsl:when>\n')
+lines.append('        </xsl:choose>\n')
+lines.append('    </xsl:template>\n')
+lines.append('</xsl:stylesheet>\n')
+
+with open('lang-names.xsl', 'w') as f:
+    f.writelines(lines)

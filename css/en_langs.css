@@ -122,6 +122,8 @@
 *[extralang~="de"] > lang:empty {-oxy-append-content: ", German";}
 :lang(de-x-dial) > lang:empty {content: "German (dialectal)";}
 *[extralang~="de-x-dial"] > lang:empty {-oxy-append-content: ", German (dialectal)";}
+:lang(dsb) > lang:empty {content: "Lower Sorbian";}
+*[extralang~="dsb"] > lang:empty {-oxy-append-content: ", Lower Sorbian";}
 :lang(egy) > lang:empty {content: "Ancient Egyptian";}
 *[extralang~="egy"] > lang:empty {-oxy-append-content: ", Ancient Egyptian";}
 :lang(el) > lang:empty {content: "Modern Greek";}

@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import "abaev-biblio.css";
+
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 @namespace oxy url('http://www.oxygenxml.com/extensions/author');
 
@@ -216,14 +218,6 @@ entry re oRef:empty {content: oxy_xpath("ancestor::re/form[1]/orth[1]/text()")}
 author {letter-spacing: 3px;}
 
 foreign {font-style: italic;}
-
-div[type="letter"] {display:block; break-before: page; page:letter; -prince-page-group: start;}
-
-div[type="letter"] > head { display: block;
-                            text-align:center; 
-                            font-size:large; 
-                            font-weight:bold;
-                            margin-bottom:20px;}
                             
                             /*break-before: page;}*/
 /*                            page: letter;}*/

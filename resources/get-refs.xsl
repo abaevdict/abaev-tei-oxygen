@@ -86,7 +86,7 @@
             </xsl:if>
             <xsl:if test="$element/@type = 'bibl'">
                 <xsl:variable name="master" select="document($masterPath)"/>
-                <xsl:for-each select="$master/tei:TEI/tei:text/tei:body/tei:div/tei:listBibl/tei:bibl">
+                <xsl:for-each select="$master/tei:TEI/tei:text/tei:body/tei:div//tei:listBibl/tei:bibl">
                         <xsl:element name="item">
                             <xsl:attribute name="value">
                                 <xsl:text>#</xsl:text>

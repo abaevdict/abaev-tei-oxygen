@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+
+listBibl {display: table; font-size: 10pt;}
+listBibl > bibl {display: table-row;}
+listBibl > head {display: table-row;}
+listBibl > head > label {display: table-cell;}
+listBibl > bibl > abbr {display: table-cell; hyphens:none; text-align:left; width: 12em;}
+/*listBibl > bibl > abbr:lang(en) {display: none;}*/
+listBibl > bibl > bibl {display: table-cell;}
+
+listBibl > bibl > bibl:before {content: '—\00a0'}
+listBibl > bibl {margin-left: 1em; text-indent: -1em;}
+listBibl bibl author > name {letter-spacing: 3px;}
+listBibl bibl editor > name {letter-spacing: 3px;}
+listBibl bibl author {letter-spacing: normal;}
+
+bibl:lang(en) title {font-style: italic;}
+bibl:has(bibl:has(title)) > title {font-style: normal;}
+
+div[type="bibl-1"] > head {display:block; font-size: 14pt; font-weight: bold; text-align: center; padding-bottom: 1ex;}
+div[type="bibl-2"] > head {display:block; font-size: 12pt; font-weight: bold; text-align: center; padding-bottom: 1ex; padding-top: 1ex;}

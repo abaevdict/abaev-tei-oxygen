@@ -544,8 +544,8 @@
 *[extralang~="tt-x-dial"] > lang:empty {-oxy-append-content: ", Tatar (dialectal)";}
 :lang(tt-x-kazan) > lang:empty {content: "Kazan Tatar";}
 *[extralang~="tt-x-kazan"] > lang:empty {-oxy-append-content: ", Kazan Tatar";}
-:lang(ttt) > lang:empty {content: "Tat (Muslim?)";}
-*[extralang~="ttt"] > lang:empty {-oxy-append-content: ", Tat (Muslim?)";}
+:lang(ttt) > lang:empty {content: "Tat";}
+*[extralang~="ttt"] > lang:empty {-oxy-append-content: ", Tat";}
 :lang(txb) > lang:empty {content: "Tocharian B";}
 *[extralang~="txb"] > lang:empty {-oxy-append-content: ", Tocharian B";}
 :lang(txh) > lang:empty {content: "Thracian";}

@@ -13,12 +13,15 @@
 /*    margin: 1.5cm 2.5cm 1.5cm 2.5cm;*/
     @footnote {
         border-top: solid black thin;
+        padding-top:1ex;
+        margin-top: 1ex;
 /*        margin-left: 1.5em;*/
         border-clip: 6em;
     }
     @top-center {
         content: string(term, first);
         font-weight: bold;
+        font-family: "Libertinus Sans";
     }
     counter-reset: footnote;
 }
@@ -45,6 +48,8 @@
 
 entry > form[type="lemma"] > orth { string-set: term content() }
 
+div > head { string-set: term content() }
+
 * {
     padding: 0 0 0 0;
     white-space: normal;
@@ -68,6 +73,11 @@ div[type="letter"] > head { display: block;
                             font-size:large; 
                             font-weight:bold;
                             margin-bottom:20px;}
+
+div[type='foreword'] {page: letter; -prince-page-group: start; break-before: right; text-align:justify;}
+div[type="bibl-1"] {page: letter; -prince-page-group: start; break-before: page; text-align:justify;}
+
+graphic {content: attr("url",url);}
                             
 /*body {break-before: right;}*/
 
@@ -77,6 +87,7 @@ ref[target][type='xr']:not(empty)::after { content: '';}
 entry > ref[target][type='xr']:not(empty):last-child::after {content: ".";}
 
 *[rendition~="#rend_smallcaps"] {font-variant: small-caps; letter-spacing: normal;}
+*[rendition~="#rend_smallcaps"]:lang(ru) {font-variant: normal; text-transform:uppercase; font-size: 70%; letter-spacing: 1px;}
 name {font-variant: small-caps; letter-spacing: normal; }
 author {font-variant: small-caps; letter-spacing: normal;}
 
@@ -85,5 +96,12 @@ tr oRef {letter-spacing: normal;}
 re > form oRef {font-style: italic; font-weight: normal; letter-spacing: normal}
 example > quote oRef {font-style: italic; font-weight:normal; letter-spacing: normal}
 
+titlePage name:lang(ru) {font-variant: normal; letter-spacing: 2px;}
+
+div[type="board"] > p name:first-of-type {font-variant: normal; letter-spacing: 1px;}
+
+/*titlePage name:lang(ru):first-letter {font-size: 26pt;}*/
+
+listBibl bibl author {letter-spacing: normal; font-variant:normal;}
 listBibl bibl author > name {letter-spacing: normal;}
-listBibl bibl editor > name {letter-spacing: 3px;}
+listBibl bibl editor > name {letter-spacing: normal;}

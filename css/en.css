@@ -31,6 +31,7 @@ q[rendition~="#rend_doublequotes"] > lg:after {content: "”"}
 
 *[rendition~="#rend_smallcaps"] {letter-spacing: 3px}
 name {letter-spacing: 3px}
+emph {font-style:italic;}
 
 example > quote:lang(ru) {display:none}
 quote:lang(ru) + tr::before {content: ""}

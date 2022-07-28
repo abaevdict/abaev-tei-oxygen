@@ -4,11 +4,66 @@
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 @namespace oxy url('http://www.oxygenxml.com/extensions/author');
 
+* {orphans: 2; widows: 2;}
+
 oxy|doctype {
     display:block !important;
     color:blue !important;
     background-color:transparent !important;
 }
+
+div {display: block}
+
+head {font-family: "Libertinus Sans"}
+
+div[xml|id='foreword'] {text-align: justify; break-before: right;}
+div[type='foreword'] > p {display: block; text-indent: 1.5em;}
+div[type='foreword']:lang(en) > p:first-of-type {display: block; text-indent: 0em;}
+div[type="foreword"] > head {display:block; font-size: 14pt; font-weight: bold; text-align: center; padding-bottom: 2ex; text-transform: uppercase;}
+
+titlePage {display: block; text-align: center; font-family: "Libertinus Sans"; page: letter; -prince-page-group: start; position: relative;}
+
+/*titlePage > byline {display: block; text-align: center; font-size: 16pt; padding-top: 0.11cm; padding-bottom:0.5cm;}*/
+titlePage > byline[n = '1'] {display: block; text-align: center; font-size: 16pt; position: absolute; width:100%; top:40ex;}
+titlePage > byline[n = '2'] {display: block; text-align: center; font-size: 16pt; position: absolute; width:100%; top:47ex;}
+titlePage > byline[n = '3'] {display: block; text-align: center; font-size: 16pt; position: absolute; width:100%; top:72ex;}
+/*titlePage > byline:first-of-type {font-size: 24pt; font-weight: bold; padding-top: 0.5cm; padding-bottom:0.5cm;}*/
+titlePage > byline:first-of-type {font-size: 24pt; font-weight: bold; top: 0px;}
+
+titlePage > byline > docAuthor + docAuthor:before {content: "\A"; white-space: pre;}
+
+titlePage > docTitle {display: block; text-align: center; padding-top: 0.11cm; position: absolute; width:100%; top: 10ex;}
+titlePage > docTitle > titlePart {display: block; text-align: center;}
+titlePage > docTitle > titlePart[type="main"] {font-size: 26pt; text-transform: uppercase; padding-bottom: 0.5cm}
+titlePage > docTitle > titlePart[type="vol"] {font-size: 24pt; font-variant: small-caps; padding-top: 0cm; padding-bottom: 0.11cm; position:absolute; width:100%; top: 13ex;}
+titlePage > docTitle > titlePart[type="letter"] {font-size: 26pt; padding-top: 0cm; /*padding-bottom: 1.5cm*/ position:absolute; width:100%; top: 17ex;}
+/*titlePage > docTitle > titlePart[type="letter"]:lang(ru) {padding-bottom: 0.5cm}*/
+
+titlePage > docEdition {display: block; text-align: center; font-size: 16pt;}
+titlePage > docImprint[n="1"] {display:block; text-align: center; font-size: 14pt; position: absolute; width: 100%; top:67ex;}
+titlePage > docImprint[n="2"] {page-break-after:always; position: absolute; width: 100%; top:107ex;}
+/*titlePage > docImprint:last-of-type:lang(ru) {padding-top: 2cm;}*/
+
+titlePage hi[rend="small"] {font-size: smaller; display:inline;}
+/*titlePage note:lang(ru) {display: inline;}*/
+
+signed {display:block; font-style:italic; text-align:right;padding-top:0.5cm;}
+
+lb::before {content: "\A";
+            white-space: pre;}
+            
+div[type="note"] {display: block; page: letter; page-break-after: always; -prince-page-group: start;}
+div[type="note"] > p {font-size: 10pt; text-indent: 1.5em; padding-top:1cm;}
+div[type="note"] > p:first-of-type {text-indent: 0em; padding-top:0cm;}
+div[type="note"] > bibl {display: block; font-size: 10pt; text-indent: -1.5em; margin-left:1.5em;}
+
+div[type="frontispiece"] {display: block; page: letter; page-break-after: always; -prince-page-group: start;}
+div[type="frontispiece"] > p {display: block; text-align: center; font-size: 16pt;}
+
+div[type="board"] {display: block; page: letter; page-break-after: always; -prince-page-group: start;}
+div[type="board"] > p {display: block; text-align: center; font-size: 14pt;}
+div[type="board"] > p > note {font-size: 12pt;}
+div[type="board"] > head {display: block; text-align: center; font-size: 14pt; font-weight:bold; padding-bottom: 1cm;}
 
 body { font-family: "Libertinus Serif"; font-size: large; line-height: 1.1; text-align: justify;}
 
@@ -147,6 +202,11 @@ ref[target][type='bibl']:empty::after {  content:attr(target);
                             background-color: grey;}
 ref[target][type='xr']:not(empty)::after { content: '⮳';
                                 -oxy-link:oxy_replace(attr(target),'#entry_','abaev_') '.xml'}
+
+ref[target][type='url']:empty::after {content: attr(target);
+                            font-family: 'Libertinus Mono';
+                            font-size: smaller;}
+
 entry > ref + ref::before {content: ", ";}
 entry > ref[target]:empty:last-child::after {content: attr(target) ".";}
 entry > ref[target]:last-child::after {content: ".";}
@@ -181,10 +241,10 @@ p {display: block}
 
 table {display: inline-table}
 
-lb::before {content: "\A\00a0\00a0\00a0\00a0";
+entry lb::before {content: "\A\00a0\00a0\00a0\00a0";
             white-space: pre;}
 /*pb is for background compatibility only -- should be replaced with lb*/
-pb::before {content: "\A\00a0\00a0\00a0\00a0";
+entry pb::before {content: "\A\00a0\00a0\00a0\00a0";
             white-space: pre;}
 
 form[type~="rec"]::before {content:"*"}

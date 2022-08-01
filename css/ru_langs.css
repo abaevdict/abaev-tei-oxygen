@@ -582,8 +582,6 @@
 *[extralang~="x-balochi"] > lang:empty {-oxy-append-content: ", бел.";}
 :lang(x-barakai) > lang:empty {content: "варакаи";}
 *[extralang~="x-barakai"] > lang:empty {-oxy-append-content: ", варакаи";}
-:lang(x-iazyg) > lang:empty {content: "языгский";}
-*[extralang~="x-iazyg"] > lang:empty {-oxy-append-content: ", языгский";}
 :lang(x-mordvin) > lang:empty {content: "морд.";}
 *[extralang~="x-mordvin"] > lang:empty {-oxy-append-content: ", морд.";}
 :lang(x-nuristan) > lang:empty {content: "кафир.";}

@@ -1,326 +1,326 @@
 code,glottolog,ru,en,comment,lat,long
-ab,abkh1244,абх.,Abkhaz,,,
-abq,abaz1241,абаз.,Abaza,,,
-abq-x-dial,abaz1241,абаз. (диал.),Abaza (dialectal),,,
-ady,adyg1241,адыг.,Adyghe,,,
-ady-x-abadz,abad1240,абадз.,Abzakh,,,
-ady-x-shpsg,shap1240,шапс.,Shapsug Adyghe,,,
-ae,aves1237,ав.,Avestan,,,
-ae-x-gth,aves1237,ав. (гаты),Gathic Avestan,,,
-agx,aghu1253,агул.,Aghul,,,
-aii,assy1241,ассир.,Assyrian,,,
-ain,ainu1252,айну,Ainu,I assume this is Japanese Ainu,,
-akk,akka1240,аккад.,Akkadian,,,
-akv,akhv1239,ахвах.,Akhvakh,,,
-alt,sout2694,алт.,Altai,,,
-alt-x-teleut,tele1257,телеут.,Teleut Altai,,,
-ang,olde1238,англос.,Old English,,,
-ani,andi1255,анд.,Andi,,,
-aqc,arch1244,арчин.,Archi,,,
-ar,stan1318,араб.,Arabic,,,
-arc,impe1235,арам.,Aramaic,,,
-av,avar1256,авар.,Avar,,,
-az,mode1262,азерб.,Azerbaijani,,,
-ba,bash1264,башк.,Bashkir,,,
-bat,east2280,балт.,Baltic,,-99,-99
-bbl,bats1242,туш.,Bats,,,
-bdk,budu1248,будух.,Budugh,,,
-be,bela1254,белорусс.,Belarusian,,,
-bg,bulg1262,болг.,Bulgarian,,,
-bgn,west2368,бел. (зап.),Western Balochi,,,
-bgp,east2304,бел. (вост.),Eastern Balochi,,,
-bo,tibe1272,тибет.,Tibetan,,,
-bph,botl1242,ботл.,Botlikh,,,
-br,bret1244,брет.,Breton,,,
-brh,brah1256,брахуи,Brahui,,,
-bsk,buru1296,верш.,Burushaski,,,
-bua,buri1258,монг. бурят.,Buryat,,,
-cau,0,кавк.,Caucasian,,-99,-99
-ccs,kart1248,картв.,South Caucasian,,,
-ce,chec1245,чеч.,Chechen,,,
-cel,celt1248,кельт.,Celtic,,-99,-99
-chg,chag1247,чагат.,Chagatai,,,
-chm,mari1278,мар.,Mari,,,
-cji,cham1309,чамал.,Chamalal,,,
-cjs,shor1247,шор.,Shor,,,
-ckb,cent1972,сорани,Sorani,,,
-ckb-x-kndln,cent1972,кандулан,Sorani (Kandulan),I assume this is Sorani; add coordinates!,,
-cmg,halh1238,монг. письм.,Classical Mongolian,,,
-crh,crim1257,татар. (крым.),Crimean Tatar,,,
-cs,czec1258,чеш.,Czech,,,
-cu,chur1257,ст.слав.,Old Church Slavonic,,,
-cu-x-bg,chur1257,др.болг.,Old Bulgarian,add coordinates,,
-cv,chuv1255,чув.,Chuvash,,,
-cy,wels1247,валл.,Welsh,,,
-cy-x-cymr,wels1247,кимр.,Cymric,might be Old Welsh?,,
-da,dani1285,дат.,Danish,,,
-dar,darg1242,дарг.,Dargwa,,,
-dar-x-aqusha,akus1238,акуш.,Aqusha Dargwa,,,
-dar-x-kaitag,kajt1238,кайт.,Kaitag Dargwa,,,
-ddo,dido1241,дид.,Tsez,,,
-de,stan1295,нем.,German,,,
-de-x-dial,high1289,нем. (диал.),German (dialectal),for Glottolog I assume it is High German because the dialects belong to distinct branches,,
-dsb,lowe1385,нижне-луж.,Lower Sorbian,,,
-egy,egyp1246,древнеегипетский,Ancient Egyptian,,,
-el,gree1276,н.гр.,Modern Greek,,,
-elx,elam1244,элам.,Elamite,,,
-en,stan1293,англ.,English,,,
-es,stan1288,исп.,Spanish,,,
-et,esto1258,эст.,Estonian,,,
-eu,basq1248,баск.,Basque,,,
-evn,even1259,эвенк.,Evenki,,,
-fa,fars1255,перс.,Persian,,,
-fa-x-dial,fars1255,перс. (диал.),Persian (dialectal),,,
-fa-x-krmns,kerm1248,перс. (кирманшах.),Persian (Kermanshah),,,
-fi,finn1318,фин.,Finnish,,,
-fi-x-dial,finn1318,фин. (диал.),Finnish (dialectal),,,
-fr,stan1290,фр.,French,,,
-fro,oldf1239,ст.фр.,Old French,,,
-frp,fran1260,фр. (прованс.),Franco-Provençal,,,
-frs,sate1242,фриз. (вост.),East Frisian,,,
-fy,fris1239,фриз.,Frisian,"chose West as the largest branch, but not certain",,
-ga,iris1253,ирл.,Irish,,,
-gbz,gabr1257,габри,Zoroastrian Dari,,,
-gbz-x-yzd,zoro1242,язди,Yazdi,,,
-gdo,ghod1238,годобер.,Godoberi,,,
-gem,germ1287,герм.,Proto-Germanic,,-99,-99
+ab,abkh1244,абх.,Abkhaz,,43.056218,41.159115
+abq,abaz1241,абаз.,Abaza,,44.25,42.0
+abq-x-dial,abaz1241,абаз. (диал.),Abaza (dialectal),,44.25,42.0
+ady,adyg1241,адыг.,Adyghe,,44.0,39.33
+ady-x-abadz,abad1240,абадз.,Abzakh Adyghe,coordinates of Khakurinokhabl,45.02,40.23
+ady-x-shpsg,shap1240,шапс.,Shapsug Adyghe,coordinates of Lazarevskoe,43.911111,39.338056
+ae,aves1237,ав.,Avestan,,34.217,62.112
+ae-x-gth,aves1237,ав. (гаты),Gathic Avestan,,34.217,62.112
+agx,aghu1253,агул.,Aghul,,41.9242,47.5843
+aii,assy1241,ассир.,Assyrian,,36.75,43.0
+ain,ainu1252,айну,Ainu,I assume this is Japanese Ainu; coordinates of Hokkaido Ainu,43.63,142.46
+akk,akka1240,аккад.,Akkadian,,33.1,44.1
+akv,akhv1239,ахвах.,Akhvakh,,42.4003,46.3037
+alt,sout2694,алт.,Altai,,50.1347,86.8705
+alt-x-teleut,tele1257,телеут.,Teleut Altai,coordinates of Chelukhoevo,54.3672,86.2156
+ang,olde1238,англос.,Old English,,51.06,-1.31
+ani,andi1255,анд.,Andi,,42.8078,46.2919
+aqc,arch1244,арчин.,Archi,,42.3239,46.8267
+ar,stan1318,араб.,Arabic,,27.9625,43.8525
+arc,impe1235,арам.,Aramaic,,33.905,42.185
+av,avar1256,авар.,Avar,,41.7047,46.558
+az,mode1262,азерб.,Azerbaijani,coordinates of North Azerbaijani,40.98,46.47
+ba,bash1264,башк.,Bashkir,,53.59671,56.55937
+bat,east2280,балт.,Baltic,coordinates of Lithuanian,55.14,23.96
+bbl,bats1242,туш.,Bats,,42.1806,45.344
+bdk,budu1248,будух.,Budugh,,41.2272,48.3353
+be,bela1254,белорусс.,Belarusian,,53.2307,25.6038
+bg,bulg1262,болг.,Bulgarian,,43.3646,25.047
+bgn,west2368,бел. (зап.),Western Balochi,,37.83,62.17
+bgp,east2304,бел. (вост.),Eastern Balochi,,28.0,62.0
+bo,tibe1272,тибет.,Tibetan,,28.3681,90.1872
+bph,botl1242,ботл.,Botlikh,,42.665,46.22
+br,bret1244,брет.,Breton,,48.2452,-3.78934
+brh,brah1256,брахуи,Brahui,,29.04,66.56
+bsk,buru1296,верш.,Burushaski,,36.2161,74.8236
+bua,buri1258,монг. бурят.,Buryat,coordinates of Russia Buriat,50.85,105.56
+cau,0,кавк.,Caucasian,coordinates of the Caucasus (wiki),42.261111,44.121111
+ccs,kart1248,картв.,South Caucasian,coordinates of Georgian,41.85,43.79
+ce,chec1245,чеч.,Chechen,,43.5,45.5
+cel,celt1248,кельт.,Celtic,coordinates of Breton,48.25,-3.79
+chg,chag1247,чагат.,Chagatai,,38.21146,57.88758
+chm,mari1278,мар.,Mari,coordinates of Mari El,56.52,46.252
+cji,cham1309,чамал.,Chamalal,,42.5024,45.995
+cjs,shor1247,шор.,Shor,,52.32607,88.4344
+ckb,cent1972,сорани,Sorani,,35.6539,45.8077
+ckb-x-kndln,cent1972,кандулан,Sorani (Kandulan),I assume this is Sorani; add coordinates!,35.6539,45.8077
+cmg,halh1238,монг. письм.,Classical Mongolian,,48.32397,106.28874
+crh,crim1257,татар. (крым.),Crimean Tatar,,45.0,34.08
+cs,czec1258,чеш.,Czech,,49.873398,15.10437
+cu,chur1257,ст.слав.,Old Church Slavonic,,43.7171,22.8442
+cu-x-bg,chur1257,др.болг.,Old Bulgarian,add coordinates,43.7171,22.8442
+cv,chuv1255,чув.,Chuvash,,55.48701,47.16298
+cy,wels1247,валл.,Welsh,,52.0,-4.0
+cy-x-cymr,wels1247,кимр.,Cymric,might be Old Welsh?,52.0,-4.0
+da,dani1285,дат.,Danish,,54.8655,9.36284
+dar,darg1242,дарг.,Dargwa,coordinates of Aqusha,42.2665,47.3439
+dar-x-aqusha,akus1238,акуш.,Aqusha Dargwa,,42.2665,47.3439
+dar-x-kaitag,kajt1238,кайт.,Kaitag Dargwa,,42.052428,47.776611
+ddo,dido1241,дид.,Tsez,,42.2646,45.8096
+de,stan1295,нем.,German,,48.649,12.4676
+de-x-dial,high1289,нем. (диал.),German (dialectal),for Glottolog I assume it is High German because the dialects belong to distinct branches; same coords as German,48.649,12.4676
+dsb,lowe1385,нижне-луж.,Lower Sorbian,,51.6621,13.9407
+egy,egyp1246,древнеегипетский,Ancient Egyptian,,28.381735,30.834959
+el,mode1248,н.гр.,Modern Greek,,38.36,23.13
+elx,elam1244,элам.,Elamite,,31.1833,48.2333
+en,stan1293,англ.,English,,53.0,-1.0
+es,stan1288,исп.,Spanish,,40.4414,-1.11788
+et,esto1258,эст.,Estonian,,58.55,25.82
+eu,basq1248,баск.,Basque,,43.2787,-1.31622
+evn,even1259,эвенк.,Evenki,,61.972,94.689
+fa,fars1255,перс.,Persian,coordinates of Western Farsi,32.90,53.30
+fa-x-dial,fars1255,перс. (диал.),Persian (dialectal),coordinates of Western Farsi,32.90,53.30
+fa-x-krmns,kerm1248,перс. (кирманшах.),Persian (Kermanshah),,34.314167,47.065
+fi,finn1318,фин.,Finnish,,64.7628,25.5577
+fi-x-dial,finn1318,фин. (диал.),Finnish (dialectal),,64.7628,25.5577
+fr,stan1290,фр.,French,,48.0,2.0
+fro,oldf1239,ст.фр.,Old French,,48.8,1.11
+frp,fran1260,фр. (прованс.),Franco-Provençal,,45.8051,6.48152
+frs,sate1242,фриз. (вост.),East Frisian,,53.117,7.721
+fy,fris1239,фриз.,Frisian,"chose West as the largest branch, but not certain",53.14,5.86
+ga,iris1253,ирл.,Irish,,53.2186,-7.61509
+gbz,gabr1257,габри,Zoroastrian Dari,,31.82,54.45
+gbz-x-yzd,zoro1242,язди,Yazdi,,31.8161,54.4469
+gdo,ghod1238,годобер.,Godoberi,,42.7428,46.2252
+gem,germ1287,герм.,Germanic,coordinates of Ostfränkisch: roughly at the middle of the are of Modern Germanic,50.01,8.62
 gem-x-old,germ1287,др.герм.,Old Germanic,,-99,-99
-glk,gila1241,гилян.,Gilaki,,,
-gmh,midd1343,ср.в.нем.,Middle High German,,,
-gml,midd1318,ср.н.нем.,Middle Low German,,,
-gmq,nort3160,сканд.,Scandinavian,rarely used,-99,-99
-goh,oldh1241,др.в.нем.,Old High German,,,
-got,goth1244,гот.,Gothic,,,
-got-x-crm,crim1255,гот. (крым.),Crimean Gothic,,,
-grc,anci1242,гр.,Greek,,,
-grc-x-doric,dori1248,гр. дор.,Doric Greek,,,
-hac,gura1251,гуран.,Gorani,,,
-hbo,anci1244,др.евр.,Hebrew,,,
-hi,hind1269,хинди,Hindi,,,
-hit,hitt1242,хетт.,Hittite,,,
-hr,croa1245,хорв.,Croatian,add coordinates,,
-hu,hung1274,венг.,Hungarian,,,
-huz,hunz1247,гунзиб.,Hunzib,,,
-iir,indo1320,ар.,Aryan,add coordinates,-99,-99
-inc,indo1321,инд.,Indic,add coordinates,-99,-99
-inc-x-mid,midd1375,ср.инд.,Middle Indic,add coordinates,,
-inc-x-nnew,indo1324,северные новоиндийские диалекты,North New Indic dialects,add coordinates,,
-inc-x-old,sans1269,др.инд.,Old Indic,,,
+glk,gila1241,гилян.,Gilaki,,37.1344,49.8359
+gmh,midd1343,ср.в.нем.,Middle High German,,48.254,10.599
+gml,midd1318,ср.н.нем.,Middle Low German,,53.14,9.67
+gmq,nort3160,сканд.,Scandinavian,rarely used; coordinates of Old Norse,63.42,10.38
+goh,oldh1241,др.в.нем.,Old High German,,52.0,10.0
+got,goth1244,гот.,Gothic,,46.9304,29.9786
+got-x-crm,crim1255,гот. (крым.),Crimean Gothic,,45.3,34.4
+grc,anci1242,гр.,Greek,,39.8155,21.9129
+grc-x-doric,dori1248,гр. дор.,Doric Greek,coordinates of Greek Epirus,39.6,20.8
+hac,gura1251,гуран.,Gorani,,36.8377,44.4956
+hbo,anci1244,др.евр.,Hebrew,,31.7761,35.1725
+hi,hind1269,хинди,Hindi,,25.0,77.0
+hit,hitt1242,хетт.,Hittite,,40.0,35.0
+hr,croa1245,хорв.,Croatian,,45.555,15.982
+hu,hung1274,венг.,Hungarian,,46.9068585714,19.6555271429
+huz,hunz1247,гунзиб.,Hunzib,,42.0808,46.1369
+iir,indo1320,ар.,Aryan,,-99,-99
+inc,indo1321,инд.,Indo-Aryan,coordinates of country India,21,78
+inc-x-mid,midd1375,ср.инд.,Middle Indic,coordinates of country India,21,78
+inc-x-nnew,indo1324,северные новоиндийские диалекты,North New Indic dialects,coordinates of Delhi,28.61,77.23
+inc-x-old,sans1269,др.инд.,Old Indic,,20.0,77.0
 ine,indo1319,и.е.,Indo-European,,-99,-99
-inh,ingu1240,инг.,Ingush,,,
+inh,ingu1240,инг.,Ingush,,43.11,45.03
 ira,iran1269,иран.,Iranian,,-99,-99
-ira-x-mid,iran1269,ср.иран.,Middle Iranian,add coordinates,-99,-99
-is,icel1247,исл.,Icelandic,,,
-isk,ishk1246,пам. ишк.,Ishkashimi,,,
-it,ital1282,ит.,Italian,,,
-ja,nucl1643,япон.,Japanese,,,
-ka,nucl1302,груз.,Georgian,,,
-ka-x-clq,nucl1302,груз. (разг.),Georgian (colloquial),,,
-ka-x-dial,nucl1302,груз. (диал.),Georgian (dialectal),,,
-ka-x-guria,guri1246,груз. (гур.),Gurian Georgian,,,
-ka-x-imer,imer1248,груз. (имер.),Imeretian Georgian,,,
-ka-x-ingiloy,ingi1240,груз. (ингил.),Ingiloy Georgian,,,
-ka-x-khevsur,xevs1238,груз. (хевсур.),Khevsur Georgian,,,
-ka-x-lchkhm,rach1238,груз. (лечхум.),Lechkhumi Georgian,,,
-ka-x-mokhev,moxe1238,груз. (мохев.),Mokhevian Georgian,,,
-ka-x-pshav,psha1238,груз. (пшав.),Pshavian Georgian,,,
-ka-x-rachian,rach1238,груз. (рачин.),Rachian Georgian,,,
-kaa,kara1467,каракалп.,Kara-Kalpak,,,
-kap,bezh1248,капуч.,Bezhta,,,
-kbd,kaba1278,каб.,Kabardian,,,
-kbd-x-crc,kaba1278,черк.,Circassian,add coordinates to distinguish Kabardian and Circassian?,,
-kbd-x-crc-dial,kaba1278,черк. (диал.),Circassian (dialectal),,,
-kbd-x-crc-west,kaba1278,черк. (зап.),Circassian (western),probably distinct from West Circassian (= Adyghe),,
-kbd-x-dial,kaba1278,каб. (диал.),Kabardian (dialectal),,,
-kca,khan1279,ханты,Khanty,,,
-kdr,kara1464,караим.,Karaim,,,
-kho,khot1251,сак.,Saka,,,
-khv,xvar1237,хварш.,Khwarshi,,,
-khw,khow1242,ховар.,Khowar,,,
-khw-x-chtr,sout2670,читр.,Khowar (Chitral),"I assume this is Khowar, the language spoken in Chitral in Pakistan. For Glottolog I assume it’s southern Khowar, but this is preliminary",,
-kjh,khak1248,хакас.,Khakas,,,
-kjh-sghy,saga1260,хакас. (сагайск.),Saghay Khakas,,,
-kjj,khin1240,хиналуг.,Khinalugh,,,
-kk,nort2672,каз.,Kazakh,,,
-ko,kore1280,корейское,Korean,,,
-kpt,kara1516,карат.,Karata,,,
-krc-x-balkar,balk1253,балк.,Balkar,,,
-krc-x-karachay,kara1466,карач.,Karachay,,,
-krl,kare1335,карел.,Karelian,,,
-kry,kryt1240,крыз.,Kryz,,,
-kry-x-jek,dzhe1238,джекск.,Jek Kryts,,,
-ku,kurd1259,курд.,Kurdish,,,
-kum,kumy1244,кум.,Kumyk,,,
-kv,komi1267,коми,Komi,,,
-kw,corn1251,корн.,Cornish,,,
-ky,kirg1245,кирг.,Kyrgyz,,,
-la,lati1261,лат.,Latin,,,
-lbe,lakk1252,лак.,Lak,,,
-ldd,luri1256,лур.,Luri,,,
-lez,lezg1247,лезг.,Lezgian,,,
-liv,livv1244,лив.,Livonian,,,
-lt,lith1251,лит.,Lithuanian,,,
-lt-x-dial,lith1251,лит. (диал.),Lithuanian (dialectal),,,
-lv,latv1249,латыш.,Latvian,,,
-lzz,lazz1240,чан.,Laz,,,
-man,mand1436,мандинго,Manding,I assume this is Mandinka and not Manding in general,,
-mdf,moks1248,мордовский (мокша),Moksha Mordvin,,,
-mga,midd1360,ср.ирл.,Middle Irish,,,
-mis-x-khuri,khur1237,хури,Khuri,,,
-mn,mong1331,монг.,Mongolian,,,
-mn-x-uriankh,alta1280,урянх.,Uriankhai,seems to be Altai Uriankhai,,
-mnc,manc1252,манджурское,Manchu,,,
-mnj,munj1244,пам. м.,Munji,,,
-mns,mans1269,манси,Mansi, = вогул.,,
-myv,erzy1239,мордовский (эрзя),Erzya Mordvin,,,
-mzn,maza1291,маз.,Mazanderani,,,
-nds,nort2627,н.н.нем.,Low German,,,
-ne,nepa1254,непал.,Nepali,used macrolanguage because it’s not clear what exactly Abaev refers to,,
-nl,dutc1256,нидерл.,Dutch,,,
-no,norw1258,норв.,Norwegian,,,
-no-x-dial,norw1258,норв. (диал.),Norwegian (dialectal),,,
-nog,noga1249,ног.,Nogai,,,
-non,oldn1244,др.сев.,Old Norse,,,
-non-x-is,oldw1240,др.исл.,Old Icelandic,indicate the coordinates of Icelandic specifically,,
-ntz,nata1252,натанзи,Natanzi,,,
-nub,oldn1245,нубийское,Nubian,I assume Abaev cites Old Nubian,,
-oc,occi1239,прованс.,Occitan,probably Occitan; Abaev seems to call Franco-Provençal «фр. (прованс.)»,,
-ofs,oldf1241,др.фриз.,Old Frisian,,,
-oge,oldg1234,др.груз.,Old Georgian,,,
-ohu,hung1274,ст.венг.,Old Hungarian,,,
-oos,oldo1234,ст.ос.,Old Ossetic,,,
-oru,ormu1247,орм.,Ormuri,,,
-orv,oldr1238,др.русск.,Old Russian,,,
-os,osse1243,ос.,Ossetic,"I assume that when Abaev cites Ossetic, he cites modern Ossetic",,
-os-x-digor,digo1242,д.,Digor,,,
-os-x-iron,iron1242,и.,Iron,,,
-os-x-ksan,iron1242,ксан.,Ksan Ossetic,add coordinates,,
-os-x-south,iron1242,ю.,South Ossetic,add coordinates,,
-osx,olds1250,др.сакс.,Old Saxon,,,
-pa,panj1256,пенджаби,Punjabi,arbitrarily chose Eastern Panjabi for Glottolog,,
-pal,pahl1241,пехл.,Middle Persian,,,
-pal-x-pazend,pahl1241,паз.,Pazend,,,
-pal-x-turfan,pahl1241,пехл. турф.,Turfan Pahlavi,add coordinates,,
-peo,oldp1254,др.перс.,Old Persian,,,
-pgd,gand1259,кхарошти,Gandhari,,,
-pi,pali1273,пали,Pali,,,
-pl,poli1260,пол.,Polish,,,
-pra,midd1350,пракрит.,Prakrit,Glottolog arbitrary,,
-prc,para1299,пар.,Parachi,,,
-prg,prus1238,др.прусс.,Old Prussian,,,
-prs,dari1249,тадж. (кабули),Dari (Kabul),,,
+ira-x-mid,iran1269,ср.иран.,Middle Iranian,,-99,-99
+is,icel1247,исл.,Icelandic,,63.4837,-19.0212
+isk,ishk1246,пам. ишк.,Ishkashimi,,36.67,71.55
+it,ital1282,ит.,Italian,,43.0464,12.6489
+ja,nucl1643,япон.,Japanese,,35.0,135.0
+ka,nucl1302,груз.,Georgian,,41.850397,43.78613
+ka-x-clq,nucl1302,груз. (разг.),Georgian (colloquial),,41.850397,43.78613
+ka-x-dial,nucl1302,груз. (диал.),Georgian (dialectal),,41.850397,43.78613
+ka-x-guria,guri1246,груз. (гур.),Gurian Georgian,,41.966667,42.2
+ka-x-imer,imer1248,груз. (имер.),Imeretian Georgian,,42.166667,42.983333
+ka-x-ingiloy,ingi1240,груз. (ингил.),Ingiloy Georgian,coordinates of Zaqatala,41.633611,46.643333
+ka-x-khevsur,xevs1238,груз. (хевсур.),Khevsur Georgian,,42.4883,44.87915
+ka-x-lchkhm,rach1238,груз. (лечхум.),Lechkhumi Georgian,,42.649722,42.759722
+ka-x-mokhev,moxe1238,груз. (мохев.),Mokhevian Georgian,coordinates of Khevi,42.6975,44.519
+ka-x-pshav,psha1238,груз. (пшав.),Pshavian Georgian,,42.283333,44.75
+ka-x-rachian,rach1238,груз. (рачин.),Rachian Georgian,,42.636111,43.436111
+kaa,kara1467,каракалп.,Kara-Kalpak,,39.98005,63.32233
+kap,bezh1248,капуч.,Bezhta,,42.1206,46.0332
+kbd,kaba1278,каб.,Kabardian,,43.5082,43.3918
+kbd-x-crc,kaba1278,черк.,Circassian,add coordinates to distinguish Kabardian and Circassian?,43.5082,43.3918
+kbd-x-crc-dial,kaba1278,черк. (диал.),Circassian (dialectal),,43.5082,43.3918
+kbd-x-crc-west,kaba1278,черк. (зап.),Circassian (western),probably distinct from West Circassian (= Adyghe),43.5082,43.3918
+kbd-x-dial,kaba1278,каб. (диал.),Kabardian (dialectal),,43.5082,43.3918
+kca,khan1279,ханты,Khanty,coordinates of Kazym Khanty,62.43,66.12
+kdr,kara1464,караим.,Karaim,,54.5534,25.1054
+kho,khot1251,сак.,Saka,,38.33,79.04
+khv,xvar1237,хварш.,Khwarshi,,42.27,46.00
+khw,khow1242,ховар.,Khowar,,36.0,72.0
+khw-x-chtr,sout2670,читр.,Khowar (Chitral),"I assume this is Khowar, the language spoken in Chitral in Pakistan. For Glottolog I assume it’s southern Khowar, but this is preliminary",35.846111,71.785833
+kjh,khak1248,хакас.,Khakas,coordinates of Askiz (the Glottolog coordinates may be a mistake),53.1283,90.538
+kjh-sghy,saga1260,хакас. (сагайск.),Saghay Khakas,,53.1283,90.538
+kjj,khin1240,хиналуг.,Khinalugh,,41.1801,48.0571
+kk,kaza1248,каз.,Kazakh,,51.17,71.45
+ko,kore1280,корейское,Korean,,37.54,126.98
+kpt,kara1516,карат.,Karata,,42.65,46.32
+krc-x-balkar,balk1253,балк.,Balkar,coordinates of Tyrnyauz,43.3815,42.9188
+krc-x-karachay,kara1466,карач.,Karachay,coordinates of Karachaevsk,43.762,41.9664
+krl,kare1335,карел.,Karelian,,65.1691,30.8655
+kry,kryt1240,крыз.,Kryz,,41.1811,48.1846
+kry-x-jek,dzhe1238,джекск.,Jek Kryz,,41.195,48.2417
+ku,kurd1259,курд.,Kurdish,coordinates of Kurmanji,37.00,43.00
+kum,kumy1244,кум.,Kumyk,,43.0,47.0
+kv,komi1267,коми,Komi,coordinates of Zyrian,64.05,54.95
+kw,corn1251,корн.,Cornish,,50.5233,-4.18619
+ky,kirg1245,кирг.,Kyrgyz,,42.0,74.0
+la,lati1261,лат.,Latin,,41.9026,12.4502
+lbe,lakk1252,лак.,Lak,,42.1328,47.0809
+ldd,luri1256,лур.,Luri,,10.059,9.59745
+lez,lezg1247,лезг.,Lezgian,,41.5157,47.8951
+liv,livv1244,лив.,Livonian,,57.566,22.0262
+lt,lith1251,лит.,Lithuanian,,55.1429,23.9601
+lt-x-dial,lith1251,лит. (диал.),Lithuanian (dialectal),,55.1429,23.9601
+lv,latv1249,латыш.,Latvian,,56.826108,24.309118
+lzz,lazz1240,чан.,Laz,,41.5004,41.9096
+man,mand1436,мандинго,Manding,I assume this is Mandinka and not Manding in general,12.8165233333,-15.6539466667
+mdf,moks1248,мордовский (мокша),Moksha Mordvin,,54.1855,42.6728
+mga,midd1360,ср.ирл.,Middle Irish,,53.22,-7.62
+mis-x-khuri,khur1237,хури,Khuri,https://www.iranicaonline.org/articles/khur-oasis,33.78333333333333,55.083333333333336
+mn,mong1331,монг.,Mongolian,coordinates of Halh,48.32,106.29
+mn-x-uriankh,alta1280,урянх.,Uriankhai,seems to be Altai Uriankhai,48.2857,89.5001
+mnc,manc1252,манджурское,Manchu,,47.31225,126.55713
+mnj,munj1244,пам. м.,Munji,,35.9321,70.9404
+mns,mans1269,манси,Mansi, = вогул.,61.14,62.40
+myv,erzy1239,мордовский (эрзя),Erzya Mordvin,,52.8548,45.3901
+mzn,maza1291,маз.,Mazanderani,,36.241,52.3009
+nds,nort2627,н.н.нем.,Low German,,53.115373,12.391439
+ne,nepa1254,непал.,Nepali,used macrolanguage because it’s not clear what exactly Abaev refers to,28.0,85.0
+nl,dutc1256,нидерл.,Dutch,,52.0,5.0
+no,norw1258,норв.,Norwegian,,59.92,10.71
+no-x-dial,norw1258,норв. (диал.),Norwegian (dialectal),,59.92,10.71
+nog,noga1249,ног.,Nogai,,44.89776,43.1656
+non,oldn1244,др.сев.,Old Norse,,63.42,10.38
+non-x-is,oldw1240,др.исл.,Old Icelandic,indicate the coordinates of Icelandic specifically,63.48,-19.02
+ntz,nata1252,натанзи,Natanzi,,33.4593,51.9538
+nub,oldn1245,нубийское,Nubian,I assume Abaev cites Old Nubian,18.760713,31.748657
+oc,occi1239,прованс.,Occitan,probably Occitan; Abaev seems to call Franco-Provençal «фр. (прованс.)»,44.1415,6.82979
+ofs,oldf1241,др.фриз.,Old Frisian,,53.35,6.8
+oge,oldg1234,др.груз.,Old Georgian,,41.604313,43.06151
+ohu,hung1274,ст.венг.,Old Hungarian,,46.9068585714,19.6555271429
+oos,oldo1234,ст.ос.,Old Ossetic,,48.48,39.46
+oru,ormu1247,орм.,Ormuri,,32.6819,69.3444
+orv,oldr1238,др.русск.,Old Russian,,54.813,31.827
+os,osse1243,ос.,Ossetic,"I assume that when Abaev cites Ossetic, he cites modern Ossetic",42.98,44.61
+os-x-digor,digo1242,д.,Digor,,43.158056,44.156944
+os-x-iron,iron1242,и.,Iron,,42.98,44.61
+os-x-ksan,iron1242,ксан.,Ksan Ossetic,add coordinates,42.98,44.61
+os-x-south,iron1242,ю.,South Ossetic,add coordinates,42.98,44.61
+osx,olds1250,др.сакс.,Old Saxon,,52.37,9.72
+pa,panj1256,пенджаби,Punjabi,arbitrarily chose Eastern Panjabi for Glottolog,30.0368,75.6702
+pal,pahl1241,пехл.,Middle Persian,,30.06,52.7
+pal-x-pazend,pahl1241,паз.,Pazend,,30.06,52.7
+pal-x-turfan,pahl1241,пехл. турф.,Turfan Pahlavi,add coordinates,30.06,52.7
+peo,oldp1254,др.перс.,Old Persian,,32.0,54.0
+pgd,gand1259,кхарошти,Gandhari,,34.15,71.73
+pi,pali1273,пали,Pali,,24.5271,82.251
+pl,poli1260,пол.,Polish,,51.8439,18.6255
+pra,midd1350,пракрит.,Prakrit,Glottolog arbitrary,26.61,78.97
+prc,para1299,пар.,Parachi,,36.0432,70.8805
+prg,prus1238,др.прусс.,Old Prussian,,52.394,14.757
+prs,dari1249,тадж. (кабули),Dari (Kabul),,31.0405,67.3593
 ps,nucl1276,афг.,Pashto,I assign this to Nuclear Pashto in Glottolog because Wanetsi is separate,,
-psh,sout2671,пашан,Pashai (?),Glottolog arbitrary,,
-qwm,cuma1241,куман.,Cuman,"Glottolog unclear, dialect of Crimean Tatar??",,
-ro,roma1327,рум.,Romanian,,,
-rom,roma1329,цыг.,Romani,,,
-ru,russ1263,русск.,Russian,,,
-ru-x-argot,russ1263,русск. (арго),Russian (argot),,,
-ru-x-arkh,pomo1275,русск. (арх.),Russian (Arkhangelsk),,,
-ru-x-dial,russ1263,русск. (диал.),Russian (dialectal),,,
-ru-x-novg,novg1241,русск. (новг.),Russian (Novgorod),,,
-ru-x-smlnsk,russ1263,русск. (смол.),Russian (Smolensk),add coordinates,,
-ru-x-south,sout2602,русск. (южн. диал.),Russian (southern dialects),,,
-ru-x-vldmr,vlad1234,русск. (влад.),Russian (Vladimir),,,
-rut,rutu1240,рутул.,Rutul,,,
-sa,clas1258,скр.,Sanskrit,,,
-sa-vaidika,vedi1234,вед.,Vedic,,,
-sah,yaku1245,якут.,Yakut,,,
-sem,semi1276,семит.,Semitic,,,
-sga,oldi1246,др.ирл.,Old Irish,,,
-sgh,shug1248,пам. ш.,Shughni,,,
-sgh-x-bartang,bart1238,пам. барт.,Bartangi,,,
-sgh-x-khufi,khuf1238,хуф.,Khufi,,,
-sgh-x-oroshori,oros1238,пам. ор.,Oroshori,,,
-sgr,sang1315,сангисарское,Sangsari,,,
-sgy,sang1344,пам. сгл.,Sanglechi,,,
-sgy-x-zebak,zeba1237,пам. зеб.,Zebaki,may actually be a variety of Ishkashimi,,
-sh,sout1528,сербо-хорв.,Serbo-Croatian,,,
-sl,slov1268,слов.,Slovenian,,,
-sla,slav1255,слав.,Slavic,,,
-smi,saam1281,лопар.,Sami,,,
-smy,semn1251,семнан.,Semnani,,,
-sog,sogd1245,согд.,Sogdian,,,
-sog-x-budd,sogd1245,согд. будд.,Buddhist Sogdian,,,
-sog-x-chr,sogd1245,согд. христ.,Christian Sogdian,,,
-sog-x-man,sogd1245,согд. ман.,Manichaean Sogdian,,,
-sog-x-mugh,sogd1245,согд. (Муг),Sogdian (Mugh),,,
-sqj,alba1267,алб.,Albanian,,,
-sr,serb1264,серб.,Serbian,,,
-srh,sari1246,пам. с.,Sarikoli,,,
-sty,tobo1250,тобол.,Tobolsk Tatar,,,
-sux,sume1241,шумер.,Sumerian,,,
-sv,swed1254,швед.,Swedish,,,
-sv-x-dial,swed1254,швед. (диал.),Swedish (dialectal),,,
-sva,svan1243,сван.,Svan,,,
-syd,samo1298,самодийское,Samoyedic,,,
-syd-x-south,samo1298,южносамодийское,South Samoyedic,,,
-syr,clas1252,сир.,Syriac,,,
-tab,taba1259,табас.,Tabassaran,,,
-tg,taji1245,тадж.,Tajik,,,
-tg-x-dial,taji1245,тадж. (диал.),Tajik (dialectal),,,
-tg-x-qrtg,kara1511,тадж. (каратег.),Tajik (Qarategin),,,
-tg-x-vanj,taji1245,тадж. (вандж.),Tajik (Vanj),add coordinates,,
-tk,turk1304,туркм.,Turkmen,,,
-tkr,tsak1249,цахур.,Tsakhur,,,
-tly,taly1247,тал.,Talyshi,,,
-tr,nucl1301,тур.,Turkish,,,
-tr-x-anat,anat1259,анат.,Anatolian Turkish,,,
+psh,sout2671,пашан,Pashai (?),Glottolog arbitrary,34.8478,69.8734
+qwm,cuma1241,куман.,Cuman,,45.00,34.08
+ro,roma1327,рум.,Romanian,,46.3913,24.2256
+rom,roma1329,цыг.,Romani,arbitrarily chose Central Romani,48.20,20.31
+ru,russ1263,русск.,Russian,,59.0,50.0
+ru-x-argot,russ1263,русск. (арго),Russian (argot),,59.0,50.0
+ru-x-arkh,pomo1275,русск. (арх.),Russian (Arkhangelsk),,63.5,43
+ru-x-dial,russ1263,русск. (диал.),Russian (dialectal),,59.0,50.0
+ru-x-novg,novg1241,русск. (новг.),Russian (Novgorod),,58.433333,32.383333 
+ru-x-smlnsk,russ1263,русск. (смол.),Russian (Smolensk),add coordinates,59.0,50.0
+ru-x-south,sout2602,русск. (южн. диал.),Russian (southern dialects),,45.05,41.983333 
+ru-x-vldmr,vlad1234,русск. (влад.),Russian (Vladimir),,56.083333,40.616667
+rut,rutu1240,рутул.,Rutul,,41.6187,47.3244
+sa,clas1258,скр.,Sanskrit,,20.0,77.0
+sa-vaidika,vedi1234,вед.,Vedic,,20.0,77.0
+sah,yaku1245,якут.,Yakut,,61.69744,133.98031
+sem,semi1276,семит.,Semitic,coordinates of Imperial Aramaic,33.91,42.19
+sga,oldi1246,др.ирл.,Old Irish,,53.22,-7.62
+sgh,shug1248,пам. ш.,Shughni,,37.5018,71.7925
+sgh-x-bartang,bart1238,пам. барт.,Bartangi,,38.21974,72.11835
+sgh-x-khufi,khuf1238,хуф.,Khufi,,37.8595,71.60373
+sgh-x-oroshori,oros1238,пам. ор.,Oroshori,,38.38796,72.7418
+sgr,sang1315,сангисарское,Sangsari,,35.72,53.3
+sgy,sang1344,пам. сгл.,Sanglechi,,36.45,71.3
+sgy-x-zebak,zeba1237,пам. зеб.,Zebaki,may actually be a variety of Ishkashimi; coordinates of Zebak district,36.5469,71.3423
+sh,sout1528,сербо-хорв.,Serbo-Croatian,,44.15,18.81
+sl,slov1268,слов.,Slovenian,,46.2543,14.7766
+sla,slav1255,слав.,Slavic,coordinates of Rusyn (roughly at the centre of historical Slavic territory),48.72,22.96
+smi,saam1281,лопар.,Saami,coordinates of Kemi Saami,67.09,27.54
+smy,semn1251,семнан.,Semnani,,35.53,53.29
+sog,sogd1245,согд.,Sogdian,,39.7,66.983
+sog-x-budd,sogd1245,согд. будд.,Buddhist Sogdian,,39.7,66.983
+sog-x-chr,sogd1245,согд. христ.,Christian Sogdian,,39.7,66.983
+sog-x-man,sogd1245,согд. ман.,Manichaean Sogdian,,39.7,66.983
+sog-x-mugh,sogd1245,согд. (Муг),Sogdian (Mugh),,39.7,66.983
+sqj,alba1267,алб.,Albanian,coordinates of Northern Tosk,41.00,20.00
+sr,serb1264,серб.,Serbian,,44.3238,21.9192
+srh,sari1246,пам. с.,Sarikoli,,37.905,75.1449
+sty,tobo1250,тобол.,Tobol Tatar,,58.1896,68.2581
+sux,sume1241,шумер.,Sumerian,,31.3,45.6667
+sv,swed1254,швед.,Swedish,,59.800634,17.389526
+sv-x-dial,swed1254,швед. (диал.),Swedish (dialectal),,59.800634,17.389526
+sva,svan1243,сван.,Svan,,42.9134,42.5915
+syd,samo1298,самодийское,Samoyedic,coordinates of Forest Enets,68.60,86.50
+syd-x-south,samo1298,южносамодийское,South Samoyedic,coordinates of Selkup,59.94,82.30
+syr,clas1252,сир.,Syriac,,37.1129,42.1432
+tab,taba1259,табас.,Tabassaran,,42.0198,47.8379
+tg,taji1245,тадж.,Tajik,,38.8213,68.5549
+tg-x-dial,taji1245,тадж. (диал.),Tajik (dialectal),,38.8213,68.5549
+tg-x-qrtg,kara1511,тадж. (каратег.),Tajik (Qarategin),coordinates of Rasht Valley,39.0863,70.7011
+tg-x-vanj,taji1245,тадж. (вандж.),Tajik (Vanj),add coordinates,38.8213,68.5549
+tk,turk1304,туркм.,Turkmen,,37.08719,59.17574
+tkr,tsak1249,цахур.,Tsakhur,,41.5916,46.8858
+tly,taly1247,тал.,Talyshi,,38.4552,48.6349
+tr,nucl1301,тур.,Turkish,,39.8667,32.8667
+tr-x-anat,anat1259,анат.,Anatolian Turkish,,39.87,32.87
 trk,turk1311,тюрк.,Turkic,,-99,-99
-trk-x-north,turk1311,сев. тюрк.,North Turkic,Unclear: Kipchak or Siberian?,,
-tt,tata1255,татар.,Tatar,,,
-tt-x-dial,tata1255,татар. (диал.),Tatar (dialectal),,,
-tt-x-kazan,kaza1250,казан.,Kazan Tatar,,,
-ttt,cauc1242,татск.,Tat,,,
-txb,tokh1243,тохар. B,Tocharian B,,,
-txh,thra1250,фрак.,Thracian,,,
-uby,ubyk1235,убых.,Ubykh,,,
-udi,udii1243,удин.,Udi,,,
-udm,udmu1245,удм.,Udmurt,,,
-ug,uigh1240,уйгур.,Uyghur,,,
-ug-x-kashgar,kash1278,кашг.,Kashgari Uyghur,,,
-uk,ukra1253,укр.,Ukrainian,,,
-uk-x-gal,ukra1253,укр. (галиц.),Ukrainian (Galician),add coordinates,,
-uk-x-west,ukra1253,укр. (зап.),Ukrainian (western),add coordinates,,
-uz,uzbe1247,узб.,Uzbek,,,
-vep,veps1250,вепс.,Veps,,,
-wbl,wakh1245,пам. в.,Wakhi,,,
-wen,sorb1249,луж.,Sorbian,,,
-wne,wane1241,ванеци,Wanetsi,,,
-wsv,wota1240,вотапурско-катаркалайское,Wotapuri-Katarqalai,,,
-x-balochi,balo1260,бел.,Balochi,,,
-x-barakai,0,варакаи,Barakai,"cited in Tomaschek, but I cannot find any trace of this dialect in the sources. Probably not Pamir but W. Iranian",,
-x-mordvin,mord1256,морд.,Mordvinic,,,
-x-nuristan,nuri1243,кафир.,Nuristani,,,
+trk-x-north,turk1311,сев. тюрк.,North Turkic,"Unclear: Kipchak or Siberian? Coordinates of Bashkir, on the assumption that this refers to Kipchak",53.60,56.56
+tt,tata1255,татар.,Tatar,,55.79592,49.11577
+tt-x-dial,tata1255,татар. (диал.),Tatar (dialectal),,55.79592,49.11577
+tt-x-kazan,kaza1250,казан.,Kazan Tatar,,55.796389,49.108889
+ttt,cauc1242,татск.,Tat,coordinates of Muslim Tat,41.43,46.65
+txb,tokh1243,тохар. B,Tocharian B,,41.65,82.9
+txh,thra1250,фрак.,Thracian,,42.115469,24.711977
+uby,ubyk1235,убых.,Ubykh,,43.67,39.67
+udi,udii1243,удин.,Udi,,40.9,47.7236
+udm,udmu1245,удм.,Udmurt,,56.12921,52.63548
+ug,uigh1240,уйгур.,Uyghur,,43.88,87.38
+ug-x-kashgar,kash1278,кашг.,Kashgari Uyghur,,39.4681,75.9938
+uk,ukra1253,укр.,Ukrainian,,49.796,29.945
+uk-x-gal,ukra1253,укр. (галиц.),Ukrainian (Galician),,49.796,29.945
+uk-x-west,ukra1253,укр. (зап.),Ukrainian (western),,49.796,29.945
+uz,uzbe1247,узб.,Uzbek,coordinates of Northern Uzbek (in Uzbekistan),40.89,69.21
+vep,veps1250,вепс.,Veps,,60.3353,34.7865
+wbl,wakh1245,пам. в.,Wakhi,,37.1768,73.9777
+wen,sorb1249,луж.,Sorbian,coordinates of Upper Sorbian,51.24,14.41
+wne,wane1241,ванеци,Wanetsi,,30.0501,67.8327
+wsv,wota1240,вотапурско-катаркалайское,Wotapuri-Katarqalai,,34.958246,71.090876
+x-balochi,balo1260,бел.,Balochi,coordinates of Eastern Balochi,28.00,62.00
+x-barakai,0,варакаи,Barakai,"cited in Tomaschek, but I cannot find any trace of this dialect in the sources. Probably not Pamir but W. Iranian",-99,-99
+x-mordvin,mord1256,морд.,Mordvinic,coordinates of Saransk,54.177,45.1833
+x-nuristan,nuri1243,кафир.,Nuristani,coordinates of Kalasha,35.19,70.99
 x-oldirn,iran1269,др.иран.,Old Iranian,,-99,-99
-x-oldsl,slav1255,др.слав.,Proto-Slavic,,,
-x-pamir,0,пам.,Pamir,,,
-x-pamir-n,0,пам. н.??,Pamir,,,
-x-rushani,rush1239,пам. руш.,Rushani,,,
-x-tchr,tokh1241,тохар.,Tocharian,,,
-x-vaynakh,chec1244,вейнах.,Vaynakh,,,
-xal,kalm1243,калм.,Kalmyk,,,
-xbc,bact1239,кушан.,Bactrian,,,
-xbo,bolg1250,булг.,Bulgar,,,
-xcl,clas1249,арм.,Armenian,,,
-xhu,hurr1240,хурр.,Hurrian,,,
-xln,0,алан.,Alanic,,,
-xlu,luvi1235,лув.,Luwian,cuneiform,,
-xme,0,мид.,Median,,,
-xmf,ming1252,мегр.,Mingerlian,,,
-xmn,pahl1241,пехл. (маних.),Manichaean Middle Persian,,,
-xpg,phry1239,фриг.,Phrygian,,,
-xpr,part1239,парф.,Parthian,,,
-xsc,0,скиф.,Scythian,,,
-xtg,tran1282,галл.,Gaulish,or Cisalpine? Glottolog Transalpine,,
-xto,tokh1242,тохар. A,Tocharian A,,,
-xtq,tums1237,сак. (Тумшук),Tumshuqese,,,
-xum,umbr1253,умбр.,Umbrian,,,
-yah,yazg1240,пам. язг.,Yazgulyam,,,
-yai,yagn1238,ягн.,Yaghnobi,,,
-ydg,yidg1240,пам. и.,Yidgha,,,
-yrk,nene1251,нен.,Nenets,,,
-ysc,oldo1234,ясск.,Jassic,,,
-zh,sini1245,кит.,Chinese,,,
-zkh,khwa1238,хорезм.,Khwarezmian,,,
-zza,zaza1246,заза,Zazaki,,,
+x-oldsl,slav1255,др.слав.,Old Slavic,,-99,-99
+x-pamir,0,пам.,Pamir,coordinates of Gorno-Badakhshan,38,73
+x-pamir-n,0,пам. н.??,Pamir,,38,73
+x-rushani,rush1239,пам. руш.,Rushani,,38.07829,71.58549
+x-tchr,tokh1241,тохар.,Tocharian,coordinates of Tocharian B,41.65,82.90
+x-vaynakh,chec1244,вейнах.,Vaynakh,coordinates of Achkhoi-Martan,43.1813,45.2846
+xal,kalm1243,калм.,Kalmyk,,46.566667,45.316667
+xbc,bact1239,кушан.,Bactrian,,36.81,66.85
+xbo,bolg1250,булг.,Bulgar,,48.671481,42.729234
+xcl,clas1249,арм.,Armenian,,38.592316,41.346422
+xhu,hurr1240,хурр.,Hurrian,,40.7339,43.3154
+xln,0,алан.,Alanic,coordinates of Arkhyz,43.5603,41.2798
+xlu,luvi1235,лув.,Luwian,cuneiform,38.00,36.00
+xme,0,мид.,Median,,37,47
+xmf,ming1252,мегр.,Mingerlian,,42.5129,41.8719
+xmn,pahl1241,пехл. (маних.),Manichaean Middle Persian,,30.06,52.7
+xpg,phry1239,фриг.,Phrygian,,39.613,31.28
+xpr,part1239,парф.,Parthian,,37.052,56.056
+xsc,0,скиф.,Scythian,coordinates of Lugansk,48.5763,39.3335
+xtg,tran1282,галл.,Gaulish,or Cisalpine? Glottolog Transalpine,43.97,3.3
+xto,tokh1242,тохар. A,Tocharian A,,42.98,89.18
+xtq,tums1237,сак. (Тумшук),Tumshuqese,,39.866667,79.066667
+xum,umbr1253,умбр.,Umbrian,,42.75,13.02
+yah,yazg1240,пам. язг.,Yazgulyam,,38.2801,71.565
+yai,yagn1238,ягн.,Yaghnobi,,39.1486,69.2422
+ydg,yidg1240,пам. и.,Yidgha,,36.014,71.5077
+yrk,nene1251,нен.,Nenets,coordinates of Tundra Nenets,66.18,71.02
+ysc,oldo1234,ясск.,Jassic,,48.48,39.46
+zh,sini1245,кит.,Chinese,,34.09,109.05
+zkh,khwa1238,хорезм.,Khwarezmian,,41.68,60.75
+zza,zaza1246,заза,Zazaki,coordinates of Dimli,38.61,39.64

@@ -22,7 +22,7 @@ arc,impe1235,арам.,Aramaic,,,
 av,avar1256,авар.,Avar,,,
 az,mode1262,азерб.,Azerbaijani,,,
 ba,bash1264,башк.,Bashkir,,,
-bat,east2280,балт.,Baltic,,0,0
+bat,east2280,балт.,Baltic,,-99,-99
 bbl,bats1242,туш.,Bats,,,
 bdk,budu1248,будух.,Budugh,,,
 be,bela1254,белорусс.,Belarusian,,,
@@ -35,10 +35,10 @@ br,bret1244,брет.,Breton,,,
 brh,brah1256,брахуи,Brahui,,,
 bsk,buru1296,верш.,Burushaski,,,
 bua,buri1258,монг. бурят.,Buryat,,,
-cau,0,кавк.,Caucasian,,0,0
+cau,0,кавк.,Caucasian,,-99,-99
 ccs,kart1248,картв.,South Caucasian,,,
 ce,chec1245,чеч.,Chechen,,,
-cel,celt1248,кельт.,Celtic,,0,0
+cel,celt1248,кельт.,Celtic,,-99,-99
 chg,chag1247,чагат.,Chagatai,,,
 chm,mari1278,мар.,Mari,,,
 cji,cham1309,чамал.,Chamalal,,,
@@ -83,12 +83,12 @@ ga,iris1253,ирл.,Irish,,,
 gbz,gabr1257,габри,Zoroastrian Dari,,,
 gbz-x-yzd,zoro1242,язди,Yazdi,,,
 gdo,ghod1238,годобер.,Godoberi,,,
-gem,germ1287,герм.,Proto-Germanic,,0,0
-gem-x-old,germ1287,др.герм.,Old Germanic,,0,0
+gem,germ1287,герм.,Proto-Germanic,,-99,-99
+gem-x-old,germ1287,др.герм.,Old Germanic,,-99,-99
 glk,gila1241,гилян.,Gilaki,,,
 gmh,midd1343,ср.в.нем.,Middle High German,,,
 gml,midd1318,ср.н.нем.,Middle Low German,,,
-gmq,nort3160,сканд.,Scandinavian,rarely used,0,0
+gmq,nort3160,сканд.,Scandinavian,rarely used,-99,-99
 goh,oldh1241,др.в.нем.,Old High German,,,
 got,goth1244,гот.,Gothic,,,
 got-x-crm,crim1255,гот. (крым.),Crimean Gothic,,,
@@ -101,15 +101,15 @@ hit,hitt1242,хетт.,Hittite,,,
 hr,croa1245,хорв.,Croatian,add coordinates,,
 hu,hung1274,венг.,Hungarian,,,
 huz,hunz1247,гунзиб.,Hunzib,,,
-iir,indo1320,ар.,Aryan,add coordinates,0,0
-inc,indo1321,инд.,Indic,add coordinates,0,0
+iir,indo1320,ар.,Aryan,add coordinates,-99,-99
+inc,indo1321,инд.,Indic,add coordinates,-99,-99
 inc-x-mid,midd1375,ср.инд.,Middle Indic,add coordinates,,
 inc-x-nnew,indo1324,северные новоиндийские диалекты,North New Indic dialects,add coordinates,,
 inc-x-old,sans1269,др.инд.,Old Indic,,,
-ine,indo1319,и.е.,Indo-European,,0,0
+ine,indo1319,и.е.,Indo-European,,-99,-99
 inh,ingu1240,инг.,Ingush,,,
-ira,iran1269,иран.,Iranian,,0,0
-ira-x-mid,iran1269,ср.иран.,Middle Iranian,add coordinates,0,0
+ira,iran1269,иран.,Iranian,,-99,-99
+ira-x-mid,iran1269,ср.иран.,Middle Iranian,add coordinates,-99,-99
 is,icel1247,исл.,Icelandic,,,
 isk,ishk1246,пам. ишк.,Ishkashimi,,,
 it,ital1282,ит.,Italian,,,
@@ -266,7 +266,7 @@ tkr,tsak1249,цахур.,Tsakhur,,,
 tly,taly1247,тал.,Talyshi,,,
 tr,nucl1301,тур.,Turkish,,,
 tr-x-anat,anat1259,анат.,Anatolian Turkish,,,
-trk,turk1311,тюрк.,Turkic,,0,0
+trk,turk1311,тюрк.,Turkic,,-99,-99
 trk-x-north,turk1311,сев. тюрк.,North Turkic,Unclear: Kipchak or Siberian?,,
 tt,tata1255,татар.,Tatar,,,
 tt-x-dial,tata1255,татар. (диал.),Tatar (dialectal),,,
@@ -290,10 +290,9 @@ wne,wane1241,ванеци,Wanetsi,,,
 wsv,wota1240,вотапурско-катаркалайское,Wotapuri-Katarqalai,,,
 x-balochi,balo1260,бел.,Balochi,,,
 x-barakai,0,варакаи,Barakai,"cited in Tomaschek, but I cannot find any trace of this dialect in the sources. Probably not Pamir but W. Iranian",,
-x-iazyg,0,языгский,Iazygean,,,
 x-mordvin,mord1256,морд.,Mordvinic,,,
 x-nuristan,nuri1243,кафир.,Nuristani,,,
-x-oldirn,iran1269,др.иран.,Old Iranian,,0,0
+x-oldirn,iran1269,др.иран.,Old Iranian,,-99,-99
 x-oldsl,slav1255,др.слав.,Proto-Slavic,,,
 x-pamir,0,пам.,Pamir,,,
 x-pamir-n,0,пам. н.??,Pamir,,,

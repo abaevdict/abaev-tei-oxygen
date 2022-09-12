@@ -5,6 +5,7 @@
         font-family: serif;
         src: local("Libertinus Serif");
         font-size: 12pt;
+        font-kerning: normal;
     }
     
 @page {
@@ -13,8 +14,8 @@
 /*    margin: 1.5cm 2.5cm 1.5cm 2.5cm;*/
     @footnote {
         border-top: solid black thin;
-        padding-top:1ex;
-        margin-top: 1ex;
+        padding-top:.5ex;
+        margin-top: .5ex;
 /*        margin-left: 1.5em;*/
         border-clip: 6em;
     }
@@ -54,6 +55,7 @@ div > head { string-set: term content() }
     padding: 0 0 0 0;
     white-space: normal;
     hyphens: auto;
+    -prince-footnote-policy: keep-with-line;
   }
 
 ref[target]:empty {background-color:inherit}
@@ -82,9 +84,12 @@ graphic {content: attr("url",url);}
 /*body {break-before: right;}*/
 
 /* Override Oxygen-specific features */
+entry:has(etym) > *:nth-last-child(3)::after {content: ""} /* only one etymology in print version */
+entry:has(etym) > *:nth-last-child(2)::after {content: "."} /* only one etymology in print version */
+
 sense > sense + sense:has(tr:lang(ru))::before {content: ", "}
 ref[target][type='xr']:not(empty)::after { content: '';}
-entry > ref[target][type='xr']:not(empty):last-child::after {content: ".";}
+/*entry > ref[target][type='xr']:not(empty):last-child::after {content: ".";}*/
 
 *[rendition~="#rend_smallcaps"] {font-variant: small-caps; letter-spacing: normal;}
 *[rendition~="#rend_smallcaps"]:lang(ru) {font-variant: normal; text-transform:uppercase; font-size: 70%; letter-spacing: 1px;}
@@ -98,7 +103,8 @@ example > quote oRef {font-style: italic; font-weight:normal; letter-spacing: no
 
 titlePage name:lang(ru) {font-variant: normal; letter-spacing: 2px;}
 
-div[type="board"] > p name:first-of-type {font-variant: normal; letter-spacing: 1px;}
+div[type="board"] > p > name:first-of-type {font-variant: normal; letter-spacing: 1px;}
+div[type="board"] > p > hi:first-of-type > name {font-variant: normal; letter-spacing: 1px;}
 
 /*titlePage name:lang(ru):first-letter {font-size: 26pt;}*/
 

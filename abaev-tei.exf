@@ -19,6 +19,13 @@ action.
     <addRule fileName="abaev_*.xml"/>
   </associationRules>
   
+  <transformationScenarios>
+    <addScenarios href="abaev-tei-transform.scenarios"/>
+    <defaultScenarios>
+      <name>Generate translations</name>
+    </defaultScenarios>
+  </transformationScenarios>
+  
   <validationScenarios>
     <addScenarios href="abaev-tei.scenarios"/>
     <defaultScenarios>

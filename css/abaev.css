@@ -4,7 +4,7 @@
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 @namespace oxy url('http://www.oxygenxml.com/extensions/author');
 
-* {orphans: 2; widows: 2;}
+* {orphans: 2; widows: 3;}
 
 oxy|doctype {
     display:block !important;
@@ -60,7 +60,7 @@ div[type="note"] > bibl {display: block; font-size: 10pt; text-indent: -1.5em; m
 div[type="frontispiece"] {display: block; page: letter; page-break-after: always; -prince-page-group: start;}
 div[type="frontispiece"] > p {display: block; text-align: center; font-size: 16pt;}
 
-div[type="board"] {display: block; page: letter; page-break-after: always; -prince-page-group: start;}
+div[type="board"] {display: block; page: letter; page-break-after: always; -prince-page-group: start; line-height: 1.5}
 div[type="board"] > p {display: block; text-align: center; font-size: 14pt;}
 div[type="board"] > p > note {font-size: 12pt;}
 div[type="board"] > head {display: block; text-align: center; font-size: 14pt; font-weight:bold; padding-bottom: 1cm;}
@@ -208,18 +208,23 @@ ref[target][type='url']:empty::after {content: attr(target);
                             font-size: smaller;}
 
 entry > ref + ref::before {content: ", ";}
-entry > ref[target]:empty:last-child::after {content: attr(target) ".";}
-entry > ref[target]:last-child::after {content: ".";}
+/*entry > ref[target]:empty:last-child::after {content: attr(target) ".";}*/
+/*entry > ref[target]:last-child::after {content: ".";}*/
 
-entry > :not(etym):last-child::after {content: ".";}
+entry::after {content: "."}
+entry:has(etym)::after {content: ""}
+/*entry > :not(etym):last-child::after {content: ".";}*/
+/*entry > note[type='footnote']:last-child::footnote-call {content: ".";}*/
 
 example > quote {display: inline; font-style: italic;}
 example > quote > note {font-style: normal;}
 example:lang(ru) > quote {font-style: inherit;}
 usg + quote::before {content: " ";}
 
-/*etym {display: block; margin-top: 1ex}*/
-etym::before {content: ".\A\00a0\00a0\00a0\00a0~ "; white-space: pre;}
+etym {display: block; text-indent: 1em;}
+entry:has(etym) > *:nth-last-child(3)::after {content: "."}
+etym::before {content: "~\00a0"; white-space: pre;}
+/*etym::before {content: ".\A\00a0\00a0\00a0\00a0~ "; white-space: pre;}*/
 
 w {font-style: italic;}
 c {font-style: italic;}
@@ -292,3 +297,5 @@ tr > q > lg > l:first-child:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\0
 /*q > lg:after {content: "’"}*/
 q:has(lg):before {content: "";}
 /*q:has(lg):after {content: "";}*/
+
+hi[rend="frame"] {border-style: solid;}

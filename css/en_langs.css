@@ -254,6 +254,8 @@
 *[extralang~="ka-x-rachian"] > lang:empty {-oxy-append-content: ", Rachian Georgian";}
 :lang(kaa) > lang:empty {content: "Kara-Kalpak";}
 *[extralang~="kaa"] > lang:empty {-oxy-append-content: ", Kara-Kalpak";}
+:lang(xas) > lang:empty {content: "Kamas";}
+*[extralang~="xas"] > lang:empty {-oxy-append-content: ", Kamas";}
 :lang(kap) > lang:empty {content: "Bezhta";}
 *[extralang~="kap"] > lang:empty {-oxy-append-content: ", Bezhta";}
 :lang(kbd) > lang:empty {content: "Kabardian";}
@@ -286,6 +288,8 @@
 *[extralang~="kjj"] > lang:empty {-oxy-append-content: ", Khinalugh";}
 :lang(kk) > lang:empty {content: "Kazakh";}
 *[extralang~="kk"] > lang:empty {-oxy-append-content: ", Kazakh";}
+:lang(kk-x-krgnd) > lang:empty {content: "Qaraghandy Kazakh";}
+*[extralang~="kk-x-krgnd"] > lang:empty {-oxy-append-content: ", Qaraghandy Kazakh";}
 :lang(ko) > lang:empty {content: "Korean";}
 *[extralang~="ko"] > lang:empty {-oxy-append-content: ", Korean";}
 :lang(kpt) > lang:empty {content: "Karata";}
@@ -306,6 +310,8 @@
 *[extralang~="kum"] > lang:empty {-oxy-append-content: ", Kumyk";}
 :lang(kv) > lang:empty {content: "Komi";}
 *[extralang~="kv"] > lang:empty {-oxy-append-content: ", Komi";}
+:lang(kva) > lang:empty {content: "Bagvalal";}
+*[extralang~="kva"] > lang:empty {-oxy-append-content: ", Bagvalal";}
 :lang(kw) > lang:empty {content: "Cornish";}
 *[extralang~="kw"] > lang:empty {-oxy-append-content: ", Cornish";}
 :lang(ky) > lang:empty {content: "Kyrgyz";}
@@ -424,6 +430,8 @@
 *[extralang~="ps"] > lang:empty {-oxy-append-content: ", Pashto";}
 :lang(psh) > lang:empty {content: "Pashai (?)";}
 *[extralang~="psh"] > lang:empty {-oxy-append-content: ", Pashai (?)";}
+:lang(pt) > lang:empty {content: "Portuguese";}
+*[extralang~="pt"] > lang:empty {-oxy-append-content: ", Portuguese";}
 :lang(qwm) > lang:empty {content: "Cuman";}
 *[extralang~="qwm"] > lang:empty {-oxy-append-content: ", Cuman";}
 :lang(ro) > lang:empty {content: "Romanian";}
@@ -454,6 +462,8 @@
 *[extralang~="sa-vaidika"] > lang:empty {-oxy-append-content: ", Vedic";}
 :lang(sah) > lang:empty {content: "Yakut";}
 *[extralang~="sah"] > lang:empty {-oxy-append-content: ", Yakut";}
+:lang(sbv) > lang:empty {content: "Sabine";}
+*[extralang~="sbv"] > lang:empty {-oxy-append-content: ", Sabine";}
 :lang(sem) > lang:empty {content: "Semitic";}
 *[extralang~="sem"] > lang:empty {-oxy-append-content: ", Semitic";}
 :lang(sga) > lang:empty {content: "Old Irish";}
@@ -474,12 +484,16 @@
 *[extralang~="sgy-x-zebak"] > lang:empty {-oxy-append-content: ", Zebaki";}
 :lang(sh) > lang:empty {content: "Serbo-Croatian";}
 *[extralang~="sh"] > lang:empty {-oxy-append-content: ", Serbo-Croatian";}
+:lang(sk) > lang:empty {content: "Slovak";}
+*[extralang~="sk"] > lang:empty {-oxy-append-content: ", Slovak";}
 :lang(sl) > lang:empty {content: "Slovenian";}
 *[extralang~="sl"] > lang:empty {-oxy-append-content: ", Slovenian";}
 :lang(sla) > lang:empty {content: "Slavic";}
 *[extralang~="sla"] > lang:empty {-oxy-append-content: ", Slavic";}
 :lang(smi) > lang:empty {content: "Saami";}
 *[extralang~="smi"] > lang:empty {-oxy-append-content: ", Saami";}
+:lang(smi-x-sm) > lang:empty {content: "Saami";}
+*[extralang~="smi-x-sm"] > lang:empty {-oxy-append-content: ", Saami";}
 :lang(smy) > lang:empty {content: "Semnani";}
 *[extralang~="smy"] > lang:empty {-oxy-append-content: ", Semnani";}
 :lang(sog) > lang:empty {content: "Sogdian";}
@@ -514,6 +528,8 @@
 *[extralang~="syd-x-south"] > lang:empty {-oxy-append-content: ", South Samoyedic";}
 :lang(syr) > lang:empty {content: "Syriac";}
 *[extralang~="syr"] > lang:empty {-oxy-append-content: ", Syriac";}
+:lang(ta) > lang:empty {content: "Tamil";}
+*[extralang~="ta"] > lang:empty {-oxy-append-content: ", Tamil";}
 :lang(tab) > lang:empty {content: "Tabassaran";}
 *[extralang~="tab"] > lang:empty {-oxy-append-content: ", Tabassaran";}
 :lang(tg) > lang:empty {content: "Tajik";}
@@ -524,6 +540,8 @@
 *[extralang~="tg-x-qrtg"] > lang:empty {-oxy-append-content: ", Tajik (Qarategin)";}
 :lang(tg-x-vanj) > lang:empty {content: "Tajik (Vanj)";}
 *[extralang~="tg-x-vanj"] > lang:empty {-oxy-append-content: ", Tajik (Vanj)";}
+:lang(tin) > lang:empty {content: "Tindi";}
+*[extralang~="tin"] > lang:empty {-oxy-append-content: ", Tindi";}
 :lang(tk) > lang:empty {content: "Turkmen";}
 *[extralang~="tk"] > lang:empty {-oxy-append-content: ", Turkmen";}
 :lang(tkr) > lang:empty {content: "Tsakhur";}
@@ -596,6 +614,8 @@
 *[extralang~="x-pamir-n"] > lang:empty {-oxy-append-content: ", Pamir";}
 :lang(x-rushani) > lang:empty {content: "Rushani";}
 *[extralang~="x-rushani"] > lang:empty {-oxy-append-content: ", Rushani";}
+:lang(x-sarm) > lang:empty {content: "Sarmatian";}
+*[extralang~="x-sarm"] > lang:empty {-oxy-append-content: ", Sarmatian";}
 :lang(x-tchr) > lang:empty {content: "Tocharian";}
 *[extralang~="x-tchr"] > lang:empty {-oxy-append-content: ", Tocharian";}
 :lang(x-vaynakh) > lang:empty {content: "Vaynakh";}
@@ -634,8 +654,8 @@
 *[extralang~="xtq"] > lang:empty {-oxy-append-content: ", Tumshuqese";}
 :lang(xum) > lang:empty {content: "Umbrian";}
 *[extralang~="xum"] > lang:empty {-oxy-append-content: ", Umbrian";}
-:lang(yah) > lang:empty {content: "Yazgulyam";}
-*[extralang~="yah"] > lang:empty {-oxy-append-content: ", Yazgulyam";}
+:lang(yah) > lang:empty {content: "Yazgulyami";}
+*[extralang~="yah"] > lang:empty {-oxy-append-content: ", Yazgulyami";}
 :lang(yai) > lang:empty {content: "Yaghnobi";}
 *[extralang~="yai"] > lang:empty {-oxy-append-content: ", Yaghnobi";}
 :lang(ydg) > lang:empty {content: "Yidgha";}

@@ -126,6 +126,7 @@ ka-x-mokhev,moxe1238,груз. (мохев.),Mokhevian Georgian,coordinates of K
 ka-x-pshav,psha1238,груз. (пшав.),Pshavian Georgian,,42.283333,44.75
 ka-x-rachian,rach1238,груз. (рачин.),Rachian Georgian,,42.636111,43.436111
 kaa,kara1467,каракалп.,Kara-Kalpak,,39.98005,63.32233
+xas,kama1351,камас.,Kamas,,55.07,94.83
 kap,bezh1248,капуч.,Bezhta,,42.1206,46.0332
 kbd,kaba1278,каб.,Kabardian,,43.5082,43.3918
 kbd-x-crc,kaba1278,черк.,Circassian,add coordinates to distinguish Kabardian and Circassian?,43.5082,43.3918
@@ -142,7 +143,8 @@ kjh,khak1248,хакас.,Khakas,coordinates of Askiz (the Glottolog coordinates 
 kjh-sghy,saga1260,хакас. (сагайск.),Saghay Khakas,,53.1283,90.538
 kjj,khin1240,хиналуг.,Khinalugh,,41.1801,48.0571
 kk,kaza1248,каз.,Kazakh,,51.17,71.45
-ko,kore1280,корейское,Korean,,37.54,126.98
+kk-x-krgnd,kaza1248,караг.,Qaraghandy Kazakh,coordinates of Karaganda,49.7931,73.1168
+ko,kore1280,кор.,Korean,,37.54,126.98
 kpt,kara1516,карат.,Karata,,42.65,46.32
 krc-x-balkar,balk1253,балк.,Balkar,coordinates of Tyrnyauz,43.3815,42.9188
 krc-x-karachay,kara1466,карач.,Karachay,coordinates of Karachaevsk,43.762,41.9664
@@ -152,6 +154,7 @@ kry-x-jek,dzhe1238,джекск.,Jek Kryz,,41.195,48.2417
 ku,kurd1259,курд.,Kurdish,coordinates of Kurmanji,37.00,43.00
 kum,kumy1244,кум.,Kumyk,,43.0,47.0
 kv,komi1267,коми,Komi,coordinates of Zyrian,64.05,54.95
+kva,bagv1239,куанад.,Bagvalal,,42.40,46.10
 kw,corn1251,корн.,Cornish,,50.5233,-4.18619
 ky,kirg1245,кирг.,Kyrgyz,,42.0,74.0
 la,lati1261,лат.,Latin,,41.9026,12.4502
@@ -209,14 +212,15 @@ pra,midd1350,пракрит.,Prakrit,Glottolog arbitrary,26.61,78.97
 prc,para1299,пар.,Parachi,,36.0432,70.8805
 prg,prus1238,др.прусс.,Old Prussian,,52.394,14.757
 prs,dari1249,тадж. (кабули),Dari (Kabul),,31.0405,67.3593
-ps,nucl1276,афг.,Pashto,I assign this to Nuclear Pashto in Glottolog because Wanetsi is separate,,
+ps,nucl1276,афг.,Pashto,I assign this to Nuclear Pashto in Glottolog because Wanetsi is separate,31.92,69.45
 psh,sout2671,пашан,Pashai (?),Glottolog arbitrary,34.8478,69.8734
+pt,port1283,порт.,Portuguese,,39.91,-8.10
 qwm,cuma1241,куман.,Cuman,,45.00,34.08
 ro,roma1327,рум.,Romanian,,46.3913,24.2256
 rom,roma1329,цыг.,Romani,arbitrarily chose Central Romani,48.20,20.31
 ru,russ1263,русск.,Russian,,59.0,50.0
 ru-x-argot,russ1263,русск. (арго),Russian (argot),,59.0,50.0
-ru-x-arkh,pomo1275,русск. (арх.),Russian (Arkhangelsk),,63.5,43
+ru-x-arkh,pomo1275,русск. (арх.),Russian (Arkhangelsk),,63.5,43.0
 ru-x-dial,russ1263,русск. (диал.),Russian (dialectal),,59.0,50.0
 ru-x-novg,novg1241,русск. (новг.),Russian (Novgorod),,58.433333,32.383333 
 ru-x-smlnsk,russ1263,русск. (смол.),Russian (Smolensk),add coordinates,59.0,50.0
@@ -226,6 +230,7 @@ rut,rutu1240,рутул.,Rutul,,41.6187,47.3244
 sa,clas1258,скр.,Sanskrit,,20.0,77.0
 sa-vaidika,vedi1234,вед.,Vedic,,20.0,77.0
 sah,yaku1245,якут.,Yakut,,61.69744,133.98031
+sbv,sabi1245,саб.,Sabine,,43.54,13.46
 sem,semi1276,семит.,Semitic,coordinates of Imperial Aramaic,33.91,42.19
 sga,oldi1246,др.ирл.,Old Irish,,53.22,-7.62
 sgh,shug1248,пам. ш.,Shughni,,37.5018,71.7925
@@ -236,9 +241,11 @@ sgr,sang1315,сангисарское,Sangsari,,35.72,53.3
 sgy,sang1344,пам. сгл.,Sanglechi,,36.45,71.3
 sgy-x-zebak,zeba1237,пам. зеб.,Zebaki,may actually be a variety of Ishkashimi; coordinates of Zebak district,36.5469,71.3423
 sh,sout1528,сербо-хорв.,Serbo-Croatian,,44.15,18.81
+sk,slov1269,словац.,Slovak,,48.55,18.78
 sl,slov1268,слов.,Slovenian,,46.2543,14.7766
 sla,slav1255,слав.,Slavic,coordinates of Rusyn (roughly at the centre of historical Slavic territory),48.72,22.96
 smi,saam1281,лопар.,Saami,coordinates of Kemi Saami,67.09,27.54
+smi-x-sm,saam1281,саам.,Saami,coordinates of Kemi Saami; Abaev used «лопар.» in the earlier volumes so these are viewed as distinct,67.09,27.54
 smy,semn1251,семнан.,Semnani,,35.53,53.29
 sog,sogd1245,согд.,Sogdian,,39.7,66.983
 sog-x-budd,sogd1245,согд. будд.,Buddhist Sogdian,,39.7,66.983
@@ -256,11 +263,13 @@ sva,svan1243,сван.,Svan,,42.9134,42.5915
 syd,samo1298,самодийское,Samoyedic,coordinates of Forest Enets,68.60,86.50
 syd-x-south,samo1298,южносамодийское,South Samoyedic,coordinates of Selkup,59.94,82.30
 syr,clas1252,сир.,Syriac,,37.1129,42.1432
+ta,tami1289,тамил.,Tamil,,10.52,78.83
 tab,taba1259,табас.,Tabassaran,,42.0198,47.8379
 tg,taji1245,тадж.,Tajik,,38.8213,68.5549
 tg-x-dial,taji1245,тадж. (диал.),Tajik (dialectal),,38.8213,68.5549
 tg-x-qrtg,kara1511,тадж. (каратег.),Tajik (Qarategin),coordinates of Rasht Valley,39.0863,70.7011
 tg-x-vanj,taji1245,тадж. (вандж.),Tajik (Vanj),add coordinates,38.8213,68.5549
+tin,tind1238,тинд.,Tindi,,42.33,45.92
 tk,turk1304,туркм.,Turkmen,,37.08719,59.17574
 tkr,tsak1249,цахур.,Tsakhur,,41.5916,46.8858
 tly,taly1247,тал.,Talyshi,,38.4552,48.6349
@@ -297,6 +306,7 @@ x-oldsl,slav1255,др.слав.,Old Slavic,,-99,-99
 x-pamir,0,пам.,Pamir,coordinates of Gorno-Badakhshan,38,73
 x-pamir-n,0,пам. н.??,Pamir,,38,73
 x-rushani,rush1239,пам. руш.,Rushani,,38.07829,71.58549
+x-sarm,0,сарм.,Sarmatian,coordinates of Volgograd (arbitrary),48.707085,44.517016
 x-tchr,tokh1241,тохар.,Tocharian,coordinates of Tocharian B,41.65,82.90
 x-vaynakh,chec1244,вейнах.,Vaynakh,coordinates of Achkhoi-Martan,43.1813,45.2846
 xal,kalm1243,калм.,Kalmyk,,46.566667,45.316667
@@ -316,7 +326,7 @@ xtg,tran1282,галл.,Gaulish,or Cisalpine? Glottolog Transalpine,43.97,3.3
 xto,tokh1242,тохар. A,Tocharian A,,42.98,89.18
 xtq,tums1237,сак. (Тумшук),Tumshuqese,,39.866667,79.066667
 xum,umbr1253,умбр.,Umbrian,,42.75,13.02
-yah,yazg1240,пам. язг.,Yazgulyam,,38.2801,71.565
+yah,yazg1240,пам. язг.,Yazgulyami,,38.2801,71.565
 yai,yagn1238,ягн.,Yaghnobi,,39.1486,69.2422
 ydg,yidg1240,пам. и.,Yidgha,,36.014,71.5077
 yrk,nene1251,нен.,Nenets,coordinates of Tundra Nenets,66.18,71.02

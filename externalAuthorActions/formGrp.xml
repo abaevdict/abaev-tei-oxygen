@@ -24,7 +24,7 @@ Only the framework saved inside {framework_file_name}.framework will have this p
       <a:arguments>
         <a:argument name="fragment">
           <abv:formGrp xmlns="http://www.tei-c.org/ns/1.0">
-            <form type="${ask('Select form type:',combobox,('plural':'Plural'; 'variant':'Variant'),'plural')}" xml:lang="os"><gram/><orth/></form>
+            <form type="${ask('Select form type:',combobox,('plural':'Plural'; 'variant':'Variant'; 'dialectal':'Dialectal'),'plural')}" xml:lang="os"><gram/><orth/></form>
           </abv:formGrp>
         </a:argument>
       </a:arguments>

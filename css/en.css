@@ -66,3 +66,5 @@ sense > sense:has(tr:lang(en)) + sense:has(tr:lang(en)):before {content: ", "}
 sense > sense:has(def:lang(en)) + sense:has(def:lang(en)):before {content: ", "}
 sense > sense:has(def:lang(en)) + sense:has(tr:lang(en)):before {content: ", "}
 sense > sense:has(tr:lang(en)) + sense:has(def:lang(en)):before {content: ", "}
+
+form[type='plural'] > gram {content: "pl."}

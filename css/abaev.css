@@ -134,6 +134,12 @@ form > lang + orth::before {content: " ";}
 
 re > form orth {font-style: italic}
 
+sense + formGrp::before {content: '; '}
+form + formGrp::before {content: ', '}
+formGrp > form orth {font-style: italic}
+form > gram + orth::before {content: ' '}
+formGrp + sense::before {content: ' '}
+
 sense {display: inline}
 sense[n]:before {content: " " attr(n) ". "}
 entry > sense + sense:before, re > sense + sense:before {content: "; "}

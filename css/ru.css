@@ -62,3 +62,5 @@ sense > sense + sense:has(tr:lang(ru)):before {content: ", "}
 sense > sense + sense:has(def:lang(ru)):before {content: ", "}
 
 tr ref {letter-spacing: 3px; font-style: inherit}
+
+form[type='plural'] > gram {content: "мн.\00A0ч."}

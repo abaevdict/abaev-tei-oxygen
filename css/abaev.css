@@ -230,7 +230,7 @@ example:lang(ru) > quote {font-style: inherit;}
 usg + quote::before {content: " ";}
 
 etym {display: block; text-indent: 1em;}
-entry:has(etym) > *:nth-last-child(2)::after {content: "."}
+entry:has(etym) > *:nth-last-child(2):not(etym)::after {content: "."}
 entry:has(etym:lang(en)) > *:nth-last-child(3)::after {content: "."}
 etym::before {content: "~\00a0"; white-space: pre;}
 /*etym::before {content: ".\A\00a0\00a0\00a0\00a0~ "; white-space: pre;}*/

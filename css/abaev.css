@@ -136,11 +136,13 @@ re > form orth {font-style: italic}
 
 sense + formGrp::before {content: '; '}
 form + formGrp::before {content: ', '}
+exampleGrp + formGrp::before {content: '. — '}
 formGrp > form orth {font-style: italic}
 form > gram + orth::before {content: ' '}
 formGrp + sense::before {content: ' '}
 formGrp + re::before {content: '; '}
 formGrp + usg::before {content: ' '}
+formGrp > form + example::before {content: ': '}
 
 sense {display: inline}
 sense[n]:before {content: " " attr(n) ". "}

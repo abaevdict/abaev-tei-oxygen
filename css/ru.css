@@ -6,6 +6,7 @@ etym:lang(en) {display: none}
 tr:lang(en) {display: none}
 def:lang(en) {display: none}
 note:lang(en) {display: none}
+etym note:lang(en) {display: inline}
 biblScope[xml|lang="en"] {display: none}
 bibl[xml|lang="en"] {display: none}
 

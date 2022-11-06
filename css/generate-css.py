@@ -13,18 +13,24 @@ with open('langnames.csv') as csv_file:
         names_en[row["code"]] = row["en"]
         
 #Generate Russian CSS
-lines = ['@charset "UTF-8";\n', '@namespace xml "http://www.w3.org/XML/1998/namespace";\n']
+lines = ['@charset "UTF-8";\n',
+         '@namespace xml "http://www.w3.org/XML/1998/namespace";\n',
+         '@namespace tei "http://www.tei-c.org/ns/1.0";\n',
+         '@namespace abv "http://ossetic-studies.org/ns/abaevdict";\n']
 for code in names_ru.keys():
-    lines.append(':lang(' + code + ') > lang:empty {content: "' + names_ru[code] + '";}\n')
-    lines.append('*[extralang~="' + code + '"] > lang:empty {-oxy-append-content: ", ' + names_ru[code] + '";}\n')
+    lines.append(':lang(' + code + ') > tei|lang:empty {content: "' + names_ru[code] + '";}\n')
+    lines.append('*[extralang~="' + code + '"] > tei|lang:empty {-oxy-append-content: ", ' + names_ru[code] + '";}\n')
 with open('ru_langs.css', 'w') as f:
     f.writelines(lines)
 
 # Generate English CSS
-lines = ['@charset "UTF-8";\n', '@namespace xml "http://www.w3.org/XML/1998/namespace";\n']
+lines = ['@charset "UTF-8";\n',
+         '@namespace xml "http://www.w3.org/XML/1998/namespace";\n',
+         '@namespace tei "http://www.tei-c.org/ns/1.0";\n',
+         '@namespace abv "http://ossetic-studies.org/ns/abaevdict";\n']
 for code in names_en.keys():
-    lines.append(':lang(' + code + ') > lang:empty {content: "' + names_en[code] + '";}\n')
-    lines.append('*[extralang~="' + code + '"] > lang:empty {-oxy-append-content: ", ' + names_en[code] + '";}\n')
+    lines.append(':lang(' + code + ') > tei|lang:empty {content: "' + names_en[code] + '";}\n')
+    lines.append('*[extralang~="' + code + '"] > tei|lang:empty {-oxy-append-content: ", ' + names_en[code] + '";}\n')
 with open('en_langs.css', 'w') as f:
     f.writelines(lines)
 

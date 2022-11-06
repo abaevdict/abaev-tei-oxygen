@@ -4,7 +4,10 @@
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 @namespace oxy url('http://www.oxygenxml.com/extensions/author');
 
-* {orphans: 2; widows: 3;}
+@namespace tei "http://www.tei-c.org/ns/1.0";
+@namespace abv "http://ossetic-studies.org/ns/abaevdict";
+
+tei|*, abv|* {orphans: 2; widows: 3;}
 
 oxy|doctype {
     display:block !important;
@@ -12,86 +15,37 @@ oxy|doctype {
     background-color:transparent !important;
 }
 
-div {display: block}
 
-head {font-family: "Libertinus Sans"}
-
-div[xml|id='foreword'] {text-align: justify; break-before: right;}
-div[type='foreword'] > p {display: block; text-indent: 1.5em;}
-div[type='foreword']:lang(en) > p:first-of-type {display: block; text-indent: 0em;}
-div[type="foreword"] > head {display:block; font-size: 14pt; font-weight: bold; text-align: center; padding-bottom: 2ex; text-transform: uppercase;}
-
-titlePage {display: block; text-align: center; font-family: "Libertinus Sans"; page: letter; -prince-page-group: start; position: relative;}
-
-/*titlePage > byline {display: block; text-align: center; font-size: 16pt; padding-top: 0.11cm; padding-bottom:0.5cm;}*/
-titlePage > byline[n = '1'] {display: block; text-align: center; font-size: 16pt; position: absolute; width:100%; top:40ex;}
-titlePage > byline[n = '2'] {display: block; text-align: center; font-size: 16pt; position: absolute; width:100%; top:47ex;}
-titlePage > byline[n = '3'] {display: block; text-align: center; font-size: 16pt; position: absolute; width:100%; top:72ex;}
-/*titlePage > byline:first-of-type {font-size: 24pt; font-weight: bold; padding-top: 0.5cm; padding-bottom:0.5cm;}*/
-titlePage > byline:first-of-type {font-size: 24pt; font-weight: bold; top: 0px;}
-
-titlePage > byline > docAuthor + docAuthor:before {content: "\A"; white-space: pre;}
-
-titlePage > docTitle {display: block; text-align: center; padding-top: 0.11cm; position: absolute; width:100%; top: 10ex;}
-titlePage > docTitle > titlePart {display: block; text-align: center;}
-titlePage > docTitle > titlePart[type="main"] {font-size: 26pt; text-transform: uppercase; padding-bottom: 0.5cm}
-titlePage > docTitle > titlePart[type="vol"] {font-size: 24pt; font-variant: small-caps; padding-top: 0cm; padding-bottom: 0.11cm; position:absolute; width:100%; top: 13ex;}
-titlePage > docTitle > titlePart[type="letter"] {font-size: 26pt; padding-top: 0cm; /*padding-bottom: 1.5cm*/ position:absolute; width:100%; top: 17ex;}
-/*titlePage > docTitle > titlePart[type="letter"]:lang(ru) {padding-bottom: 0.5cm}*/
-
-titlePage > docEdition {display: block; text-align: center; font-size: 16pt;}
-titlePage > docImprint[n="1"] {display:block; text-align: center; font-size: 14pt; position: absolute; width: 100%; top:67ex;}
-titlePage > docImprint[n="2"] {page-break-after:always; position: absolute; width: 100%; top:107ex;}
-/*titlePage > docImprint:last-of-type:lang(ru) {padding-top: 2cm;}*/
-
-titlePage hi[rend="small"] {font-size: smaller; display:inline;}
-/*titlePage note:lang(ru) {display: inline;}*/
-
-signed {display:block; font-style:italic; text-align:right;padding-top:0.5cm;}
-
-lb::before {content: "\A";
+tei|lb::before {content: "\A";
             white-space: pre;}
             
-div[type="note"] {display: block; page: letter; page-break-after: always; -prince-page-group: start;}
-div[type="note"] > p {font-size: 10pt; text-indent: 1.5em; padding-top:1cm;}
-div[type="note"] > p:first-of-type {text-indent: 0em; padding-top:0cm;}
-div[type="note"] > bibl {display: block; font-size: 10pt; text-indent: -1.5em; margin-left:1.5em;}
+tei|body { font-family: "Libertinus Serif"; font-size: large; line-height: 1.1; text-align: justify;}
 
-div[type="frontispiece"] {display: block; page: letter; page-break-after: always; -prince-page-group: start;}
-div[type="frontispiece"] > p {display: block; text-align: center; font-size: 16pt;}
-
-div[type="board"] {display: block; page: letter; page-break-after: always; -prince-page-group: start; line-height: 1.5}
-div[type="board"] > p {display: block; text-align: center; font-size: 14pt;}
-div[type="board"] > p > note {font-size: 12pt;}
-div[type="board"] > head {display: block; text-align: center; font-size: 14pt; font-weight:bold; padding-bottom: 1cm;}
-
-body { font-family: "Libertinus Serif"; font-size: large; line-height: 1.1; text-align: justify;}
-
-hi[rendition~="#rend_italic"] {font-style: italic;}
-hi[rendition~="#rend_bold"] {font-weight: bold;}
-hi[rendition~="#rend_underline"] {text-decoration: underline;}
-hi[rendition~="#rend_subscript"] {vertical-align: sub; font-size: 75%;}
-hi[rendition~="#rend_superscript"] {vertical-align: super; font-size: 75%;}
+tei|hi[rendition~="#rend_italic"] {font-style: italic;}
+tei|hi[rendition~="#rend_bold"] {font-weight: bold;}
+tei|hi[rendition~="#rend_underline"] {text-decoration: underline;}
+tei|hi[rendition~="#rend_subscript"] {vertical-align: sub; font-size: 75%;}
+tei|hi[rendition~="#rend_superscript"] {vertical-align: super; font-size: 75%;}
 /*hi[rendition~="#rend_smallcaps"] {font-variant: small-caps;}*/
 
 /*[xml|lang="ru"] [rend~="smallcaps"] {font-family: "Libertinus Sans"; font-size: 90%; letter-spacing: 3px}*/
-[xml|lang="ru"] [rend~="#rend_doublequotes"]::before {content: "„"}
-[xml|lang="ru"] [rend~="#rend_doublequotes"]::after {content: "“"}
-[rend~="hide"] {text-decoration: line-through}
+*[xml|lang="ru"] tei|q[rend~="#rend_doublequotes"]::before {content: "„"}
+*[xml|lang="ru"] tei|q[rend~="#rend_doublequotes"]::after {content: "“"}
+tei|*[rend~="hide"] {text-decoration: line-through}
 
-example:lang(os) > quote > q::before {content: "„";}
-example:lang(os) > quote > q::after {content: "“";}
+abv|example:lang(os) > tei|quote > tei|q::before {content: "„";}
+abv|example:lang(os) > tei|quote > tei|q::after {content: "“";}
 
-q::before {content: "‘";}
-q::after {content: "’";}
+tei|q::before {content: "‘";}
+tei|q::after {content: "’";}
 
-teiHeader {display: none}
+tei|teiHeader {display: none}
 
-entry {display: block; text-indent: -1.5em; margin-left:1.5em;}
-entry[n]:before {content: attr(n); vertical-align: super; font-size: .7em;}
-entry ~ entry {margin-top: 5px}
+tei|entry {display: block; text-indent: -1.5em; margin-left:1.5em;}
+tei|entry[n]:before {content: attr(n); vertical-align: super; font-size: .7em;}
+tei|entry ~ tei|entry {margin-top: 5px}
 
-lang {font-style: normal}
+tei|lang {font-style: normal}
 /*[xml|lang="os"] lang[xml|lang="ru"]:empty {content: "ос."}
 [xml|lang="os"] lang[xml|lang="en"]:empty {content: "Ossetic"}
 [xml|lang="os-x-iron"] lang[xml|lang="ru"]:empty {content: "и."}
@@ -105,145 +59,145 @@ lang {font-style: normal}
 [xml|lang="ru"] lang[xml|lang="ru"]:empty {content: "рус."}
 [xml|lang="ru"] lang[xml|lang="en"]:empty {content: "Russian"}*/
 
-mentioned > lang {font-weight: bold; font-size: smaller;}
-etym > lang {font-weight: bold; font-size: smaller;}
-usg + form::before {content: " "}
-form + usg::before {content: " "}
-usg + tr::before {content: " "}
+tei|mentioned > tei|lang {font-weight: bold; font-size: smaller;}
+tei|etym > tei|lang {font-weight: bold; font-size: smaller;}
+tei|usg + tei|form::before {content: " "}
+tei|form + tei|usg::before {content: " "}
+tei|usg + abv|tr::before {content: " "}
 
-form {display: inline}
+tei|form {display: inline}
 /*orth {font-style: italic}*/
-form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"]::before {content: "\00a0|\00a0";}
-form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"][subtype="parens"]::before {content: "\00a0| (";}
-form[xml|lang="os-x-iron"] + form[xml|lang="os-x-digor"][subtype="parens"]::after {content: ")";}
-w[xml|lang="os-x-iron"] + w[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
-m[xml|lang="os-x-iron"] + m[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
-c[xml|lang="os-x-iron"] + c[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
-entry > form orth {font-weight: bold}
-orth + form[type="variant"]::before {content: ", "}
-orth + form[type="synonym"]::before {content: ", "}
-orth + form[type = "variant"][subtype="parens"]::before {content: " ("}
-orth + form[type = "variant"][subtype="parens"]::after {content: ")"}
+tei|form[xml|lang="os-x-iron"] + tei|form[xml|lang="os-x-digor"]::before {content: "\00a0|\00a0";}
+tei|form[xml|lang="os-x-iron"] + tei|form[xml|lang="os-x-digor"][subtype="parens"]::before {content: "\00a0| (";}
+tei|form[xml|lang="os-x-iron"] + tei|form[xml|lang="os-x-digor"][subtype="parens"]::after {content: ")";}
+tei|w[xml|lang="os-x-iron"] + tei|w[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
+tei|m[xml|lang="os-x-iron"] + tei|m[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
+tei|c[xml|lang="os-x-iron"] + tei|c[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
+tei|entry > tei|form tei|orth {font-weight: bold}
+tei|orth + tei|form[type="variant"]::before {content: ", "}
+tei|orth + tei|form[type="synonym"]::before {content: ", "}
+tei|orth + tei|form[type = "variant"][subtype="parens"]::before {content: " ("}
+tei|orth + tei|form[type = "variant"][subtype="parens"]::after {content: ")"}
 /*orth + form[type="variant"][rendition~="#rend_parens"]::before {content: " ("}
 orth + form[type="variant"][rendition~="#rend_parens"]::after {content: ")"}*/
-orth + form[type="participle"]::before {content: " : "}
-form[type="variant"] + form[type="participle"]::before {content: "\00a0:\00a0"} 
-form > form + form[type="variant"]::before {content: ", "}
+tei|orth + tei|form[type="participle"]::before {content: " : "}
+tei|form[type="variant"] + tei|form[type="participle"]::before {content: "\00a0:\00a0"} 
+tei|form > tei|form + tei|form[type="variant"]::before {content: ", "}
 
-form > lang + orth::before {content: " ";}
+tei|form > tei|lang + tei|orth::before {content: " ";}
 
-re > form orth {font-style: italic}
+tei|re > tei|form tei|orth {font-style: italic}
 
-sense + formGrp::before {content: '; '}
-re + formGrp::before {content: '; '}
-form + formGrp::before {content: ', '}
-exampleGrp + formGrp::before {content: '. — '}
-formGrp > form orth {font-style: italic}
-form > gram + orth::before {content: ' '}
-formGrp + sense::before {content: ' '}
-formGrp + re::before {content: '; '}
-formGrp + usg::before {content: ' '}
-formGrp > form + example::before {content: ': '}
-formGrp + formGrp::before {content: ', '}
+tei|sense + abv|formGrp::before {content: '; '}
+tei|re + abv|formGrp::before {content: '; '}
+tei|form + abv|formGrp::before {content: ', '}
+abv|exampleGrp + abv|formGrp::before {content: '. — '}
+abv|formGrp > tei|form tei|orth {font-style: italic}
+tei|form > tei|gram + tei|orth::before {content: ' '}
+abv|formGrp + tei|sense::before {content: ' '}
+abv|formGrp + tei|re::before {content: '; '}
+abv|formGrp + tei|usg::before {content: ' '}
+abv|formGrp > tei|form + example::before {content: ': '}
+abv|formGrp + abv|formGrp::before {content: ', '}
 
-sense {display: inline}
-sense[n]:before {content: " " attr(n) ". "}
-entry > sense + sense:before, re > sense + sense:before {content: "; "}
-entry > sense + sense[n]:before, re > sense + sense[n]:before {content: "; " attr(n) ". "}
-entry > form + sense:before, re > form + sense:before {content: " "}
+tei|sense {display: inline}
+tei|sense[n]:before {content: " " attr(n) ". "}
+tei|entry > tei|sense + tei|sense:before, tei|re > tei|sense + tei|sense:before {content: "; "}
+tei|entry > tei|sense + tei|sense[n]:before, tei|re > tei|sense + tei|sense[n]:before {content: "; " attr(n) ". "}
+tei|entry > tei|form + tei|sense:before, tei|re > tei|form + tei|sense:before {content: " "}
 /*entry > sense:last-of-type::after {content: ". "}*/
-usg + sense:before {content: " "}
-note + sense:before {content: " "}
+tei|usg + tei|sense:before {content: " "}
+tei|note + tei|sense:before {content: " "}
 /*re::after {content: ". "}*/
-re + sense:before {content: " "}
+tei|re + tei|sense:before {content: " "}
 
 /*sense > re:before {content: "; "}
 sense > re:first-child:before {content: ""}
 sense > re:first-of-type:before {content: ""}*/
-sense > re + re:before {content: "; "}
-sense > sense + re:before {content: "; "}
-sense > tr + re:before {content: "; "}
-entry > note + re:before {content: "; "} 
+tei|sense > tei|re + tei|re:before {content: "; "}
+tei|sense > tei|sense + tei|re:before {content: "; "}
+tei|sense > abv|tr + tei|re:before {content: "; "}
+tei|entry > tei|note + tei|re:before {content: "; "} 
 
 
-def {display: inline}
+tei|def {display: inline}
 
-note {display: inline; font-size: 100%}
+tei|note {display: inline; font-size: 100%}
 
-tr {display: inline;}
+abv|tr {display: inline;}
 /*tr + def::before {content: "; "}*/
 
-tr > q {margin-bottom: 0; margin-left: 0; margin-right: 0;}
+abv|tr > tei|q {margin-bottom: 0; margin-left: 0; margin-right: 0;}
 /*tr > q::before {content: "‘";}*/
 /*tr > q::after {content: "ʼ";}*/
-quote + tr::before {content: " "}
-example > tr:lang(ru) + tr:lang(en)::before {content: " "}
+tei|quote + abv|tr::before {content: " "}
+abv|example > abv|tr:lang(ru) + abv|tr:lang(en)::before {content: " "}
 
 /*q + note[type="comment"]::before {content: " ";}*/
 
-tr:lang(en) + tr:lang(en)::before {content: ", "}
-tr:lang(ru) + tr:lang(ru)::before {content: ", "}
-tr > q + q::before {content: ", "}
+abv|tr:lang(en) + abv|tr:lang(en)::before {content: ", "}
+abv|tr:lang(ru) + abv|tr:lang(ru)::before {content: ", "}
+abv|tr > tei|q + tei|q::before {content: ", "}
 
-exampleGrp {display: inline;}
-exampleGrp::before {content: ". — ";}
-re > exampleGrp::before {content: ": ";}
-exampleGrp[n]::before {content: ". — " attr(n) ". ";}
-example {display: inline;}
-example + example::before {content: "; "}
+abv|exampleGrp {display: inline;}
+abv|exampleGrp::before {content: ". — ";}
+tei|re > abv|exampleGrp::before {content: ": ";}
+abv|exampleGrp[n]::before {content: ". — " attr(n) ". ";}
+abv|example {display: inline;}
+abv|example + abv|example::before {content: "; "}
 /*example:last-of-type::after {content: "."}*/
 
-exampleGrp + re::before {content: ". — ";}
+abv|exampleGrp + tei|re::before {content: ". — ";}
 
 /*bibl[corresp]::before {content: attr(corresp);}*/
-example > bibl::before{content: " (";}
-example > bibl:last-of-type::after{content: ")";}
-example > bibl + bibl::before{content: "; ";}
+abv|example > tei|bibl::before{content: " (";}
+abv|example > tei|bibl:last-of-type::after{content: ")";}
+abv|example > tei|bibl + tei|bibl::before{content: "; ";}
 
 /*bibl > biblScope::before{content: " ";}*/
 
 /*example > note::before{content: " (";}
 example > note::after{content: ")";}*/
 
-ref[target][type='xr']:empty::after {  content:attr(target); 
+tei|ref[target][type='xr']:empty::after {  content:attr(target); 
                             font-style: italic; 
                             background-color: grey;
                             -oxy-link:oxy_replace(attr(target),'#entry_','abaev_') '.xml'}
-ref[target][type='bibl']:empty::after {  content:attr(target); 
+tei|ref[target][type='bibl']:empty::after {  content:attr(target); 
                             font-style: italic; 
                             background-color: grey;}
-ref[target][type='xr']:not(empty)::after { content: '⮳';
+tei|ref[target][type='xr']:not(empty)::after { content: '⮳';
                                 -oxy-link:oxy_replace(attr(target),'#entry_','abaev_') '.xml'}
 
-ref[target][type='url']:empty::after {content: attr(target);
+tei|ref[target][type='url']:empty::after {content: attr(target);
                             font-family: 'Libertinus Mono';
                             font-size: smaller;}
 
-entry > ref + ref::before {content: ", ";}
+tei|entry > tei|ref + tei|ref::before {content: ", ";}
 /*entry > ref[target]:empty:last-child::after {content: attr(target) ".";}*/
 /*entry > ref[target]:last-child::after {content: ".";}*/
 
-entry::after {content: "."}
-entry:has(etym)::after {content: ""}
+tei|entry::after {content: "."}
+tei|entry:has(etym)::after {content: ""}
 /*entry > :not(etym):last-child::after {content: ".";}*/
 /*entry > note[type='footnote']:last-child::footnote-call {content: ".";}*/
 
-example > quote {display: inline; font-style: italic;}
-example > quote > note {font-style: normal;}
-example:lang(ru) > quote {font-style: inherit;}
-usg + quote::before {content: " ";}
+abv|example > tei|quote {display: inline; font-style: italic;}
+abv|example > tei|quote > tei|note {font-style: normal;}
+abv|example:lang(ru) > tei|quote {font-style: inherit;}
+tei|usg + tei|quote::before {content: " ";}
 
-etym {display: block; text-indent: 1em;}
-entry:has(etym) > *:nth-last-child(2):not(etym)::after {content: "."}
-entry:has(etym:lang(en)) > *:nth-last-child(3)::after {content: "."}
-etym::before {content: "~\00a0"; white-space: pre;}
+tei|etym {display: block; text-indent: 1em;}
+tei|entry:has(etym) > *:nth-last-child(2):not(etym)::after {content: "."}
+tei|entry:has(etym:lang(en)) > *:nth-last-child(3)::after {content: "."}
+tei|etym::before {content: "~\00a0"; white-space: pre;}
 /*etym::before {content: ".\A\00a0\00a0\00a0\00a0~ "; white-space: pre;}*/
 
-w {font-style: italic;}
-c {font-style: italic;}
-m {font-style: italic;}
-phr {font-style: italic;}
-s {font-style: italic;}
+tei|w {font-style: italic;}
+tei|c {font-style: italic;}
+tei|m {font-style: italic;}
+tei|phr {font-style: italic;}
+tei|s {font-style: italic;}
 /*mentioned > lang::after {content: " ";}*/
 /*mentioned > note + w, mentioned > note + c, mentioned > note + m::after {content: " ";}*/
 /*mentioned > w + w::before {content: ", ";}
@@ -255,60 +209,60 @@ gloss::after {-oxy-prepend-content: "ʼ";}*/
 m + gloss::before {-oxy-prepend-content: " ";}
 c + gloss::before {-oxy-prepend-content: " ";}*/
 
-p {display: block}
+tei|p {display: block}
 
-table {display: inline-table}
+tei|table {display: inline-table}
 
-entry lb::before {content: "\A\00a0\00a0\00a0\00a0";
+tei|entry tei|lb::before {content: "\A\00a0\00a0\00a0\00a0";
             white-space: pre;}
 /*pb is for background compatibility only -- should be replaced with lb*/
-entry pb::before {content: "\A\00a0\00a0\00a0\00a0";
+tei|entry tei|pb::before {content: "\A\00a0\00a0\00a0\00a0";
             white-space: pre;}
 
-form[type~="rec"]::before {content:"*"}
-w[type~="rec"]::before {content:"*"}
-m[type~="rec"]::before {content:"*"}
-c[type~="rec"]::before {content:"*"}
-phr[type~="rec"]::before {content:"*"}
+tei|form[type~="rec"]::before {content:"*"}
+tei|w[type~="rec"]::before {content:"*"}
+tei|m[type~="rec"]::before {content:"*"}
+tei|c[type~="rec"]::before {content:"*"}
+tei|phr[type~="rec"]::before {content:"*"}
 
-entry > sense + re::before{content: "; "}
-entry > re + re::before {content: "; "}
-entry > re:has(exampleGrp) + re::before {content: ". — "}
-re > re + re::before {content: ", ";}
-entry > form + re > form:first-child::before {content: ": "}
-entry > usg + re > form:first-child::before {content: ": "}
+tei|entry > tei|sense + tei|re::before{content: "; "}
+tei|entry > tei|re + tei|re::before {content: "; "}
+tei|entry > tei|re:has(abv|exampleGrp) + tei|re::before {content: ". — "}
+tei|re > tei|re + tei|re::before {content: ", ";}
+tei|entry > tei|form + tei|re > tei|form:first-child::before {content: ": "}
+tei|entry > tei|usg + tei|re > tei|form:first-child::before {content: ": "}
 /*entry > usg + re::before {content: " "}*/
 
-note[type="footnote"] {vertical-align: sub; font-size: small}
+tei|note[type="footnote"] {vertical-align: sub; font-size: small}
 
-oRef {font-style: italic;}
-tr oRef {letter-spacing: 3px}
+tei|oRef {font-style: italic;}
+abv|tr tei|oRef {letter-spacing: 3px}
 /*example:lang(ru) quote {letter-spacing: 3px}*/
-example > quote oRef {font-style: italic; font-weight:bold; letter-spacing: normal}
-re > form oRef {font-style: italic; font-weight:bold; letter-spacing: normal}
-etym oRef {font-style: italic; letter-spacing: normal}
-entry > note oRef {font-style: italic; letter-spacing: normal}
-re > note oRef {font-style: italic; letter-spacing: normal}
+abv|example > tei|quote tei|oRef {font-style: italic; font-weight:bold; letter-spacing: normal}
+tei|re > tei|form tei|oRef {font-style: italic; font-weight:bold; letter-spacing: normal}
+tei|etym tei|oRef {font-style: italic; letter-spacing: normal}
+tei|entry > tei|note tei|oRef {font-style: italic; letter-spacing: normal}
+tei|re > tei|note tei|oRef {font-style: italic; letter-spacing: normal}
 /*quote:lang(ru) oRef {font-style: normal; letter-spacing: 3px}*/
-entry oRef:empty {content: oxy_xpath("ancestor::entry/form[1]/orth[1]/text()")}
-entry re oRef:empty {content: oxy_xpath("ancestor::re/form[1]/orth[1]/text()")}
+tei|entry tei|oRef:empty {content: oxy_xpath("ancestor::entry/form[1]/orth[1]/text()")}
+tei|entry tei|re tei|oRef:empty {content: oxy_xpath("ancestor::re/form[1]/orth[1]/text()")}
 
-author {letter-spacing: 3px;}
+tei|author {letter-spacing: 3px;}
 
-foreign {font-style: italic;}
+tei|foreign {font-style: italic;}
                             
                             /*break-before: page;}*/
 /*                            page: letter;}*/
 
 /*Verse*/
-lg > l:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0"; white-space: pre;}
+tei|lg > tei|l:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0"; white-space: pre;}
 /*lg {display: inline; margin-left: 3em; text-indent: 0em; font-size: small}*/
-lg {display: inline; font-size: small}
-tr > q > lg > l:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0"}
-q > lg > l:first-child:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0‘"}
-tr > q > lg > l:first-child:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0‘"}
+tei|lg {display: inline; font-size: small}
+abv|tr > tei|q > tei|lg > tei|l:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0"}
+tei|q > tei|lg > tei|l:first-child:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0‘"}
+abv|tr > tei|q > tei|lg > tei|l:first-child:before {content: "\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0‘"}
 /*q > lg:after {content: "’"}*/
-q:has(lg):before {content: "";}
+tei|q:has(lg):before {content: "";}
 /*q:has(lg):after {content: "";}*/
 
-hi[rend="frame"] {border-style: solid;}
+tei|hi[rend="frame"] {border-style: solid;}

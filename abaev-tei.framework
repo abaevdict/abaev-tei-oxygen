@@ -2943,7 +2943,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 					</field>
 					<field name="description"><String/></field>
 					<field name="doctypeRules">
-						<documentTypeRule-array><documentTypeRule><field name="namespace"><String>*</String></field><field name="rootElem"><String>*</String></field><field name="fileName"><String>abaev_*.xml</String></field><field name="publicID"><String>*</String></field><field name="javaRuleClass"><String/></field><field name="attributeLocalName"><String>*</String></field><field name="attributeNamespace"><String>*</String></field><field name="attributeValue"><String>*</String></field></documentTypeRule></documentTypeRule-array>
+						<documentTypeRule-array><documentTypeRule><field name="namespace"><String>*</String></field><field name="rootElem"><String>*</String></field><field name="fileName"><String>abaev_*.xml</String></field><field name="publicID"><String>*</String></field><field name="javaRuleClass"><String/></field><field name="attributeLocalName"><String>*</String></field><field name="attributeNamespace"><String>*</String></field><field name="attributeValue"><String>*</String></field></documentTypeRule><documentTypeRule><field name="namespace"><String>*</String></field><field name="rootElem"><String>*</String></field><field name="fileName"><String>abaevdict-tei/entries/</String></field><field name="publicID"><String>*</String></field><field name="javaRuleClass"><String/></field><field name="attributeLocalName"><String>*</String></field><field name="attributeNamespace"><String>*</String></field><field name="attributeValue"><String>*</String></field></documentTypeRule></documentTypeRule-array>
 					</field>
 					<field name="scenarios">
 						<scenario-array><scenario>
@@ -4092,7 +4092,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 						<Boolean>false</Boolean>
 					</field>
 					<field name="outputResource">
-						<String>${cfn}_en.xml</String>
+						<String>${pdu}/entries_en/${cfn}.xml</String>
 					</field>
 					<field name="openOtherLocationInBrowser">
 						<Boolean>false</Boolean>
@@ -4101,7 +4101,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 						<null/>
 					</field>
 					<field name="openInEditor">
-						<Boolean>true</Boolean>
+						<Boolean>false</Boolean>
 					</field>
 					<field name="showInHTMLPane">
 						<Boolean>false</Boolean>
@@ -4299,7 +4299,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 						<Boolean>false</Boolean>
 					</field>
 					<field name="outputResource">
-						<String>${cfn}_ru.xml</String>
+						<String>${pdu}/entries_en/${cfn}.xml</String>
 					</field>
 					<field name="openOtherLocationInBrowser">
 						<Boolean>false</Boolean>
@@ -4308,7 +4308,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 						<null/>
 					</field>
 					<field name="openInEditor">
-						<Boolean>true</Boolean>
+						<Boolean>false</Boolean>
 					</field>
 					<field name="showInHTMLPane">
 						<Boolean>false</Boolean>

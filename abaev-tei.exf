@@ -17,6 +17,7 @@ action.
   <associationRules inherit="none">
 <!--    <addRule rootElementLocalName="concept"/>-->
     <addRule fileName="abaev_*.xml"/>
+    <addRule fileName="abaevdict-tei/entries/"/>
   </associationRules>
   
   <transformationScenarios>

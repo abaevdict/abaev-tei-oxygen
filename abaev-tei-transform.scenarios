@@ -422,7 +422,7 @@
 						<Boolean>false</Boolean>
 					</field>
 					<field name="outputResource">
-						<String>${pdu}/entries_en/${cfn}.xml</String>
+						<String>${pdu}/entries_ru/${cfn}.xml</String>
 					</field>
 					<field name="openOtherLocationInBrowser">
 						<Boolean>false</Boolean>

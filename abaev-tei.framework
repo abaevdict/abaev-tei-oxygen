@@ -3358,9 +3358,8 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 										<String>${oxygenHome}/lib/oxygenDeveloperEclipse.jar</String>
 										<String>${oxygenHome}/lib/*resolver*.jar</String>
 										<String>${oxygenHome}/lib/*xerces*.jar</String>
-										<String>${oxygenHome}/lib/*saxon*9*.jar</String>
-										<String>${oxygenHome}/lib/*saxon*10*.jar</String>
-										<String>${oxygenHome}/lib/saxon*6*.jar</String>
+										<String>${oxygenHome}/lib/xmlresolver*.jar</String>
+										<String>${oxygenHome}/lib/*saxon*.jar</String>
 										<String>${oxygenHome}/lib/xml-apis-ext.jar</String>
 										<String>${oxygenHome}/lib/oxygen-patched-slf4j.jar</String>
 										<String>${oxygenHome}/lib/logback-classic-*.jar</String>
@@ -3614,9 +3613,8 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 										<String>${oxygenHome}/lib/oxygenDeveloperEclipse.jar</String>
 										<String>${oxygenHome}/lib/*resolver*.jar</String>
 										<String>${oxygenHome}/lib/*xerces*.jar</String>
-										<String>${oxygenHome}/lib/*saxon*9*.jar</String>
-										<String>${oxygenHome}/lib/*saxon*10*.jar</String>
-										<String>${oxygenHome}/lib/saxon*6*.jar</String>
+										<String>${oxygenHome}/lib/xmlresolver*.jar</String>
+										<String>${oxygenHome}/lib/*saxon*.jar</String>
 										<String>${oxygenHome}/lib/xml-apis-ext.jar</String>
 										<String>${oxygenHome}/lib/oxygen-patched-slf4j.jar</String>
 										<String>${oxygenHome}/lib/logback-classic-*.jar</String>
@@ -3870,9 +3868,9 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 										<String>${oxygenHome}/lib/oxygenDeveloperEclipse.jar</String>
 										<String>${oxygenHome}/lib/*resolver*.jar</String>
 										<String>${oxygenHome}/lib/*xerces*.jar</String>
-										<String>${oxygenHome}/lib/*saxon*9*.jar</String>
-										<String>${oxygenHome}/lib/*saxon*10*.jar</String>
-										<String>${oxygenHome}/lib/saxon*6*.jar</String>
+										<String>${oxygenHome}/lib/xmlresolver*.jar</String>
+										
+<String>${oxygenHome}/lib/*saxon*.jar</String>
 										<String>${oxygenHome}/lib/xml-apis-ext.jar</String>
 										<String>${oxygenHome}/lib/oxygen-patched-slf4j.jar</String>
 										<String>${oxygenHome}/lib/logback-classic-*.jar</String>
@@ -4299,7 +4297,7 @@ oxy:current-selected-element()[ancestor-or-self::*:cell]</String>
 						<Boolean>false</Boolean>
 					</field>
 					<field name="outputResource">
-						<String>${pdu}/entries_en/${cfn}.xml</String>
+						<String>${pdu}/entries_ru/${cfn}.xml</String>
 					</field>
 					<field name="openOtherLocationInBrowser">
 						<Boolean>false</Boolean>

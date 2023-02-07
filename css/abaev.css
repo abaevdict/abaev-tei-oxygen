@@ -168,6 +168,7 @@ tei|ref[target][type='bibl']:empty::after {  content:attr(target);
                             background-color: grey;}
 tei|ref[target][type='xr']:not(empty)::after { content: '⮳';
                                 -oxy-link:oxy_replace(attr(target),'#entry_','abaev_') '.xml'}
+/*tei|ref[target][type='xr']:not(empty) { color: blue; }*/                                
 
 tei|ref[target][type='url']:empty::after {content: attr(target);
                             font-family: 'Libertinus Mono';

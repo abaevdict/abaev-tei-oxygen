@@ -18,6 +18,8 @@
 *[extralang~="ae"] > tei|lang:empty {-oxy-append-content: ", ав.";}
 :lang(ae-x-gth) > tei|lang:empty {content: "ав. (гаты)";}
 *[extralang~="ae-x-gth"] > tei|lang:empty {-oxy-append-content: ", ав. (гаты)";}
+:lang(aer) > tei|lang:empty {content: "аранта";}
+*[extralang~="aer"] > tei|lang:empty {-oxy-append-content: ", аранта";}
 :lang(agx) > tei|lang:empty {content: "агул.";}
 *[extralang~="agx"] > tei|lang:empty {-oxy-append-content: ", агул.";}
 :lang(aii) > tei|lang:empty {content: "ассир.";}
@@ -62,6 +64,8 @@
 *[extralang~="bgn"] > tei|lang:empty {-oxy-append-content: ", бел. (зап.)";}
 :lang(bgp) > tei|lang:empty {content: "бел. (вост.)";}
 *[extralang~="bgp"] > tei|lang:empty {-oxy-append-content: ", бел. (вост.)";}
+:lang(bn) > tei|lang:empty {content: "бенгали";}
+*[extralang~="bn"] > tei|lang:empty {-oxy-append-content: ", бенгали";}
 :lang(bo) > tei|lang:empty {content: "тибет.";}
 *[extralang~="bo"] > tei|lang:empty {-oxy-append-content: ", тибет.";}
 :lang(bph) > tei|lang:empty {content: "ботл.";}
@@ -140,6 +144,8 @@
 *[extralang~="es"] > tei|lang:empty {-oxy-append-content: ", исп.";}
 :lang(et) > tei|lang:empty {content: "эст.";}
 *[extralang~="et"] > tei|lang:empty {-oxy-append-content: ", эст.";}
+:lang(ett) > tei|lang:empty {content: "этрусский";}
+*[extralang~="ett"] > tei|lang:empty {-oxy-append-content: ", этрусский";}
 :lang(eu) > tei|lang:empty {content: "баск.";}
 *[extralang~="eu"] > tei|lang:empty {-oxy-append-content: ", баск.";}
 :lang(evn) > tei|lang:empty {content: "эвенк.";}
@@ -192,8 +198,12 @@
 *[extralang~="got-x-crm"] > tei|lang:empty {-oxy-append-content: ", гот. (крым.)";}
 :lang(grc) > tei|lang:empty {content: "гр.";}
 *[extralang~="grc"] > tei|lang:empty {-oxy-append-content: ", гр.";}
+:lang(grc-x-byz) > tei|lang:empty {content: "гр. (визант.)";}
+*[extralang~="grc-x-byz"] > tei|lang:empty {-oxy-append-content: ", гр. (визант.)";}
 :lang(grc-x-doric) > tei|lang:empty {content: "гр. дор.";}
 *[extralang~="grc-x-doric"] > tei|lang:empty {-oxy-append-content: ", гр. дор.";}
+:lang(ha) > tei|lang:empty {content: "хауса";}
+*[extralang~="ha"] > tei|lang:empty {-oxy-append-content: ", хауса";}
 :lang(hac) > tei|lang:empty {content: "гуран.";}
 *[extralang~="hac"] > tei|lang:empty {-oxy-append-content: ", гуран.";}
 :lang(hbo) > tei|lang:empty {content: "др.евр.";}
@@ -252,6 +262,8 @@
 *[extralang~="ka-x-lchkhm"] > tei|lang:empty {-oxy-append-content: ", груз. (лечхум.)";}
 :lang(ka-x-mokhev) > tei|lang:empty {content: "груз. (мохев.)";}
 *[extralang~="ka-x-mokhev"] > tei|lang:empty {-oxy-append-content: ", груз. (мохев.)";}
+:lang(ka-x-mtiul) > tei|lang:empty {content: "груз. (мтиул.)";}
+*[extralang~="ka-x-mtiul"] > tei|lang:empty {-oxy-append-content: ", груз. (мтиул.)";}
 :lang(ka-x-pshav) > tei|lang:empty {content: "груз. (пшав.)";}
 *[extralang~="ka-x-pshav"] > tei|lang:empty {-oxy-append-content: ", груз. (пшав.)";}
 :lang(ka-x-rachian) > tei|lang:empty {content: "груз. (рачин.)";}
@@ -322,6 +334,8 @@
 *[extralang~="ky"] > tei|lang:empty {-oxy-append-content: ", кирг.";}
 :lang(la) > tei|lang:empty {content: "лат.";}
 *[extralang~="la"] > tei|lang:empty {-oxy-append-content: ", лат.";}
+:lang(la-x-late) > tei|lang:empty {content: "позднелат.";}
+*[extralang~="la-x-late"] > tei|lang:empty {-oxy-append-content: ", позднелат.";}
 :lang(lbe) > tei|lang:empty {content: "лак.";}
 *[extralang~="lbe"] > tei|lang:empty {-oxy-append-content: ", лак.";}
 :lang(ldd) > tei|lang:empty {content: "лур.";}
@@ -356,6 +370,8 @@
 *[extralang~="mnj"] > tei|lang:empty {-oxy-append-content: ", пам. м.";}
 :lang(mns) > tei|lang:empty {content: "манси";}
 *[extralang~="mns"] > tei|lang:empty {-oxy-append-content: ", манси";}
+:lang(mr) > tei|lang:empty {content: "маратхи";}
+*[extralang~="mr"] > tei|lang:empty {-oxy-append-content: ", маратхи";}
 :lang(myv) > tei|lang:empty {content: "мордовский (эрзя)";}
 *[extralang~="myv"] > tei|lang:empty {-oxy-append-content: ", мордовский (эрзя)";}
 :lang(mzn) > tei|lang:empty {content: "маз.";}
@@ -406,6 +422,8 @@
 *[extralang~="os-x-south"] > tei|lang:empty {-oxy-append-content: ", ю.";}
 :lang(osx) > tei|lang:empty {content: "др.сакс.";}
 *[extralang~="osx"] > tei|lang:empty {-oxy-append-content: ", др.сакс.";}
+:lang(oui) > tei|lang:empty {content: "др.тюрк.";}
+*[extralang~="oui"] > tei|lang:empty {-oxy-append-content: ", др.тюрк.";}
 :lang(pa) > tei|lang:empty {content: "пенджаби";}
 *[extralang~="pa"] > tei|lang:empty {-oxy-append-content: ", пенджаби";}
 :lang(pal) > tei|lang:empty {content: "пехл.";}
@@ -470,6 +488,8 @@
 *[extralang~="sah"] > tei|lang:empty {-oxy-append-content: ", якут.";}
 :lang(sbv) > tei|lang:empty {content: "саб.";}
 *[extralang~="sbv"] > tei|lang:empty {-oxy-append-content: ", саб.";}
+:lang(sel) > tei|lang:empty {content: "селькуп.";}
+*[extralang~="sel"] > tei|lang:empty {-oxy-append-content: ", селькуп.";}
 :lang(sem) > tei|lang:empty {content: "семит.";}
 *[extralang~="sem"] > tei|lang:empty {-oxy-append-content: ", семит.";}
 :lang(sga) > tei|lang:empty {content: "др.ирл.";}
@@ -544,6 +564,8 @@
 *[extralang~="tg-x-dial"] > tei|lang:empty {-oxy-append-content: ", тадж. (диал.)";}
 :lang(tg-x-qrtg) > tei|lang:empty {content: "тадж. (каратег.)";}
 *[extralang~="tg-x-qrtg"] > tei|lang:empty {-oxy-append-content: ", тадж. (каратег.)";}
+:lang(tg-x-se) > tei|lang:empty {content: "тадж. (юго-восточные говоры)";}
+*[extralang~="tg-x-se"] > tei|lang:empty {-oxy-append-content: ", тадж. (юго-восточные говоры)";}
 :lang(tg-x-vanj) > tei|lang:empty {content: "тадж. (вандж.)";}
 *[extralang~="tg-x-vanj"] > tei|lang:empty {-oxy-append-content: ", тадж. (вандж.)";}
 :lang(tin) > tei|lang:empty {content: "тинд.";}
@@ -558,8 +580,12 @@
 *[extralang~="tr"] > tei|lang:empty {-oxy-append-content: ", тур.";}
 :lang(tr-x-anat) > tei|lang:empty {content: "анат.";}
 *[extralang~="tr-x-anat"] > tei|lang:empty {-oxy-append-content: ", анат.";}
+:lang(tr-x-dial) > tei|lang:empty {content: "тур. (диал.)";}
+*[extralang~="tr-x-dial"] > tei|lang:empty {-oxy-append-content: ", тур. (диал.)";}
 :lang(trk) > tei|lang:empty {content: "тюрк.";}
 *[extralang~="trk"] > tei|lang:empty {-oxy-append-content: ", тюрк.";}
+:lang(trk-x-east) > tei|lang:empty {content: "восточнотюрк.";}
+*[extralang~="trk-x-east"] > tei|lang:empty {-oxy-append-content: ", восточнотюрк.";}
 :lang(trk-x-north) > tei|lang:empty {content: "сев. тюрк.";}
 *[extralang~="trk-x-north"] > tei|lang:empty {-oxy-append-content: ", сев. тюрк.";}
 :lang(tt) > tei|lang:empty {content: "татар.";}
@@ -590,6 +616,8 @@
 *[extralang~="uk-x-gal"] > tei|lang:empty {-oxy-append-content: ", укр. (галиц.)";}
 :lang(uk-x-west) > tei|lang:empty {content: "укр. (зап.)";}
 *[extralang~="uk-x-west"] > tei|lang:empty {-oxy-append-content: ", укр. (зап.)";}
+:lang(ur) > tei|lang:empty {content: "урду";}
+*[extralang~="ur"] > tei|lang:empty {-oxy-append-content: ", урду";}
 :lang(uz) > tei|lang:empty {content: "узб.";}
 *[extralang~="uz"] > tei|lang:empty {-oxy-append-content: ", узб.";}
 :lang(vep) > tei|lang:empty {content: "вепс.";}
@@ -598,6 +626,8 @@
 *[extralang~="wbl"] > tei|lang:empty {-oxy-append-content: ", пам. в.";}
 :lang(wen) > tei|lang:empty {content: "луж.";}
 *[extralang~="wen"] > tei|lang:empty {-oxy-append-content: ", луж.";}
+:lang(wep) > tei|lang:empty {content: "нем. (вестф.)";}
+*[extralang~="wep"] > tei|lang:empty {-oxy-append-content: ", нем. (вестф.)";}
 :lang(wne) > tei|lang:empty {content: "ванеци";}
 *[extralang~="wne"] > tei|lang:empty {-oxy-append-content: ", ванеци";}
 :lang(wsv) > tei|lang:empty {content: "вотапурско-катаркалайское";}
@@ -606,6 +636,8 @@
 *[extralang~="x-balochi"] > tei|lang:empty {-oxy-append-content: ", бел.";}
 :lang(x-barakai) > tei|lang:empty {content: "варакаи";}
 *[extralang~="x-barakai"] > tei|lang:empty {-oxy-append-content: ", варакаи";}
+:lang(x-dardic) > tei|lang:empty {content: "дард.";}
+*[extralang~="x-dardic"] > tei|lang:empty {-oxy-append-content: ", дард.";}
 :lang(x-mordvin) > tei|lang:empty {content: "морд.";}
 *[extralang~="x-mordvin"] > tei|lang:empty {-oxy-append-content: ", морд.";}
 :lang(x-nuristan) > tei|lang:empty {content: "кафир.";}

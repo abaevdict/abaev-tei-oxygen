@@ -86,6 +86,10 @@
 *[extralang~="ccs"] > tei|lang:empty {-oxy-append-content: ", South Caucasian";}
 :lang(ce) > tei|lang:empty {content: "Chechen";}
 *[extralang~="ce"] > tei|lang:empty {-oxy-append-content: ", Chechen";}
+:lang(ce-x-goyt) > tei|lang:empty {content: "Chechen (Ghoyta)";}
+*[extralang~="ce-x-goyt"] > tei|lang:empty {-oxy-append-content: ", Chechen (Ghoyta)";}
+:lang(ce-x-achkh) > tei|lang:empty {content: "Chechen (Achkhoy-Martan)";}
+*[extralang~="ce-x-achkh"] > tei|lang:empty {-oxy-append-content: ", Chechen (Achkhoy-Martan)";}
 :lang(cel) > tei|lang:empty {content: "Celtic";}
 *[extralang~="cel"] > tei|lang:empty {-oxy-append-content: ", Celtic";}
 :lang(chg) > tei|lang:empty {content: "Chagatai";}
@@ -468,6 +472,8 @@
 *[extralang~="ru-x-arkh"] > tei|lang:empty {-oxy-append-content: ", Russian (Arkhangelsk)";}
 :lang(ru-x-dial) > tei|lang:empty {content: "Russian (dialectal)";}
 *[extralang~="ru-x-dial"] > tei|lang:empty {-oxy-append-content: ", Russian (dialectal)";}
+:lang(ru-x-don) > tei|lang:empty {content: "Russian (Don variety)";}
+*[extralang~="ru-x-don"] > tei|lang:empty {-oxy-append-content: ", Russian (Don variety)";}
 :lang(ru-x-novg) > tei|lang:empty {content: "Russian (Novgorod)";}
 *[extralang~="ru-x-novg"] > tei|lang:empty {-oxy-append-content: ", Russian (Novgorod)";}
 :lang(ru-x-sib) > tei|lang:empty {content: "Russian (Siberian)";}

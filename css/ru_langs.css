@@ -86,6 +86,10 @@
 *[extralang~="ccs"] > tei|lang:empty {-oxy-append-content: ", картв.";}
 :lang(ce) > tei|lang:empty {content: "чеч.";}
 *[extralang~="ce"] > tei|lang:empty {-oxy-append-content: ", чеч.";}
+:lang(ce-x-goyt) > tei|lang:empty {content: "чеч. (гойт.)";}
+*[extralang~="ce-x-goyt"] > tei|lang:empty {-oxy-append-content: ", чеч. (гойт.)";}
+:lang(ce-x-achkh) > tei|lang:empty {content: "чеч. (ачхой-март.)";}
+*[extralang~="ce-x-achkh"] > tei|lang:empty {-oxy-append-content: ", чеч. (ачхой-март.)";}
 :lang(cel) > tei|lang:empty {content: "кельт.";}
 *[extralang~="cel"] > tei|lang:empty {-oxy-append-content: ", кельт.";}
 :lang(chg) > tei|lang:empty {content: "чагат.";}
@@ -468,6 +472,8 @@
 *[extralang~="ru-x-arkh"] > tei|lang:empty {-oxy-append-content: ", русск. (арх.)";}
 :lang(ru-x-dial) > tei|lang:empty {content: "русск. (диал.)";}
 *[extralang~="ru-x-dial"] > tei|lang:empty {-oxy-append-content: ", русск. (диал.)";}
+:lang(ru-x-don) > tei|lang:empty {content: "русск. (донской говор)";}
+*[extralang~="ru-x-don"] > tei|lang:empty {-oxy-append-content: ", русск. (донской говор)";}
 :lang(ru-x-novg) > tei|lang:empty {content: "русск. (новг.)";}
 *[extralang~="ru-x-novg"] > tei|lang:empty {-oxy-append-content: ", русск. (новг.)";}
 :lang(ru-x-sib) > tei|lang:empty {content: "русск. (сиб.)";}

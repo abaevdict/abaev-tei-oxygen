@@ -41,6 +41,8 @@ bua,buri1258,монг. бурят.,Buryat,coordinates of Russia Buriat,50.85,105
 cau,0,кавк.,Caucasian,coordinates of the Caucasus (wiki),42.261111,44.121111
 ccs,kart1248,картв.,South Caucasian,coordinates of Georgian,41.85,43.79
 ce,chec1245,чеч.,Chechen,,43.5,45.5
+ce-x-goyt,chec1245,чеч. (гойт.),Chechen (Ghoyta),,43.164167,45.622222
+ce-x-achkh,chec1245,чеч. (ачхой-март.),Chechen (Achkhoy-Martan),,,
 cel,celt1248,кельт.,Celtic,coordinates of Breton,48.25,-3.79
 chg,chag1247,чагат.,Chagatai,,38.21146,57.88758
 chm,mari1278,мар.,Mari,coordinates of Mari El,56.52,46.252
@@ -232,6 +234,7 @@ ru,russ1263,русск.,Russian,,59.0,50.0
 ru-x-argot,russ1263,русск. (арго),Russian (argot),,59.0,50.0
 ru-x-arkh,pomo1275,русск. (арх.),Russian (Arkhangelsk),,63.5,43.0
 ru-x-dial,russ1263,русск. (диал.),Russian (dialectal),,59.0,50.0
+ru-x-don,sout2602,русск. (донской говор),Russian (Don variety),Novocherkassk,47.422222,40.093889
 ru-x-novg,novg1241,русск. (новг.),Russian (Novgorod),,58.433333,32.383333 
 ru-x-sib,russ1263,русск. (сиб.),Russian (Siberian),coordinates of Krasnoyarsk,56.0062,92.8712
 ru-x-smlnsk,russ1263,русск. (смол.),Russian (Smolensk),add coordinates,59.0,50.0

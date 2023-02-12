@@ -67,4 +67,4 @@ tei|sense > tei|sense + tei|sense:has(tei|def:lang(ru)):before {content: ", "}
 
 abv|tr tei|ref {letter-spacing: 3px; font-style: inherit}
 
-tei|form[type='plural'] > tei|gram {content: "мн.\00A0ч."}
+tei|form[type='plural'] > tei|gram:empty {content: "мн.\00A0ч."}

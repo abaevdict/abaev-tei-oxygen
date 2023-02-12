@@ -70,4 +70,4 @@ tei|sense > tei|sense:has(tei|def:lang(en)) + tei|sense:has(tei|def:lang(en)):be
 tei|sense > tei|sense:has(tei|def:lang(en)) + tei|sense:has(abv|tr:lang(en)):before {content: ", "}
 tei|sense > tei|sense:has(abv|tr:lang(en)) + tei|sense:has(tei|def:lang(en)):before {content: ", "}
 
-tei|form[type='plural'] > tei|gram {content: "pl."}
+tei|form[type='plural'] > tei|gram:empty {content: "pl."}

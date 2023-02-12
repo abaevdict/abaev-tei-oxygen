@@ -102,7 +102,7 @@ abv|formGrp + abv|formGrp::before {content: ', '}
 
 tei|sense {display: inline}
 tei|sense[n]:before {content: " " attr(n) ". "}
-tei|entry > tei|sense + tei|sense:before, tei|re > tei|sense + tei|sense:before {content: "; "}
+tei|entry > tei|sense + tei|sense:before, tei|entry > tei|re + tei|sense:before, tei|re > tei|sense + tei|sense:before {content: "; "}
 tei|entry > tei|sense + tei|sense[n]:before, tei|re > tei|sense + tei|sense[n]:before {content: "; " attr(n) ". "}
 tei|entry > tei|form + tei|sense:before, tei|re > tei|form + tei|sense:before {content: " "}
 /*entry > sense:last-of-type::after {content: ". "}*/

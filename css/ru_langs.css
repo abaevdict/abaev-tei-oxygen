@@ -674,6 +674,8 @@
 *[extralang~="xcl"] > tei|lang:empty {-oxy-append-content: ", арм.";}
 :lang(xhu) > tei|lang:empty {content: "хурр.";}
 *[extralang~="xhu"] > tei|lang:empty {-oxy-append-content: ", хурр.";}
+:lang(xld) > tei|lang:empty {content: "лид.";}
+*[extralang~="xld"] > tei|lang:empty {-oxy-append-content: ", лид.";}
 :lang(xln) > tei|lang:empty {content: "алан.";}
 *[extralang~="xln"] > tei|lang:empty {-oxy-append-content: ", алан.";}
 :lang(xlu) > tei|lang:empty {content: "лув.";}

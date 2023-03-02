@@ -71,8 +71,11 @@ tei|form[xml|lang="os-x-iron"] + tei|form[xml|lang="os-x-digor"]::before {conten
 tei|form[xml|lang="os-x-iron"] + tei|form[xml|lang="os-x-digor"][subtype="parens"]::before {content: "\00a0| (";}
 tei|form[xml|lang="os-x-iron"] + tei|form[xml|lang="os-x-digor"][subtype="parens"]::after {content: ")";}
 tei|w[xml|lang="os-x-iron"] + tei|w[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
+tei|w[xml|lang="os-x-iron"] + tei|w[xml|lang="os-x-digor"][type="rec"]::before {content: "\00a0| *"; font-style: normal;}
 tei|m[xml|lang="os-x-iron"] + tei|m[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
+tei|m[xml|lang="os-x-iron"] + tei|m[xml|lang="os-x-digor"][type="rec"]::before {content: "\00a0| *"; font-style: normal;}
 tei|c[xml|lang="os-x-iron"] + tei|c[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
+tei|c[xml|lang="os-x-iron"] + tei|c[xml|lang="os-x-digor"][type="rec"]::before {content: "\00a0| *"; font-style: normal;}
 tei|entry > tei|form tei|orth {font-weight: bold}
 tei|orth + tei|form[type="variant"]::before {content: ", "}
 tei|orth + tei|form[type="synonym"]::before {content: ", "}

@@ -220,6 +220,8 @@
 *[extralang~="hit"] > tei|lang:empty {-oxy-append-content: ", Hittite";}
 :lang(hr) > tei|lang:empty {content: "Croatian";}
 *[extralang~="hr"] > tei|lang:empty {-oxy-append-content: ", Croatian";}
+:lang(hsb) > tei|lang:empty {content: "Upper Sorbian";}
+*[extralang~="hsb"] > tei|lang:empty {-oxy-append-content: ", Upper Sorbian";}
 :lang(hu) > tei|lang:empty {content: "Hungarian";}
 *[extralang~="hu"] > tei|lang:empty {-oxy-append-content: ", Hungarian";}
 :lang(huz) > tei|lang:empty {content: "Hunzib";}
@@ -716,5 +718,3 @@
 *[extralang~="ysc"] > tei|lang:empty {-oxy-append-content: ", Jassic";}
 :lang(zh) > tei|lang:empty {content: "Chinese";}
 *[extralang~="zh"] > tei|lang:empty {-oxy-append-content: ", Chinese";}
-:lang(zkh) > tei|lang:empty {content: "Khwarezmian";}
-*[extralang~="zkh"] > tei|lang:empty {-oxy-append-content: ", Khwarezmian";}

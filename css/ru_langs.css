@@ -206,6 +206,8 @@
 *[extralang~="grc-x-byz"] > tei|lang:empty {-oxy-append-content: ", гр. (визант.)";}
 :lang(grc-x-doric) > tei|lang:empty {content: "гр. дор.";}
 *[extralang~="grc-x-doric"] > tei|lang:empty {-oxy-append-content: ", гр. дор.";}
+:lang(grc-x-hom) > tei|lang:empty {content: "гр. (Гомер)";}
+*[extralang~="grc-x-hom"] > tei|lang:empty {-oxy-append-content: ", гр. (Гомер)";}
 :lang(ha) > tei|lang:empty {content: "хауса";}
 *[extralang~="ha"] > tei|lang:empty {-oxy-append-content: ", хауса";}
 :lang(hac) > tei|lang:empty {content: "гуран.";}
@@ -716,5 +718,3 @@
 *[extralang~="zkh"] > tei|lang:empty {-oxy-append-content: ", хорезм.";}
 :lang(zkz) > tei|lang:empty {content: "хазарск.";}
 *[extralang~="zkz"] > tei|lang:empty {-oxy-append-content: ", хазарск.";}
-:lang(zza) > tei|lang:empty {content: "заза";}
-*[extralang~="zza"] > tei|lang:empty {-oxy-append-content: ", заза";}

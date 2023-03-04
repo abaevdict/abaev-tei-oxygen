@@ -101,6 +101,7 @@ got-x-crm,crim1255,гот. (крым.),Crimean Gothic,,45.3,34.4
 grc,anci1242,гр.,Greek,,39.8155,21.9129
 grc-x-byz,midd1362,гр. (визант.),Byzantine Greek,coordinates of Istanbul,41.013611,28.955
 grc-x-doric,dori1248,гр. дор.,Doric Greek,coordinates of Greek Epirus,39.6,20.8
+grc-x-hom,anci1242,гр. (Гомер),Homeric Greek,coordinates of Ephesus,37.95,27.366667
 ha,haus1257,хауса,Hausa,,11.15,8.78
 hac,gura1251,гуран.,Gorani,,36.8377,44.4956
 hbo,anci1244,др.евр.,Hebrew,,31.7761,35.1725
@@ -356,4 +357,3 @@ ysc,oldo1234,ясск.,Jassic,,48.48,39.46
 zh,sini1245,кит.,Chinese,,34.09,109.05
 zkh,khwa1238,хорезм.,Khwarezmian,,41.68,60.75
 zkz,0,хазарск.,Khazar,coordinates of Samosdelka (Itil site),46.024,47.83975
-zza,zaza1246,заза,Zazaki,coordinates of Dimli,38.61,39.64

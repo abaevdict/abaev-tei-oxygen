@@ -490,6 +490,8 @@
 *[extralang~="rut"] > tei|lang:empty {-oxy-append-content: ", рутул.";}
 :lang(sa) > tei|lang:empty {content: "скр.";}
 *[extralang~="sa"] > tei|lang:empty {-oxy-append-content: ", скр.";}
+:lang(sa-bauddha) > tei|lang:empty {content: "др.инд. (будд.)";}
+*[extralang~="sa-bauddha"] > tei|lang:empty {-oxy-append-content: ", др.инд. (будд.)";}
 :lang(sa-vaidika) > tei|lang:empty {content: "вед.";}
 *[extralang~="sa-vaidika"] > tei|lang:empty {-oxy-append-content: ", вед.";}
 :lang(sah) > tei|lang:empty {content: "якут.";}
@@ -716,5 +718,3 @@
 *[extralang~="zh"] > tei|lang:empty {-oxy-append-content: ", кит.";}
 :lang(zkh) > tei|lang:empty {content: "хорезм.";}
 *[extralang~="zkh"] > tei|lang:empty {-oxy-append-content: ", хорезм.";}
-:lang(zkz) > tei|lang:empty {content: "хазарск.";}
-*[extralang~="zkz"] > tei|lang:empty {-oxy-append-content: ", хазарск.";}

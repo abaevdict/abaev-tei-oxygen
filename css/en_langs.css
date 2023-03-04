@@ -490,6 +490,8 @@
 *[extralang~="rut"] > tei|lang:empty {-oxy-append-content: ", Rutul";}
 :lang(sa) > tei|lang:empty {content: "Sanskrit";}
 *[extralang~="sa"] > tei|lang:empty {-oxy-append-content: ", Sanskrit";}
+:lang(sa-bauddha) > tei|lang:empty {content: "Buddhist Sanskrit";}
+*[extralang~="sa-bauddha"] > tei|lang:empty {-oxy-append-content: ", Buddhist Sanskrit";}
 :lang(sa-vaidika) > tei|lang:empty {content: "Vedic";}
 *[extralang~="sa-vaidika"] > tei|lang:empty {-oxy-append-content: ", Vedic";}
 :lang(sah) > tei|lang:empty {content: "Yakut";}
@@ -716,5 +718,3 @@
 *[extralang~="zh"] > tei|lang:empty {-oxy-append-content: ", Chinese";}
 :lang(zkh) > tei|lang:empty {content: "Khwarezmian";}
 *[extralang~="zkh"] > tei|lang:empty {-oxy-append-content: ", Khwarezmian";}
-:lang(zkz) > tei|lang:empty {content: "Khazar";}
-*[extralang~="zkz"] > tei|lang:empty {-oxy-append-content: ", Khazar";}

@@ -718,3 +718,9 @@
 *[extralang~="ysc"] > tei|lang:empty {-oxy-append-content: ", Jassic";}
 :lang(zh) > tei|lang:empty {content: "Chinese";}
 *[extralang~="zh"] > tei|lang:empty {-oxy-append-content: ", Chinese";}
+:lang(zkh) > tei|lang:empty {content: "Khwarezmian";}
+*[extralang~="zkh"] > tei|lang:empty {-oxy-append-content: ", Khwarezmian";}
+:lang(zkz) > tei|lang:empty {content: "Khazar";}
+*[extralang~="zkz"] > tei|lang:empty {-oxy-append-content: ", Khazar";}
+:lang(zza) > tei|lang:empty {content: "Zazaki";}
+*[extralang~="zza"] > tei|lang:empty {-oxy-append-content: ", Zazaki";}

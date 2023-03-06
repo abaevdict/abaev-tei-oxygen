@@ -476,6 +476,8 @@
 *[extralang~="ru-x-argot"] > tei|lang:empty {-oxy-append-content: ", русск. (арго)";}
 :lang(ru-x-arkh) > tei|lang:empty {content: "русск. (арх.)";}
 *[extralang~="ru-x-arkh"] > tei|lang:empty {-oxy-append-content: ", русск. (арх.)";}
+:lang(ru-x-astr) > tei|lang:empty {content: "русск. (астрах.)";}
+*[extralang~="ru-x-astr"] > tei|lang:empty {-oxy-append-content: ", русск. (астрах.)";}
 :lang(ru-x-dial) > tei|lang:empty {content: "русск. (диал.)";}
 *[extralang~="ru-x-dial"] > tei|lang:empty {-oxy-append-content: ", русск. (диал.)";}
 :lang(ru-x-don) > tei|lang:empty {content: "русск. (донской говор)";}
@@ -722,5 +724,3 @@
 *[extralang~="zh"] > tei|lang:empty {-oxy-append-content: ", кит.";}
 :lang(zkh) > tei|lang:empty {content: "хорезм.";}
 *[extralang~="zkh"] > tei|lang:empty {-oxy-append-content: ", хорезм.";}
-:lang(zkz) > tei|lang:empty {content: "хазарск.";}
-*[extralang~="zkz"] > tei|lang:empty {-oxy-append-content: ", хазарск.";}

@@ -476,6 +476,8 @@
 *[extralang~="ru-x-argot"] > tei|lang:empty {-oxy-append-content: ", Russian (argot)";}
 :lang(ru-x-arkh) > tei|lang:empty {content: "Russian (Arkhangelsk)";}
 *[extralang~="ru-x-arkh"] > tei|lang:empty {-oxy-append-content: ", Russian (Arkhangelsk)";}
+:lang(ru-x-astr) > tei|lang:empty {content: "Russian (Astrakhan)";}
+*[extralang~="ru-x-astr"] > tei|lang:empty {-oxy-append-content: ", Russian (Astrakhan)";}
 :lang(ru-x-dial) > tei|lang:empty {content: "Russian (dialectal)";}
 *[extralang~="ru-x-dial"] > tei|lang:empty {-oxy-append-content: ", Russian (dialectal)";}
 :lang(ru-x-don) > tei|lang:empty {content: "Russian (Don variety)";}
@@ -722,5 +724,3 @@
 *[extralang~="zh"] > tei|lang:empty {-oxy-append-content: ", Chinese";}
 :lang(zkh) > tei|lang:empty {content: "Khwarezmian";}
 *[extralang~="zkh"] > tei|lang:empty {-oxy-append-content: ", Khwarezmian";}
-:lang(zkz) > tei|lang:empty {content: "Khazar";}
-*[extralang~="zkz"] > tei|lang:empty {-oxy-append-content: ", Khazar";}

@@ -236,6 +236,7 @@ rom,roma1329,цыг.,Romani,arbitrarily chose Central Romani,48.20,20.31
 ru,russ1263,русск.,Russian,,59.0,50.0
 ru-x-argot,russ1263,русск. (арго),Russian (argot),,59.0,50.0
 ru-x-arkh,pomo1275,русск. (арх.),Russian (Arkhangelsk),,63.5,43.0
+ru-x-astr,sout2602,русск. (астрах.),Russian (Astrakhan),,46.35,48.035
 ru-x-dial,russ1263,русск. (диал.),Russian (dialectal),,59.0,50.0
 ru-x-don,sout2602,русск. (донской говор),Russian (Don variety),Novocherkassk,47.422222,40.093889
 ru-x-novg,novg1241,русск. (новг.),Russian (Novgorod),,58.433333,32.383333 
@@ -359,4 +360,3 @@ yrk,nene1251,нен.,Nenets,coordinates of Tundra Nenets,66.18,71.02
 ysc,oldo1234,ясск.,Jassic,,48.48,39.46
 zh,sini1245,кит.,Chinese,,34.09,109.05
 zkh,khwa1238,хорезм.,Khwarezmian,,41.68,60.75
-zkz,0,хазарск.,Khazar,coordinates of Samosdelka (Itil site),46.024,47.83975

@@ -602,6 +602,8 @@
 *[extralang~="trk"] > tei|lang:empty {-oxy-append-content: ", тюрк.";}
 :lang(trk-x-east) > tei|lang:empty {content: "восточнотюрк.";}
 *[extralang~="trk-x-east"] > tei|lang:empty {-oxy-append-content: ", восточнотюрк.";}
+:lang(trk-x-mid) > tei|lang:empty {content: "среднетюрк.";}
+*[extralang~="trk-x-mid"] > tei|lang:empty {-oxy-append-content: ", среднетюрк.";}
 :lang(trk-x-north) > tei|lang:empty {content: "сев. тюрк.";}
 *[extralang~="trk-x-north"] > tei|lang:empty {-oxy-append-content: ", сев. тюрк.";}
 :lang(tt) > tei|lang:empty {content: "татар.";}
@@ -724,3 +726,7 @@
 *[extralang~="zh"] > tei|lang:empty {-oxy-append-content: ", кит.";}
 :lang(zkh) > tei|lang:empty {content: "хорезм.";}
 *[extralang~="zkh"] > tei|lang:empty {-oxy-append-content: ", хорезм.";}
+:lang(zkz) > tei|lang:empty {content: "хазарск.";}
+*[extralang~="zkz"] > tei|lang:empty {-oxy-append-content: ", хазарск.";}
+:lang(zza) > tei|lang:empty {content: "заза";}
+*[extralang~="zza"] > tei|lang:empty {-oxy-append-content: ", заза";}

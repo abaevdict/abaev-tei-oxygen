@@ -299,6 +299,7 @@ tr-x-anat,anat1259,анат.,Anatolian Turkish,,39.87,32.87
 tr-x-dial,nucl1301,тур. (диал.),Turkish (dialectal),,39.8667,32.8667
 trk,turk1311,тюрк.,Turkic,,-99,-99
 trk-x-east,turk1311,восточнотюрк.,East Turkic,I assume this is SE Turkic; coord of Uzbek,40.89,69.21
+trk-x-mid,turk1311,среднетюрк.,Middle Turkic,,-99,-99
 trk-x-north,turk1311,сев. тюрк.,North Turkic,"Unclear: Kipchak or Siberian? Coordinates of Bashkir, on the assumption that this refers to Kipchak",53.60,56.56
 tt,tata1255,татар.,Tatar,,55.79592,49.11577
 tt-x-dial,tata1255,татар. (диал.),Tatar (dialectal),,55.79592,49.11577
@@ -360,3 +361,5 @@ yrk,nene1251,нен.,Nenets,coordinates of Tundra Nenets,66.18,71.02
 ysc,oldo1234,ясск.,Jassic,,48.48,39.46
 zh,sini1245,кит.,Chinese,,34.09,109.05
 zkh,khwa1238,хорезм.,Khwarezmian,,41.68,60.75
+zkz,0,хазарск.,Khazar,coordinates of Samosdelka (Itil site),46.024,47.83975
+zza,zaza1246,заза,Zazaki,coordinates of Dimli,38.61,39.64

@@ -440,6 +440,8 @@
 *[extralang~="pal-x-pazend"] > tei|lang:empty {-oxy-append-content: ", Pazend";}
 :lang(pal-x-turfan) > tei|lang:empty {content: "Turfan Pahlavi";}
 *[extralang~="pal-x-turfan"] > tei|lang:empty {-oxy-append-content: ", Turfan Pahlavi";}
+:lang(paq) > tei|lang:empty {content: "Parya";}
+*[extralang~="paq"] > tei|lang:empty {-oxy-append-content: ", Parya";}
 :lang(peo) > tei|lang:empty {content: "Old Persian";}
 *[extralang~="peo"] > tei|lang:empty {-oxy-append-content: ", Old Persian";}
 :lang(pgd) > tei|lang:empty {content: "Gandhari";}
@@ -722,5 +724,3 @@
 *[extralang~="zkh"] > tei|lang:empty {-oxy-append-content: ", Khwarezmian";}
 :lang(zkz) > tei|lang:empty {content: "Khazar";}
 *[extralang~="zkz"] > tei|lang:empty {-oxy-append-content: ", Khazar";}
-:lang(zza) > tei|lang:empty {content: "Zazaki";}
-*[extralang~="zza"] > tei|lang:empty {-oxy-append-content: ", Zazaki";}

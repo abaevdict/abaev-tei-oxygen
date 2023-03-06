@@ -440,6 +440,8 @@
 *[extralang~="pal-x-pazend"] > tei|lang:empty {-oxy-append-content: ", паз.";}
 :lang(pal-x-turfan) > tei|lang:empty {content: "пехл. турф.";}
 *[extralang~="pal-x-turfan"] > tei|lang:empty {-oxy-append-content: ", пехл. турф.";}
+:lang(paq) > tei|lang:empty {content: "парья";}
+*[extralang~="paq"] > tei|lang:empty {-oxy-append-content: ", парья";}
 :lang(peo) > tei|lang:empty {content: "др.перс.";}
 *[extralang~="peo"] > tei|lang:empty {-oxy-append-content: ", др.перс.";}
 :lang(pgd) > tei|lang:empty {content: "кхарошти";}
@@ -722,5 +724,3 @@
 *[extralang~="zkh"] > tei|lang:empty {-oxy-append-content: ", хорезм.";}
 :lang(zkz) > tei|lang:empty {content: "хазарск.";}
 *[extralang~="zkz"] > tei|lang:empty {-oxy-append-content: ", хазарск.";}
-:lang(zza) > tei|lang:empty {content: "заза";}
-*[extralang~="zza"] > tei|lang:empty {-oxy-append-content: ", заза";}

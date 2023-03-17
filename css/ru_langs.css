@@ -76,6 +76,8 @@
 *[extralang~="br"] > tei|lang:empty {-oxy-append-content: ", брет.";}
 :lang(brh) > tei|lang:empty {content: "брахуи";}
 *[extralang~="brh"] > tei|lang:empty {-oxy-append-content: ", брахуи";}
+:lang(bsg) > tei|lang:empty {content: "башкарди";}
+*[extralang~="bsg"] > tei|lang:empty {-oxy-append-content: ", башкарди";}
 :lang(bsk) > tei|lang:empty {content: "верш.";}
 *[extralang~="bsk"] > tei|lang:empty {-oxy-append-content: ", верш.";}
 :lang(bua) > tei|lang:empty {content: "монг. бурят.";}

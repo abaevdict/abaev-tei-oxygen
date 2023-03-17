@@ -84,8 +84,10 @@ graphic {content: attr("url",url);}
 /*body {break-before: right;}*/
 
 /* Override Oxygen-specific features */
+entry:has(etym:lang(en)) > *:nth-last-child(3)::after {content: ""}
 entry:has(etym) > *:nth-last-child(3)::after {content: ""} /* only one etymology in print version */
 entry:has(etym) > *:nth-last-child(2)::after {content: "."} /* only one etymology in print version */
+
 
 sense > sense + sense:has(tr:lang(ru))::before {content: ", "}
 ref[target][type='xr']:not(empty)::after { content: '';}

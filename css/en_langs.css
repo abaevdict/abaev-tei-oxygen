@@ -136,6 +136,8 @@
 *[extralang~="de"] > tei|lang:empty {-oxy-append-content: ", German";}
 :lang(de-x-dial) > tei|lang:empty {content: "German (dialectal)";}
 *[extralang~="de-x-dial"] > tei|lang:empty {-oxy-append-content: ", German (dialectal)";}
+:lang(de-x-south) > tei|lang:empty {content: "Southern German";}
+*[extralang~="de-x-south"] > tei|lang:empty {-oxy-append-content: ", Southern German";}
 :lang(dsb) > tei|lang:empty {content: "Lower Sorbian";}
 *[extralang~="dsb"] > tei|lang:empty {-oxy-append-content: ", Lower Sorbian";}
 :lang(egy) > tei|lang:empty {content: "Ancient Egyptian";}

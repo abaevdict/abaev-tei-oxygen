@@ -8,9 +8,21 @@
         font-kerning: normal;
     }
     
+@font-face {
+        font-family: serif;
+        src: local("PakType Naskh Basic");
+        font-size: 12pt;
+        font-kerning: normal;
+        unicode-range: U+0600-06FF;
+    }    
+    
 @page {
     size: 17cm 26cm;
-    margin: 1.5cm 1cm 1.5cm 1cm;
+    margin-left: 1.7cm;
+    margin-right: 2.55cm;
+    margin-top: 2.13;
+    margin-bottom: 2.98;
+/*    margin: 1.5cm 1cm 1.5cm 1cm;*/
 /*    margin: 1.5cm 2.5cm 1.5cm 2.5cm;*/
     @footnote {
         border-top: solid black thin;
@@ -84,6 +96,8 @@ graphic {content: attr("url",url);}
 /*body {break-before: right;}*/
 
 /* Override Oxygen-specific features */
+body {font-size: 12pt;}
+
 entry:has(etym:lang(en)) > *:nth-last-child(3)::after {content: ""}
 entry:has(etym) > *:nth-last-child(3)::after {content: ""} /* only one etymology in print version */
 entry:has(etym) > *:nth-last-child(2)::after {content: "."} /* only one etymology in print version */

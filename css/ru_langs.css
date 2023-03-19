@@ -496,6 +496,8 @@
 *[extralang~="ru-x-south"] > tei|lang:empty {-oxy-append-content: ", русск. (южн. диал.)";}
 :lang(ru-x-vldmr) > tei|lang:empty {content: "русск. (влад.)";}
 *[extralang~="ru-x-vldmr"] > tei|lang:empty {-oxy-append-content: ", русск. (влад.)";}
+:lang(ru-x-west) > tei|lang:empty {content: "русск. (зап. диал.)";}
+*[extralang~="ru-x-west"] > tei|lang:empty {-oxy-append-content: ", русск. (зап. диал.)";}
 :lang(rut) > tei|lang:empty {content: "рутул.";}
 *[extralang~="rut"] > tei|lang:empty {-oxy-append-content: ", рутул.";}
 :lang(sa) > tei|lang:empty {content: "скр.";}

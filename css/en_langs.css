@@ -496,6 +496,8 @@
 *[extralang~="ru-x-south"] > tei|lang:empty {-oxy-append-content: ", Russian (southern dialects)";}
 :lang(ru-x-vldmr) > tei|lang:empty {content: "Russian (Vladimir)";}
 *[extralang~="ru-x-vldmr"] > tei|lang:empty {-oxy-append-content: ", Russian (Vladimir)";}
+:lang(ru-x-west) > tei|lang:empty {content: "Russian (Western dialects)";}
+*[extralang~="ru-x-west"] > tei|lang:empty {-oxy-append-content: ", Russian (Western dialects)";}
 :lang(rut) > tei|lang:empty {content: "Rutul";}
 *[extralang~="rut"] > tei|lang:empty {-oxy-append-content: ", Rutul";}
 :lang(sa) > tei|lang:empty {content: "Sanskrit";}

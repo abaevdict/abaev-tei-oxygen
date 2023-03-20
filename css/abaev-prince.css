@@ -45,6 +45,14 @@
     @top-right {content: normal;}
 }
 
+@page title {
+    @top-center {content: normal;}
+    @top-left {content: normal;}
+    @top-right {content: normal;}
+    margin-left: 2.55cm;
+    margin-right: 2.55cm;
+}
+
 @page:blank {
     @top-center {content: normal;}
     @top-left {content: normal;}
@@ -87,11 +95,11 @@ div[type="letter"] > head { display: block;
                             font-size:large; 
                             font-weight:bold;
                             margin-bottom:20px;}
-
+                            
 div[type='foreword'] {page: letter; -prince-page-group: start; break-before: right; text-align:justify;}
 div[type="bibl-1"] {page: letter; -prince-page-group: start; break-before: page; text-align:justify;}
 
-graphic {content: attr("url",url);}
+graphic {content: attr("url",url); margin: auto; width: 100%;}
                             
 /*body {break-before: right;}*/
 

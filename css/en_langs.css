@@ -124,6 +124,8 @@
 *[extralang~="cy-x-cymr"] > tei|lang:empty {-oxy-append-content: ", Cymric";}
 :lang(da) > tei|lang:empty {content: "Danish";}
 *[extralang~="da"] > tei|lang:empty {-oxy-append-content: ", Danish";}
+:lang(da-x-old) > tei|lang:empty {content: "Old Danish";}
+*[extralang~="da-x-old"] > tei|lang:empty {-oxy-append-content: ", Old Danish";}
 :lang(dar) > tei|lang:empty {content: "Dargwa";}
 *[extralang~="dar"] > tei|lang:empty {-oxy-append-content: ", Dargwa";}
 :lang(dar-x-aqusha) > tei|lang:empty {content: "Aqusha Dargwa";}

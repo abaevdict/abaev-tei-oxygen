@@ -38,16 +38,18 @@ tei|div[type='foreword'] > tei|p {display: block; text-indent: 1.5em;}
 tei|div[type='foreword']:lang(en) > tei|p:first-of-type {display: block; text-indent: 0em;}
 tei|div[type="foreword"] > tei|head {display:block; font-size: 14pt; font-weight: bold; text-align: center; padding-bottom: 2ex; text-transform: uppercase;}
 
-tei|titlePage {display: block; text-align: center; font-family: "Libertinus Sans"; page: letter; -prince-page-group: start; position: relative;}
+tei|titlePage {display: block; text-align: center; font-family: "Libertinus Sans"; page: title; -prince-page-group: start; position: relative;}
 
 /*titlePage > byline {display: block; text-align: center; font-size: 16pt; padding-top: 0.11cm; padding-bottom:0.5cm;}*/
 tei|titlePage > tei|byline[n = '1'] {display: block; text-align: center; font-size: 16pt; position: absolute; width:100%; top:40ex;}
 tei|titlePage > tei|byline[n = '2'] {display: block; text-align: center; font-size: 16pt; position: absolute; width:100%; top:47ex;}
-tei|titlePage > tei|byline[n = '3'] {display: block; text-align: center; font-size: 16pt; position: absolute; width:100%; top:74ex;}
+tei|titlePage > tei|byline[n = '3'] {display: block; text-align: center; font-size: 16pt; position: absolute; width:100%; top:72ex;}
 /*titlePage > byline:first-of-type {font-size: 24pt; font-weight: bold; padding-top: 0.5cm; padding-bottom:0.5cm;}*/
 tei|titlePage > tei|byline:first-of-type {font-size: 24pt; font-weight: bold; top: 0px;}
 
-tei|titlePage > tei|byline > tei|docAuthor + tei|docAuthor:before {content: "\A"; white-space: pre;}
+tei|titlePage > tei|byline > tei|docAuthor + tei|docAuthor:before {content: "\00a0\00a0"; white-space: pre;}
+tei|titlePage > tei|byline > tei|docAuthor + tei|docAuthor:nth-of-type(3):before {content: "\A"; white-space: pre;}
+tei|titlePage > tei|byline > tei|docAuthor + tei|docAuthor:nth-of-type(4):before {content: "\A"; white-space: pre;}
 
 tei|titlePage > tei|docTitle {display: block; text-align: center; padding-top: 0.11cm; position: absolute; width:100%; top: 10ex;}
 tei|titlePage > tei|docTitle > tei|titlePart {display: block; text-align: center;}
@@ -57,8 +59,8 @@ tei|titlePage > tei|docTitle > tei|titlePart[type="letter"] {font-size: 26pt; pa
 /*titlePage > docTitle > titlePart[type="letter"]:lang(ru) {padding-bottom: 0.5cm}*/
 
 tei|titlePage > tei|docEdition {display: block; text-align: center; font-size: 16pt;}
-tei|titlePage > tei|docImprint[n="1"] {display:block; text-align: center; font-size: 14pt; position: absolute; width: 100%; top:70ex;}
-tei|titlePage > tei|docImprint[n="2"] {display:block; text-align: center; font-size: 14pt; page-break-after:always; position: absolute; width: 100%; top:92ex;}
+tei|titlePage > tei|docImprint[n="1"] {display:block; text-align: center; font-size: 14pt; position: absolute; width: 100%; top:66ex;}
+tei|titlePage > tei|docImprint[n="2"] {display:block; text-align: center; font-size: 16pt; page-break-after:always; position: absolute; width: 100%; top:80ex;}
 /*titlePage > docImprint:last-of-type:lang(ru) {padding-top: 2cm;}*/
 
 tei|titlePage tei|hi[rend="small"] {font-size: smaller; display:inline;}
@@ -71,7 +73,7 @@ tei|div[type="note"] > tei|p {font-size: 10pt; text-indent: 1.5em; padding-top:1
 tei|div[type="note"] > tei|p:first-of-type {text-indent: 0em; padding-top:0cm;}
 tei|div[type="note"] > tei|bibl {display: block; font-size: 10pt; text-indent: -1.5em; margin-left:1.5em;}
 
-tei|div[type="frontispiece"] {display: block; page: letter; page-break-after: always; -prince-page-group: start;}
+tei|div[type="frontispiece"] {display: block; page: title; page-break-after: always; text-align: center;}
 tei|div[type="frontispiece"] > tei|p {display: block; text-align: center; font-size: 16pt;}
 
 tei|div[type="board"] {display: block; page: letter; page-break-after: always; -prince-page-group: start; line-height: 1.5}

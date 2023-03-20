@@ -124,8 +124,8 @@
 *[extralang~="cy-x-cymr"] > tei|lang:empty {-oxy-append-content: ", кимр.";}
 :lang(da) > tei|lang:empty {content: "дат.";}
 *[extralang~="da"] > tei|lang:empty {-oxy-append-content: ", дат.";}
-:lang(da-x-old) > tei|lang:empty {content: "стаодат.";}
-*[extralang~="da-x-old"] > tei|lang:empty {-oxy-append-content: ", стаодат.";}
+:lang(da-x-old) > tei|lang:empty {content: "стародат.";}
+*[extralang~="da-x-old"] > tei|lang:empty {-oxy-append-content: ", стародат.";}
 :lang(dar) > tei|lang:empty {content: "дарг.";}
 *[extralang~="dar"] > tei|lang:empty {-oxy-append-content: ", дарг.";}
 :lang(dar-x-aqusha) > tei|lang:empty {content: "акуш.";}

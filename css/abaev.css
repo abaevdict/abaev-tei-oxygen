@@ -271,3 +271,5 @@ tei|q:has(lg):before {content: "";}
 /*q:has(lg):after {content: "";}*/
 
 tei|hi[rend="frame"] {border-style: solid;}
+
+tei|cit > tei|quote + tei|bibl:before {content: " "}

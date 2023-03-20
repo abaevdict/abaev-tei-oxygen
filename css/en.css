@@ -8,7 +8,7 @@
 tei|etym:lang(ru) {display: none}
 abv|tr:lang(ru) {display: none}
 tei|def:lang(ru) {display: none}
-tei|note:lang(ru) {display: none}
+tei|note[xml|lang="ru"] {display: none}
 tei|biblScope[xml|lang="ru"] {display: none}
 tei|bibl[xml|lang="ru"] {display: none}
 

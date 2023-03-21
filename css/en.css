@@ -71,3 +71,5 @@ tei|sense > tei|sense:has(tei|def:lang(en)) + tei|sense:has(abv|tr:lang(en)):bef
 tei|sense > tei|sense:has(abv|tr:lang(en)) + tei|sense:has(tei|def:lang(en)):before {content: ", "}
 
 tei|form[type='plural'] > tei|gram:empty {content: "pl."}
+
+tei|bibl tei|title {font-style: italic;}

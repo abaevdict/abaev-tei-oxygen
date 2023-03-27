@@ -142,6 +142,8 @@
 *[extralang~="de-x-south"] > tei|lang:empty {-oxy-append-content: ", южнонем.";}
 :lang(dsb) > tei|lang:empty {content: "нижне-луж.";}
 *[extralang~="dsb"] > tei|lang:empty {-oxy-append-content: ", нижне-луж.";}
+:lang(ecr) > tei|lang:empty {content: "крит.";}
+*[extralang~="ecr"] > tei|lang:empty {-oxy-append-content: ", крит.";}
 :lang(egy) > tei|lang:empty {content: "древнеегипетский";}
 *[extralang~="egy"] > tei|lang:empty {-oxy-append-content: ", древнеегипетский";}
 :lang(el) > tei|lang:empty {content: "н.гр.";}
@@ -154,8 +156,8 @@
 *[extralang~="es"] > tei|lang:empty {-oxy-append-content: ", исп.";}
 :lang(et) > tei|lang:empty {content: "эст.";}
 *[extralang~="et"] > tei|lang:empty {-oxy-append-content: ", эст.";}
-:lang(ett) > tei|lang:empty {content: "этрусский";}
-*[extralang~="ett"] > tei|lang:empty {-oxy-append-content: ", этрусский";}
+:lang(ett) > tei|lang:empty {content: "этр.";}
+*[extralang~="ett"] > tei|lang:empty {-oxy-append-content: ", этр.";}
 :lang(eu) > tei|lang:empty {content: "баск.";}
 *[extralang~="eu"] > tei|lang:empty {-oxy-append-content: ", баск.";}
 :lang(evn) > tei|lang:empty {content: "эвенк.";}
@@ -358,6 +360,8 @@
 *[extralang~="lez"] > tei|lang:empty {-oxy-append-content: ", лезг.";}
 :lang(liv) > tei|lang:empty {content: "лив.";}
 *[extralang~="liv"] > tei|lang:empty {-oxy-append-content: ", лив.";}
+:lang(lrl) > tei|lang:empty {content: "лар.";}
+*[extralang~="lrl"] > tei|lang:empty {-oxy-append-content: ", лар.";}
 :lang(lt) > tei|lang:empty {content: "лит.";}
 *[extralang~="lt"] > tei|lang:empty {-oxy-append-content: ", лит.";}
 :lang(lt-x-dial) > tei|lang:empty {content: "лит. (диал.)";}
@@ -534,6 +538,8 @@
 *[extralang~="sgy-x-zebak"] > tei|lang:empty {-oxy-append-content: ", пам. зеб.";}
 :lang(sh) > tei|lang:empty {content: "сербо-хорв.";}
 *[extralang~="sh"] > tei|lang:empty {-oxy-append-content: ", сербо-хорв.";}
+:lang(si) > tei|lang:empty {content: "синг.";}
+*[extralang~="si"] > tei|lang:empty {-oxy-append-content: ", синг.";}
 :lang(sk) > tei|lang:empty {content: "словац.";}
 *[extralang~="sk"] > tei|lang:empty {-oxy-append-content: ", словац.";}
 :lang(sl) > tei|lang:empty {content: "слов.";}

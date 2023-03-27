@@ -142,6 +142,8 @@
 *[extralang~="de-x-south"] > tei|lang:empty {-oxy-append-content: ", Southern German";}
 :lang(dsb) > tei|lang:empty {content: "Lower Sorbian";}
 *[extralang~="dsb"] > tei|lang:empty {-oxy-append-content: ", Lower Sorbian";}
+:lang(ecr) > tei|lang:empty {content: "Cretan";}
+*[extralang~="ecr"] > tei|lang:empty {-oxy-append-content: ", Cretan";}
 :lang(egy) > tei|lang:empty {content: "Ancient Egyptian";}
 *[extralang~="egy"] > tei|lang:empty {-oxy-append-content: ", Ancient Egyptian";}
 :lang(el) > tei|lang:empty {content: "Modern Greek";}
@@ -358,6 +360,8 @@
 *[extralang~="lez"] > tei|lang:empty {-oxy-append-content: ", Lezgian";}
 :lang(liv) > tei|lang:empty {content: "Livonian";}
 *[extralang~="liv"] > tei|lang:empty {-oxy-append-content: ", Livonian";}
+:lang(lrl) > tei|lang:empty {content: "Lari";}
+*[extralang~="lrl"] > tei|lang:empty {-oxy-append-content: ", Lari";}
 :lang(lt) > tei|lang:empty {content: "Lithuanian";}
 *[extralang~="lt"] > tei|lang:empty {-oxy-append-content: ", Lithuanian";}
 :lang(lt-x-dial) > tei|lang:empty {content: "Lithuanian (dialectal)";}
@@ -534,6 +538,8 @@
 *[extralang~="sgy-x-zebak"] > tei|lang:empty {-oxy-append-content: ", Zebaki";}
 :lang(sh) > tei|lang:empty {content: "Serbo-Croatian";}
 *[extralang~="sh"] > tei|lang:empty {-oxy-append-content: ", Serbo-Croatian";}
+:lang(si) > tei|lang:empty {content: "Sinhalese";}
+*[extralang~="si"] > tei|lang:empty {-oxy-append-content: ", Sinhalese";}
 :lang(sk) > tei|lang:empty {content: "Slovak";}
 *[extralang~="sk"] > tei|lang:empty {-oxy-append-content: ", Slovak";}
 :lang(sl) > tei|lang:empty {content: "Slovenian";}

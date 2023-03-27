@@ -43,6 +43,7 @@ action.
       <addCss path="${framework}/css/abaev.css" title="Abaev dictionary CSS" alternate="false"/>
       <addCss path="${framework}/css/ru.css" title="Russian" alternate="true"/>
       <addCss path="${framework}/css/en.css" title="English" alternate="true"/>
+      <addCss path="${framework}/css/draft.css" title="Draft" alternate="true"/>
       <removeCss path="${framework}/xml/tei/css/tei_oxygen.css"/>
       <removeCss path="${framework}/xml/tei/css/alternate-full-width-layout.css"/>
     </css>

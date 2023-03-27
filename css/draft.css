@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@namespace tei "http://www.tei-c.org/ns/1.0";
+@namespace abv "http://ossetic-studies.org/ns/abaevdict";
+
+@font-face {
+        font-family: "cyr";
+        src: url("Comfortaa-cyr.ttf");
+/*        unicode-range: U+0400-04FF;*/
+        unicode-range: U+0430;
+        font-size: 12pt;
+    }
+    
+tei|body { font-family: cyr, "Libertinus Serif"}

@@ -460,6 +460,8 @@
 *[extralang~="pi"] > tei|lang:empty {-oxy-append-content: ", Pali";}
 :lang(pl) > tei|lang:empty {content: "Polish";}
 *[extralang~="pl"] > tei|lang:empty {-oxy-append-content: ", Polish";}
+:lang(pl-x-old) > tei|lang:empty {content: "Old Polish";}
+*[extralang~="pl-x-old"] > tei|lang:empty {-oxy-append-content: ", Old Polish";}
 :lang(pra) > tei|lang:empty {content: "Prakrit";}
 *[extralang~="pra"] > tei|lang:empty {-oxy-append-content: ", Prakrit";}
 :lang(prc) > tei|lang:empty {content: "Parachi";}

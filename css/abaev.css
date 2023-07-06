@@ -149,7 +149,7 @@ abv|exampleGrp::before {content: ". — ";}
 tei|re > abv|exampleGrp::before {content: ": ";}
 abv|exampleGrp[n]::before {content: ". — " attr(n) ". ";}
 abv|example {display: inline;}
-abv|example + abv|example::before {content: "; "}
+abv|exampleGrp > abv|example + abv|example::before {content: "; "}
 /*example:last-of-type::after {content: "."}*/
 
 abv|exampleGrp + tei|re::before {content: ". — ";}

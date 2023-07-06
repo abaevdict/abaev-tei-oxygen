@@ -120,6 +120,7 @@ sense > re:first-of-type:before {content: ""}*/
 tei|sense > tei|re + tei|re:before {content: "; "}
 tei|sense > tei|sense + tei|re:before {content: "; "}
 tei|sense > abv|tr + tei|re:before {content: "; "}
+tei|sense > abv|tr + abv|example:before {content: ": ";}
 tei|entry > tei|note + tei|re:before {content: "; "}
 tei|sense:has(abv|tr) > tei|note + tei|re:before {content: "; "}
 

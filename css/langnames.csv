@@ -81,6 +81,7 @@
 "evn","even1259","эвенк.","Evenki","Altaic","Tungusic",,"61.972","94.689",
 "fa","fars1255","перс.","Persian","Indo-European","Iranian","coordinates of Western Farsi","32.90","53.30",
 "fa-x-dial","fars1255","перс. (диал.)","Persian (dialectal)","Indo-European","Iranian","coordinates of Western Farsi","32.90","53.30",
+"fa-x-kshn","fars1255","перс. (кашан.)","Persian (Kashan)","Indo-European","Iranian","I assume this is the local dialect of Persian rather than the NW Iranian language of Kashan","33.99","51.48",
 "fa-x-krmns","kerm1248","перс. (кирманшах.)","Persian (Kermanshah)","Indo-European","Iranian",,"34.314167","47.065",
 "fi","finn1318","фин.","Finnish","Uralic","Finnic",,"64.7628","25.5577",
 "fi-x-dial","finn1318","фин. (диал.)","Finnish (dialectal)","Uralic","Finnic",,"64.7628","25.5577",

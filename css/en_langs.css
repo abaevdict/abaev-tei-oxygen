@@ -166,6 +166,8 @@
 *[extralang~="fa"] > tei|lang:empty {-oxy-append-content: ", Persian";}
 :lang(fa-x-dial) > tei|lang:empty {content: "Persian (dialectal)";}
 *[extralang~="fa-x-dial"] > tei|lang:empty {-oxy-append-content: ", Persian (dialectal)";}
+:lang(fa-x-kshn) > tei|lang:empty {content: "Persian (Kashan)";}
+*[extralang~="fa-x-kshn"] > tei|lang:empty {-oxy-append-content: ", Persian (Kashan)";}
 :lang(fa-x-krmns) > tei|lang:empty {content: "Persian (Kermanshah)";}
 *[extralang~="fa-x-krmns"] > tei|lang:empty {-oxy-append-content: ", Persian (Kermanshah)";}
 :lang(fi) > tei|lang:empty {content: "Finnish";}

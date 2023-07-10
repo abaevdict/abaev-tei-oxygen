@@ -472,6 +472,8 @@
 *[extralang~="prc"] > tei|lang:empty {-oxy-append-content: ", Parachi";}
 :lang(prg) > tei|lang:empty {content: "Old Prussian";}
 *[extralang~="prg"] > tei|lang:empty {-oxy-append-content: ", Old Prussian";}
+:lang(prn) > tei|lang:empty {content: "Prasun";}
+*[extralang~="prn"] > tei|lang:empty {-oxy-append-content: ", Prasun";}
 :lang(prs) > tei|lang:empty {content: "Dari (Kabul)";}
 *[extralang~="prs"] > tei|lang:empty {-oxy-append-content: ", Dari (Kabul)";}
 :lang(ps) > tei|lang:empty {content: "Pashto";}

@@ -472,6 +472,8 @@
 *[extralang~="prc"] > tei|lang:empty {-oxy-append-content: ", пар.";}
 :lang(prg) > tei|lang:empty {content: "др.прусс.";}
 *[extralang~="prg"] > tei|lang:empty {-oxy-append-content: ", др.прусс.";}
+:lang(prn) > tei|lang:empty {content: "прасунск.";}
+*[extralang~="prn"] > tei|lang:empty {-oxy-append-content: ", прасунск.";}
 :lang(prs) > tei|lang:empty {content: "тадж. (кабули)";}
 *[extralang~="prs"] > tei|lang:empty {-oxy-append-content: ", тадж. (кабули)";}
 :lang(ps) > tei|lang:empty {content: "афг.";}

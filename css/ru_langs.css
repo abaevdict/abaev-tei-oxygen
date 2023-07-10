@@ -152,6 +152,8 @@
 *[extralang~="elx"] > tei|lang:empty {-oxy-append-content: ", элам.";}
 :lang(en) > tei|lang:empty {content: "англ.";}
 *[extralang~="en"] > tei|lang:empty {-oxy-append-content: ", англ.";}
+:lang(en-x-argt) > tei|lang:empty {content: "англ. (арго)";}
+*[extralang~="en-x-argt"] > tei|lang:empty {-oxy-append-content: ", англ. (арго)";}
 :lang(es) > tei|lang:empty {content: "исп.";}
 *[extralang~="es"] > tei|lang:empty {-oxy-append-content: ", исп.";}
 :lang(et) > tei|lang:empty {content: "эст.";}

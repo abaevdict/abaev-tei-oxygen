@@ -168,6 +168,8 @@
 *[extralang~="fa"] > tei|lang:empty {-oxy-append-content: ", перс.";}
 :lang(fa-x-dial) > tei|lang:empty {content: "перс. (диал.)";}
 *[extralang~="fa-x-dial"] > tei|lang:empty {-oxy-append-content: ", перс. (диал.)";}
+:lang(fa-x-fars) > tei|lang:empty {content: "перс. (диалект Фарси)";}
+*[extralang~="fa-x-fars"] > tei|lang:empty {-oxy-append-content: ", перс. (диалект Фарси)";}
 :lang(fa-x-kshn) > tei|lang:empty {content: "перс. (кашан.)";}
 *[extralang~="fa-x-kshn"] > tei|lang:empty {-oxy-append-content: ", перс. (кашан.)";}
 :lang(fa-x-krmns) > tei|lang:empty {content: "перс. (кирманшах.)";}

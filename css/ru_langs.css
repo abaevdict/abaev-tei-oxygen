@@ -708,6 +708,10 @@
 *[extralang~="xbo"] > tei|lang:empty {-oxy-append-content: ", булг.";}
 :lang(xcl) > tei|lang:empty {content: "арм.";}
 *[extralang~="xcl"] > tei|lang:empty {-oxy-append-content: ", арм.";}
+:lang(xco) > tei|lang:empty {content: "хорезм.";}
+*[extralang~="xco"] > tei|lang:empty {-oxy-append-content: ", хорезм.";}
+:lang(xco-x-late) > tei|lang:empty {content: "позднехорезм.";}
+*[extralang~="xco-x-late"] > tei|lang:empty {-oxy-append-content: ", позднехорезм.";}
 :lang(xhu) > tei|lang:empty {content: "хурр.";}
 *[extralang~="xhu"] > tei|lang:empty {-oxy-append-content: ", хурр.";}
 :lang(xld) > tei|lang:empty {content: "лид.";}
@@ -748,8 +752,6 @@
 *[extralang~="ysc"] > tei|lang:empty {-oxy-append-content: ", ясск.";}
 :lang(zh) > tei|lang:empty {content: "кит.";}
 *[extralang~="zh"] > tei|lang:empty {-oxy-append-content: ", кит.";}
-:lang(zkh) > tei|lang:empty {content: "хорезм.";}
-*[extralang~="zkh"] > tei|lang:empty {-oxy-append-content: ", хорезм.";}
 :lang(zkz) > tei|lang:empty {content: "хазарск.";}
 *[extralang~="zkz"] > tei|lang:empty {-oxy-append-content: ", хазарск.";}
 :lang(zza) > tei|lang:empty {content: "заза";}

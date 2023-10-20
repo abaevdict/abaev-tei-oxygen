@@ -237,7 +237,9 @@ tei|entry > tei|re + tei|re::before {content: "; "}
 tei|entry > tei|re:has(abv|exampleGrp) + tei|re::before {content: ". — "}
 tei|re > tei|re + tei|re::before {content: ", ";}
 tei|entry > tei|form + tei|re > tei|form:first-child::before {content: ": "}
+tei|entry > tei|form + tei|re > tei|re:first-child > tei|form:first-child::before {content: ": "}
 tei|entry > tei|usg + tei|re > tei|form:first-child::before {content: ": "}
+tei|entry > tei|usg + tei|re > tei|re:first-child > tei|form:first-child::before {content: ": "}
 /*entry > usg + re::before {content: " "}*/
 
 tei|note[type="footnote"] {vertical-align: sub; font-size: small}

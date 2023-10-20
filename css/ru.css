@@ -62,9 +62,11 @@ tei|entry > tei|ref:before {content: " см. ";}
 
 abv|tr tei|oRef {font-style: normal; letter-spacing: 3px}
 
-tei|sense > tei|sense + tei|sense:has(abv|tr:lang(ru)):before {content: ", "}
-tei|sense > tei|sense + tei|sense:has(tei|def:lang(ru)):before {content: ", "}
+tei|sense > tei|sense:has(abv|tr:lang(ru)) ~ tei|sense:has(abv|tr:lang(ru)):before {content: ", "}
+tei|sense > tei|sense:has(tei|def:lang(ru)) ~ tei|sense:has(tei|def:lang(ru)):before {content: ", "}
+tei|sense > tei|sense:has(tei|def:lang(ru)) ~ tei|sense:has(abv|tr:lang(ru)):before {content: ", "}
+tei|sense > tei|sense:has(abv|tr:lang(ru)) ~ tei|sense:has(tei|def:lang(ru)):before {content: ", "}
 
-abv|tr tei|ref {letter-spacing: 3px; font-style: inherit}
+abv|example abv|tr tei|ref {letter-spacing: 3px; font-style: inherit}
 
 tei|form[type='plural'] > tei|gram:empty {content: "мн.\00A0ч."}

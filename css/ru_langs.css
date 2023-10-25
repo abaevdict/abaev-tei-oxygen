@@ -356,6 +356,8 @@
 *[extralang~="ky"] > tei|lang:empty {-oxy-append-content: ", кирг.";}
 :lang(la) > tei|lang:empty {content: "лат.";}
 *[extralang~="la"] > tei|lang:empty {-oxy-append-content: ", лат.";}
+:lang(lah) > tei|lang:empty {content: "ланда";}
+*[extralang~="lah"] > tei|lang:empty {-oxy-append-content: ", ланда";}
 :lang(la-x-late) > tei|lang:empty {content: "позднелат.";}
 *[extralang~="la-x-late"] > tei|lang:empty {-oxy-append-content: ", позднелат.";}
 :lang(lbe) > tei|lang:empty {content: "лак.";}

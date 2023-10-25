@@ -470,6 +470,8 @@
 *[extralang~="pl"] > tei|lang:empty {-oxy-append-content: ", пол.";}
 :lang(pl-x-old) > tei|lang:empty {content: "старопол.";}
 *[extralang~="pl-x-old"] > tei|lang:empty {-oxy-append-content: ", старопол.";}
+:lang(pox) > tei|lang:empty {content: "полабский";}
+*[extralang~="pox"] > tei|lang:empty {-oxy-append-content: ", полабский";}
 :lang(pra) > tei|lang:empty {content: "пракрит.";}
 *[extralang~="pra"] > tei|lang:empty {-oxy-append-content: ", пракрит.";}
 :lang(prc) > tei|lang:empty {content: "пар.";}

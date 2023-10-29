@@ -72,4 +72,5 @@ tei|sense > tei|sense:has(abv|tr:lang(en)) ~ tei|sense:has(tei|def:lang(en)):bef
 
 tei|form[type='plural'] > tei|gram:empty {content: "pl."}
 
-tei|bibl tei|title {font-style: italic;}
+tei|bibl > tei|title {font-style: italic;}
+tei|bibl:has(tei|bibl) > tei|title {font-style: inherit;}

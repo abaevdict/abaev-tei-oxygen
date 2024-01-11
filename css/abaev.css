@@ -60,6 +60,7 @@ tei|lang {font-style: normal}
 [xml|lang="ru"] lang[xml|lang="en"]:empty {content: "Russian"}*/
 
 tei|mentioned > tei|lang {font-weight: bold; font-size: smaller;}
+tei|mentioned[xml|lang|="os"] > tei|lang {font-weight: normal; font-size: inherit;}
 tei|etym > tei|lang {font-weight: bold; font-size: smaller;}
 tei|usg + tei|form::before {content: " "}
 tei|form + tei|usg::before {content: " "}
@@ -70,6 +71,10 @@ tei|form {display: inline}
 tei|form[xml|lang="os-x-iron"] + tei|form[xml|lang="os-x-digor"]::before {content: "\00a0|\00a0";}
 tei|form[xml|lang="os-x-iron"] + tei|form[xml|lang="os-x-digor"][subtype="parens"]::before {content: "\00a0| (";}
 tei|form[xml|lang="os-x-iron"] + tei|form[xml|lang="os-x-digor"][subtype="parens"]::after {content: ")";}
+tei|phr[xml|lang="os-x-iron"] + tei|w[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
+tei|phr[xml|lang="os-x-iron"] + tei|w[xml|lang="os-x-digor"][type="rec"]::before {content: "\00a0| *"; font-style: normal;}
+tei|phr[xml|lang="os-x-iron"] + tei|phr[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
+tei|phr[xml|lang="os-x-iron"] + tei|phr[xml|lang="os-x-digor"][type="rec"]::before {content: "\00a0| *"; font-style: normal;}
 tei|w[xml|lang="os-x-iron"] + tei|w[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
 tei|w[xml|lang="os-x-iron"] + tei|w[xml|lang="os-x-digor"][type="rec"]::before {content: "\00a0| *"; font-style: normal;}
 tei|m[xml|lang="os-x-iron"] + tei|m[xml|lang="os-x-digor"]::before {content: "\00a0| "; font-style: normal;}
@@ -121,6 +126,7 @@ tei|sense > tei|re + tei|re:before {content: "; "}
 tei|sense > tei|sense + tei|re:before {content: "; "}
 tei|sense > abv|tr + tei|re > tei|form:first-child:before {content: "; "}
 tei|sense > abv|tr + abv|example:before {content: ": ";}
+tei|sense > tei|sense + abv|example:before {content: "; ";}
 tei|entry > tei|note + tei|re > tei|form:first-child:before {content: "; "}
 tei|sense:has(abv|tr) > tei|note + tei|re:before {content: "; "}
 
@@ -142,7 +148,7 @@ abv|example > abv|tr:lang(ru) + abv|tr:lang(en)::before {content: " "}
 
 abv|tr:lang(en) + abv|tr:lang(en)::before {content: ", "}
 abv|tr:lang(ru) + abv|tr:lang(ru)::before {content: ", "}
-abv|tr > tei|q + tei|q::before {content: ", "}
+abv|tr > tei|q + tei|q::before {content: ", ‘"}
 
 abv|exampleGrp {display: inline;}
 abv|exampleGrp::before {content: ". — ";}
@@ -218,7 +224,9 @@ c + gloss::before {-oxy-prepend-content: " ";}*/
 
 tei|p {display: block}
 
-tei|table {display: inline-table}
+tei|table {display: table; 
+            margin: auto;
+            border-spacing: 5px} /* for some reason this used to be inline-table, check if something breaks */ 
 
 tei|entry tei|lb::before {content: "\A\00a0\00a0\00a0\00a0";
             white-space: pre;}
@@ -236,6 +244,7 @@ tei|entry > tei|sense + tei|re::before{content: "; "}
 tei|entry > tei|re + tei|re::before {content: "; "}
 tei|entry > tei|re:has(abv|exampleGrp) + tei|re::before {content: ". — "}
 tei|re > tei|re + tei|re::before {content: ", ";}
+tei|re > tei|re:has(abv|exampleGrp) + tei|re::before {content: "; ";}
 tei|entry > tei|form + tei|re > tei|form:first-child::before {content: ": "}
 tei|entry > tei|form + tei|re > tei|re:first-child > tei|form:first-child::before {content: ": "}
 tei|entry > tei|usg + tei|re > tei|form:first-child::before {content: ": "}

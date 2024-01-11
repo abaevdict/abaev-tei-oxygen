@@ -10,9 +10,9 @@ tei|listBibl {display: table; font-size: 10pt; table-layout: fixed;}
 tei|listBibl > tei|bibl {display: table-row;}
 tei|listBibl > tei|head {display: table-row;}
 tei|listBibl > tei|head > tei|label {display: table-cell;}
-tei|listBibl > tei|bibl > tei|abbr {display: table-cell; hyphens:none; text-align:left; width: 30%;}
+tei|listBibl > tei|bibl > tei|abbr {display: table-cell; hyphens:none; text-align:left; width: 40%;}
 /*listBibl > bibl > abbr:lang(en) {display: none;}*/
-tei|listBibl > tei|bibl > tei|bibl {display: table-cell; width: 70%; margin-left: 1em; text-indent: -1em;}
+tei|listBibl > tei|bibl > tei|bibl {display: table-cell; width: 60%; margin-left: 1em; text-indent: -1em;}
 
 tei|listBibl > tei|bibl > tei|bibl:before {content: '—\00a0'}
 /*listBibl > bibl {margin-left: 1em; text-indent: -1em;}*/

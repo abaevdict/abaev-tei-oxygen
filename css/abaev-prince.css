@@ -17,11 +17,14 @@
     }    
     
 @page {
-    size: 17cm 26cm;
-    margin-left: 1.7cm;
+/*    size: 17cm 26cm;*/
+    size: 210mm 297mm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+/*    margin-left: 1.65cm;
     margin-right: 2.55cm;
-    margin-top: 2.13;
-    margin-bottom: 2.98;
+    margin-top: 2cm;
+    margin-bottom: 2cm;*/
 /*    margin: 1.5cm 1cm 1.5cm 1cm;*/
 /*    margin: 1.5cm 2.5cm 1.5cm 2.5cm;*/
     @footnote {
@@ -49,8 +52,8 @@
     @top-center {content: normal;}
     @top-left {content: normal;}
     @top-right {content: normal;}
-    margin-left: 2.55cm;
-    margin-right: 2.55cm;
+    margin-left: 2.00cm;
+    margin-right: 2.00cm;
 }
 
 @page:blank {

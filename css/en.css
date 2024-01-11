@@ -11,6 +11,8 @@ tei|def:lang(ru) {display: none}
 tei|note[xml|lang="ru"] {display: none}
 tei|biblScope[xml|lang="ru"] {display: none}
 tei|bibl[xml|lang="ru"] {display: none}
+tei|gram[xml|lang="ru"] {display: none}
+tei|usg[xml|lang="ru"] {display: none}
 
 tei|listBibl > tei|bibl > tei|abbr[xml|lang='ru'] {display: none;}
 tei|listBibl > tei|bibl > tei|bibl[xml|lang='ru'] {display: none;}
@@ -63,6 +65,7 @@ abv|example > abv|tr > tei|q + tei|q::before {content: ", ‘"}
 *[extralang~="os-x-ksan"] > lang:empty {-oxy-append-content: ", Ksan Ossetic"}*/
 
 tei|entry > tei|ref:before {content: " see ";}
+tei|entry > tei|sense + tei|ref:before {content: "; see ";}
 /*entry > usg + ref::before {content: " see ";}*/
 
 tei|sense > tei|sense:has(abv|tr:lang(en)) ~ tei|sense:has(abv|tr:lang(en)):before {content: ", "}
@@ -74,3 +77,6 @@ tei|form[type='plural'] > tei|gram:empty {content: "pl."}
 
 tei|bibl > tei|title {font-style: italic;}
 tei|bibl:has(tei|bibl) > tei|title {font-style: inherit;}
+
+tei|entry > tei|usg > tei|lang:before {content: "("}
+tei|entry > tei|usg > tei|lang:after {content: ")"}

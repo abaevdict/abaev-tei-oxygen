@@ -584,6 +584,8 @@
 *[extralang~="srh"] > tei|lang:empty {-oxy-append-content: ", Sarikoli";}
 :lang(sty) > tei|lang:empty {content: "Tobol Tatar";}
 *[extralang~="sty"] > tei|lang:empty {-oxy-append-content: ", Tobol Tatar";}
+:lang(sty-x-brb) > tei|lang:empty {content: "Baraba Tatar";}
+*[extralang~="sty-x-brb"] > tei|lang:empty {-oxy-append-content: ", Baraba Tatar";}
 :lang(sux) > tei|lang:empty {content: "Sumerian";}
 *[extralang~="sux"] > tei|lang:empty {-oxy-append-content: ", Sumerian";}
 :lang(sv) > tei|lang:empty {content: "Swedish";}

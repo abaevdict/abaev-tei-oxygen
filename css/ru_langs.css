@@ -584,6 +584,8 @@
 *[extralang~="srh"] > tei|lang:empty {-oxy-append-content: ", пам. с.";}
 :lang(sty) > tei|lang:empty {content: "тобол.";}
 *[extralang~="sty"] > tei|lang:empty {-oxy-append-content: ", тобол.";}
+:lang(sty-x-brb) > tei|lang:empty {content: "барабин.";}
+*[extralang~="sty-x-brb"] > tei|lang:empty {-oxy-append-content: ", барабин.";}
 :lang(sux) > tei|lang:empty {content: "шумер.";}
 *[extralang~="sux"] > tei|lang:empty {-oxy-append-content: ", шумер.";}
 :lang(sv) > tei|lang:empty {content: "швед.";}

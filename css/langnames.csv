@@ -279,7 +279,7 @@ sk,slov1269,словац.,Slovak,Indo-European,Slavic,,48.55,18.78,
 sl,slov1268,слов.,Slovenian,Indo-European,Slavic,,46.2543,14.7766,
 sla,slav1255,слав.,Slavic,Indo-European,Slavic,coordinates of Rusyn (roughly at the centre of historical Slavic territory),48.72,22.96,
 smi,saam1281,лопар.,Saami,Uralic,Saami,coordinates of Kemi Saami,67.09,27.54,
-smi-x-sm,saam1281,саам.,Saami,Uralic,Saami,coordinates of Kemi Saami,  Abaev used «лопар.» in the earlier volumes so these are viewed as distinct,67.09,27.54
+smi-x-sm,saam1281,саам.,Saami,Uralic,Saami,coordinates of Kemi Saami,67.09,27.54,  Abaev used «лопар.» in the earlier volumes so these are viewed as distinct
 smy,semn1251,семнан.,Semnani,Indo-European,Iranian,,35.53,53.29,
 sog,sogd1245,согд.,Sogdian,Indo-European,Iranian,,39.7,66.983,
 sog-x-budd,sogd1245,согд. будд.,Buddhist Sogdian,Indo-European,Iranian,,39.7,66.983,
@@ -290,6 +290,7 @@ sqj,alba1267,алб.,Albanian,Indo-European,Albanian,coordinates of Northern Tos
 sr,serb1264,серб.,Serbian,Indo-European,Slavic,,44.3238,21.9192,
 srh,sari1246,пам. с.,Sarikoli,Indo-European,Iranian,,37.905,75.1449,
 sty,tobo1250,тобол.,Tobol Tatar,Altaic,Turkic,,58.1896,68.2581,
+sty-x-brb,bara1273,барабин.,Baraba Tatar,Altaic,Turkic,,55.05,82.95,coordinates of Novosibirsk
 sux,sume1241,шумер.,Sumerian,Sumerian,Sumerian,,31.3,45.6667,
 sv,swed1254,швед.,Swedish,Indo-European,Germanic,,59.800634,17.389526,
 sv-x-dial,swed1254,швед. (диал.),Swedish (dialectal),Indo-European,Germanic,,59.800634,17.389526,

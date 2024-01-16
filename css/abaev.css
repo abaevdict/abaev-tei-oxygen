@@ -244,8 +244,6 @@ tei|phr[type~="rec"]::before {content:"*"}
 tei|entry > tei|sense + tei|re::before{content: "; "}
 tei|entry > tei|re + tei|re::before {content: "; "}
 tei|entry > tei|re:has(abv|exampleGrp) + tei|re::before {content: ". — "}
-tei|entry > tei|form + tei|re::before {content: ": "}
-tei|entry > tei|usg + tei|re::before {content: ": "}
 tei|re > tei|re + tei|re::before {content: ", ";}
 tei|re > tei|re:has(abv|exampleGrp) + tei|re::before {content: "; ";}
 tei|entry > tei|form + tei|re > tei|form:first-child::before {content: ": "}

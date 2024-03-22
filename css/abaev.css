@@ -46,6 +46,16 @@ tei|entry[n]:before {content: attr(n); vertical-align: super; font-size: .7em;}
 tei|entry ~ tei|entry {margin-top: 5px}
 
 tei|lang {font-style: normal}
+:lang(os) > tei|lang {font-weight:normal; font-size: inherit}
+tei|lang[xml|lang="os"] {font-weight:normal; font-size: inherit}
+:lang(os-x-iron) > tei|lang {font-weight:normal; font-size: inherit}
+tei|lang[xml|lang="os-x-iron"] {font-weight:normal; font-size: inherit}
+:lang(os-x-digor) > tei|lang {font-weight:normal; font-size: inherit}
+tei|lang[xml|lang="os-x-digor"] {font-weight:normal; font-size: inherit}
+:lang(os-x-south) > tei|lang {font-weight:normal; font-size: inherit}
+tei|lang[xml|lang="os-x-south"] {font-weight:normal; font-size: inherit}
+:lang(os-x-ksan) > tei|lang {font-weight:normal; font-size: inherit}
+tei|lang[xml|lang="os-x-ksan"] {font-weight:normal; font-size: inherit}
 /*[xml|lang="os"] lang[xml|lang="ru"]:empty {content: "ос."}
 [xml|lang="os"] lang[xml|lang="en"]:empty {content: "Ossetic"}
 [xml|lang="os-x-iron"] lang[xml|lang="ru"]:empty {content: "и."}
@@ -93,6 +103,7 @@ tei|form[type="variant"] + tei|form[type="participle"]::before {content: "\00a0:
 tei|form > tei|form + tei|form[type="variant"]::before {content: ", "}
 
 tei|form > tei|lang + tei|orth::before {content: " ";}
+tei|form > tei|gram + tei|lang::before {content: " ";}
 
 tei|re > tei|form tei|orth {font-style: italic}
 
@@ -154,6 +165,7 @@ abv|tr > tei|q + tei|q::before {content: ", ‘"}
 abv|exampleGrp {display: inline;}
 abv|exampleGrp::before {content: ". — ";}
 tei|re > abv|exampleGrp::before {content: ": ";}
+tei|entry:not(tei|sense) > tei|re abv|exampleGrp::before {content: ". — ";}
 abv|exampleGrp[n]::before {content: ". — " attr(n) ". ";}
 abv|example {display: inline;}
 abv|exampleGrp > abv|example + abv|example::before {content: "; "}

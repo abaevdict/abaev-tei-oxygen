@@ -19,6 +19,7 @@ lines = ['@charset "UTF-8";\n',
          '@namespace abv "http://ossetic-studies.org/ns/abaevdict";\n']
 for code in names_ru.keys():
     lines.append(':lang(' + code + ') > tei|lang:empty {content: "' + names_ru[code] + '";}\n')
+    lines.append('tei|lang[xml|lang="' + code + '"]:empty {content: "' + names_ru[code] + '";}\n')
     lines.append('*[extralang~="' + code + '"] > tei|lang:empty {-oxy-append-content: ", ' + names_ru[code] + '";}\n')
 with open('ru_langs.css', 'w') as f:
     f.writelines(lines)
@@ -30,6 +31,7 @@ lines = ['@charset "UTF-8";\n',
          '@namespace abv "http://ossetic-studies.org/ns/abaevdict";\n']
 for code in names_en.keys():
     lines.append(':lang(' + code + ') > tei|lang:empty {content: "' + names_en[code] + '";}\n')
+    lines.append('tei|lang[xml|lang="' + code + '"]:empty {content: "' + names_en[code] + '";}\n')
     lines.append('*[extralang~="' + code + '"] > tei|lang:empty {-oxy-append-content: ", ' + names_en[code] + '";}\n')
 with open('en_langs.css', 'w') as f:
     f.writelines(lines)

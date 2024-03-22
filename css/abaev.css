@@ -164,8 +164,8 @@ abv|tr > tei|q + tei|q::before {content: ", ‘"}
 
 abv|exampleGrp {display: inline;}
 abv|exampleGrp::before {content: ". — ";}
-tei|re > abv|exampleGrp::before {content: ": ";}
-tei|entry:not(tei|sense) > tei|re abv|exampleGrp::before {content: ". — ";}
+tei|entry:has(tei|sense) > tei|re abv|exampleGrp::before {content: ": ";}
+tei|re abv|exampleGrp::before {content: ". — ";}
 abv|exampleGrp[n]::before {content: ". — " attr(n) ". ";}
 abv|example {display: inline;}
 abv|exampleGrp > abv|example + abv|example::before {content: "; "}

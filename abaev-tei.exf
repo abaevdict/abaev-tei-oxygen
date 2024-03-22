@@ -66,6 +66,7 @@ action.
         <addAction id="smallcaps"/>
         <addAction id="subscript"/>
         <addAction id="superscript"/>
+        <addAction id="doublequotes"/>
       </toolbar>
     </toolbars>
   </author>  

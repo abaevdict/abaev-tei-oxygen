@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+An author action saved in its own file instead of the framework configuration file.
+
+The file must be saved inside one of the following locations:
+1. {framework_directory}/externalAuthorActions - please note that if you have multiple frameworks saved in the same
+directory, this action will appear in all of them.
+2. {framework_directory}/{framework_file_name}_externalAuthorActions - this location is useful when you have multiple 
+frameworks in the same directory, but you want to have this action only in one of them.
+Only the framework saved inside {framework_file_name}.framework will have this particular action.
+-->
+<a:authorAction xmlns:a="http://www.oxygenxml.com/ns/author/external-action"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.oxygenxml.com/ns/author/external-action http://www.oxygenxml.com/ns/author/external-action/authorAction.xsd"
+  id="doublequotes"
+   xmlns:abv="http://ossetic-studies.org/ns/abaevdict">
+  <a:name>Change quotes to double</a:name>
+  <a:description>Changes quotation marks to double.</a:description>
+  <a:smallIconPath href="doublequotes16.png"/>
+  <a:largeIconPath href="doublequotes24.png"/>
+  <a:operations>
+    <a:operation id="ChangeAttributeOperation">
+      <a:xpathCondition>self::q</a:xpathCondition>
+      <a:arguments>
+        <a:argument name="name">rendition</a:argument>
+        <a:argument name="value">#rend_doublequotes</a:argument>
+      </a:arguments>
+    </a:operation>
+  </a:operations>
+  <a:accessKey/>
+</a:authorAction>

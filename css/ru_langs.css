@@ -3,762 +3,1148 @@
 @namespace tei "http://www.tei-c.org/ns/1.0";
 @namespace abv "http://ossetic-studies.org/ns/abaevdict";
 :lang(ab) > tei|lang:empty {content: "абх.";}
+tei|lang[xml|lang="ab"]:empty {content: "абх.";}
 *[extralang~="ab"] > tei|lang:empty {-oxy-append-content: ", абх.";}
 :lang(abq) > tei|lang:empty {content: "абаз.";}
+tei|lang[xml|lang="abq"]:empty {content: "абаз.";}
 *[extralang~="abq"] > tei|lang:empty {-oxy-append-content: ", абаз.";}
 :lang(abq-x-dial) > tei|lang:empty {content: "абаз. (диал.)";}
+tei|lang[xml|lang="abq-x-dial"]:empty {content: "абаз. (диал.)";}
 *[extralang~="abq-x-dial"] > tei|lang:empty {-oxy-append-content: ", абаз. (диал.)";}
 :lang(ady) > tei|lang:empty {content: "адыг.";}
+tei|lang[xml|lang="ady"]:empty {content: "адыг.";}
 *[extralang~="ady"] > tei|lang:empty {-oxy-append-content: ", адыг.";}
 :lang(ady-x-abadz) > tei|lang:empty {content: "абадз.";}
+tei|lang[xml|lang="ady-x-abadz"]:empty {content: "абадз.";}
 *[extralang~="ady-x-abadz"] > tei|lang:empty {-oxy-append-content: ", абадз.";}
 :lang(ady-x-shpsg) > tei|lang:empty {content: "шапс.";}
+tei|lang[xml|lang="ady-x-shpsg"]:empty {content: "шапс.";}
 *[extralang~="ady-x-shpsg"] > tei|lang:empty {-oxy-append-content: ", шапс.";}
 :lang(ae) > tei|lang:empty {content: "ав.";}
+tei|lang[xml|lang="ae"]:empty {content: "ав.";}
 *[extralang~="ae"] > tei|lang:empty {-oxy-append-content: ", ав.";}
 :lang(ae-x-gth) > tei|lang:empty {content: "ав. (гаты)";}
+tei|lang[xml|lang="ae-x-gth"]:empty {content: "ав. (гаты)";}
 *[extralang~="ae-x-gth"] > tei|lang:empty {-oxy-append-content: ", ав. (гаты)";}
 :lang(aer) > tei|lang:empty {content: "аранта";}
+tei|lang[xml|lang="aer"]:empty {content: "аранта";}
 *[extralang~="aer"] > tei|lang:empty {-oxy-append-content: ", аранта";}
 :lang(agx) > tei|lang:empty {content: "агул.";}
+tei|lang[xml|lang="agx"]:empty {content: "агул.";}
 *[extralang~="agx"] > tei|lang:empty {-oxy-append-content: ", агул.";}
 :lang(aii) > tei|lang:empty {content: "ассир.";}
+tei|lang[xml|lang="aii"]:empty {content: "ассир.";}
 *[extralang~="aii"] > tei|lang:empty {-oxy-append-content: ", ассир.";}
 :lang(ain) > tei|lang:empty {content: "айну";}
+tei|lang[xml|lang="ain"]:empty {content: "айну";}
 *[extralang~="ain"] > tei|lang:empty {-oxy-append-content: ", айну";}
 :lang(akk) > tei|lang:empty {content: "аккад.";}
+tei|lang[xml|lang="akk"]:empty {content: "аккад.";}
 *[extralang~="akk"] > tei|lang:empty {-oxy-append-content: ", аккад.";}
 :lang(akv) > tei|lang:empty {content: "ахвах.";}
+tei|lang[xml|lang="akv"]:empty {content: "ахвах.";}
 *[extralang~="akv"] > tei|lang:empty {-oxy-append-content: ", ахвах.";}
 :lang(alt) > tei|lang:empty {content: "алт.";}
+tei|lang[xml|lang="alt"]:empty {content: "алт.";}
 *[extralang~="alt"] > tei|lang:empty {-oxy-append-content: ", алт.";}
 :lang(alt-x-teleut) > tei|lang:empty {content: "телеут.";}
+tei|lang[xml|lang="alt-x-teleut"]:empty {content: "телеут.";}
 *[extralang~="alt-x-teleut"] > tei|lang:empty {-oxy-append-content: ", телеут.";}
 :lang(ang) > tei|lang:empty {content: "англос.";}
+tei|lang[xml|lang="ang"]:empty {content: "англос.";}
 *[extralang~="ang"] > tei|lang:empty {-oxy-append-content: ", англос.";}
 :lang(ani) > tei|lang:empty {content: "анд.";}
+tei|lang[xml|lang="ani"]:empty {content: "анд.";}
 *[extralang~="ani"] > tei|lang:empty {-oxy-append-content: ", анд.";}
 :lang(aqc) > tei|lang:empty {content: "арчин.";}
+tei|lang[xml|lang="aqc"]:empty {content: "арчин.";}
 *[extralang~="aqc"] > tei|lang:empty {-oxy-append-content: ", арчин.";}
 :lang(ar) > tei|lang:empty {content: "араб.";}
+tei|lang[xml|lang="ar"]:empty {content: "араб.";}
 *[extralang~="ar"] > tei|lang:empty {-oxy-append-content: ", араб.";}
 :lang(arc) > tei|lang:empty {content: "арам.";}
+tei|lang[xml|lang="arc"]:empty {content: "арам.";}
 *[extralang~="arc"] > tei|lang:empty {-oxy-append-content: ", арам.";}
 :lang(av) > tei|lang:empty {content: "авар.";}
+tei|lang[xml|lang="av"]:empty {content: "авар.";}
 *[extralang~="av"] > tei|lang:empty {-oxy-append-content: ", авар.";}
 :lang(az) > tei|lang:empty {content: "азерб.";}
+tei|lang[xml|lang="az"]:empty {content: "азерб.";}
 *[extralang~="az"] > tei|lang:empty {-oxy-append-content: ", азерб.";}
 :lang(ba) > tei|lang:empty {content: "башк.";}
+tei|lang[xml|lang="ba"]:empty {content: "башк.";}
 *[extralang~="ba"] > tei|lang:empty {-oxy-append-content: ", башк.";}
 :lang(bat) > tei|lang:empty {content: "балт.";}
+tei|lang[xml|lang="bat"]:empty {content: "балт.";}
 *[extralang~="bat"] > tei|lang:empty {-oxy-append-content: ", балт.";}
 :lang(bbl) > tei|lang:empty {content: "туш.";}
+tei|lang[xml|lang="bbl"]:empty {content: "туш.";}
 *[extralang~="bbl"] > tei|lang:empty {-oxy-append-content: ", туш.";}
 :lang(bdk) > tei|lang:empty {content: "будух.";}
+tei|lang[xml|lang="bdk"]:empty {content: "будух.";}
 *[extralang~="bdk"] > tei|lang:empty {-oxy-append-content: ", будух.";}
 :lang(be) > tei|lang:empty {content: "белорусс.";}
+tei|lang[xml|lang="be"]:empty {content: "белорусс.";}
 *[extralang~="be"] > tei|lang:empty {-oxy-append-content: ", белорусс.";}
 :lang(bg) > tei|lang:empty {content: "болг.";}
+tei|lang[xml|lang="bg"]:empty {content: "болг.";}
 *[extralang~="bg"] > tei|lang:empty {-oxy-append-content: ", болг.";}
 :lang(bgn) > tei|lang:empty {content: "бел. (зап.)";}
+tei|lang[xml|lang="bgn"]:empty {content: "бел. (зап.)";}
 *[extralang~="bgn"] > tei|lang:empty {-oxy-append-content: ", бел. (зап.)";}
 :lang(bgp) > tei|lang:empty {content: "бел. (вост.)";}
+tei|lang[xml|lang="bgp"]:empty {content: "бел. (вост.)";}
 *[extralang~="bgp"] > tei|lang:empty {-oxy-append-content: ", бел. (вост.)";}
 :lang(bn) > tei|lang:empty {content: "бенгали";}
+tei|lang[xml|lang="bn"]:empty {content: "бенгали";}
 *[extralang~="bn"] > tei|lang:empty {-oxy-append-content: ", бенгали";}
 :lang(bo) > tei|lang:empty {content: "тибет.";}
+tei|lang[xml|lang="bo"]:empty {content: "тибет.";}
 *[extralang~="bo"] > tei|lang:empty {-oxy-append-content: ", тибет.";}
 :lang(bph) > tei|lang:empty {content: "ботл.";}
+tei|lang[xml|lang="bph"]:empty {content: "ботл.";}
 *[extralang~="bph"] > tei|lang:empty {-oxy-append-content: ", ботл.";}
 :lang(bqi) > tei|lang:empty {content: "перс. (бахтиар.)";}
+tei|lang[xml|lang="bqi"]:empty {content: "перс. (бахтиар.)";}
 *[extralang~="bqi"] > tei|lang:empty {-oxy-append-content: ", перс. (бахтиар.)";}
 :lang(br) > tei|lang:empty {content: "брет.";}
+tei|lang[xml|lang="br"]:empty {content: "брет.";}
 *[extralang~="br"] > tei|lang:empty {-oxy-append-content: ", брет.";}
 :lang(brh) > tei|lang:empty {content: "брахуи";}
+tei|lang[xml|lang="brh"]:empty {content: "брахуи";}
 *[extralang~="brh"] > tei|lang:empty {-oxy-append-content: ", брахуи";}
 :lang(bsg) > tei|lang:empty {content: "башкарди";}
+tei|lang[xml|lang="bsg"]:empty {content: "башкарди";}
 *[extralang~="bsg"] > tei|lang:empty {-oxy-append-content: ", башкарди";}
 :lang(bsk) > tei|lang:empty {content: "верш.";}
+tei|lang[xml|lang="bsk"]:empty {content: "верш.";}
 *[extralang~="bsk"] > tei|lang:empty {-oxy-append-content: ", верш.";}
 :lang(bua) > tei|lang:empty {content: "монг. бурят.";}
+tei|lang[xml|lang="bua"]:empty {content: "монг. бурят.";}
 *[extralang~="bua"] > tei|lang:empty {-oxy-append-content: ", монг. бурят.";}
 :lang(cau) > tei|lang:empty {content: "кавк.";}
+tei|lang[xml|lang="cau"]:empty {content: "кавк.";}
 *[extralang~="cau"] > tei|lang:empty {-oxy-append-content: ", кавк.";}
 :lang(ccs) > tei|lang:empty {content: "картв.";}
+tei|lang[xml|lang="ccs"]:empty {content: "картв.";}
 *[extralang~="ccs"] > tei|lang:empty {-oxy-append-content: ", картв.";}
 :lang(ce) > tei|lang:empty {content: "чеч.";}
+tei|lang[xml|lang="ce"]:empty {content: "чеч.";}
 *[extralang~="ce"] > tei|lang:empty {-oxy-append-content: ", чеч.";}
 :lang(ce-x-goyt) > tei|lang:empty {content: "чеч. (гойт.)";}
+tei|lang[xml|lang="ce-x-goyt"]:empty {content: "чеч. (гойт.)";}
 *[extralang~="ce-x-goyt"] > tei|lang:empty {-oxy-append-content: ", чеч. (гойт.)";}
 :lang(ce-x-achkh) > tei|lang:empty {content: "чеч. (ачхой-март.)";}
+tei|lang[xml|lang="ce-x-achkh"]:empty {content: "чеч. (ачхой-март.)";}
 *[extralang~="ce-x-achkh"] > tei|lang:empty {-oxy-append-content: ", чеч. (ачхой-март.)";}
 :lang(cel) > tei|lang:empty {content: "кельт.";}
+tei|lang[xml|lang="cel"]:empty {content: "кельт.";}
 *[extralang~="cel"] > tei|lang:empty {-oxy-append-content: ", кельт.";}
 :lang(chg) > tei|lang:empty {content: "чагат.";}
+tei|lang[xml|lang="chg"]:empty {content: "чагат.";}
 *[extralang~="chg"] > tei|lang:empty {-oxy-append-content: ", чагат.";}
 :lang(chm) > tei|lang:empty {content: "мар.";}
+tei|lang[xml|lang="chm"]:empty {content: "мар.";}
 *[extralang~="chm"] > tei|lang:empty {-oxy-append-content: ", мар.";}
 :lang(cji) > tei|lang:empty {content: "чамал.";}
+tei|lang[xml|lang="cji"]:empty {content: "чамал.";}
 *[extralang~="cji"] > tei|lang:empty {-oxy-append-content: ", чамал.";}
 :lang(cjs) > tei|lang:empty {content: "шор.";}
+tei|lang[xml|lang="cjs"]:empty {content: "шор.";}
 *[extralang~="cjs"] > tei|lang:empty {-oxy-append-content: ", шор.";}
 :lang(ckb) > tei|lang:empty {content: "сорани";}
+tei|lang[xml|lang="ckb"]:empty {content: "сорани";}
 *[extralang~="ckb"] > tei|lang:empty {-oxy-append-content: ", сорани";}
 :lang(ckb-x-kndln) > tei|lang:empty {content: "кандулан";}
+tei|lang[xml|lang="ckb-x-kndln"]:empty {content: "кандулан";}
 *[extralang~="ckb-x-kndln"] > tei|lang:empty {-oxy-append-content: ", кандулан";}
 :lang(cmg) > tei|lang:empty {content: "монг. письм.";}
+tei|lang[xml|lang="cmg"]:empty {content: "монг. письм.";}
 *[extralang~="cmg"] > tei|lang:empty {-oxy-append-content: ", монг. письм.";}
 :lang(crh) > tei|lang:empty {content: "татар. (крым.)";}
+tei|lang[xml|lang="crh"]:empty {content: "татар. (крым.)";}
 *[extralang~="crh"] > tei|lang:empty {-oxy-append-content: ", татар. (крым.)";}
 :lang(cs) > tei|lang:empty {content: "чеш.";}
+tei|lang[xml|lang="cs"]:empty {content: "чеш.";}
 *[extralang~="cs"] > tei|lang:empty {-oxy-append-content: ", чеш.";}
 :lang(cu) > tei|lang:empty {content: "ст.слав.";}
+tei|lang[xml|lang="cu"]:empty {content: "ст.слав.";}
 *[extralang~="cu"] > tei|lang:empty {-oxy-append-content: ", ст.слав.";}
 :lang(cu-x-bg) > tei|lang:empty {content: "др.болг.";}
+tei|lang[xml|lang="cu-x-bg"]:empty {content: "др.болг.";}
 *[extralang~="cu-x-bg"] > tei|lang:empty {-oxy-append-content: ", др.болг.";}
 :lang(cv) > tei|lang:empty {content: "чув.";}
+tei|lang[xml|lang="cv"]:empty {content: "чув.";}
 *[extralang~="cv"] > tei|lang:empty {-oxy-append-content: ", чув.";}
 :lang(cy) > tei|lang:empty {content: "валл.";}
+tei|lang[xml|lang="cy"]:empty {content: "валл.";}
 *[extralang~="cy"] > tei|lang:empty {-oxy-append-content: ", валл.";}
 :lang(cy-x-cymr) > tei|lang:empty {content: "кимр.";}
+tei|lang[xml|lang="cy-x-cymr"]:empty {content: "кимр.";}
 *[extralang~="cy-x-cymr"] > tei|lang:empty {-oxy-append-content: ", кимр.";}
 :lang(da) > tei|lang:empty {content: "дат.";}
+tei|lang[xml|lang="da"]:empty {content: "дат.";}
 *[extralang~="da"] > tei|lang:empty {-oxy-append-content: ", дат.";}
 :lang(da-x-old) > tei|lang:empty {content: "стародат.";}
+tei|lang[xml|lang="da-x-old"]:empty {content: "стародат.";}
 *[extralang~="da-x-old"] > tei|lang:empty {-oxy-append-content: ", стародат.";}
 :lang(dar) > tei|lang:empty {content: "дарг.";}
+tei|lang[xml|lang="dar"]:empty {content: "дарг.";}
 *[extralang~="dar"] > tei|lang:empty {-oxy-append-content: ", дарг.";}
 :lang(dar-x-aqusha) > tei|lang:empty {content: "акуш.";}
+tei|lang[xml|lang="dar-x-aqusha"]:empty {content: "акуш.";}
 *[extralang~="dar-x-aqusha"] > tei|lang:empty {-oxy-append-content: ", акуш.";}
 :lang(dar-x-kaitag) > tei|lang:empty {content: "кайт.";}
+tei|lang[xml|lang="dar-x-kaitag"]:empty {content: "кайт.";}
 *[extralang~="dar-x-kaitag"] > tei|lang:empty {-oxy-append-content: ", кайт.";}
 :lang(ddo) > tei|lang:empty {content: "дид.";}
+tei|lang[xml|lang="ddo"]:empty {content: "дид.";}
 *[extralang~="ddo"] > tei|lang:empty {-oxy-append-content: ", дид.";}
 :lang(de) > tei|lang:empty {content: "нем.";}
+tei|lang[xml|lang="de"]:empty {content: "нем.";}
 *[extralang~="de"] > tei|lang:empty {-oxy-append-content: ", нем.";}
 :lang(de-x-dial) > tei|lang:empty {content: "нем. (диал.)";}
+tei|lang[xml|lang="de-x-dial"]:empty {content: "нем. (диал.)";}
 *[extralang~="de-x-dial"] > tei|lang:empty {-oxy-append-content: ", нем. (диал.)";}
 :lang(de-x-south) > tei|lang:empty {content: "южнонем.";}
+tei|lang[xml|lang="de-x-south"]:empty {content: "южнонем.";}
 *[extralang~="de-x-south"] > tei|lang:empty {-oxy-append-content: ", южнонем.";}
 :lang(dsb) > tei|lang:empty {content: "нижне-луж.";}
+tei|lang[xml|lang="dsb"]:empty {content: "нижне-луж.";}
 *[extralang~="dsb"] > tei|lang:empty {-oxy-append-content: ", нижне-луж.";}
 :lang(ecr) > tei|lang:empty {content: "крит.";}
+tei|lang[xml|lang="ecr"]:empty {content: "крит.";}
 *[extralang~="ecr"] > tei|lang:empty {-oxy-append-content: ", крит.";}
 :lang(egy) > tei|lang:empty {content: "древнеегипетский";}
+tei|lang[xml|lang="egy"]:empty {content: "древнеегипетский";}
 *[extralang~="egy"] > tei|lang:empty {-oxy-append-content: ", древнеегипетский";}
 :lang(el) > tei|lang:empty {content: "н.гр.";}
+tei|lang[xml|lang="el"]:empty {content: "н.гр.";}
 *[extralang~="el"] > tei|lang:empty {-oxy-append-content: ", н.гр.";}
 :lang(elx) > tei|lang:empty {content: "элам.";}
+tei|lang[xml|lang="elx"]:empty {content: "элам.";}
 *[extralang~="elx"] > tei|lang:empty {-oxy-append-content: ", элам.";}
 :lang(en) > tei|lang:empty {content: "англ.";}
+tei|lang[xml|lang="en"]:empty {content: "англ.";}
 *[extralang~="en"] > tei|lang:empty {-oxy-append-content: ", англ.";}
 :lang(en-x-argt) > tei|lang:empty {content: "англ. (арго)";}
+tei|lang[xml|lang="en-x-argt"]:empty {content: "англ. (арго)";}
 *[extralang~="en-x-argt"] > tei|lang:empty {-oxy-append-content: ", англ. (арго)";}
 :lang(es) > tei|lang:empty {content: "исп.";}
+tei|lang[xml|lang="es"]:empty {content: "исп.";}
 *[extralang~="es"] > tei|lang:empty {-oxy-append-content: ", исп.";}
 :lang(et) > tei|lang:empty {content: "эст.";}
+tei|lang[xml|lang="et"]:empty {content: "эст.";}
 *[extralang~="et"] > tei|lang:empty {-oxy-append-content: ", эст.";}
 :lang(ett) > tei|lang:empty {content: "этр.";}
+tei|lang[xml|lang="ett"]:empty {content: "этр.";}
 *[extralang~="ett"] > tei|lang:empty {-oxy-append-content: ", этр.";}
 :lang(eu) > tei|lang:empty {content: "баск.";}
+tei|lang[xml|lang="eu"]:empty {content: "баск.";}
 *[extralang~="eu"] > tei|lang:empty {-oxy-append-content: ", баск.";}
 :lang(evn) > tei|lang:empty {content: "эвенк.";}
+tei|lang[xml|lang="evn"]:empty {content: "эвенк.";}
 *[extralang~="evn"] > tei|lang:empty {-oxy-append-content: ", эвенк.";}
 :lang(fa) > tei|lang:empty {content: "перс.";}
+tei|lang[xml|lang="fa"]:empty {content: "перс.";}
 *[extralang~="fa"] > tei|lang:empty {-oxy-append-content: ", перс.";}
 :lang(fa-x-dial) > tei|lang:empty {content: "перс. (диал.)";}
+tei|lang[xml|lang="fa-x-dial"]:empty {content: "перс. (диал.)";}
 *[extralang~="fa-x-dial"] > tei|lang:empty {-oxy-append-content: ", перс. (диал.)";}
 :lang(fa-x-fars) > tei|lang:empty {content: "перс. (диалект Фарси)";}
+tei|lang[xml|lang="fa-x-fars"]:empty {content: "перс. (диалект Фарси)";}
 *[extralang~="fa-x-fars"] > tei|lang:empty {-oxy-append-content: ", перс. (диалект Фарси)";}
 :lang(fa-x-kshn) > tei|lang:empty {content: "перс. (кашан.)";}
+tei|lang[xml|lang="fa-x-kshn"]:empty {content: "перс. (кашан.)";}
 *[extralang~="fa-x-kshn"] > tei|lang:empty {-oxy-append-content: ", перс. (кашан.)";}
 :lang(fa-x-krmns) > tei|lang:empty {content: "перс. (кирманшах.)";}
+tei|lang[xml|lang="fa-x-krmns"]:empty {content: "перс. (кирманшах.)";}
 *[extralang~="fa-x-krmns"] > tei|lang:empty {-oxy-append-content: ", перс. (кирманшах.)";}
 :lang(fi) > tei|lang:empty {content: "фин.";}
+tei|lang[xml|lang="fi"]:empty {content: "фин.";}
 *[extralang~="fi"] > tei|lang:empty {-oxy-append-content: ", фин.";}
 :lang(fi-x-dial) > tei|lang:empty {content: "фин. (диал.)";}
+tei|lang[xml|lang="fi-x-dial"]:empty {content: "фин. (диал.)";}
 *[extralang~="fi-x-dial"] > tei|lang:empty {-oxy-append-content: ", фин. (диал.)";}
 :lang(fr) > tei|lang:empty {content: "фр.";}
+tei|lang[xml|lang="fr"]:empty {content: "фр.";}
 *[extralang~="fr"] > tei|lang:empty {-oxy-append-content: ", фр.";}
 :lang(fro) > tei|lang:empty {content: "ст.фр.";}
+tei|lang[xml|lang="fro"]:empty {content: "ст.фр.";}
 *[extralang~="fro"] > tei|lang:empty {-oxy-append-content: ", ст.фр.";}
 :lang(frp) > tei|lang:empty {content: "фр. (прованс.)";}
+tei|lang[xml|lang="frp"]:empty {content: "фр. (прованс.)";}
 *[extralang~="frp"] > tei|lang:empty {-oxy-append-content: ", фр. (прованс.)";}
 :lang(frs) > tei|lang:empty {content: "фриз. (вост.)";}
+tei|lang[xml|lang="frs"]:empty {content: "фриз. (вост.)";}
 *[extralang~="frs"] > tei|lang:empty {-oxy-append-content: ", фриз. (вост.)";}
 :lang(fy) > tei|lang:empty {content: "фриз.";}
+tei|lang[xml|lang="fy"]:empty {content: "фриз.";}
 *[extralang~="fy"] > tei|lang:empty {-oxy-append-content: ", фриз.";}
 :lang(ga) > tei|lang:empty {content: "ирл.";}
+tei|lang[xml|lang="ga"]:empty {content: "ирл.";}
 *[extralang~="ga"] > tei|lang:empty {-oxy-append-content: ", ирл.";}
 :lang(gbz) > tei|lang:empty {content: "габри";}
+tei|lang[xml|lang="gbz"]:empty {content: "габри";}
 *[extralang~="gbz"] > tei|lang:empty {-oxy-append-content: ", габри";}
 :lang(gbz-x-yzd) > tei|lang:empty {content: "язди";}
+tei|lang[xml|lang="gbz-x-yzd"]:empty {content: "язди";}
 *[extralang~="gbz-x-yzd"] > tei|lang:empty {-oxy-append-content: ", язди";}
 :lang(gdo) > tei|lang:empty {content: "годобер.";}
+tei|lang[xml|lang="gdo"]:empty {content: "годобер.";}
 *[extralang~="gdo"] > tei|lang:empty {-oxy-append-content: ", годобер.";}
 :lang(gem) > tei|lang:empty {content: "герм.";}
+tei|lang[xml|lang="gem"]:empty {content: "герм.";}
 *[extralang~="gem"] > tei|lang:empty {-oxy-append-content: ", герм.";}
 :lang(gem-x-old) > tei|lang:empty {content: "др.герм.";}
+tei|lang[xml|lang="gem-x-old"]:empty {content: "др.герм.";}
 *[extralang~="gem-x-old"] > tei|lang:empty {-oxy-append-content: ", др.герм.";}
 :lang(glk) > tei|lang:empty {content: "гилян.";}
+tei|lang[xml|lang="glk"]:empty {content: "гилян.";}
 *[extralang~="glk"] > tei|lang:empty {-oxy-append-content: ", гилян.";}
 :lang(gmh) > tei|lang:empty {content: "ср.в.нем.";}
+tei|lang[xml|lang="gmh"]:empty {content: "ср.в.нем.";}
 *[extralang~="gmh"] > tei|lang:empty {-oxy-append-content: ", ср.в.нем.";}
 :lang(gml) > tei|lang:empty {content: "ср.н.нем.";}
+tei|lang[xml|lang="gml"]:empty {content: "ср.н.нем.";}
 *[extralang~="gml"] > tei|lang:empty {-oxy-append-content: ", ср.н.нем.";}
 :lang(gmq) > tei|lang:empty {content: "сканд.";}
+tei|lang[xml|lang="gmq"]:empty {content: "сканд.";}
 *[extralang~="gmq"] > tei|lang:empty {-oxy-append-content: ", сканд.";}
 :lang(goh) > tei|lang:empty {content: "др.в.нем.";}
+tei|lang[xml|lang="goh"]:empty {content: "др.в.нем.";}
 *[extralang~="goh"] > tei|lang:empty {-oxy-append-content: ", др.в.нем.";}
 :lang(got) > tei|lang:empty {content: "гот.";}
+tei|lang[xml|lang="got"]:empty {content: "гот.";}
 *[extralang~="got"] > tei|lang:empty {-oxy-append-content: ", гот.";}
 :lang(got-x-crm) > tei|lang:empty {content: "гот. (крым.)";}
+tei|lang[xml|lang="got-x-crm"]:empty {content: "гот. (крым.)";}
 *[extralang~="got-x-crm"] > tei|lang:empty {-oxy-append-content: ", гот. (крым.)";}
 :lang(grc) > tei|lang:empty {content: "гр.";}
+tei|lang[xml|lang="grc"]:empty {content: "гр.";}
 *[extralang~="grc"] > tei|lang:empty {-oxy-append-content: ", гр.";}
 :lang(grc-x-byz) > tei|lang:empty {content: "гр. (визант.)";}
+tei|lang[xml|lang="grc-x-byz"]:empty {content: "гр. (визант.)";}
 *[extralang~="grc-x-byz"] > tei|lang:empty {-oxy-append-content: ", гр. (визант.)";}
 :lang(grc-x-doric) > tei|lang:empty {content: "гр. дор.";}
+tei|lang[xml|lang="grc-x-doric"]:empty {content: "гр. дор.";}
 *[extralang~="grc-x-doric"] > tei|lang:empty {-oxy-append-content: ", гр. дор.";}
 :lang(grc-x-hom) > tei|lang:empty {content: "гр. (Гомер)";}
+tei|lang[xml|lang="grc-x-hom"]:empty {content: "гр. (Гомер)";}
 *[extralang~="grc-x-hom"] > tei|lang:empty {-oxy-append-content: ", гр. (Гомер)";}
 :lang(ha) > tei|lang:empty {content: "хауса";}
+tei|lang[xml|lang="ha"]:empty {content: "хауса";}
 *[extralang~="ha"] > tei|lang:empty {-oxy-append-content: ", хауса";}
 :lang(hac) > tei|lang:empty {content: "гуран.";}
+tei|lang[xml|lang="hac"]:empty {content: "гуран.";}
 *[extralang~="hac"] > tei|lang:empty {-oxy-append-content: ", гуран.";}
 :lang(hbo) > tei|lang:empty {content: "др.евр.";}
+tei|lang[xml|lang="hbo"]:empty {content: "др.евр.";}
 *[extralang~="hbo"] > tei|lang:empty {-oxy-append-content: ", др.евр.";}
 :lang(hi) > tei|lang:empty {content: "хинди";}
+tei|lang[xml|lang="hi"]:empty {content: "хинди";}
 *[extralang~="hi"] > tei|lang:empty {-oxy-append-content: ", хинди";}
 :lang(hit) > tei|lang:empty {content: "хетт.";}
+tei|lang[xml|lang="hit"]:empty {content: "хетт.";}
 *[extralang~="hit"] > tei|lang:empty {-oxy-append-content: ", хетт.";}
 :lang(hr) > tei|lang:empty {content: "хорв.";}
+tei|lang[xml|lang="hr"]:empty {content: "хорв.";}
 *[extralang~="hr"] > tei|lang:empty {-oxy-append-content: ", хорв.";}
 :lang(hsb) > tei|lang:empty {content: "верхнелуж.";}
+tei|lang[xml|lang="hsb"]:empty {content: "верхнелуж.";}
 *[extralang~="hsb"] > tei|lang:empty {-oxy-append-content: ", верхнелуж.";}
 :lang(hu) > tei|lang:empty {content: "венг.";}
+tei|lang[xml|lang="hu"]:empty {content: "венг.";}
 *[extralang~="hu"] > tei|lang:empty {-oxy-append-content: ", венг.";}
 :lang(huz) > tei|lang:empty {content: "гунзиб.";}
+tei|lang[xml|lang="huz"]:empty {content: "гунзиб.";}
 *[extralang~="huz"] > tei|lang:empty {-oxy-append-content: ", гунзиб.";}
 :lang(iir) > tei|lang:empty {content: "ар.";}
+tei|lang[xml|lang="iir"]:empty {content: "ар.";}
 *[extralang~="iir"] > tei|lang:empty {-oxy-append-content: ", ар.";}
 :lang(inc) > tei|lang:empty {content: "инд.";}
+tei|lang[xml|lang="inc"]:empty {content: "инд.";}
 *[extralang~="inc"] > tei|lang:empty {-oxy-append-content: ", инд.";}
 :lang(inc-x-mid) > tei|lang:empty {content: "ср.инд.";}
+tei|lang[xml|lang="inc-x-mid"]:empty {content: "ср.инд.";}
 *[extralang~="inc-x-mid"] > tei|lang:empty {-oxy-append-content: ", ср.инд.";}
 :lang(inc-x-nnew) > tei|lang:empty {content: "северные новоиндийские диалекты";}
+tei|lang[xml|lang="inc-x-nnew"]:empty {content: "северные новоиндийские диалекты";}
 *[extralang~="inc-x-nnew"] > tei|lang:empty {-oxy-append-content: ", северные новоиндийские диалекты";}
 :lang(inc-x-old) > tei|lang:empty {content: "др.инд.";}
+tei|lang[xml|lang="inc-x-old"]:empty {content: "др.инд.";}
 *[extralang~="inc-x-old"] > tei|lang:empty {-oxy-append-content: ", др.инд.";}
 :lang(ine) > tei|lang:empty {content: "и.е.";}
+tei|lang[xml|lang="ine"]:empty {content: "и.е.";}
 *[extralang~="ine"] > tei|lang:empty {-oxy-append-content: ", и.е.";}
 :lang(inh) > tei|lang:empty {content: "инг.";}
+tei|lang[xml|lang="inh"]:empty {content: "инг.";}
 *[extralang~="inh"] > tei|lang:empty {-oxy-append-content: ", инг.";}
 :lang(ira) > tei|lang:empty {content: "иран.";}
+tei|lang[xml|lang="ira"]:empty {content: "иран.";}
 *[extralang~="ira"] > tei|lang:empty {-oxy-append-content: ", иран.";}
 :lang(ira-x-mid) > tei|lang:empty {content: "ср.иран.";}
+tei|lang[xml|lang="ira-x-mid"]:empty {content: "ср.иран.";}
 *[extralang~="ira-x-mid"] > tei|lang:empty {-oxy-append-content: ", ср.иран.";}
 :lang(is) > tei|lang:empty {content: "исл.";}
+tei|lang[xml|lang="is"]:empty {content: "исл.";}
 *[extralang~="is"] > tei|lang:empty {-oxy-append-content: ", исл.";}
 :lang(isk) > tei|lang:empty {content: "пам. ишк.";}
+tei|lang[xml|lang="isk"]:empty {content: "пам. ишк.";}
 *[extralang~="isk"] > tei|lang:empty {-oxy-append-content: ", пам. ишк.";}
 :lang(it) > tei|lang:empty {content: "ит.";}
+tei|lang[xml|lang="it"]:empty {content: "ит.";}
 *[extralang~="it"] > tei|lang:empty {-oxy-append-content: ", ит.";}
 :lang(ja) > tei|lang:empty {content: "япон.";}
+tei|lang[xml|lang="ja"]:empty {content: "япон.";}
 *[extralang~="ja"] > tei|lang:empty {-oxy-append-content: ", япон.";}
 :lang(ka) > tei|lang:empty {content: "груз.";}
+tei|lang[xml|lang="ka"]:empty {content: "груз.";}
 *[extralang~="ka"] > tei|lang:empty {-oxy-append-content: ", груз.";}
 :lang(ka-x-clq) > tei|lang:empty {content: "груз. (разг.)";}
+tei|lang[xml|lang="ka-x-clq"]:empty {content: "груз. (разг.)";}
 *[extralang~="ka-x-clq"] > tei|lang:empty {-oxy-append-content: ", груз. (разг.)";}
 :lang(ka-x-dial) > tei|lang:empty {content: "груз. (диал.)";}
+tei|lang[xml|lang="ka-x-dial"]:empty {content: "груз. (диал.)";}
 *[extralang~="ka-x-dial"] > tei|lang:empty {-oxy-append-content: ", груз. (диал.)";}
 :lang(ka-x-guria) > tei|lang:empty {content: "груз. (гур.)";}
+tei|lang[xml|lang="ka-x-guria"]:empty {content: "груз. (гур.)";}
 *[extralang~="ka-x-guria"] > tei|lang:empty {-oxy-append-content: ", груз. (гур.)";}
 :lang(ka-x-imer) > tei|lang:empty {content: "груз. (имер.)";}
+tei|lang[xml|lang="ka-x-imer"]:empty {content: "груз. (имер.)";}
 *[extralang~="ka-x-imer"] > tei|lang:empty {-oxy-append-content: ", груз. (имер.)";}
 :lang(ka-x-ingiloy) > tei|lang:empty {content: "груз. (ингил.)";}
+tei|lang[xml|lang="ka-x-ingiloy"]:empty {content: "груз. (ингил.)";}
 *[extralang~="ka-x-ingiloy"] > tei|lang:empty {-oxy-append-content: ", груз. (ингил.)";}
 :lang(ka-x-khevsur) > tei|lang:empty {content: "груз. (хевсур.)";}
+tei|lang[xml|lang="ka-x-khevsur"]:empty {content: "груз. (хевсур.)";}
 *[extralang~="ka-x-khevsur"] > tei|lang:empty {-oxy-append-content: ", груз. (хевсур.)";}
 :lang(ka-x-lchkhm) > tei|lang:empty {content: "груз. (лечхум.)";}
+tei|lang[xml|lang="ka-x-lchkhm"]:empty {content: "груз. (лечхум.)";}
 *[extralang~="ka-x-lchkhm"] > tei|lang:empty {-oxy-append-content: ", груз. (лечхум.)";}
 :lang(ka-x-mokhev) > tei|lang:empty {content: "груз. (мохев.)";}
+tei|lang[xml|lang="ka-x-mokhev"]:empty {content: "груз. (мохев.)";}
 *[extralang~="ka-x-mokhev"] > tei|lang:empty {-oxy-append-content: ", груз. (мохев.)";}
 :lang(ka-x-mtiul) > tei|lang:empty {content: "груз. (мтиул.)";}
+tei|lang[xml|lang="ka-x-mtiul"]:empty {content: "груз. (мтиул.)";}
 *[extralang~="ka-x-mtiul"] > tei|lang:empty {-oxy-append-content: ", груз. (мтиул.)";}
 :lang(ka-x-pshav) > tei|lang:empty {content: "груз. (пшав.)";}
+tei|lang[xml|lang="ka-x-pshav"]:empty {content: "груз. (пшав.)";}
 *[extralang~="ka-x-pshav"] > tei|lang:empty {-oxy-append-content: ", груз. (пшав.)";}
 :lang(ka-x-rachian) > tei|lang:empty {content: "груз. (рачин.)";}
+tei|lang[xml|lang="ka-x-rachian"]:empty {content: "груз. (рачин.)";}
 *[extralang~="ka-x-rachian"] > tei|lang:empty {-oxy-append-content: ", груз. (рачин.)";}
 :lang(kaa) > tei|lang:empty {content: "каракалп.";}
+tei|lang[xml|lang="kaa"]:empty {content: "каракалп.";}
 *[extralang~="kaa"] > tei|lang:empty {-oxy-append-content: ", каракалп.";}
 :lang(xas) > tei|lang:empty {content: "камас.";}
+tei|lang[xml|lang="xas"]:empty {content: "камас.";}
 *[extralang~="xas"] > tei|lang:empty {-oxy-append-content: ", камас.";}
 :lang(kap) > tei|lang:empty {content: "капуч.";}
+tei|lang[xml|lang="kap"]:empty {content: "капуч.";}
 *[extralang~="kap"] > tei|lang:empty {-oxy-append-content: ", капуч.";}
 :lang(kbd) > tei|lang:empty {content: "каб.";}
+tei|lang[xml|lang="kbd"]:empty {content: "каб.";}
 *[extralang~="kbd"] > tei|lang:empty {-oxy-append-content: ", каб.";}
 :lang(kbd-x-crc) > tei|lang:empty {content: "черк.";}
+tei|lang[xml|lang="kbd-x-crc"]:empty {content: "черк.";}
 *[extralang~="kbd-x-crc"] > tei|lang:empty {-oxy-append-content: ", черк.";}
 :lang(kbd-x-crc-dial) > tei|lang:empty {content: "черк. (диал.)";}
+tei|lang[xml|lang="kbd-x-crc-dial"]:empty {content: "черк. (диал.)";}
 *[extralang~="kbd-x-crc-dial"] > tei|lang:empty {-oxy-append-content: ", черк. (диал.)";}
 :lang(kbd-x-crc-west) > tei|lang:empty {content: "черк. (зап.)";}
+tei|lang[xml|lang="kbd-x-crc-west"]:empty {content: "черк. (зап.)";}
 *[extralang~="kbd-x-crc-west"] > tei|lang:empty {-oxy-append-content: ", черк. (зап.)";}
 :lang(kbd-x-dial) > tei|lang:empty {content: "каб. (диал.)";}
+tei|lang[xml|lang="kbd-x-dial"]:empty {content: "каб. (диал.)";}
 *[extralang~="kbd-x-dial"] > tei|lang:empty {-oxy-append-content: ", каб. (диал.)";}
 :lang(kca) > tei|lang:empty {content: "ханты";}
+tei|lang[xml|lang="kca"]:empty {content: "ханты";}
 *[extralang~="kca"] > tei|lang:empty {-oxy-append-content: ", ханты";}
 :lang(kdr) > tei|lang:empty {content: "караим.";}
+tei|lang[xml|lang="kdr"]:empty {content: "караим.";}
 *[extralang~="kdr"] > tei|lang:empty {-oxy-append-content: ", караим.";}
 :lang(kho) > tei|lang:empty {content: "сак.";}
+tei|lang[xml|lang="kho"]:empty {content: "сак.";}
 *[extralang~="kho"] > tei|lang:empty {-oxy-append-content: ", сак.";}
 :lang(khv) > tei|lang:empty {content: "хварш.";}
+tei|lang[xml|lang="khv"]:empty {content: "хварш.";}
 *[extralang~="khv"] > tei|lang:empty {-oxy-append-content: ", хварш.";}
 :lang(khw) > tei|lang:empty {content: "ховар.";}
+tei|lang[xml|lang="khw"]:empty {content: "ховар.";}
 *[extralang~="khw"] > tei|lang:empty {-oxy-append-content: ", ховар.";}
 :lang(khw-x-chtr) > tei|lang:empty {content: "читр.";}
+tei|lang[xml|lang="khw-x-chtr"]:empty {content: "читр.";}
 *[extralang~="khw-x-chtr"] > tei|lang:empty {-oxy-append-content: ", читр.";}
 :lang(kjh) > tei|lang:empty {content: "хакас.";}
+tei|lang[xml|lang="kjh"]:empty {content: "хакас.";}
 *[extralang~="kjh"] > tei|lang:empty {-oxy-append-content: ", хакас.";}
 :lang(kjh-sghy) > tei|lang:empty {content: "хакас. (сагайск.)";}
+tei|lang[xml|lang="kjh-sghy"]:empty {content: "хакас. (сагайск.)";}
 *[extralang~="kjh-sghy"] > tei|lang:empty {-oxy-append-content: ", хакас. (сагайск.)";}
 :lang(kjj) > tei|lang:empty {content: "хиналуг.";}
+tei|lang[xml|lang="kjj"]:empty {content: "хиналуг.";}
 *[extralang~="kjj"] > tei|lang:empty {-oxy-append-content: ", хиналуг.";}
 :lang(kk) > tei|lang:empty {content: "каз.";}
+tei|lang[xml|lang="kk"]:empty {content: "каз.";}
 *[extralang~="kk"] > tei|lang:empty {-oxy-append-content: ", каз.";}
 :lang(kk-x-krgnd) > tei|lang:empty {content: "караг.";}
+tei|lang[xml|lang="kk-x-krgnd"]:empty {content: "караг.";}
 *[extralang~="kk-x-krgnd"] > tei|lang:empty {-oxy-append-content: ", караг.";}
 :lang(ko) > tei|lang:empty {content: "кор.";}
+tei|lang[xml|lang="ko"]:empty {content: "кор.";}
 *[extralang~="ko"] > tei|lang:empty {-oxy-append-content: ", кор.";}
 :lang(kpt) > tei|lang:empty {content: "карат.";}
+tei|lang[xml|lang="kpt"]:empty {content: "карат.";}
 *[extralang~="kpt"] > tei|lang:empty {-oxy-append-content: ", карат.";}
 :lang(krc-x-balkar) > tei|lang:empty {content: "балк.";}
+tei|lang[xml|lang="krc-x-balkar"]:empty {content: "балк.";}
 *[extralang~="krc-x-balkar"] > tei|lang:empty {-oxy-append-content: ", балк.";}
 :lang(krc-x-karachay) > tei|lang:empty {content: "карач.";}
+tei|lang[xml|lang="krc-x-karachay"]:empty {content: "карач.";}
 *[extralang~="krc-x-karachay"] > tei|lang:empty {-oxy-append-content: ", карач.";}
 :lang(krl) > tei|lang:empty {content: "карел.";}
+tei|lang[xml|lang="krl"]:empty {content: "карел.";}
 *[extralang~="krl"] > tei|lang:empty {-oxy-append-content: ", карел.";}
 :lang(kry) > tei|lang:empty {content: "крыз.";}
+tei|lang[xml|lang="kry"]:empty {content: "крыз.";}
 *[extralang~="kry"] > tei|lang:empty {-oxy-append-content: ", крыз.";}
 :lang(kry-x-jek) > tei|lang:empty {content: "джекск.";}
+tei|lang[xml|lang="kry-x-jek"]:empty {content: "джекск.";}
 *[extralang~="kry-x-jek"] > tei|lang:empty {-oxy-append-content: ", джекск.";}
 :lang(ku) > tei|lang:empty {content: "курд.";}
+tei|lang[xml|lang="ku"]:empty {content: "курд.";}
 *[extralang~="ku"] > tei|lang:empty {-oxy-append-content: ", курд.";}
 :lang(kum) > tei|lang:empty {content: "кум.";}
+tei|lang[xml|lang="kum"]:empty {content: "кум.";}
 *[extralang~="kum"] > tei|lang:empty {-oxy-append-content: ", кум.";}
 :lang(kv) > tei|lang:empty {content: "коми";}
+tei|lang[xml|lang="kv"]:empty {content: "коми";}
 *[extralang~="kv"] > tei|lang:empty {-oxy-append-content: ", коми";}
 :lang(kva) > tei|lang:empty {content: "куанад.";}
+tei|lang[xml|lang="kva"]:empty {content: "куанад.";}
 *[extralang~="kva"] > tei|lang:empty {-oxy-append-content: ", куанад.";}
 :lang(kw) > tei|lang:empty {content: "корн.";}
+tei|lang[xml|lang="kw"]:empty {content: "корн.";}
 *[extralang~="kw"] > tei|lang:empty {-oxy-append-content: ", корн.";}
 :lang(ky) > tei|lang:empty {content: "кирг.";}
+tei|lang[xml|lang="ky"]:empty {content: "кирг.";}
 *[extralang~="ky"] > tei|lang:empty {-oxy-append-content: ", кирг.";}
 :lang(la) > tei|lang:empty {content: "лат.";}
+tei|lang[xml|lang="la"]:empty {content: "лат.";}
 *[extralang~="la"] > tei|lang:empty {-oxy-append-content: ", лат.";}
 :lang(lah) > tei|lang:empty {content: "ланда";}
+tei|lang[xml|lang="lah"]:empty {content: "ланда";}
 *[extralang~="lah"] > tei|lang:empty {-oxy-append-content: ", ланда";}
 :lang(la-x-late) > tei|lang:empty {content: "позднелат.";}
+tei|lang[xml|lang="la-x-late"]:empty {content: "позднелат.";}
 *[extralang~="la-x-late"] > tei|lang:empty {-oxy-append-content: ", позднелат.";}
 :lang(lbe) > tei|lang:empty {content: "лак.";}
+tei|lang[xml|lang="lbe"]:empty {content: "лак.";}
 *[extralang~="lbe"] > tei|lang:empty {-oxy-append-content: ", лак.";}
 :lang(ldd) > tei|lang:empty {content: "лур.";}
+tei|lang[xml|lang="ldd"]:empty {content: "лур.";}
 *[extralang~="ldd"] > tei|lang:empty {-oxy-append-content: ", лур.";}
 :lang(lez) > tei|lang:empty {content: "лезг.";}
+tei|lang[xml|lang="lez"]:empty {content: "лезг.";}
 *[extralang~="lez"] > tei|lang:empty {-oxy-append-content: ", лезг.";}
 :lang(liv) > tei|lang:empty {content: "лив.";}
+tei|lang[xml|lang="liv"]:empty {content: "лив.";}
 *[extralang~="liv"] > tei|lang:empty {-oxy-append-content: ", лив.";}
 :lang(lrl) > tei|lang:empty {content: "лар.";}
+tei|lang[xml|lang="lrl"]:empty {content: "лар.";}
 *[extralang~="lrl"] > tei|lang:empty {-oxy-append-content: ", лар.";}
 :lang(lt) > tei|lang:empty {content: "лит.";}
+tei|lang[xml|lang="lt"]:empty {content: "лит.";}
 *[extralang~="lt"] > tei|lang:empty {-oxy-append-content: ", лит.";}
 :lang(lt-x-dial) > tei|lang:empty {content: "лит. (диал.)";}
+tei|lang[xml|lang="lt-x-dial"]:empty {content: "лит. (диал.)";}
 *[extralang~="lt-x-dial"] > tei|lang:empty {-oxy-append-content: ", лит. (диал.)";}
 :lang(lv) > tei|lang:empty {content: "латыш.";}
+tei|lang[xml|lang="lv"]:empty {content: "латыш.";}
 *[extralang~="lv"] > tei|lang:empty {-oxy-append-content: ", латыш.";}
 :lang(lzz) > tei|lang:empty {content: "чан.";}
+tei|lang[xml|lang="lzz"]:empty {content: "чан.";}
 *[extralang~="lzz"] > tei|lang:empty {-oxy-append-content: ", чан.";}
 :lang(man) > tei|lang:empty {content: "мандинго";}
+tei|lang[xml|lang="man"]:empty {content: "мандинго";}
 *[extralang~="man"] > tei|lang:empty {-oxy-append-content: ", мандинго";}
 :lang(mdf) > tei|lang:empty {content: "мордовский (мокша)";}
+tei|lang[xml|lang="mdf"]:empty {content: "мордовский (мокша)";}
 *[extralang~="mdf"] > tei|lang:empty {-oxy-append-content: ", мордовский (мокша)";}
 :lang(mga) > tei|lang:empty {content: "ср.ирл.";}
+tei|lang[xml|lang="mga"]:empty {content: "ср.ирл.";}
 *[extralang~="mga"] > tei|lang:empty {-oxy-append-content: ", ср.ирл.";}
 :lang(mis-x-khuri) > tei|lang:empty {content: "хури";}
+tei|lang[xml|lang="mis-x-khuri"]:empty {content: "хури";}
 *[extralang~="mis-x-khuri"] > tei|lang:empty {-oxy-append-content: ", хури";}
 :lang(mn) > tei|lang:empty {content: "монг.";}
+tei|lang[xml|lang="mn"]:empty {content: "монг.";}
 *[extralang~="mn"] > tei|lang:empty {-oxy-append-content: ", монг.";}
 :lang(mn-x-uriankh) > tei|lang:empty {content: "урянх.";}
+tei|lang[xml|lang="mn-x-uriankh"]:empty {content: "урянх.";}
 *[extralang~="mn-x-uriankh"] > tei|lang:empty {-oxy-append-content: ", урянх.";}
 :lang(mnc) > tei|lang:empty {content: "манджурское";}
+tei|lang[xml|lang="mnc"]:empty {content: "манджурское";}
 *[extralang~="mnc"] > tei|lang:empty {-oxy-append-content: ", манджурское";}
 :lang(mnj) > tei|lang:empty {content: "пам. м.";}
+tei|lang[xml|lang="mnj"]:empty {content: "пам. м.";}
 *[extralang~="mnj"] > tei|lang:empty {-oxy-append-content: ", пам. м.";}
 :lang(mns) > tei|lang:empty {content: "манси";}
+tei|lang[xml|lang="mns"]:empty {content: "манси";}
 *[extralang~="mns"] > tei|lang:empty {-oxy-append-content: ", манси";}
 :lang(mr) > tei|lang:empty {content: "маратхи";}
+tei|lang[xml|lang="mr"]:empty {content: "маратхи";}
 *[extralang~="mr"] > tei|lang:empty {-oxy-append-content: ", маратхи";}
 :lang(myv) > tei|lang:empty {content: "мордовский (эрзя)";}
+tei|lang[xml|lang="myv"]:empty {content: "мордовский (эрзя)";}
 *[extralang~="myv"] > tei|lang:empty {-oxy-append-content: ", мордовский (эрзя)";}
 :lang(mzn) > tei|lang:empty {content: "маз.";}
+tei|lang[xml|lang="mzn"]:empty {content: "маз.";}
 *[extralang~="mzn"] > tei|lang:empty {-oxy-append-content: ", маз.";}
 :lang(nds) > tei|lang:empty {content: "н.н.нем.";}
+tei|lang[xml|lang="nds"]:empty {content: "н.н.нем.";}
 *[extralang~="nds"] > tei|lang:empty {-oxy-append-content: ", н.н.нем.";}
 :lang(ne) > tei|lang:empty {content: "непал.";}
+tei|lang[xml|lang="ne"]:empty {content: "непал.";}
 *[extralang~="ne"] > tei|lang:empty {-oxy-append-content: ", непал.";}
 :lang(nl) > tei|lang:empty {content: "нидерл.";}
+tei|lang[xml|lang="nl"]:empty {content: "нидерл.";}
 *[extralang~="nl"] > tei|lang:empty {-oxy-append-content: ", нидерл.";}
 :lang(no) > tei|lang:empty {content: "норв.";}
+tei|lang[xml|lang="no"]:empty {content: "норв.";}
 *[extralang~="no"] > tei|lang:empty {-oxy-append-content: ", норв.";}
 :lang(no-x-dial) > tei|lang:empty {content: "норв. (диал.)";}
+tei|lang[xml|lang="no-x-dial"]:empty {content: "норв. (диал.)";}
 *[extralang~="no-x-dial"] > tei|lang:empty {-oxy-append-content: ", норв. (диал.)";}
 :lang(nog) > tei|lang:empty {content: "ног.";}
+tei|lang[xml|lang="nog"]:empty {content: "ног.";}
 *[extralang~="nog"] > tei|lang:empty {-oxy-append-content: ", ног.";}
 :lang(non) > tei|lang:empty {content: "др.сев.";}
+tei|lang[xml|lang="non"]:empty {content: "др.сев.";}
 *[extralang~="non"] > tei|lang:empty {-oxy-append-content: ", др.сев.";}
 :lang(non-x-is) > tei|lang:empty {content: "др.исл.";}
+tei|lang[xml|lang="non-x-is"]:empty {content: "др.исл.";}
 *[extralang~="non-x-is"] > tei|lang:empty {-oxy-append-content: ", др.исл.";}
 :lang(ntz) > tei|lang:empty {content: "натанзи";}
+tei|lang[xml|lang="ntz"]:empty {content: "натанзи";}
 *[extralang~="ntz"] > tei|lang:empty {-oxy-append-content: ", натанзи";}
 :lang(nub) > tei|lang:empty {content: "нубийское";}
+tei|lang[xml|lang="nub"]:empty {content: "нубийское";}
 *[extralang~="nub"] > tei|lang:empty {-oxy-append-content: ", нубийское";}
 :lang(oc) > tei|lang:empty {content: "прованс.";}
+tei|lang[xml|lang="oc"]:empty {content: "прованс.";}
 *[extralang~="oc"] > tei|lang:empty {-oxy-append-content: ", прованс.";}
 :lang(ofs) > tei|lang:empty {content: "др.фриз.";}
+tei|lang[xml|lang="ofs"]:empty {content: "др.фриз.";}
 *[extralang~="ofs"] > tei|lang:empty {-oxy-append-content: ", др.фриз.";}
 :lang(oge) > tei|lang:empty {content: "др.груз.";}
+tei|lang[xml|lang="oge"]:empty {content: "др.груз.";}
 *[extralang~="oge"] > tei|lang:empty {-oxy-append-content: ", др.груз.";}
 :lang(ohu) > tei|lang:empty {content: "ст.венг.";}
+tei|lang[xml|lang="ohu"]:empty {content: "ст.венг.";}
 *[extralang~="ohu"] > tei|lang:empty {-oxy-append-content: ", ст.венг.";}
 :lang(oos) > tei|lang:empty {content: "ст.ос.";}
+tei|lang[xml|lang="oos"]:empty {content: "ст.ос.";}
 *[extralang~="oos"] > tei|lang:empty {-oxy-append-content: ", ст.ос.";}
 :lang(oru) > tei|lang:empty {content: "орм.";}
+tei|lang[xml|lang="oru"]:empty {content: "орм.";}
 *[extralang~="oru"] > tei|lang:empty {-oxy-append-content: ", орм.";}
 :lang(orv) > tei|lang:empty {content: "др.русск.";}
+tei|lang[xml|lang="orv"]:empty {content: "др.русск.";}
 *[extralang~="orv"] > tei|lang:empty {-oxy-append-content: ", др.русск.";}
 :lang(os) > tei|lang:empty {content: "ос.";}
+tei|lang[xml|lang="os"]:empty {content: "ос.";}
 *[extralang~="os"] > tei|lang:empty {-oxy-append-content: ", ос.";}
 :lang(os-x-digor) > tei|lang:empty {content: "д.";}
+tei|lang[xml|lang="os-x-digor"]:empty {content: "д.";}
 *[extralang~="os-x-digor"] > tei|lang:empty {-oxy-append-content: ", д.";}
 :lang(os-x-iron) > tei|lang:empty {content: "и.";}
+tei|lang[xml|lang="os-x-iron"]:empty {content: "и.";}
 *[extralang~="os-x-iron"] > tei|lang:empty {-oxy-append-content: ", и.";}
 :lang(os-x-ksan) > tei|lang:empty {content: "ксан.";}
+tei|lang[xml|lang="os-x-ksan"]:empty {content: "ксан.";}
 *[extralang~="os-x-ksan"] > tei|lang:empty {-oxy-append-content: ", ксан.";}
 :lang(os-x-south) > tei|lang:empty {content: "ю.";}
+tei|lang[xml|lang="os-x-south"]:empty {content: "ю.";}
 *[extralang~="os-x-south"] > tei|lang:empty {-oxy-append-content: ", ю.";}
 :lang(osx) > tei|lang:empty {content: "др.сакс.";}
+tei|lang[xml|lang="osx"]:empty {content: "др.сакс.";}
 *[extralang~="osx"] > tei|lang:empty {-oxy-append-content: ", др.сакс.";}
 :lang(oui) > tei|lang:empty {content: "др.тюрк.";}
+tei|lang[xml|lang="oui"]:empty {content: "др.тюрк.";}
 *[extralang~="oui"] > tei|lang:empty {-oxy-append-content: ", др.тюрк.";}
 :lang(pa) > tei|lang:empty {content: "пенджаби";}
+tei|lang[xml|lang="pa"]:empty {content: "пенджаби";}
 *[extralang~="pa"] > tei|lang:empty {-oxy-append-content: ", пенджаби";}
 :lang(pal) > tei|lang:empty {content: "пехл.";}
+tei|lang[xml|lang="pal"]:empty {content: "пехл.";}
 *[extralang~="pal"] > tei|lang:empty {-oxy-append-content: ", пехл.";}
 :lang(pal-x-pazend) > tei|lang:empty {content: "паз.";}
+tei|lang[xml|lang="pal-x-pazend"]:empty {content: "паз.";}
 *[extralang~="pal-x-pazend"] > tei|lang:empty {-oxy-append-content: ", паз.";}
 :lang(pal-x-turfan) > tei|lang:empty {content: "пехл. турф.";}
+tei|lang[xml|lang="pal-x-turfan"]:empty {content: "пехл. турф.";}
 *[extralang~="pal-x-turfan"] > tei|lang:empty {-oxy-append-content: ", пехл. турф.";}
 :lang(paq) > tei|lang:empty {content: "парья";}
+tei|lang[xml|lang="paq"]:empty {content: "парья";}
 *[extralang~="paq"] > tei|lang:empty {-oxy-append-content: ", парья";}
 :lang(peo) > tei|lang:empty {content: "др.перс.";}
+tei|lang[xml|lang="peo"]:empty {content: "др.перс.";}
 *[extralang~="peo"] > tei|lang:empty {-oxy-append-content: ", др.перс.";}
 :lang(pgd) > tei|lang:empty {content: "кхарошти";}
+tei|lang[xml|lang="pgd"]:empty {content: "кхарошти";}
 *[extralang~="pgd"] > tei|lang:empty {-oxy-append-content: ", кхарошти";}
 :lang(pi) > tei|lang:empty {content: "пали";}
+tei|lang[xml|lang="pi"]:empty {content: "пали";}
 *[extralang~="pi"] > tei|lang:empty {-oxy-append-content: ", пали";}
 :lang(pl) > tei|lang:empty {content: "пол.";}
+tei|lang[xml|lang="pl"]:empty {content: "пол.";}
 *[extralang~="pl"] > tei|lang:empty {-oxy-append-content: ", пол.";}
 :lang(pl-x-old) > tei|lang:empty {content: "старопол.";}
+tei|lang[xml|lang="pl-x-old"]:empty {content: "старопол.";}
 *[extralang~="pl-x-old"] > tei|lang:empty {-oxy-append-content: ", старопол.";}
 :lang(pox) > tei|lang:empty {content: "полабский";}
+tei|lang[xml|lang="pox"]:empty {content: "полабский";}
 *[extralang~="pox"] > tei|lang:empty {-oxy-append-content: ", полабский";}
 :lang(pra) > tei|lang:empty {content: "пракрит.";}
+tei|lang[xml|lang="pra"]:empty {content: "пракрит.";}
 *[extralang~="pra"] > tei|lang:empty {-oxy-append-content: ", пракрит.";}
 :lang(prc) > tei|lang:empty {content: "пар.";}
+tei|lang[xml|lang="prc"]:empty {content: "пар.";}
 *[extralang~="prc"] > tei|lang:empty {-oxy-append-content: ", пар.";}
 :lang(prg) > tei|lang:empty {content: "др.прусс.";}
+tei|lang[xml|lang="prg"]:empty {content: "др.прусс.";}
 *[extralang~="prg"] > tei|lang:empty {-oxy-append-content: ", др.прусс.";}
 :lang(prn) > tei|lang:empty {content: "прасунск.";}
+tei|lang[xml|lang="prn"]:empty {content: "прасунск.";}
 *[extralang~="prn"] > tei|lang:empty {-oxy-append-content: ", прасунск.";}
 :lang(prs) > tei|lang:empty {content: "тадж. (кабули)";}
+tei|lang[xml|lang="prs"]:empty {content: "тадж. (кабули)";}
 *[extralang~="prs"] > tei|lang:empty {-oxy-append-content: ", тадж. (кабули)";}
 :lang(ps) > tei|lang:empty {content: "афг.";}
+tei|lang[xml|lang="ps"]:empty {content: "афг.";}
 *[extralang~="ps"] > tei|lang:empty {-oxy-append-content: ", афг.";}
 :lang(psh) > tei|lang:empty {content: "пашан";}
+tei|lang[xml|lang="psh"]:empty {content: "пашан";}
 *[extralang~="psh"] > tei|lang:empty {-oxy-append-content: ", пашан";}
 :lang(pt) > tei|lang:empty {content: "порт.";}
+tei|lang[xml|lang="pt"]:empty {content: "порт.";}
 *[extralang~="pt"] > tei|lang:empty {-oxy-append-content: ", порт.";}
 :lang(qwm) > tei|lang:empty {content: "куман.";}
+tei|lang[xml|lang="qwm"]:empty {content: "куман.";}
 *[extralang~="qwm"] > tei|lang:empty {-oxy-append-content: ", куман.";}
 :lang(ro) > tei|lang:empty {content: "рум.";}
+tei|lang[xml|lang="ro"]:empty {content: "рум.";}
 *[extralang~="ro"] > tei|lang:empty {-oxy-append-content: ", рум.";}
 :lang(rom) > tei|lang:empty {content: "цыг.";}
+tei|lang[xml|lang="rom"]:empty {content: "цыг.";}
 *[extralang~="rom"] > tei|lang:empty {-oxy-append-content: ", цыг.";}
 :lang(ru) > tei|lang:empty {content: "русск.";}
+tei|lang[xml|lang="ru"]:empty {content: "русск.";}
 *[extralang~="ru"] > tei|lang:empty {-oxy-append-content: ", русск.";}
 :lang(ru-x-argot) > tei|lang:empty {content: "русск. (арго)";}
+tei|lang[xml|lang="ru-x-argot"]:empty {content: "русск. (арго)";}
 *[extralang~="ru-x-argot"] > tei|lang:empty {-oxy-append-content: ", русск. (арго)";}
 :lang(ru-x-arkh) > tei|lang:empty {content: "русск. (арх.)";}
+tei|lang[xml|lang="ru-x-arkh"]:empty {content: "русск. (арх.)";}
 *[extralang~="ru-x-arkh"] > tei|lang:empty {-oxy-append-content: ", русск. (арх.)";}
 :lang(ru-x-astr) > tei|lang:empty {content: "русск. (астрах.)";}
+tei|lang[xml|lang="ru-x-astr"]:empty {content: "русск. (астрах.)";}
 *[extralang~="ru-x-astr"] > tei|lang:empty {-oxy-append-content: ", русск. (астрах.)";}
 :lang(ru-x-dial) > tei|lang:empty {content: "русск. (диал.)";}
+tei|lang[xml|lang="ru-x-dial"]:empty {content: "русск. (диал.)";}
 *[extralang~="ru-x-dial"] > tei|lang:empty {-oxy-append-content: ", русск. (диал.)";}
 :lang(ru-x-don) > tei|lang:empty {content: "русск. (донской говор)";}
+tei|lang[xml|lang="ru-x-don"]:empty {content: "русск. (донской говор)";}
 *[extralang~="ru-x-don"] > tei|lang:empty {-oxy-append-content: ", русск. (донской говор)";}
+:lang(ru-x-kstr) > tei|lang:empty {content: "русск. (кстр.)";}
+tei|lang[xml|lang="ru-x-kstr"]:empty {content: "русск. (кстр.)";}
+*[extralang~="ru-x-kstr"] > tei|lang:empty {-oxy-append-content: ", русск. (кстр.)";}
 :lang(ru-x-novg) > tei|lang:empty {content: "русск. (новг.)";}
+tei|lang[xml|lang="ru-x-novg"]:empty {content: "русск. (новг.)";}
 *[extralang~="ru-x-novg"] > tei|lang:empty {-oxy-append-content: ", русск. (новг.)";}
 :lang(ru-x-sib) > tei|lang:empty {content: "русск. (сиб.)";}
+tei|lang[xml|lang="ru-x-sib"]:empty {content: "русск. (сиб.)";}
 *[extralang~="ru-x-sib"] > tei|lang:empty {-oxy-append-content: ", русск. (сиб.)";}
 :lang(ru-x-smlnsk) > tei|lang:empty {content: "русск. (смол.)";}
+tei|lang[xml|lang="ru-x-smlnsk"]:empty {content: "русск. (смол.)";}
 *[extralang~="ru-x-smlnsk"] > tei|lang:empty {-oxy-append-content: ", русск. (смол.)";}
 :lang(ru-x-south) > tei|lang:empty {content: "русск. (южн. диал.)";}
+tei|lang[xml|lang="ru-x-south"]:empty {content: "русск. (южн. диал.)";}
 *[extralang~="ru-x-south"] > tei|lang:empty {-oxy-append-content: ", русск. (южн. диал.)";}
+:lang(ru-x-tvr) > tei|lang:empty {content: "русск. (твер.)";}
+tei|lang[xml|lang="ru-x-tvr"]:empty {content: "русск. (твер.)";}
+*[extralang~="ru-x-tvr"] > tei|lang:empty {-oxy-append-content: ", русск. (твер.)";}
 :lang(ru-x-vldmr) > tei|lang:empty {content: "русск. (влад.)";}
+tei|lang[xml|lang="ru-x-vldmr"]:empty {content: "русск. (влад.)";}
 *[extralang~="ru-x-vldmr"] > tei|lang:empty {-oxy-append-content: ", русск. (влад.)";}
 :lang(ru-x-west) > tei|lang:empty {content: "русск. (зап. диал.)";}
+tei|lang[xml|lang="ru-x-west"]:empty {content: "русск. (зап. диал.)";}
 *[extralang~="ru-x-west"] > tei|lang:empty {-oxy-append-content: ", русск. (зап. диал.)";}
 :lang(rut) > tei|lang:empty {content: "рутул.";}
+tei|lang[xml|lang="rut"]:empty {content: "рутул.";}
 *[extralang~="rut"] > tei|lang:empty {-oxy-append-content: ", рутул.";}
 :lang(sa) > tei|lang:empty {content: "скр.";}
+tei|lang[xml|lang="sa"]:empty {content: "скр.";}
 *[extralang~="sa"] > tei|lang:empty {-oxy-append-content: ", скр.";}
 :lang(sa-bauddha) > tei|lang:empty {content: "др.инд. (будд.)";}
+tei|lang[xml|lang="sa-bauddha"]:empty {content: "др.инд. (будд.)";}
 *[extralang~="sa-bauddha"] > tei|lang:empty {-oxy-append-content: ", др.инд. (будд.)";}
 :lang(sa-vaidika) > tei|lang:empty {content: "вед.";}
+tei|lang[xml|lang="sa-vaidika"]:empty {content: "вед.";}
 *[extralang~="sa-vaidika"] > tei|lang:empty {-oxy-append-content: ", вед.";}
 :lang(sah) > tei|lang:empty {content: "якут.";}
+tei|lang[xml|lang="sah"]:empty {content: "якут.";}
 *[extralang~="sah"] > tei|lang:empty {-oxy-append-content: ", якут.";}
 :lang(sbv) > tei|lang:empty {content: "саб.";}
+tei|lang[xml|lang="sbv"]:empty {content: "саб.";}
 *[extralang~="sbv"] > tei|lang:empty {-oxy-append-content: ", саб.";}
 :lang(sel) > tei|lang:empty {content: "селькуп.";}
+tei|lang[xml|lang="sel"]:empty {content: "селькуп.";}
 *[extralang~="sel"] > tei|lang:empty {-oxy-append-content: ", селькуп.";}
 :lang(sem) > tei|lang:empty {content: "семит.";}
+tei|lang[xml|lang="sem"]:empty {content: "семит.";}
 *[extralang~="sem"] > tei|lang:empty {-oxy-append-content: ", семит.";}
 :lang(sga) > tei|lang:empty {content: "др.ирл.";}
+tei|lang[xml|lang="sga"]:empty {content: "др.ирл.";}
 *[extralang~="sga"] > tei|lang:empty {-oxy-append-content: ", др.ирл.";}
 :lang(sgh) > tei|lang:empty {content: "пам. ш.";}
+tei|lang[xml|lang="sgh"]:empty {content: "пам. ш.";}
 *[extralang~="sgh"] > tei|lang:empty {-oxy-append-content: ", пам. ш.";}
 :lang(sgh-x-bartang) > tei|lang:empty {content: "пам. барт.";}
+tei|lang[xml|lang="sgh-x-bartang"]:empty {content: "пам. барт.";}
 *[extralang~="sgh-x-bartang"] > tei|lang:empty {-oxy-append-content: ", пам. барт.";}
 :lang(sgh-x-khufi) > tei|lang:empty {content: "хуф.";}
+tei|lang[xml|lang="sgh-x-khufi"]:empty {content: "хуф.";}
 *[extralang~="sgh-x-khufi"] > tei|lang:empty {-oxy-append-content: ", хуф.";}
 :lang(sgh-x-oroshori) > tei|lang:empty {content: "пам. ор.";}
+tei|lang[xml|lang="sgh-x-oroshori"]:empty {content: "пам. ор.";}
 *[extralang~="sgh-x-oroshori"] > tei|lang:empty {-oxy-append-content: ", пам. ор.";}
 :lang(sgr) > tei|lang:empty {content: "сангисарское";}
+tei|lang[xml|lang="sgr"]:empty {content: "сангисарское";}
 *[extralang~="sgr"] > tei|lang:empty {-oxy-append-content: ", сангисарское";}
 :lang(sgy) > tei|lang:empty {content: "пам. сгл.";}
+tei|lang[xml|lang="sgy"]:empty {content: "пам. сгл.";}
 *[extralang~="sgy"] > tei|lang:empty {-oxy-append-content: ", пам. сгл.";}
 :lang(sgy-x-zebak) > tei|lang:empty {content: "пам. зеб.";}
+tei|lang[xml|lang="sgy-x-zebak"]:empty {content: "пам. зеб.";}
 *[extralang~="sgy-x-zebak"] > tei|lang:empty {-oxy-append-content: ", пам. зеб.";}
 :lang(sh) > tei|lang:empty {content: "сербо-хорв.";}
+tei|lang[xml|lang="sh"]:empty {content: "сербо-хорв.";}
 *[extralang~="sh"] > tei|lang:empty {-oxy-append-content: ", сербо-хорв.";}
 :lang(si) > tei|lang:empty {content: "синг.";}
+tei|lang[xml|lang="si"]:empty {content: "синг.";}
 *[extralang~="si"] > tei|lang:empty {-oxy-append-content: ", синг.";}
 :lang(sk) > tei|lang:empty {content: "словац.";}
+tei|lang[xml|lang="sk"]:empty {content: "словац.";}
 *[extralang~="sk"] > tei|lang:empty {-oxy-append-content: ", словац.";}
 :lang(sl) > tei|lang:empty {content: "слов.";}
+tei|lang[xml|lang="sl"]:empty {content: "слов.";}
 *[extralang~="sl"] > tei|lang:empty {-oxy-append-content: ", слов.";}
 :lang(sla) > tei|lang:empty {content: "слав.";}
+tei|lang[xml|lang="sla"]:empty {content: "слав.";}
 *[extralang~="sla"] > tei|lang:empty {-oxy-append-content: ", слав.";}
 :lang(smi) > tei|lang:empty {content: "лопар.";}
+tei|lang[xml|lang="smi"]:empty {content: "лопар.";}
 *[extralang~="smi"] > tei|lang:empty {-oxy-append-content: ", лопар.";}
 :lang(smi-x-sm) > tei|lang:empty {content: "саам.";}
+tei|lang[xml|lang="smi-x-sm"]:empty {content: "саам.";}
 *[extralang~="smi-x-sm"] > tei|lang:empty {-oxy-append-content: ", саам.";}
 :lang(smy) > tei|lang:empty {content: "семнан.";}
+tei|lang[xml|lang="smy"]:empty {content: "семнан.";}
 *[extralang~="smy"] > tei|lang:empty {-oxy-append-content: ", семнан.";}
 :lang(sog) > tei|lang:empty {content: "согд.";}
+tei|lang[xml|lang="sog"]:empty {content: "согд.";}
 *[extralang~="sog"] > tei|lang:empty {-oxy-append-content: ", согд.";}
 :lang(sog-x-budd) > tei|lang:empty {content: "согд. будд.";}
+tei|lang[xml|lang="sog-x-budd"]:empty {content: "согд. будд.";}
 *[extralang~="sog-x-budd"] > tei|lang:empty {-oxy-append-content: ", согд. будд.";}
 :lang(sog-x-chr) > tei|lang:empty {content: "согд. христ.";}
+tei|lang[xml|lang="sog-x-chr"]:empty {content: "согд. христ.";}
 *[extralang~="sog-x-chr"] > tei|lang:empty {-oxy-append-content: ", согд. христ.";}
 :lang(sog-x-man) > tei|lang:empty {content: "согд. ман.";}
+tei|lang[xml|lang="sog-x-man"]:empty {content: "согд. ман.";}
 *[extralang~="sog-x-man"] > tei|lang:empty {-oxy-append-content: ", согд. ман.";}
 :lang(sog-x-mugh) > tei|lang:empty {content: "согд. (Муг)";}
+tei|lang[xml|lang="sog-x-mugh"]:empty {content: "согд. (Муг)";}
 *[extralang~="sog-x-mugh"] > tei|lang:empty {-oxy-append-content: ", согд. (Муг)";}
 :lang(sqj) > tei|lang:empty {content: "алб.";}
+tei|lang[xml|lang="sqj"]:empty {content: "алб.";}
 *[extralang~="sqj"] > tei|lang:empty {-oxy-append-content: ", алб.";}
 :lang(sr) > tei|lang:empty {content: "серб.";}
+tei|lang[xml|lang="sr"]:empty {content: "серб.";}
 *[extralang~="sr"] > tei|lang:empty {-oxy-append-content: ", серб.";}
 :lang(srh) > tei|lang:empty {content: "пам. с.";}
+tei|lang[xml|lang="srh"]:empty {content: "пам. с.";}
 *[extralang~="srh"] > tei|lang:empty {-oxy-append-content: ", пам. с.";}
 :lang(sty) > tei|lang:empty {content: "тобол.";}
+tei|lang[xml|lang="sty"]:empty {content: "тобол.";}
 *[extralang~="sty"] > tei|lang:empty {-oxy-append-content: ", тобол.";}
 :lang(sty-x-brb) > tei|lang:empty {content: "барабин.";}
+tei|lang[xml|lang="sty-x-brb"]:empty {content: "барабин.";}
 *[extralang~="sty-x-brb"] > tei|lang:empty {-oxy-append-content: ", барабин.";}
 :lang(sux) > tei|lang:empty {content: "шумер.";}
+tei|lang[xml|lang="sux"]:empty {content: "шумер.";}
 *[extralang~="sux"] > tei|lang:empty {-oxy-append-content: ", шумер.";}
 :lang(sv) > tei|lang:empty {content: "швед.";}
+tei|lang[xml|lang="sv"]:empty {content: "швед.";}
 *[extralang~="sv"] > tei|lang:empty {-oxy-append-content: ", швед.";}
 :lang(sv-x-dial) > tei|lang:empty {content: "швед. (диал.)";}
+tei|lang[xml|lang="sv-x-dial"]:empty {content: "швед. (диал.)";}
 *[extralang~="sv-x-dial"] > tei|lang:empty {-oxy-append-content: ", швед. (диал.)";}
 :lang(sva) > tei|lang:empty {content: "сван.";}
+tei|lang[xml|lang="sva"]:empty {content: "сван.";}
 *[extralang~="sva"] > tei|lang:empty {-oxy-append-content: ", сван.";}
 :lang(syd) > tei|lang:empty {content: "самодийское";}
+tei|lang[xml|lang="syd"]:empty {content: "самодийское";}
 *[extralang~="syd"] > tei|lang:empty {-oxy-append-content: ", самодийское";}
 :lang(syd-x-south) > tei|lang:empty {content: "южносамодийское";}
+tei|lang[xml|lang="syd-x-south"]:empty {content: "южносамодийское";}
 *[extralang~="syd-x-south"] > tei|lang:empty {-oxy-append-content: ", южносамодийское";}
 :lang(syr) > tei|lang:empty {content: "сир.";}
+tei|lang[xml|lang="syr"]:empty {content: "сир.";}
 *[extralang~="syr"] > tei|lang:empty {-oxy-append-content: ", сир.";}
 :lang(ta) > tei|lang:empty {content: "тамил.";}
+tei|lang[xml|lang="ta"]:empty {content: "тамил.";}
 *[extralang~="ta"] > tei|lang:empty {-oxy-append-content: ", тамил.";}
 :lang(tab) > tei|lang:empty {content: "табас.";}
+tei|lang[xml|lang="tab"]:empty {content: "табас.";}
 *[extralang~="tab"] > tei|lang:empty {-oxy-append-content: ", табас.";}
 :lang(tg) > tei|lang:empty {content: "тадж.";}
+tei|lang[xml|lang="tg"]:empty {content: "тадж.";}
 *[extralang~="tg"] > tei|lang:empty {-oxy-append-content: ", тадж.";}
 :lang(tg-x-dial) > tei|lang:empty {content: "тадж. (диал.)";}
+tei|lang[xml|lang="tg-x-dial"]:empty {content: "тадж. (диал.)";}
 *[extralang~="tg-x-dial"] > tei|lang:empty {-oxy-append-content: ", тадж. (диал.)";}
 :lang(tg-x-qrtg) > tei|lang:empty {content: "тадж. (каратег.)";}
+tei|lang[xml|lang="tg-x-qrtg"]:empty {content: "тадж. (каратег.)";}
 *[extralang~="tg-x-qrtg"] > tei|lang:empty {-oxy-append-content: ", тадж. (каратег.)";}
 :lang(tg-x-se) > tei|lang:empty {content: "тадж. (юго-восточные говоры)";}
+tei|lang[xml|lang="tg-x-se"]:empty {content: "тадж. (юго-восточные говоры)";}
 *[extralang~="tg-x-se"] > tei|lang:empty {-oxy-append-content: ", тадж. (юго-восточные говоры)";}
 :lang(tg-x-vanj) > tei|lang:empty {content: "тадж. (вандж.)";}
+tei|lang[xml|lang="tg-x-vanj"]:empty {content: "тадж. (вандж.)";}
 *[extralang~="tg-x-vanj"] > tei|lang:empty {-oxy-append-content: ", тадж. (вандж.)";}
 :lang(tin) > tei|lang:empty {content: "тинд.";}
+tei|lang[xml|lang="tin"]:empty {content: "тинд.";}
 *[extralang~="tin"] > tei|lang:empty {-oxy-append-content: ", тинд.";}
 :lang(tk) > tei|lang:empty {content: "туркм.";}
+tei|lang[xml|lang="tk"]:empty {content: "туркм.";}
 *[extralang~="tk"] > tei|lang:empty {-oxy-append-content: ", туркм.";}
 :lang(tkr) > tei|lang:empty {content: "цахур.";}
+tei|lang[xml|lang="tkr"]:empty {content: "цахур.";}
 *[extralang~="tkr"] > tei|lang:empty {-oxy-append-content: ", цахур.";}
 :lang(tly) > tei|lang:empty {content: "тал.";}
+tei|lang[xml|lang="tly"]:empty {content: "тал.";}
 *[extralang~="tly"] > tei|lang:empty {-oxy-append-content: ", тал.";}
 :lang(tr) > tei|lang:empty {content: "тур.";}
+tei|lang[xml|lang="tr"]:empty {content: "тур.";}
 *[extralang~="tr"] > tei|lang:empty {-oxy-append-content: ", тур.";}
 :lang(tr-x-anat) > tei|lang:empty {content: "анат.";}
+tei|lang[xml|lang="tr-x-anat"]:empty {content: "анат.";}
 *[extralang~="tr-x-anat"] > tei|lang:empty {-oxy-append-content: ", анат.";}
 :lang(tr-x-dial) > tei|lang:empty {content: "тур. (диал.)";}
+tei|lang[xml|lang="tr-x-dial"]:empty {content: "тур. (диал.)";}
 *[extralang~="tr-x-dial"] > tei|lang:empty {-oxy-append-content: ", тур. (диал.)";}
 :lang(trk) > tei|lang:empty {content: "тюрк.";}
+tei|lang[xml|lang="trk"]:empty {content: "тюрк.";}
 *[extralang~="trk"] > tei|lang:empty {-oxy-append-content: ", тюрк.";}
 :lang(trk-x-east) > tei|lang:empty {content: "восточнотюрк.";}
+tei|lang[xml|lang="trk-x-east"]:empty {content: "восточнотюрк.";}
 *[extralang~="trk-x-east"] > tei|lang:empty {-oxy-append-content: ", восточнотюрк.";}
 :lang(trk-x-mid) > tei|lang:empty {content: "среднетюрк.";}
+tei|lang[xml|lang="trk-x-mid"]:empty {content: "среднетюрк.";}
 *[extralang~="trk-x-mid"] > tei|lang:empty {-oxy-append-content: ", среднетюрк.";}
 :lang(trk-x-north) > tei|lang:empty {content: "сев. тюрк.";}
+tei|lang[xml|lang="trk-x-north"]:empty {content: "сев. тюрк.";}
 *[extralang~="trk-x-north"] > tei|lang:empty {-oxy-append-content: ", сев. тюрк.";}
 :lang(tt) > tei|lang:empty {content: "татар.";}
+tei|lang[xml|lang="tt"]:empty {content: "татар.";}
 *[extralang~="tt"] > tei|lang:empty {-oxy-append-content: ", татар.";}
 :lang(tt-x-dial) > tei|lang:empty {content: "татар. (диал.)";}
+tei|lang[xml|lang="tt-x-dial"]:empty {content: "татар. (диал.)";}
 *[extralang~="tt-x-dial"] > tei|lang:empty {-oxy-append-content: ", татар. (диал.)";}
 :lang(tt-x-kazan) > tei|lang:empty {content: "казан.";}
+tei|lang[xml|lang="tt-x-kazan"]:empty {content: "казан.";}
 *[extralang~="tt-x-kazan"] > tei|lang:empty {-oxy-append-content: ", казан.";}
 :lang(ttt) > tei|lang:empty {content: "татск.";}
+tei|lang[xml|lang="ttt"]:empty {content: "татск.";}
 *[extralang~="ttt"] > tei|lang:empty {-oxy-append-content: ", татск.";}
 :lang(txb) > tei|lang:empty {content: "тохар. B";}
+tei|lang[xml|lang="txb"]:empty {content: "тохар. B";}
 *[extralang~="txb"] > tei|lang:empty {-oxy-append-content: ", тохар. B";}
 :lang(txh) > tei|lang:empty {content: "фрак.";}
+tei|lang[xml|lang="txh"]:empty {content: "фрак.";}
 *[extralang~="txh"] > tei|lang:empty {-oxy-append-content: ", фрак.";}
 :lang(uby) > tei|lang:empty {content: "убых.";}
+tei|lang[xml|lang="uby"]:empty {content: "убых.";}
 *[extralang~="uby"] > tei|lang:empty {-oxy-append-content: ", убых.";}
 :lang(udi) > tei|lang:empty {content: "удин.";}
+tei|lang[xml|lang="udi"]:empty {content: "удин.";}
 *[extralang~="udi"] > tei|lang:empty {-oxy-append-content: ", удин.";}
 :lang(udm) > tei|lang:empty {content: "удм.";}
+tei|lang[xml|lang="udm"]:empty {content: "удм.";}
 *[extralang~="udm"] > tei|lang:empty {-oxy-append-content: ", удм.";}
 :lang(ug) > tei|lang:empty {content: "уйгур.";}
+tei|lang[xml|lang="ug"]:empty {content: "уйгур.";}
 *[extralang~="ug"] > tei|lang:empty {-oxy-append-content: ", уйгур.";}
 :lang(ug-x-kashgar) > tei|lang:empty {content: "кашг.";}
+tei|lang[xml|lang="ug-x-kashgar"]:empty {content: "кашг.";}
 *[extralang~="ug-x-kashgar"] > tei|lang:empty {-oxy-append-content: ", кашг.";}
 :lang(uk) > tei|lang:empty {content: "укр.";}
+tei|lang[xml|lang="uk"]:empty {content: "укр.";}
 *[extralang~="uk"] > tei|lang:empty {-oxy-append-content: ", укр.";}
 :lang(uk-x-gal) > tei|lang:empty {content: "укр. (галиц.)";}
+tei|lang[xml|lang="uk-x-gal"]:empty {content: "укр. (галиц.)";}
 *[extralang~="uk-x-gal"] > tei|lang:empty {-oxy-append-content: ", укр. (галиц.)";}
 :lang(uk-x-west) > tei|lang:empty {content: "укр. (зап.)";}
+tei|lang[xml|lang="uk-x-west"]:empty {content: "укр. (зап.)";}
 *[extralang~="uk-x-west"] > tei|lang:empty {-oxy-append-content: ", укр. (зап.)";}
 :lang(ur) > tei|lang:empty {content: "урду";}
+tei|lang[xml|lang="ur"]:empty {content: "урду";}
 *[extralang~="ur"] > tei|lang:empty {-oxy-append-content: ", урду";}
 :lang(uz) > tei|lang:empty {content: "узб.";}
+tei|lang[xml|lang="uz"]:empty {content: "узб.";}
 *[extralang~="uz"] > tei|lang:empty {-oxy-append-content: ", узб.";}
 :lang(vep) > tei|lang:empty {content: "вепс.";}
+tei|lang[xml|lang="vep"]:empty {content: "вепс.";}
 *[extralang~="vep"] > tei|lang:empty {-oxy-append-content: ", вепс.";}
 :lang(wbl) > tei|lang:empty {content: "пам. в.";}
+tei|lang[xml|lang="wbl"]:empty {content: "пам. в.";}
 *[extralang~="wbl"] > tei|lang:empty {-oxy-append-content: ", пам. в.";}
 :lang(wen) > tei|lang:empty {content: "луж.";}
+tei|lang[xml|lang="wen"]:empty {content: "луж.";}
 *[extralang~="wen"] > tei|lang:empty {-oxy-append-content: ", луж.";}
 :lang(wep) > tei|lang:empty {content: "нем. (вестф.)";}
+tei|lang[xml|lang="wep"]:empty {content: "нем. (вестф.)";}
 *[extralang~="wep"] > tei|lang:empty {-oxy-append-content: ", нем. (вестф.)";}
 :lang(wne) > tei|lang:empty {content: "ванеци";}
+tei|lang[xml|lang="wne"]:empty {content: "ванеци";}
 *[extralang~="wne"] > tei|lang:empty {-oxy-append-content: ", ванеци";}
 :lang(wsv) > tei|lang:empty {content: "вотапурско-катаркалайское";}
+tei|lang[xml|lang="wsv"]:empty {content: "вотапурско-катаркалайское";}
 *[extralang~="wsv"] > tei|lang:empty {-oxy-append-content: ", вотапурско-катаркалайское";}
 :lang(x-balochi) > tei|lang:empty {content: "бел.";}
+tei|lang[xml|lang="x-balochi"]:empty {content: "бел.";}
 *[extralang~="x-balochi"] > tei|lang:empty {-oxy-append-content: ", бел.";}
 :lang(x-barakai) > tei|lang:empty {content: "варакаи";}
+tei|lang[xml|lang="x-barakai"]:empty {content: "варакаи";}
 *[extralang~="x-barakai"] > tei|lang:empty {-oxy-append-content: ", варакаи";}
 :lang(x-dardic) > tei|lang:empty {content: "дард.";}
+tei|lang[xml|lang="x-dardic"]:empty {content: "дард.";}
 *[extralang~="x-dardic"] > tei|lang:empty {-oxy-append-content: ", дард.";}
 :lang(x-mordvin) > tei|lang:empty {content: "морд.";}
+tei|lang[xml|lang="x-mordvin"]:empty {content: "морд.";}
 *[extralang~="x-mordvin"] > tei|lang:empty {-oxy-append-content: ", морд.";}
 :lang(x-nuristan) > tei|lang:empty {content: "кафир.";}
+tei|lang[xml|lang="x-nuristan"]:empty {content: "кафир.";}
 *[extralang~="x-nuristan"] > tei|lang:empty {-oxy-append-content: ", кафир.";}
 :lang(x-oldirn) > tei|lang:empty {content: "др.иран.";}
+tei|lang[xml|lang="x-oldirn"]:empty {content: "др.иран.";}
 *[extralang~="x-oldirn"] > tei|lang:empty {-oxy-append-content: ", др.иран.";}
 :lang(x-oldsl) > tei|lang:empty {content: "др.слав.";}
+tei|lang[xml|lang="x-oldsl"]:empty {content: "др.слав.";}
 *[extralang~="x-oldsl"] > tei|lang:empty {-oxy-append-content: ", др.слав.";}
 :lang(x-pamir) > tei|lang:empty {content: "пам.";}
+tei|lang[xml|lang="x-pamir"]:empty {content: "пам.";}
 *[extralang~="x-pamir"] > tei|lang:empty {-oxy-append-content: ", пам.";}
 :lang(x-pamir-n) > tei|lang:empty {content: "пам. н.??";}
+tei|lang[xml|lang="x-pamir-n"]:empty {content: "пам. н.??";}
 *[extralang~="x-pamir-n"] > tei|lang:empty {-oxy-append-content: ", пам. н.??";}
 :lang(x-rushani) > tei|lang:empty {content: "пам. руш.";}
+tei|lang[xml|lang="x-rushani"]:empty {content: "пам. руш.";}
 *[extralang~="x-rushani"] > tei|lang:empty {-oxy-append-content: ", пам. руш.";}
 :lang(x-sarm) > tei|lang:empty {content: "сарм.";}
+tei|lang[xml|lang="x-sarm"]:empty {content: "сарм.";}
 *[extralang~="x-sarm"] > tei|lang:empty {-oxy-append-content: ", сарм.";}
 :lang(x-tchr) > tei|lang:empty {content: "тохар.";}
+tei|lang[xml|lang="x-tchr"]:empty {content: "тохар.";}
 *[extralang~="x-tchr"] > tei|lang:empty {-oxy-append-content: ", тохар.";}
 :lang(x-vaynakh) > tei|lang:empty {content: "вейнах.";}
+tei|lang[xml|lang="x-vaynakh"]:empty {content: "вейнах.";}
 *[extralang~="x-vaynakh"] > tei|lang:empty {-oxy-append-content: ", вейнах.";}
 :lang(xal) > tei|lang:empty {content: "калм.";}
+tei|lang[xml|lang="xal"]:empty {content: "калм.";}
 *[extralang~="xal"] > tei|lang:empty {-oxy-append-content: ", калм.";}
 :lang(xbc) > tei|lang:empty {content: "кушан.";}
+tei|lang[xml|lang="xbc"]:empty {content: "кушан.";}
 *[extralang~="xbc"] > tei|lang:empty {-oxy-append-content: ", кушан.";}
 :lang(xbo) > tei|lang:empty {content: "булг.";}
+tei|lang[xml|lang="xbo"]:empty {content: "булг.";}
 *[extralang~="xbo"] > tei|lang:empty {-oxy-append-content: ", булг.";}
 :lang(xcl) > tei|lang:empty {content: "арм.";}
+tei|lang[xml|lang="xcl"]:empty {content: "арм.";}
 *[extralang~="xcl"] > tei|lang:empty {-oxy-append-content: ", арм.";}
 :lang(xco) > tei|lang:empty {content: "хорезм.";}
+tei|lang[xml|lang="xco"]:empty {content: "хорезм.";}
 *[extralang~="xco"] > tei|lang:empty {-oxy-append-content: ", хорезм.";}
 :lang(xco-x-late) > tei|lang:empty {content: "позднехорезм.";}
+tei|lang[xml|lang="xco-x-late"]:empty {content: "позднехорезм.";}
 *[extralang~="xco-x-late"] > tei|lang:empty {-oxy-append-content: ", позднехорезм.";}
 :lang(xhu) > tei|lang:empty {content: "хурр.";}
+tei|lang[xml|lang="xhu"]:empty {content: "хурр.";}
 *[extralang~="xhu"] > tei|lang:empty {-oxy-append-content: ", хурр.";}
 :lang(xld) > tei|lang:empty {content: "лид.";}
+tei|lang[xml|lang="xld"]:empty {content: "лид.";}
 *[extralang~="xld"] > tei|lang:empty {-oxy-append-content: ", лид.";}
 :lang(xln) > tei|lang:empty {content: "алан.";}
+tei|lang[xml|lang="xln"]:empty {content: "алан.";}
 *[extralang~="xln"] > tei|lang:empty {-oxy-append-content: ", алан.";}
 :lang(xlu) > tei|lang:empty {content: "лув.";}
+tei|lang[xml|lang="xlu"]:empty {content: "лув.";}
 *[extralang~="xlu"] > tei|lang:empty {-oxy-append-content: ", лув.";}
 :lang(xme) > tei|lang:empty {content: "мид.";}
+tei|lang[xml|lang="xme"]:empty {content: "мид.";}
 *[extralang~="xme"] > tei|lang:empty {-oxy-append-content: ", мид.";}
 :lang(xmf) > tei|lang:empty {content: "мегр.";}
+tei|lang[xml|lang="xmf"]:empty {content: "мегр.";}
 *[extralang~="xmf"] > tei|lang:empty {-oxy-append-content: ", мегр.";}
 :lang(xmn) > tei|lang:empty {content: "пехл. (маних.)";}
+tei|lang[xml|lang="xmn"]:empty {content: "пехл. (маних.)";}
 *[extralang~="xmn"] > tei|lang:empty {-oxy-append-content: ", пехл. (маних.)";}
 :lang(xpg) > tei|lang:empty {content: "фриг.";}
+tei|lang[xml|lang="xpg"]:empty {content: "фриг.";}
 *[extralang~="xpg"] > tei|lang:empty {-oxy-append-content: ", фриг.";}
 :lang(xpr) > tei|lang:empty {content: "парф.";}
+tei|lang[xml|lang="xpr"]:empty {content: "парф.";}
 *[extralang~="xpr"] > tei|lang:empty {-oxy-append-content: ", парф.";}
 :lang(xsc) > tei|lang:empty {content: "скиф.";}
+tei|lang[xml|lang="xsc"]:empty {content: "скиф.";}
 *[extralang~="xsc"] > tei|lang:empty {-oxy-append-content: ", скиф.";}
 :lang(xtg) > tei|lang:empty {content: "галл.";}
+tei|lang[xml|lang="xtg"]:empty {content: "галл.";}
 *[extralang~="xtg"] > tei|lang:empty {-oxy-append-content: ", галл.";}
 :lang(xto) > tei|lang:empty {content: "тохар. A";}
+tei|lang[xml|lang="xto"]:empty {content: "тохар. A";}
 *[extralang~="xto"] > tei|lang:empty {-oxy-append-content: ", тохар. A";}
 :lang(xtq) > tei|lang:empty {content: "сак. (Тумшук)";}
+tei|lang[xml|lang="xtq"]:empty {content: "сак. (Тумшук)";}
 *[extralang~="xtq"] > tei|lang:empty {-oxy-append-content: ", сак. (Тумшук)";}
 :lang(xum) > tei|lang:empty {content: "умбр.";}
+tei|lang[xml|lang="xum"]:empty {content: "умбр.";}
 *[extralang~="xum"] > tei|lang:empty {-oxy-append-content: ", умбр.";}
 :lang(yah) > tei|lang:empty {content: "пам. язг.";}
+tei|lang[xml|lang="yah"]:empty {content: "пам. язг.";}
 *[extralang~="yah"] > tei|lang:empty {-oxy-append-content: ", пам. язг.";}
 :lang(yai) > tei|lang:empty {content: "ягн.";}
+tei|lang[xml|lang="yai"]:empty {content: "ягн.";}
 *[extralang~="yai"] > tei|lang:empty {-oxy-append-content: ", ягн.";}
 :lang(ydg) > tei|lang:empty {content: "пам. и.";}
+tei|lang[xml|lang="ydg"]:empty {content: "пам. и.";}
 *[extralang~="ydg"] > tei|lang:empty {-oxy-append-content: ", пам. и.";}
 :lang(yrk) > tei|lang:empty {content: "нен.";}
+tei|lang[xml|lang="yrk"]:empty {content: "нен.";}
 *[extralang~="yrk"] > tei|lang:empty {-oxy-append-content: ", нен.";}
 :lang(ysc) > tei|lang:empty {content: "ясск.";}
+tei|lang[xml|lang="ysc"]:empty {content: "ясск.";}
 *[extralang~="ysc"] > tei|lang:empty {-oxy-append-content: ", ясск.";}
 :lang(zh) > tei|lang:empty {content: "кит.";}
+tei|lang[xml|lang="zh"]:empty {content: "кит.";}
 *[extralang~="zh"] > tei|lang:empty {-oxy-append-content: ", кит.";}
 :lang(zkz) > tei|lang:empty {content: "хазарск.";}
+tei|lang[xml|lang="zkz"]:empty {content: "хазарск.";}
 *[extralang~="zkz"] > tei|lang:empty {-oxy-append-content: ", хазарск.";}
 :lang(zza) > tei|lang:empty {content: "заза";}
+tei|lang[xml|lang="zza"]:empty {content: "заза";}
 *[extralang~="zza"] > tei|lang:empty {-oxy-append-content: ", заза";}

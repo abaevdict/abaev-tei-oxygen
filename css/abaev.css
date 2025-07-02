@@ -116,7 +116,7 @@ tei|form > tei|gram + tei|orth::before {content: ' '}
 abv|formGrp + tei|sense::before {content: ' '}
 abv|formGrp + tei|re::before {content: '; '}
 abv|formGrp + tei|usg::before {content: ' '}
-abv|formGrp > tei|form + example::before {content: ': '}
+abv|formGrp > tei|form + abv|example::before {content: ': '}
 tei|entry > abv|formGrp + abv|formGrp::before {content: ', '}
 
 tei|sense {display: inline}

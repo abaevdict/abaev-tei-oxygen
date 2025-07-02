@@ -577,6 +577,7 @@
 							<String>${pdu}/xsl/delete-lang.xsl</String>
 							<String>${pdu}/xsl/insert-refs.xsl</String>
 							<String>${pdu}/xsl/insert-langs.xsl</String>
+							<String>${pdu}/xsl/standardize.xsl</String>
 						</String-array>
 					</field>
 					<field name="xslTransformer">

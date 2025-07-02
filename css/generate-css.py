@@ -10,7 +10,7 @@ with open('langnames.csv') as csv_file:
         if line_count == 0:
             line_count += 1
         names_ru[row["code"]] = row["ru"]
-        names_en[row["code"]] = row["en"]
+        names_en[row["code"]] = row["en_abbr"]
         
 #Generate Russian CSS
 lines = ['@charset "UTF-8";\n',
